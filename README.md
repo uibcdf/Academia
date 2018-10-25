@@ -1,7 +1,7 @@
 # Manifiesto
 
 El propósito de este repositorio es acumular material didáctico que cualquier estudiante o
-investigador pueda seguir de manera autónoma para comenzar a adquirir las habilidades necesarias
+investigador pueda se seguir de manera autónoma para comenzar a adquirir las habilidades necesarias
 para el trabajo en colaboración o como miembro de la UIBCDF.
 
 Inicialmente el material se desarrollará en Español para hacerlo más accesible y de evoluación más
