@@ -17,27 +17,28 @@ Es por esto que se requieren unos conocimientos mínimos para aprovechar este ma
 
 Estas requisitos definen los primeros contenidos a cubrir:
 
-- Qué es git y como se usa github.
-- Qué es Python.
-- Qué es y cómo se usa Conda.
-- Qué es y cómo se usa Jupyter.
+I.10- Qué es git, cómo se instala y cómo se usa.  
+I.20- Qué es GitHub y cómo se usa.  
+I.30- Qué es Python, cómo se instala y cómo se usa.  
+I.40- Qué es, cómo se instala y cómo se usa Conda.  
+I.50- Qué es, cómo se instala y cómo se usa Jupyter.  
 
 Tras estas unidades iniciales, comenzaremos con los siguientes conceptos:
 
-0.10- Breve guia de programación básica en Python.
-0.20- Breve guía de algebra con Numpy.
-0.30- Breve guía de manejo estadístico de datos con Scipy, Pandas, Scikit-learn.
-0.40- Breve guía de representación gráfica de datos con Matplotlib o Seaborn.
-1.10- Interactuando por primera vez con una proteína.
-1.20- Interactuando por primera vez con una trayectoria
-1.30- Mis primeras simulaciones de dinámica molecular con OpenMM
-2.10- Introducción al sampleado.
-2.11- Introducción al REMD.
-2.12- Introducción a Umbrella Sampling.
-2.13- Introducción a Transition Path Sampling.
-2.20- Simulaciones fuerza bruta para futura referencia.
-2.30- Mis primeras simulaciones REMD.
-2.40- Mis primeras simulaciones Umbrella Sampling.
+0.10- Breve guia de programación básica en Python.  
+0.20- Breve guía de algebra con Numpy.  
+0.30- Breve guía de manejo estadístico de datos con Scipy, Pandas, Scikit-learn.  
+0.40- Breve guía de representación gráfica de datos con Matplotlib o Seaborn.  
+1.10- Interactuando por primera vez con una proteína.  
+1.20- Interactuando por primera vez con una trayectoria.  
+1.30- Mis primeras simulaciones de dinámica molecular con OpenMM.  
+2.10- Introducción al sampleado.  
+2.11- Introducción al REMD.  
+2.12- Introducción a Umbrella Sampling.  
+2.13- Introducción a Transition Path Sampling.  
+2.20- Simulaciones fuerza bruta para futura referencia.  
+2.30- Mis primeras simulaciones REMD.  
+2.40- Mis primeras simulaciones Umbrella Sampling.  
 ...
 
 # Cómo debe usarse este repositorio
