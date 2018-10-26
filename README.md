@@ -59,5 +59,6 @@ Si quieres además contribuir con nuevos notebooks o con modificaciones al mater
 
 - Aprende cómo hacer "commit" y "push requests" de tus modificaciones o implementaciones. Las
   revisaremos y aceptaremos los cambios a la brevedad.
+- Propón modificaciones y comunica sugerencias en el panel del repositorio "Issues".
 
 
