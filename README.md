@@ -4,7 +4,7 @@ El propósito de este repositorio es acumular material didáctico que cualquier 
 investigador pueda se seguir de manera autónoma para comenzar a adquirir las habilidades necesarias
 para el trabajo en colaboración o como miembro de la UIBCDF.
 
-Inicialmente el material se desarrollará en Español para hacerlo más accesible y de evoluación más
+Inicialmente el material se desarrollará en español para hacerlo más accesible y de evoluación más
 rápida dado el contexto de la unidad y los potenciales usuarios.
 
 El formato debe estar en la medida de lo posible basado en jupyter notebooks.
@@ -22,6 +22,8 @@ I.20- Qué es GitHub y cómo se usa.
 I.30- Qué es Python, cómo se instala y cómo se usa.  
 I.40- Qué es, cómo se instala y cómo se usa Conda.  
 I.50- Qué es, cómo se instala y cómo se usa Jupyter.  
+I.50- Qué es y cómo se usa OSF.  
+I.50- El flujo de trabajo de la UIBCDF.  
 
 Tras estas unidades iniciales, comenzaremos con los siguientes conceptos:
 
@@ -43,7 +45,10 @@ Tras estas unidades iniciales, comenzaremos con los siguientes conceptos:
 
 # Cómo debe usarse este repositorio
 
-Si eres un usuario de este repositorio este es el acercamiento más adecuado:
+La documentación aquí presente asume que tienes conocimientos básicos en el uso de sistema
+operativo con el que trabajas: mac, windows o preferiblemente linux.
+
+Como usuario/a de este repositorio este es el acercamiento que te recomendamos:
 
 - Clona en local el repositorio.
 - Ejecuta y abre desde jupyter los notebooks en el orden que prefieras.
