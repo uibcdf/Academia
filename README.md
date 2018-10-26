@@ -2,7 +2,9 @@
 
 El propósito de este repositorio es acumular material didáctico que cualquier estudiante o
 investigador pueda se seguir de manera autónoma para comenzar a adquirir las habilidades necesarias
-para el trabajo en colaboración o como miembro de la UIBCDF.
+para el trabajo en colaboración o como miembro de la UIBCDF. Si eres una persona ajena a la UIBCDF
+y has caido aquí por algún otro motivo, eres bienvenido a hacer uso de esta documentación y contribuir
+en su desarrollo si la encuentras de utilidad.
 
 Inicialmente el material se desarrollará en español para hacerlo más accesible y de evoluación más
 rápida dado el contexto de la unidad y los potenciales usuarios.
