@@ -28,12 +28,15 @@ Estos requisitos definen los primeros contenidos a cubrir:
 0.60- Qué es y cómo se usa OSF.  
 0.70- El flujo de trabajo de la UIBCDF.  
 
-Tras estas unidades iniciales, comenzaremos con los siguientes conceptos de programación en Python así como de las herramientas y librerias útiles para nuestros propósitos:
+Tras estas unidades iniciales, comenzaremos con conceptos básicos de programación en Python y veremos herramientas y librerias comunes para el investigador:
 
 1.10- Breve guia de programación básica en Python.  
 1.20- Breve guía de algebra con Numpy.  
 1.30- Breve guía de manejo estadístico de datos con Scipy, Pandas, Scikit-learn.  
 1.40- Breve guía de representación gráfica de datos con Matplotlib o Seaborn.  
+
+Comenzamos, ahora que ya conocemos las herramientas necesarias.
+
 2.10- Interactuando por primera vez con una proteína.  
 2.20- Interactuando por primera vez con una trayectoria.  
 2.30- Mis primeras simulaciones de dinámica molecular con OpenMM.  
@@ -45,6 +48,15 @@ Tras estas unidades iniciales, comenzaremos con los siguientes conceptos de prog
 3.30- Mis primeras simulaciones REMD.  
 3.40- Mis primeras simulaciones Umbrella Sampling.  
 ...
+
+El último bloque es un glosario de las librerias más especificas de utilidad en nuestros proyectos. Los siguientes notebooks están aquí como material de consulta y para centralizar nuestras dudas y sugerencias de uso.
+
+X.00- UIBCDF Toolkit
+X.10- NGLview
+X.20- mdtraj
+X.30- OpenMM
+
+
 
 # Cómo debe usarse este repositorio
 
