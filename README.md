@@ -20,34 +20,50 @@ Es por esto que se requieren unos conocimientos mínimos para aprovechar este ma
 
 Estos requisitos definen los primeros contenidos a cubrir:
 
-0.00- Qué es este repositorio y cómo se usa.  
-[0.10- Qué es Git, cómo se instala y cómo se usa.](https://github.com/uibcdf/Academia/blob/master/0.10-%20Qu%C3%A9%20es%20git%2C%20c%C3%B3mo%20se%20instala%20y%20c%C3%B3mo%20se%20usa.ipynb)   
-[0.20- Qué es GitHub y cómo se usa.](https://github.com/uibcdf/Academia/blob/master/0.20-%20Qu%C3%A9%20es%20GitHub%20y%20c%C3%B3mo%20se%20usa.ipynb)  
-0.30- Qué es Python, cómo se instala y cómo se usa.  
-0.40- Qué es Conda, cómo se instala y cómo se usa.  
-0.50- Qué es Jupyter, cómo se instala y cómo se usa.  
-0.60- Qué es OSF y cómo se usa.  
-0.70- El flujo de trabajo de la UIBCDF.  
+- Introducción para comenzar
+	- Qué es este repositorio y cómo se usa.  
+	- El flujo de trabajo de la UIBCDF.  
+	[- Qué es Git, cómo se instala y cómo se usa.](https://github.com/uibcdf/Academia/blob/master/0.10-%20Qu%C3%A9%20es%20git%2C%20c%C3%B3mo%20se%20instala%20y%20c%C3%B3mo%20se%20usa.ipynb)   
+	[- Qué es GitHub y cómo se usa.](https://github.com/uibcdf/Academia/blob/master/0.20-%20Qu%C3%A9%20es%20GitHub%20y%20c%C3%B3mo%20se%20usa.ipynb)  
+	- Qué es Python, cómo se instala y cómo se usa.  
+	- Qué es Conda, cómo se instala y cómo se usa.  
+	- Qué es Jupyter, cómo se instala y cómo se usa.  
+	- Qué es OSF y cómo se usa.  
 
 Tras estas unidades iniciales, comenzaremos con conceptos básicos de programación en Python y veremos herramientas y librerias comunes para el investigador:
 
-1.10- Breve guia de programación básica en Python.  
-1.20- Breve guía de algebra con Numpy.  
-1.30- Breve guía de manejo estadístico de datos con Scipy, Pandas, Scikit-learn.  
-1.40- Breve guía de representación gráfica de datos con Matplotlib o Seaborn.  
+- Breve guia de programación básica en Python.  
+	- Breve guía de algebra con Numpy.
+	- Breve guía de manejo estadístico de datos con Scipy.
+	- Breve guía de manejo estadístico de datos con Pandas.
+	- Breve guía de manejo estadístico de datos con Scikit-learn.  
+	- Breve guía de representación gráfica de datos con Matplotlib.  
+	- Breve guía de representación gráfica de datos con Seaborn.  
 
 Comenzamos, ahora que ya conocemos las herramientas necesarias.
 
-[2.10- Interactuando por primera vez con una proteína.](https://github.com/uibcdf/Academia/blob/master/2.10-%20Interactuando%20por%20primera%20vez%20con%20una%20prote%C3%ADna.ipynb)  
-2.20- Interactuando por primera vez con una trayectoria.  
-2.30- Mis primeras simulaciones de dinámica molecular con OpenMM.  
-3.10- Introducción al sampleado.  
-3.11- Introducción al REMD.  
-3.12- Introducción a Umbrella Sampling.  
-3.13- Introducción a Transition Path Sampling.  
-3.20- Simulaciones fuerza bruta para futura referencia.  
-3.30- Mis primeras simulaciones REMD.  
-3.40- Mis primeras simulaciones Umbrella Sampling.  
+- El sistema biomolecular
+	[- Interactuando por primera vez con una proteína.](https://github.com/uibcdf/Academia/blob/master/2.10-%20Interactuando%20por%20primera%20vez%20con%20una%20prote%C3%ADna.ipynb)  
+	- Interactuando por primera vez con una trayectoria.
+  
+- La simulación de dinámica molecular.
+	- Campos de fuerza
+	- Termostatos
+	- Integradores
+	- ...
+	- La simulación de dinámica molecular con OpenMM.  
+	- La simulación de dinámica molecular con Gromacs. 
+	- Simulaciones fuerza bruta para futura referencia.  
+
+- Sampleado termodinámico. 
+	- Introducción al REMD.  
+	- Mis primeras simulaciones REMD.  
+	- Introducción a Umbrella Sampling.  
+	- Mis primeras simulaciones Umbrella Sampling.  
+	- Introducción a Transition Path Sampling.
+
+- Sampleado termodinámico y cinético.
+
 ...
 
 El último bloque es un glosario de las librerias más especificas de utilidad en nuestros proyectos. Los siguientes notebooks están aquí como material de consulta y para centralizar nuestras dudas y sugerencias de uso.
