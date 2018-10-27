@@ -22,7 +22,7 @@ Estos requisitos definen los primeros contenidos a cubrir:
 
 0.00- Qué es este repositorio y cómo se usa.  
 [0.10- Qué es Git, cómo se instala y cómo se usa.](https://github.com/uibcdf/Academia/blob/master/0.10-%20Qu%C3%A9%20es%20git%2C%20c%C3%B3mo%20se%20instala%20y%20c%C3%B3mo%20se%20usa.ipynb)   
-[0.20- Qué es GitHub y cómo se usa.](https://github.com/uibcdf/Academia/blob/master/0.20-%20Qu%C3%A9%20es%20GitHub%20y%20c%C3%B3mo%20se%20usa.ipynb)
+[0.20- Qué es GitHub y cómo se usa.](https://github.com/uibcdf/Academia/blob/master/0.20-%20Qu%C3%A9%20es%20GitHub%20y%20c%C3%B3mo%20se%20usa.ipynb)  
 0.30- Qué es Python, cómo se instala y cómo se usa.  
 0.40- Qué es Conda, cómo se instala y cómo se usa.  
 0.50- Qué es Jupyter, cómo se instala y cómo se usa.  
