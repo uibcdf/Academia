@@ -52,10 +52,10 @@ Comenzamos, ahora que ya conocemos las herramientas necesarias.
 
 El último bloque es un glosario de las librerias más especificas de utilidad en nuestros proyectos. Los siguientes notebooks están aquí como material de consulta y para centralizar nuestras dudas y sugerencias de uso.
 
-X.00- UIBCDF Toolkit
-X.10- NGLview
-X.20- mdtraj
-X.30- OpenMM
+X.00- UIBCDF Toolkit  
+X.10- NGLview  
+X.20- mdtraj  
+X.30- OpenMM  
 
 
 
