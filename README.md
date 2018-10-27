@@ -28,7 +28,7 @@ Estos requisitos definen los primeros contenidos a cubrir:
 0.60- Qué es y cómo se usa OSF.  
 0.70- El flujo de trabajo de la UIBCDF.  
 
-Tras estas unidades iniciales, comenzaremos con los siguientes conceptos:
+Tras estas unidades iniciales, comenzaremos con los siguientes conceptos de programación en Python así como de las herramientas y librerias útiles para nuestros propósitos:
 
 1.10- Breve guia de programación básica en Python.  
 1.20- Breve guía de algebra con Numpy.  
