@@ -21,8 +21,8 @@ Es por esto que se requieren unos conocimientos mínimos para aprovechar este ma
 Estos requisitos definen los primeros contenidos a cubrir:
 
 0.00- Qué es este repositorio y cómo se usa.  
-0.10- Qué es git, cómo se instala y cómo se usa.  
-0.20- Qué es GitHub y cómo se usa.  
+[0.10- Qué es Git, cómo se instala y cómo se usa.] (https://github.com/uibcdf/Academia/blob/master/0.10-%20Qu%C3%A9%20es%20git%2C%20c%C3%B3mo%20se%20instala%20y%20c%C3%B3mo%20se%20usa.ipynb)   
+[0.20- Qué es GitHub y cómo se usa.](https://github.com/uibcdf/Academia/blob/master/0.20-%20Qu%C3%A9%20es%20GitHub%20y%20c%C3%B3mo%20se%20usa.ipynb)
 0.30- Qué es Python, cómo se instala y cómo se usa.  
 0.40- Qué es Conda, cómo se instala y cómo se usa.  
 0.50- Qué es Jupyter, cómo se instala y cómo se usa.  
@@ -38,7 +38,7 @@ Tras estas unidades iniciales, comenzaremos con conceptos básicos de programaci
 
 Comenzamos, ahora que ya conocemos las herramientas necesarias.
 
-2.10- Interactuando por primera vez con una proteína.  
+[2.10- Interactuando por primera vez con una proteína.](https://github.com/uibcdf/Academia/blob/master/2.10-%20Interactuando%20por%20primera%20vez%20con%20una%20prote%C3%ADna.ipynb)  
 2.20- Interactuando por primera vez con una trayectoria.  
 2.30- Mis primeras simulaciones de dinámica molecular con OpenMM.  
 3.10- Introducción al sampleado.  
@@ -66,15 +66,16 @@ operativo con el que trabajas: mac, windows o preferiblemente linux.
 
 Como usuario/a de este repositorio este es el acercamiento que te recomendamos:
 
-- Clona en local el repositorio.
+- Si no sabes qué es GitHub, Python o Jupyter, echale antes que nada un vistazo al primer bloque de notebooks: 0.00, 0.10, 0.20, 0.30, 0.40, 0.50 y 0.60.
+- [Clona en local el repositorio.](https://help.github.com/articles/cloning-a-repository/)
 - Ejecuta y abre desde jupyter los notebooks en el orden que prefieras.
 - Interacciona con tu copia local del material como te parezca: edita, modifica, juega, etc.
-- Si tienes alguna duda o sugerencia cuelga un post en el panel del repositorio "Issues".
+- Si tienes alguna duda o sugerencia cuelga un post en [el panel del repositorio](https://github.com/uibcdf/Academia/issues).
 
 Si quieres además contribuir con nuevos notebooks o con modificaciones al material:
 
 - Aprende cómo hacer "commit" y "push requests" de tus modificaciones o implementaciones. Las
   revisaremos y aceptaremos los cambios a la brevedad.
-- Propón modificaciones y comunica sugerencias en el panel del repositorio "Issues".
+- Propón modificaciones y comunica sugerencias en [el panel del repositorio](https://github.com/uibcdf/Academia/issues).
 
 
