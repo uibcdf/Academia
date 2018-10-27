@@ -19,7 +19,7 @@ Es por esto que se requieren unos conocimientos mínimos para aprovechar este ma
 
 Estos requisitos definen los primeros contenidos a cubrir:
 
-0.00- Qué es este repositorio y cómo se usa.
+0.00- Qué es este repositorio y cómo se usa.  
 0.10- Qué es git, cómo se instala y cómo se usa.  
 0.20- Qué es GitHub y cómo se usa.  
 0.30- Qué es Python, cómo se instala y cómo se usa.  
