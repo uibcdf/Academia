@@ -17,32 +17,33 @@ Es por esto que se requieren unos conocimientos mínimos para aprovechar este ma
 - instalación de un mínimo de librerías de Python junto con un interpretador de Python 3
 - instalación de jupyter lab o jupyter notebook en la computadora personal
 
-Estas requisitos definen los primeros contenidos a cubrir:
+Estos requisitos definen los primeros contenidos a cubrir:
 
-I.10- Qué es git, cómo se instala y cómo se usa.  
-I.20- Qué es GitHub y cómo se usa.  
-I.30- Qué es Python, cómo se instala y cómo se usa.  
-I.40- Qué es, cómo se instala y cómo se usa Conda.  
-I.50- Qué es, cómo se instala y cómo se usa Jupyter.  
-I.50- Qué es y cómo se usa OSF.  
-I.50- El flujo de trabajo de la UIBCDF.  
+0.00- Qué es este repositorio y cómo se usa.
+0.10- Qué es git, cómo se instala y cómo se usa.  
+0.20- Qué es GitHub y cómo se usa.  
+0.30- Qué es Python, cómo se instala y cómo se usa.  
+0.40- Qué es, cómo se instala y cómo se usa Conda.  
+0.50- Qué es, cómo se instala y cómo se usa Jupyter.  
+0.60- Qué es y cómo se usa OSF.  
+0.70- El flujo de trabajo de la UIBCDF.  
 
 Tras estas unidades iniciales, comenzaremos con los siguientes conceptos:
 
-0.10- Breve guia de programación básica en Python.  
-0.20- Breve guía de algebra con Numpy.  
-0.30- Breve guía de manejo estadístico de datos con Scipy, Pandas, Scikit-learn.  
-0.40- Breve guía de representación gráfica de datos con Matplotlib o Seaborn.  
-1.10- Interactuando por primera vez con una proteína.  
-1.20- Interactuando por primera vez con una trayectoria.  
-1.30- Mis primeras simulaciones de dinámica molecular con OpenMM.  
-2.10- Introducción al sampleado.  
-2.11- Introducción al REMD.  
-2.12- Introducción a Umbrella Sampling.  
-2.13- Introducción a Transition Path Sampling.  
-2.20- Simulaciones fuerza bruta para futura referencia.  
-2.30- Mis primeras simulaciones REMD.  
-2.40- Mis primeras simulaciones Umbrella Sampling.  
+1.10- Breve guia de programación básica en Python.  
+1.20- Breve guía de algebra con Numpy.  
+1.30- Breve guía de manejo estadístico de datos con Scipy, Pandas, Scikit-learn.  
+1.40- Breve guía de representación gráfica de datos con Matplotlib o Seaborn.  
+2.10- Interactuando por primera vez con una proteína.  
+2.20- Interactuando por primera vez con una trayectoria.  
+2.30- Mis primeras simulaciones de dinámica molecular con OpenMM.  
+3.10- Introducción al sampleado.  
+3.11- Introducción al REMD.  
+3.12- Introducción a Umbrella Sampling.  
+3.13- Introducción a Transition Path Sampling.  
+3.20- Simulaciones fuerza bruta para futura referencia.  
+3.30- Mis primeras simulaciones REMD.  
+3.40- Mis primeras simulaciones Umbrella Sampling.  
 ...
 
 # Cómo debe usarse este repositorio
