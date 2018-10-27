@@ -1,9 +1,10 @@
 # Manifiesto
 
 El propósito de este repositorio es acumular material didáctico que cualquier estudiante o
-investigador pueda se seguir de manera autónoma para comenzar a adquirir las habilidades necesarias
-para el trabajo en colaboración o como miembro de la UIBCDF. Si eres una persona ajena a la UIBCDF
-y has caido aquí por algún otro motivo, eres bienvenido a hacer uso de esta documentación y contribuir
+investigador pueda usar para comenzar de manera autónoma a adquirir las habilidades necesarias
+para el trabajo en colaboración o como miembro de la UIBCDF. No se trata de una guía completa en cada uno de los temas que presenta, sino de una introducción.
+
+Si eres una persona ajena a la UIBCDF y estás aquí por algún otro motivo, eres bienvenido a hacer uso de esta documentación y contribuir
 en su desarrollo si la encuentras de utilidad.
 
 Inicialmente el material se desarrollará en español para hacerlo más accesible y de evoluación más
@@ -23,9 +24,9 @@ Estos requisitos definen los primeros contenidos a cubrir:
 0.10- Qué es git, cómo se instala y cómo se usa.  
 0.20- Qué es GitHub y cómo se usa.  
 0.30- Qué es Python, cómo se instala y cómo se usa.  
-0.40- Qué es, cómo se instala y cómo se usa Conda.  
-0.50- Qué es, cómo se instala y cómo se usa Jupyter.  
-0.60- Qué es y cómo se usa OSF.  
+0.40- Qué es Conda, cómo se instala y cómo se usa.  
+0.50- Qué es Jupyter, cómo se instala y cómo se usa.  
+0.60- Qué es OSF y cómo se usa.  
 0.70- El flujo de trabajo de la UIBCDF.  
 
 Tras estas unidades iniciales, comenzaremos con conceptos básicos de programación en Python y veremos herramientas y librerias comunes para el investigador:
