@@ -2,23 +2,54 @@
 
 El propósito de este repositorio es acumular material didáctico que cualquier estudiante o
 investigador pueda usar para comenzar de manera autónoma a adquirir las habilidades necesarias
-para el trabajo en colaboración o como miembro de la UIBCDF. No se trata de una guía completa en cada uno de los temas que presenta, sino de una introducción.
+para el trabajo en colaboración o como miembro de la UIBCDF. En ningún caso se puede entender este 
+repositorio como una guía completa de cada uno de los temas que presenta, se trata de una introducción.
 
 Si eres una persona ajena a la UIBCDF y estás aquí por algún otro motivo, eres bienvenido a hacer uso de esta documentación y contribuir
 en su desarrollo si la encuentras de utilidad.
 
-Inicialmente el material se desarrollará en español para hacerlo más accesible y de evoluación más
-rápida dado el contexto de la unidad y los potenciales usuarios.
+Inicialmente el material se desarrollará en español para hacerlo más accesible y de evolución más
+rápida dado el contexto de la UIBCDF y los potenciales usuarios.
 
 El formato debe estar en la medida de lo posible basado en jupyter notebooks.
-Es por esto que se requieren unos conocimientos mínimos para aprovechar este material:
+Es por esto que se requieren unos conocimientos mínimos para aprovechar este material, además de la
+instalación de ciertas herramientas en tu computadora:
 
-- mínimo conocimiento de lo que es github
-- instalación de un gestor de entornos de Python 3 como pueda ser pip o conda
-- instalación de un mínimo de librerías de Python junto con un interpretador de Python 3
-- instalación de jupyter lab o jupyter notebook en la computadora personal
+- Mínimo conocimiento de lo que es GitHub.
+- Mínimo conocimiento de Python 3.
+- Instalación de un gestor de entornos de Python 3 como Conda.
+- Instalación de un mínimo de librerías de Python junto con un interpretador de Python 3.
+- Instalación de Jupyter lab o Jupyter notebook en la computadora personal.
 
-Estos requisitos definen los primeros contenidos a cubrir:
+Estos requisitos, para que el material sea autoconsistente, definen los contenidos de las primeras unidades.
+Tras estas unidades iniciales, comenzaremos con conceptos básicos de programación en Python y veremos herramientas y librerias comunes para el investigador.
+Una vez cubierta la exposición de los elementos generales que debemos conocer para empezar a
+trabajar, seguiremos con el material más específico en el marco de la simulación de dinámica
+molecular y su aplicación al diseño racional de ligandos.
+El último bloque es un glosario de las librerias más especificas de utilidad en nuestros proyectos. Los siguientes notebooks están aquí como material de consulta y para centralizar nuestras dudas y sugerencias de uso.
+
+El material aquí expuesto no será indexado de manera numerada para hacer su desarrollo más flexible (temas, subtemas, subsubtemas, etc.).
+
+# Cómo debe usarse este repositorio
+
+La documentación aquí presente asume que tienes conocimientos básicos en el uso de sistema
+operativo con el que trabajas: mac, windows o preferiblemente linux.
+
+Como usuario/a de este repositorio este es el acercamiento que te recomendamos:
+
+- Si no sabes qué es Python, GitHub, Conda o Jupyter, echale antes que nada un vistazo al primer bloque de unidades haciendo uso del navegador y GitHub.
+- [Clona en local el repositorio.](https://help.github.com/articles/cloning-a-repository/)
+- Ejecuta y abre desde jupyter los notebooks en el orden que prefieras.
+- Interacciona con tu copia local del material como te parezca: edita, modifica, juega, etc.
+- Si tienes alguna duda o sugerencia cuelga un post en [el panel del repositorio](https://github.com/uibcdf/Academia/issues).
+
+Si quieres además contribuir con nuevos notebooks o con modificaciones al material:
+
+- Aprende cómo hacer "commit" y "push requests" de tus modificaciones o implementaciones. Las
+  revisaremos y aceptaremos los cambios a la brevedad.
+- Propón modificaciones y comunica sugerencias en [el panel del repositorio](https://github.com/uibcdf/Academia/issues).
+
+# Tabla de contenidos
 
 - Introducción para comenzar
 	- Qué es este repositorio y cómo se usa.  
@@ -30,7 +61,6 @@ Estos requisitos definen los primeros contenidos a cubrir:
 	- Qué es Jupyter, cómo se instala y cómo se usa.  
 	- Qué es OSF y cómo se usa.  
 
-Tras estas unidades iniciales, comenzaremos con conceptos básicos de programación en Python y veremos herramientas y librerias comunes para el investigador:
 
 - Breve guia de programación básica en Python.  
 	- Breve guía de algebra con Numpy.
@@ -40,7 +70,6 @@ Tras estas unidades iniciales, comenzaremos con conceptos básicos de programaci
 	- Breve guía de representación gráfica de datos con Matplotlib.  
 	- Breve guía de representación gráfica de datos con Seaborn.  
 
-Comenzamos, ahora que ya conocemos las herramientas necesarias.
 
 - El sistema biomolecular
 	[- Interactuando por primera vez con una proteína.](https://github.com/uibcdf/Academia/blob/master/2.10-%20Interactuando%20por%20primera%20vez%20con%20una%20prote%C3%ADna.ipynb)  
@@ -64,34 +93,19 @@ Comenzamos, ahora que ya conocemos las herramientas necesarias.
 
 - Sampleado termodinámico y cinético.
 
-...
+- ...
 
-El último bloque es un glosario de las librerias más especificas de utilidad en nuestros proyectos. Los siguientes notebooks están aquí como material de consulta y para centralizar nuestras dudas y sugerencias de uso.
+- Glosario de librerias.
 
-X.00- UIBCDF Toolkit  
-X.10- NGLview  
-X.20- mdtraj  
-X.30- OpenMM  
+	- UIBCDF Toolkit  
+	- NGLview  
+	- mdtraj  
+	- OpenMM  
 
 
+# Agradecimientos
 
-# Cómo debe usarse este repositorio
-
-La documentación aquí presente asume que tienes conocimientos básicos en el uso de sistema
-operativo con el que trabajas: mac, windows o preferiblemente linux.
-
-Como usuario/a de este repositorio este es el acercamiento que te recomendamos:
-
-- Si no sabes qué es GitHub, Python o Jupyter, echale antes que nada un vistazo al primer bloque de notebooks: 0.00, [0.10](https://github.com/uibcdf/Academia/blob/master/0.10-%20Qu%C3%A9%20es%20git%2C%20c%C3%B3mo%20se%20instala%20y%20c%C3%B3mo%20se%20usa.ipynb), [0.20](https://github.com/uibcdf/Academia/blob/master/0.20-%20Qu%C3%A9%20es%20GitHub%20y%20c%C3%B3mo%20se%20usa.ipynb), 0.30, 0.40, 0.50 y 0.60.
-- [Clona en local el repositorio.](https://help.github.com/articles/cloning-a-repository/)
-- Ejecuta y abre desde jupyter los notebooks en el orden que prefieras.
-- Interacciona con tu copia local del material como te parezca: edita, modifica, juega, etc.
-- Si tienes alguna duda o sugerencia cuelga un post en [el panel del repositorio](https://github.com/uibcdf/Academia/issues).
-
-Si quieres además contribuir con nuevos notebooks o con modificaciones al material:
-
-- Aprende cómo hacer "commit" y "push requests" de tus modificaciones o implementaciones. Las
-  revisaremos y aceptaremos los cambios a la brevedad.
-- Propón modificaciones y comunica sugerencias en [el panel del repositorio](https://github.com/uibcdf/Academia/issues).
+Gracias a todos aquellos que de alguna manera ayudan a que este material crezca y sea util. En
+especial a [aquellos que por su colaboración activa pueden ser considerados autores](https://github.com/uibcdf/Academia/graphs/contributors).
 
 
