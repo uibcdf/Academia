@@ -55,7 +55,9 @@ Si quieres además contribuir con nuevos notebooks o con modificaciones al mater
 
 - Qué es este repositorio y cómo se usa.  
 - El flujo de trabajo de la UIBCDF.  
-- [Qué es Git, cómo se instala y cómo se usa.](https://github.com/uibcdf/Academia/blob/master/0.10-%20Qu%C3%A9%20es%20git%2C%20c%C3%B3mo%20se%20instala%20y%20c%C3%B3mo%20se%20usa.ipynb)       
+- [Qué es Git, cómo se instala y cómo se usa.](
+        Academia/Introducción/Git.ipynb
+      )       
 - [Qué es GitHub y cómo se usa.](https://github.com/uibcdf/Academia/blob/master/0.20-%20Qu%C3%A9%20es%20GitHub%20y%20c%C3%B3mo%20se%20usa.ipynb)     
 - Qué es Python, cómo se instala y cómo se usa.  
 - Qué es Conda, cómo se instala y cómo se usa.  
