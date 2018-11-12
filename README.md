@@ -51,51 +51,53 @@ Si quieres además contribuir con nuevos notebooks o con modificaciones al mater
 
 # Tabla de contenidos
 
-- Introducción para comenzar
-	- Qué es este repositorio y cómo se usa.  
-	- El flujo de trabajo de la UIBCDF.  
-	[- Qué es Git, cómo se instala y cómo se usa.](https://github.com/uibcdf/Academia/blob/master/0.10-%20Qu%C3%A9%20es%20git%2C%20c%C3%B3mo%20se%20instala%20y%20c%C3%B3mo%20se%20usa.ipynb)   
-	[- Qué es GitHub y cómo se usa.](https://github.com/uibcdf/Academia/blob/master/0.20-%20Qu%C3%A9%20es%20GitHub%20y%20c%C3%B3mo%20se%20usa.ipynb)  
-	- Qué es Python, cómo se instala y cómo se usa.  
-	- Qué es Conda, cómo se instala y cómo se usa.  
-	- Qué es Jupyter, cómo se instala y cómo se usa.  
-	- Qué es OSF y cómo se usa.  
+## Introducción para comenzar
+    - Qué es este repositorio y cómo se usa.  
+    - El flujo de trabajo de la UIBCDF.  
+    [- Qué es Git, cómo se instala y cómo se usa.](https://github.com/uibcdf/Academia/blob/master/0.10-%20Qu%C3%A9%20es%20git%2C%20c%C3%B3mo%20se%20instala%20y%20c%C3%B3mo%20se%20usa.ipynb)   
+    [- Qué es GitHub y cómo se usa.](https://github.com/uibcdf/Academia/blob/master/0.20-%20Qu%C3%A9%20es%20GitHub%20y%20c%C3%B3mo%20se%20usa.ipynb)  
+    - Qué es Python, cómo se instala y cómo se usa.  
+    - Qué es Conda, cómo se instala y cómo se usa.  
+    - Qué es Jupyter, cómo se instala y cómo se usa.  
+    - Qué es OSF y cómo se usa.  
+
+## Breve guia de programación básica en Python.  
+    - Programndo en Python.
+    - Algebra con Numpy.
+    - Manejo estadístico de datos con Scipy.
+    - Manejo estadístico de datos con Pandas.
+    - Manejo estadístico de datos con Scikit-learn.  
+    - Representación gráfica de datos con Matplotlib.  
+    - Representación gráfica de datos con Seaborn.  
 
 
-- Breve guia de programación básica en Python.  
-	- Breve guía de algebra con Numpy.
-	- Breve guía de manejo estadístico de datos con Scipy.
-	- Breve guía de manejo estadístico de datos con Pandas.
-	- Breve guía de manejo estadístico de datos con Scikit-learn.  
-	- Breve guía de representación gráfica de datos con Matplotlib.  
-	- Breve guía de representación gráfica de datos con Seaborn.  
+## El sistema biomolecular y la simulación de dinámica molecular.
 
-
-- El sistema biomolecular
-	[- Interactuando por primera vez con una proteína.](https://github.com/uibcdf/Academia/blob/master/2.10-%20Interactuando%20por%20primera%20vez%20con%20una%20prote%C3%ADna.ipynb)  
-	- Interactuando por primera vez con una trayectoria.
+    ### El sistema biomolecular
+        [- Interactuando por primera vez con una proteína.](https://github.com/uibcdf/Academia/blob/master/2.10-%20Interactuando%20por%20primera%20vez%20con%20una%20prote%C3%ADna.ipynb)  
+        - Interactuando por primera vez con una trayectoria.
   
-- La simulación de dinámica molecular.
-	- Campos de fuerza
-	- Termostatos
-	- Integradores
-	- ...
-	- La simulación de dinámica molecular con OpenMM.  
-	- La simulación de dinámica molecular con Gromacs. 
-	- Simulaciones fuerza bruta para futura referencia.  
+    ###  La simulación de dinámica molecular.
+        - Campos de fuerza
+        - Termostatos
+        - Integradores
+        - ...
+        - La simulación de dinámica molecular con OpenMM.  
+        - La simulación de dinámica molecular con Gromacs. 
+        - Simulaciones fuerza bruta para futura referencia.  
 
-- Sampleado termodinámico. 
-	- Introducción al REMD.  
-	- Mis primeras simulaciones REMD.  
-	- Introducción a Umbrella Sampling.  
-	- Mis primeras simulaciones Umbrella Sampling.  
-	- Introducción a Transition Path Sampling.
+    ### Sampleado termodinámico. 
+        - Introducción al REMD.  
+        - Mis primeras simulaciones REMD.  
+        - Introducción a Umbrella Sampling.  
+        - Mis primeras simulaciones Umbrella Sampling.  
+        - Introducción a Transition Path Sampling.
 
-- Sampleado termodinámico y cinético.
+    ### Sampleado termodinámico y cinético.
 
-- ...
+## ...
 
-- Glosario de librerias.
+## Glosario de librerias.
 
 	- UIBCDF Toolkit  
 	- NGLview  
