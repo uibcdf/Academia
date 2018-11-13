@@ -53,14 +53,14 @@ Si quieres además contribuir con nuevos notebooks o con modificaciones al mater
 
 ## Introducción para comenzar
 
-- Qué es este repositorio y cómo se usa.  
-- El flujo de trabajo de la UIBCDF.  
+- [Qué es este repositorio y cómo se usa.](Introducción/Academia.ipynb)  
 - [Qué es Git, cómo se instala y cómo se usa.](Introducción/Git.ipynb)       
 - [Qué es GitHub y cómo se usa.](Introducción/GitHub.ipynb)     
-- Qué es Python, cómo se instala y cómo se usa.  
+- [Qué es Python, cómo se instala y cómo se usa.](Introducción/Python.ipynb)  
 - Qué es Conda, cómo se instala y cómo se usa.  
 - Qué es Jupyter, cómo se instala y cómo se usa.  
 - Qué es OSF y cómo se usa.  
+- [Qué es Markdown y cómo se usa.](Introducción/Markdown.ipynb)
 
 ## Breve guia de programación básica en Python.  
 
@@ -76,7 +76,8 @@ Si quieres además contribuir con nuevos notebooks o con modificaciones al mater
 ## El sistema biomolecular y la simulación de dinámica molecular.
 
 ### El sistema biomolecular
-[- Interactuando por primera vez con una proteína.](https://github.com/uibcdf/Academia/blob/master/2.10-%20Interactuando%20por%20primera%20vez%20con%20una%20prote%C3%ADna.ipynb)  
+
+- [Interactuando por primera vez con una proteína.](https://github.com/uibcdf/Academia/blob/master/2.10-%20Interactuando%20por%20primera%20vez%20con%20una%20prote%C3%ADna.ipynb)  
 - Interactuando por primera vez con una trayectoria.
   
 ###  La simulación de dinámica molecular.
@@ -98,6 +99,12 @@ Si quieres además contribuir con nuevos notebooks o con modificaciones al mater
 ### Sampleado termodinámico y cinético.
 
 ## ...
+
+## La UIBCDF
+- El flujo de trabajo de la UIBCDF. **TODO**    
+### Reportando un proyecto
+- El manuscrito
+- Las figuras
 
 ## Glosario de librerias.
 
