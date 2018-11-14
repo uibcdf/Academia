@@ -57,10 +57,10 @@ Si quieres además contribuir con nuevos notebooks o con modificaciones al mater
 - [Qué es Git, cómo se instala y cómo se usa.](Introducción/Git.ipynb)       
 - [Qué es GitHub y cómo se usa.](Introducción/GitHub.ipynb)     
 - [Qué es Python, cómo se instala y cómo se usa.](Introducción/Python.ipynb)  
-- Qué es Conda, cómo se instala y cómo se usa.  
-- Qué es Jupyter, cómo se instala y cómo se usa.  
-- Qué es OSF y cómo se usa.  
+- [Qué es Conda, cómo se instala y cómo se usa.](Introducción/Conda.ipynb)  
+- [Qué es Jupyter, cómo se instala y cómo se usa.](Introducción/Jupyter.ipynb)  
 - [Qué es Markdown y cómo se usa.](Introducción/Markdown.ipynb)
+- [Ejercicio Resumen: Cómo jugar con este repositorio en tu máquina.](Introducción/Resumen.ipynb)
 
 ## Breve guia de programación básica en Python.  
 
