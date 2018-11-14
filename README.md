@@ -26,6 +26,9 @@ Tras estas unidades iniciales, comenzaremos con conceptos básicos de programaci
 Una vez cubierta la exposición de los elementos generales que debemos conocer para empezar a
 trabajar, seguiremos con el material más específico en el marco de la simulación de dinámica
 molecular y su aplicación al diseño racional de ligandos.
+Si perteneces a la UIBCDF o vas a colaborar con nosotros, como penúltimo bloque encontrarás la
+descripción de nuestro flujo de trabajo comprometido con los criterios de Ciencia Abierta
+(OpenScience).
 El último bloque es un glosario de las librerias más especificas de utilidad en nuestros proyectos. Los siguientes notebooks están aquí como material de consulta y para centralizar nuestras dudas y sugerencias de uso.
 
 El material aquí expuesto no será indexado de manera numerada para hacer su desarrollo más flexible (temas, subtemas, subsubtemas, etc.).
@@ -101,10 +104,17 @@ Si quieres además contribuir con nuevos notebooks o con modificaciones al mater
 ## ...
 
 ## La UIBCDF
-- El flujo de trabajo de la UIBCDF. **TODO**    
-### Reportando un proyecto
-- El manuscrito
-- Las figuras
+## El flujo de trabajo en la UIBCDF
+
+- Open Science y la UIBCDF [Próximamente]
+- Qué es OSF y cómo se usa. [Próximamente]
+- Compartiendo herramientas computacionales. [Próximamente]
+- El trabajo de comunicación en forma de figuras, posters o manuscritos.[Próximamente]
+   - Edición de textos en LaTEX
+   - Qué es OverLeaf o ShareLatex y cómo se usa.
+   - Imagenes de Pymol.
+- Esquema de flujo de trabajo
+
 
 ## Glosario de librerias.
 
