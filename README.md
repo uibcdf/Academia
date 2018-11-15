@@ -36,7 +36,7 @@ El material aquí expuesto no será indexado de manera numerada para hacer su de
 # Cómo debe usarse este repositorio
 
 La documentación aquí presente asume que tienes conocimientos básicos en el uso de sistema
-operativo con el que trabajas: mac, windows o preferiblemente linux. Si además estás comenzando a usar linux o unix y necesitas nociones básicas puedes encontrar algo de ayuda en las siguientes páginas: [The Unix shell from SoftwareCarpentry](http://swcarpentry.github.io/shell-novice/) o [La terminal de Unix de SoftwareCarpentry](http://swcarpentry.github.io/shell-novice-es/).
+operativo con el que trabajas: mac, windows o preferiblemente linux. Si además estás comenzando a usar linux o unix y necesitas nociones básicas puedes encontrar algo de ayuda en las siguientes páginas: [La terminal de Unix de SoftwareCarpentry](http://swcarpentry.github.io/shell-novice-es/) o [su versión en inglés](http://swcarpentry.github.io/shell-novice/).
 
 Como usuario/a de este repositorio este es el acercamiento que te recomendamos:
 
