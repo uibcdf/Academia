@@ -2,45 +2,40 @@
 
 El propósito de este repositorio es acumular material didáctico que cualquier estudiante o
 investigador pueda usar para comenzar de manera autónoma a adquirir las habilidades necesarias
-para el trabajo en colaboración o como miembro de la UIBCDF. En ningún caso se puede entender este 
-repositorio como una guía completa de cada uno de los temas que presenta, se trata de una introducción.
+para el trabajo, en colaboración o como miembro, en la UIBCDF. En ningún caso se puede entender este 
+repositorio como una guía completa de cada uno de los temas que presentan. Este repositorio es un punto de partida.
 
-Si eres una persona ajena a la UIBCDF y estás aquí por algún otro motivo, eres bienvenido a hacer uso de esta documentación y contribuir
-en su desarrollo si la encuentras de utilidad.
+Si eres una persona ajena a la UIBCDF y estás aquí por algún otro motivo, eres bienvenido a hacer uso de esta documentación y contribuir en su desarrollo.
 
-Inicialmente el material se desarrollará en español para hacerlo más accesible y de evolución más
-rápida dado el contexto de la UIBCDF y los potenciales usuarios.
+Inicialmente el material se desarrollará en español para hacerlo más accesible dado el contexto de la UIBCDF y los potenciales usuarios. De esta manera facilitamos que cualquier estudiante, independientemente de sus conocimientos de inglés, se atreva a participar y contribuir de una manera activa.
 
-El formato debe estar en la medida de lo posible basado en jupyter notebooks.
-Es por esto que se requieren unos conocimientos mínimos para aprovechar este material, además de la
-instalación de ciertas herramientas en tu computadora:
+El formato debe estar en la medida de lo posible basado en jupyter notebooks. Se requiere entonces la instalación de ciertas herramientas en tu computadora, además de unos conocimientos mínimos para su uso:
 
 - Mínimo conocimiento de lo que es GitHub.
 - Mínimo conocimiento de Python 3.
 - Instalación de un gestor de entornos de Python 3 como Conda.
-- Instalación de un mínimo de librerías de Python junto con un interpretador de Python 3.
 - Instalación de Jupyter lab o Jupyter notebook en la computadora personal.
+- Instalación de un mínimo de librerías de Python junto con un interpretador de Python 3.
 
 Estos requisitos, para que el material sea autoconsistente, definen los contenidos de las primeras unidades.
 Tras estas unidades iniciales, comenzaremos con conceptos básicos de programación en Python y veremos herramientas y librerias comunes para el investigador.
-Una vez cubierta la exposición de los elementos generales que debemos conocer para empezar a
+Una vez cubierta la exposición de los elementos generales que debemos conocer para 
 trabajar, seguiremos con el material más específico en el marco de la simulación de dinámica
 molecular y su aplicación al diseño racional de ligandos.
 Si perteneces a la UIBCDF o vas a colaborar con nosotros, como penúltimo bloque encontrarás la
-descripción de nuestro flujo de trabajo comprometido con los criterios de Ciencia Abierta
-(OpenScience).
-El último bloque es un glosario de las librerias más especificas de utilidad en nuestros proyectos. Los siguientes notebooks están aquí como material de consulta y para centralizar nuestras dudas y sugerencias de uso.
+descripción de nuestro flujo de trabajo guiado por por criterios de Ciencia Abierta (OpenScience).
+El último bloque es un glosario de las librerias más especificas de utilidad en nuestros proyectos. En este caso, la función de estos notebooks no sería pedagógica, sino documental en cuanto a sugerencias y modos de uso en la unidad.
 
-El material aquí expuesto no será indexado de manera numerada para hacer su desarrollo más flexible (temas, subtemas, subsubtemas, etc.).
+Para hacer que el desarrollo de este material sea más flexible, su estructura no será indexada de manera numerada (temas, subtemas, subsubtemas, etc.).
 
 # Cómo debe usarse este repositorio
 
-La documentación aquí presente asume que tienes conocimientos básicos en el uso de sistema
-operativo con el que trabajas: mac, windows o preferiblemente linux. Si además estás comenzando a usar linux o unix y necesitas nociones básicas puedes encontrar algo de ayuda en las siguientes páginas: [La terminal de Unix de SoftwareCarpentry](http://swcarpentry.github.io/shell-novice-es/) o [su versión en inglés](http://swcarpentry.github.io/shell-novice/).
+La documentación aquí presente asume que tienes conocimientos básicos en el uso del sistema
+operativo con el que trabajas: mac, windows o preferiblemente linux. Si esto no es cierto porque estás comenzando a usar Unix (Linux o MacOS), puedes encontrar algo de ayuda en las siguientes páginas: [La terminal de Unix de SoftwareCarpentry](http://swcarpentry.github.io/shell-novice-es/) o [su versión en inglés](http://swcarpentry.github.io/shell-novice/).
 
-Como usuario/a de este repositorio este es el acercamiento que te recomendamos:
+Como usuario/a de este repositorio, este es el acercamiento que te recomendamos:
 
-- Si no sabes qué es Python, GitHub, Conda o Jupyter, echale antes que nada un vistazo al primer bloque de unidades haciendo uso del navegador y GitHub.
+- Si no sabes qué es Python, GitHub, Conda o Jupyter, échale antes que nada un vistazo al primer bloque de unidades haciendo uso del navegador y GitHub.
 - [Clona en local el repositorio.](https://help.github.com/articles/cloning-a-repository/)
 - Ejecuta y abre desde jupyter los notebooks en el orden que prefieras.
 - Interacciona con tu copia local del material como te parezca: edita, modifica, juega, etc.
@@ -63,17 +58,17 @@ Si quieres además contribuir con nuevos notebooks o con modificaciones al mater
 - [Qué es Conda, cómo se instala y cómo se usa.](Introducción/Conda.ipynb)  
 - [Qué es Jupyter, cómo se instala y cómo se usa.](Introducción/Jupyter.ipynb)  
 - [Qué es Markdown y cómo se usa.](Introducción/Markdown.ipynb)
-- [Ejercicio Resumen: Cómo jugar con este repositorio en tu máquina.](Introducción/Resumen.ipynb)
+- [Ejercicio Resumen: Cómo jugar con este repositorio en tu máquina.](Introducción/Resumen.ipynb) [Próximamente]    
 
 ## Breve guia de programación básica en Python.  
 
-- Programndo en Python.
-- Algebra con Numpy.
-- Manejo estadístico de datos con Scipy.
-- Manejo estadístico de datos con Pandas.
-- Manejo estadístico de datos con Scikit-learn.  
-- Representación gráfica de datos con Matplotlib.  
-- Representación gráfica de datos con Seaborn.  
+- Programando en Python. [Próximamente]    
+- Algebra con Numpy. [Próximamente]    
+- Manejo estadístico de datos con Scipy. [Próximamente]    
+- Manejo estadístico de datos con Pandas. [Próximamente]    
+- Manejo estadístico de datos con Scikit-learn. [Próximamente]    
+- Representación gráfica de datos con Matplotlib. [Próximamente]    
+- Representación gráfica de datos con Seaborn. [Próximamente]    
 
 
 ## El sistema biomolecular y la simulación de dinámica molecular.
@@ -81,23 +76,23 @@ Si quieres además contribuir con nuevos notebooks o con modificaciones al mater
 ### El sistema biomolecular
 
 - [Interactuando por primera vez con una proteína.](https://github.com/uibcdf/Academia/blob/master/2.10-%20Interactuando%20por%20primera%20vez%20con%20una%20prote%C3%ADna.ipynb)  
-- Interactuando por primera vez con una trayectoria.
+- Interactuando por primera vez con una trayectoria. [Próximamente]    
   
 ###  La simulación de dinámica molecular.
-- Campos de fuerza
-- Termostatos
-- Integradores
-- ...
-- La simulación de dinámica molecular con OpenMM.  
-- La simulación de dinámica molecular con Gromacs. 
-- Simulaciones fuerza bruta para futura referencia.  
+- Campos de fuerza [Próximamente]    
+- Termostatos [Próximamente]    
+- Integradores [Próximamente]    
+- ... [Próximamente]    
+- La simulación de dinámica molecular con OpenMM. [Próximamente]     
+- La simulación de dinámica molecular con Gromacs. [Próximamente]    
+- Simulaciones fuerza bruta para futura referencia. [Próximamente]    
 
 ### Sampleado termodinámico. 
-- Introducción al REMD.  
-- Mis primeras simulaciones REMD.  
-- Introducción a Umbrella Sampling.  
-- Mis primeras simulaciones Umbrella Sampling.  
-- Introducción a Transition Path Sampling.
+- Introducción al REMD. [Próximamente]    
+- Mis primeras simulaciones REMD. [Próximamente]    
+- Introducción a Umbrella Sampling. [Próximamente]    
+- Mis primeras simulaciones Umbrella Sampling. [Próximamente]    
+- Introducción a Transition Path Sampling. [Próximamente]    
 
 ### Sampleado termodinámico y cinético.
 
@@ -106,22 +101,22 @@ Si quieres además contribuir con nuevos notebooks o con modificaciones al mater
 ## La UIBCDF
 ## El flujo de trabajo en la UIBCDF
 
-- Open Science y la UIBCDF [Próximamente]
-- Qué es OSF y cómo se usa. [Próximamente]
-- Compartiendo herramientas computacionales. [Próximamente]
-- El trabajo de comunicación en forma de figuras, posters o manuscritos.[Próximamente]
-   - Edición de textos en LaTEX
-   - Qué es OverLeaf o ShareLatex y cómo se usa.
-   - Imagenes de Pymol.
-- Esquema de flujo de trabajo
+- Open Science y la UIBCDF [Próximamente]    
+- Qué es OSF y cómo se usa. [Próximamente]    
+- Compartiendo herramientas computacionales. [Próximamente]    
+- El trabajo de comunicación en forma de figuras, posters o manuscritos.[Próximamente]    
+   - Edición de textos en LaTEX    
+   - Qué es OverLeaf o ShareLatex y cómo se usa.    
+   - Imagenes de Pymol.    
+- Esquema de flujo de trabajo.  [Próximamente]    
 
 
 ## Glosario de librerias.
 
-- UIBCDF Toolkit  
-- NGLview  
-- mdtraj  
-- OpenMM  
+- UIBCDF Toolkit.  [Próximamente]    
+- NGLview.  [Próximamente]    
+- mdtraj. [Próximamente]    
+- OpenMM. [Próximamente]     
 
 # Agradecimientos
 
