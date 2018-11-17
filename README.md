@@ -62,7 +62,7 @@ Si quieres además contribuir con nuevos notebooks o con modificaciones al mater
 
 ## Breve guia de programación básica en Python.  
 
-- Programando en Python. [Próximamente]    
+- [Programando en Python.](Python/Python.ipynb)    
 - Algebra con Numpy. [Próximamente]    
 - Manejo estadístico de datos con Scipy. [Próximamente]    
 - Manejo estadístico de datos con Pandas. [Próximamente]    
