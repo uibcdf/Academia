@@ -23,7 +23,7 @@ Una vez cubierta la exposición de los elementos generales que debemos conocer p
 trabajar, seguiremos con el material más específico en el marco de la simulación de dinámica
 molecular y su aplicación al diseño racional de ligandos.
 Si perteneces a la UIBCDF o vas a colaborar con nosotros, como penúltimo bloque encontrarás la
-descripción de nuestro flujo de trabajo guiado por criterios de Ciencia Abierta (OpenScience).
+descripción de nuestro flujo de trabajo guiado por por criterios de Ciencia Abierta (OpenScience).
 El último bloque es un glosario de las librerias más especificas de utilidad en nuestros proyectos. En este caso, la función de estos notebooks no sería pedagógica, sino documental en cuanto a sugerencias y modos de uso en la unidad.
 
 Para hacer que el desarrollo de este material sea más flexible, su estructura no será indexada de manera numerada (temas, subtemas, subsubtemas, etc.).
