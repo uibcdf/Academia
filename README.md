@@ -38,8 +38,6 @@ Para hacer que el desarrollo de este material sea más flexible, su estructura n
 
 # Instrucciones de uso
 
-<img src="https://imgs.xkcd.com/comics/manuals.png" width="400">
-
 La documentación aquí presente asume que tienes conocimientos básicos en el uso del sistema
 operativo con el que trabajas: mac, windows o preferiblemente linux. Si esto no es cierto porque estás comenzando a usar Unix (Linux o MacOS), puedes encontrar algo de ayuda en las siguientes páginas: [La terminal de Unix de SoftwareCarpentry](http://swcarpentry.github.io/shell-novice-es/) o [su versión en inglés](http://swcarpentry.github.io/shell-novice/).
 
@@ -147,4 +145,4 @@ Perder el miedo, ser curioso o curiosa y saber que gracias a internet es muy fac
 Gracias a todos aquellos que de alguna manera ayudan a que este material crezca y sea util. En
 especial a [aquellos que por su colaboración activa pueden ser considerados autores](https://github.com/uibcdf/Academia/graphs/contributors).
 
-Gracias también a los autores de la documentación y tutoriales citados en este repositorio, así como a [xkcd (Randall Munroe)](https://www.xkcd.com/) por hacer geniales ilustraciones sobre programación y ciencia, entre otras cosas, y permitir compartirlas libremente (https://www.xkcd.com/license.html) como en este repositorio.
+Gracias también a los autores de la documentación y tutoriales citados en este repositorio, así como a [xkcd (Randall Munroe)](https://www.xkcd.com/) por hacer geniales ilustraciones sobre programación y ciencia, entre otras cosas, y permitir compartirlas libremente .
