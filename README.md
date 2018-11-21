@@ -1,3 +1,11 @@
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+**[Manifiesto](#Manifiesto)** |
+**[Instrucciones de uso](#Cómo-se-usa)** |
+**[Tabla de Contenidos](#Tabla-de-contenidos)** |
+**[Licencia](#Licencia)** |
+**[Agradecimientos](#Agradecimientos)**
+
 # Manifiesto
 
 El propósito de este repositorio es acumular material didáctico que cualquier estudiante o
@@ -28,7 +36,9 @@ El último bloque es un glosario de las librerias más especificas de utilidad e
 
 Para hacer que el desarrollo de este material sea más flexible, su estructura no será indexada de manera numerada (temas, subtemas, subsubtemas, etc.).
 
-# Cómo debe usarse este repositorio
+# Instrucciones de uso
+
+<img src="https://imgs.xkcd.com/comics/manuals.png" width="400">
 
 La documentación aquí presente asume que tienes conocimientos básicos en el uso del sistema
 operativo con el que trabajas: mac, windows o preferiblemente linux. Si esto no es cierto porque estás comenzando a usar Unix (Linux o MacOS), puedes encontrar algo de ayuda en las siguientes páginas: [La terminal de Unix de SoftwareCarpentry](http://swcarpentry.github.io/shell-novice-es/) o [su versión en inglés](http://swcarpentry.github.io/shell-novice/).
@@ -46,6 +56,16 @@ Si quieres además contribuir con nuevos notebooks o con modificaciones al mater
 - Aprende cómo hacer "commit" y "push requests" de tus modificaciones o implementaciones. Las
   revisaremos y aceptaremos los cambios a la brevedad.
 - Propón modificaciones y comunica sugerencias en [el panel del repositorio](https://github.com/uibcdf/Academia/issues).
+
+### Recomendación final
+
+La mejor actitud que debes tener para convertirte en un científico computólogo experto se resume perfectamente en la siguiente ilustración de xkcd:
+
+<img src="https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png" width="450">
+
+Perder el miedo, ser curioso o curiosa y saber que gracias a internet es muy facil ser autodidacta, son los mejores consejos que te pueden dar.
+
+¡Ánimo!
 
 # Tabla de contenidos
 
@@ -118,9 +138,13 @@ Si quieres además contribuir con nuevos notebooks o con modificaciones al mater
 - mdtraj. [Próximamente]    
 - OpenMM. [Próximamente]     
 
+# Licencia
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">UIBCDF-Academia</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/uibcdf/Academia" rel="dct:source">https://github.com/uibcdf/Academia</a>.
+
 # Agradecimientos
 
 Gracias a todos aquellos que de alguna manera ayudan a que este material crezca y sea util. En
 especial a [aquellos que por su colaboración activa pueden ser considerados autores](https://github.com/uibcdf/Academia/graphs/contributors).
 
-
+Gracias también a los autores de la documentación y tutoriales citados en este repositorio, así como a [xkcd (Randall Munroe)](https://www.xkcd.com/) por hacer geniales ilustraciones sobre programación y ciencia, entre otras cosas, y permitir compartirlas libremente (https://www.xkcd.com/license.html) como en este repositorio.
