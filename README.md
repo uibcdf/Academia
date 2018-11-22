@@ -81,12 +81,14 @@ Perder el miedo, ser curioso o curiosa y saber que gracias a internet es muy fac
 ## Breve guia de programación básica en Python.  
 
 - [Programando en Python.](Python/Python.ipynb)    
-- Algebra con Numpy. [Próximamente]    
+- [Vectores, matrices y cálculo con Numpy.](Python/NumPy.ipynb)    
 - Manejo estadístico de datos con Scipy. [Próximamente]    
 - Manejo estadístico de datos con Pandas. [Próximamente]    
 - Manejo estadístico de datos con Scikit-learn. [Próximamente]    
+- Manejo estadístico de datos con Statmodels. [Próximamente]    
 - Representación gráfica de datos con Matplotlib. [Próximamente]    
 - Representación gráfica de datos con Seaborn. [Próximamente]    
+- Representación gráfica de datos con Bokeh. [Próximamente] 
 
 
 ## El sistema biomolecular y la simulación de dinámica molecular.
