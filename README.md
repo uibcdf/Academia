@@ -61,7 +61,7 @@ La mejor actitud que debes tener para comenzar a ser un científico computólogo
 
 <img src="https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png" width="500">
 
-Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a internet es muy facil ser autodidacta, son los mejores consejos que te pueden dar. Una vez alcanzado un nivel básico, entonces ya es momento de estudiar los detalles con dedicación y profesionalidad. Pero eso ya es tarea tuya.
+Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a internet es muy facil ser autodidacta, son los mejores consejos que te pueden dar. Una vez alcanzado un nivel básico, es momento de estudiar los detalles con dedicación y profesionalidad. Pero eso ya es tarea tuya.
 
 ¡Ánimo!
 
