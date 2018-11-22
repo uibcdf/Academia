@@ -57,11 +57,11 @@ Si quieres además contribuir con nuevos notebooks o con modificaciones al mater
 
 ### Recomendación final
 
-La mejor actitud que debes tener para convertirte en un científico computólogo experto se resume perfectamente en la siguiente ilustración de xkcd:
+La mejor actitud que debes tener para comenzar a ser un científico computólogo se resume perfectamente en la siguiente ilustración de xkcd:
 
 <img src="https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png" width="500">
 
-Perder el miedo, ser curioso o curiosa y saber que gracias a internet es muy facil ser autodidacta, son los mejores consejos que te pueden dar.
+Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a internet es muy facil ser autodidacta, son los mejores consejos que te pueden dar. Una vez alcanzado un nivel básico, entonces ya es momento de estudiar los detalles con dedicación y profesionalidad. Pero eso ya es tarea tuya.
 
 ¡Ánimo!
 
