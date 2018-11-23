@@ -81,12 +81,12 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 ## Breve guia de programación básica en Python.  
 
 - [Programando en Python.](Python/Python.ipynb)    
-- [Vectores, matrices y cálculo con Numpy.](Python/NumPy.ipynb)    
+- [Vectores, matrices y cálculo con Numpy.](Python/NumPy.ipynb) 
+- [Representación gráfica de datos con Matplotlib.](Python/Matplotlib) 
 - Manejo estadístico de datos con Scipy. [Próximamente]    
 - Manejo estadístico de datos con Pandas. [Próximamente]    
 - Manejo estadístico de datos con Scikit-learn. [Próximamente]    
 - Manejo estadístico de datos con Statmodels. [Próximamente]    
-- Representación gráfica de datos con Matplotlib. [Próximamente]    
 - Representación gráfica de datos con Seaborn. [Próximamente]    
 - Representación gráfica de datos con Bokeh. [Próximamente] 
 
