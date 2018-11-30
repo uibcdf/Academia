@@ -76,7 +76,7 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - [Qué es Conda, cómo se instala y cómo se usa.](Introducción/Conda.ipynb)  
 - [Qué es Jupyter, cómo se instala y cómo se usa.](Introducción/Jupyter.ipynb)  
 - [Qué es Markdown y cómo se usa.](Introducción/Markdown.ipynb)
-- [Ejercicio Resumen: Cómo usar este repositorio.](Introducción/EjercicioResumen.ipynb)  
+- [Cómo usar este repositorio.](Introducción/Academia.ipynb)  
 
 ## Breve guia de programación básica en Python.  
 
