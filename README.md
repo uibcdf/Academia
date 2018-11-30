@@ -69,7 +69,6 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 
 ## Introducción para comenzar
 
-- [Qué es este repositorio.](Introducción/Academia.ipynb)  
 - [Introducción a Linux (y a OS X).](Introducción/Linux.ipynb) [Próximamente]
 - [Qué es Git, cómo se instala y cómo se usa.](Introducción/Git.ipynb)       
 - [Qué es GitHub y cómo se usa.](Introducción/GitHub.ipynb)     
