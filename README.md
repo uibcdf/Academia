@@ -69,26 +69,27 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 
 ## Introducción para comenzar
 
-- [Qué es este repositorio y cómo se usa.](Introducción/Academia.ipynb)  
+- [Qué es este repositorio.](Introducción/Academia.ipynb)  
+- [Introducción a Linux (y a OS X).](Introducción/Linux.ipynb) [Próximamente]
 - [Qué es Git, cómo se instala y cómo se usa.](Introducción/Git.ipynb)       
 - [Qué es GitHub y cómo se usa.](Introducción/GitHub.ipynb)     
 - [Qué es Python, cómo se instala y cómo se usa.](Introducción/Python.ipynb)  
 - [Qué es Conda, cómo se instala y cómo se usa.](Introducción/Conda.ipynb)  
 - [Qué es Jupyter, cómo se instala y cómo se usa.](Introducción/Jupyter.ipynb)  
 - [Qué es Markdown y cómo se usa.](Introducción/Markdown.ipynb)
-- [Ejercicio Resumen: Cómo jugar con este repositorio en tu máquina.](Introducción/Resumen.ipynb) [Próximamente]    
+- [Ejercicio Resumen: Cómo usar este repositorio.](Introducción/EjercicioResumen.ipynb)  
 
 ## Breve guia de programación básica en Python.  
 
 - [Programando en Python.](Python/Python.ipynb)    
-- [Vectores, matrices y cálculo con Numpy.](Python/NumPy.ipynb) 
-- [Representación gráfica de datos con Matplotlib.](Python/Matplotlib) 
+- [Vectores, matrices y cálculo con Numpy.](Python/NumPy.ipynb)    
+- [Representación gráfica de datos con Matplotlib.](Python/Matplotlib)   
 - Manejo estadístico de datos con Scipy. [Próximamente]    
 - Manejo estadístico de datos con Pandas. [Próximamente]    
 - Manejo estadístico de datos con Scikit-learn. [Próximamente]    
 - Manejo estadístico de datos con Statmodels. [Próximamente]    
 - Representación gráfica de datos con Seaborn. [Próximamente]    
-- Representación gráfica de datos con Bokeh. [Próximamente] 
+- Representación gráfica de datos con Bokeh. [Próximamente]   
 
 
 ## El sistema biomolecular y la simulación de dinámica molecular.
@@ -147,4 +148,4 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 Gracias a todos aquellos que de alguna manera ayudan a que este material crezca y sea util. En
 especial a [aquellos que por su colaboración activa pueden ser considerados autores](https://github.com/uibcdf/Academia/graphs/contributors).
 
-Gracias también a los autores de la documentación y tutoriales citados en este repositorio, así como a [xkcd (Randall Munroe)](https://www.xkcd.com/) por hacer geniales ilustraciones sobre programación y ciencia, entre otras cosas, y permitir compartirlas libremente .
+Gracias también a los autores de la documentación y tutoriales citados en este repositorio, así como a [xkcd (Randall Munroe)](https://www.xkcd.com/) por hacer geniales ilustraciones sobre programación y ciencia, entre otras cosas, y permitir compartirlas libremente.
