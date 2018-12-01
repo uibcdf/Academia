@@ -82,7 +82,7 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 
 - [Programando en Python.](Python/Python.ipynb)    
 - [Vectores, matrices y cálculo con Numpy.](Python/NumPy.ipynb)    
-- [Representación gráfica de datos con Matplotlib.](Python/Matplotlib)   
+- [Representación gráfica de datos con Matplotlib.](Python/Matplotlib.ipynb)   
 - Manejo estadístico de datos con Scipy. [Próximamente]    
 - Manejo estadístico de datos con Pandas. [Próximamente]    
 - Manejo estadístico de datos con Scikit-learn. [Próximamente]    
