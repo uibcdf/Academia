@@ -55,6 +55,8 @@ Si quieres además contribuir con nuevos notebooks o con modificaciones al mater
   revisaremos y aceptaremos los cambios a la brevedad.
 - Propón modificaciones y comunica sugerencias en [el panel del repositorio](https://github.com/uibcdf/Academia/issues).
 
+Decir que la intro a Linux puede ser util para OS X (UNIX).
+
 ### Recomendación final
 
 La mejor actitud que debes tener para comenzar a ser un científico computólogo se resume perfectamente en la siguiente ilustración de xkcd:
@@ -69,7 +71,7 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 
 ## Introducción para comenzar
 
-- [Introducción a Linux (y a OS X).](Introducción/Linux.ipynb) [Próximamente]
+- [Introducción a Linux.](Introducción/Linux.ipynb)   
 - [Qué es Git, cómo se instala y cómo se usa.](Introducción/Git.ipynb)       
 - [Qué es GitHub y cómo se usa.](Introducción/GitHub.ipynb)     
 - [Qué es Python, cómo se instala y cómo se usa.](Introducción/Python.ipynb)  
@@ -140,7 +142,7 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 
 # Licencia
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">UIBCDF-Academia</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/uibcdf/Academia" rel="dct:source">https://github.com/uibcdf/Academia</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">UIBCDF-Academia</span> es material protegido bajo una licencia <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>.<br />Con fuente original en <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/uibcdf/Academia" rel="dct:source">https://github.com/uibcdf/Academia</a>.
 
 # Agradecimientos
 
