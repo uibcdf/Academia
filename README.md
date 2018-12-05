@@ -97,17 +97,16 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 
 ### El sistema biomolecular
 
-- [Interactuando por primera vez con una proteína.](https://github.com/uibcdf/Academia/blob/master/2.10-%20Interactuando%20por%20primera%20vez%20con%20una%20prote%C3%ADna.ipynb)  
+- [Interactuando por primera vez con una proteína.](Sistema_Biomolecular/una_proteína.ipynb)  
 - Interactuando por primera vez con una trayectoria. [Próximamente]    
   
 ###  La simulación de dinámica molecular.
 - Campos de fuerza [Próximamente]    
 - Termostatos [Próximamente]    
 - Integradores [Próximamente]    
-- ... [Próximamente]    
 - La simulación de dinámica molecular con OpenMM. [Próximamente]     
-- La simulación de dinámica molecular con Gromacs. [Próximamente]    
-- Simulaciones fuerza bruta para futura referencia. [Próximamente]    
+- La simulación de dinámica molecular con Gromacs. [Próximamente]  
+- [La partícula libre.](Dinámica_Molecular/Partícula_Libre.ipynb)    
 
 ### Sampleado termodinámico. 
 - Introducción al REMD. [Próximamente]    
