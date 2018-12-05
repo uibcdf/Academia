@@ -1,0 +1,31 @@
+# README
+
+pandoc ../../README.md -o Readme_section.pdf
+
+# INTRODUCTION
+
+for notebook in ../../Introducción/*.ipynb; do
+    jupyter nbconvert -to pdf $notebook
+done
+
+mv ../../Introducción/*.pdf .
+pdfunite Linux.pdf Git.pdf GitHub.pdf Conda.pdf Python.pdf Jupyter.pdf Markdown.pdf Intro_section.pdf
+rm Linux.pdf Git.pdf GitHub.pdf Conda.pdf Python.pdf Jupyter.pdf Markdown.pdf
+
+# PYTHON
+
+for notebook in ../../Python/*.ipynb; do
+    jupyter nbconvert -to pdf $notebook
+done
+
+mv ../../Python/*.pdf .
+pdfunite Python.pdf Numpy.pdf Matplotlib.pdf Python_section.pdf
+rm Python.pdf Numpy.pdf Matplotlib.pdf
+
+# ALL IN ONE
+
+pdfunite Readme_section.pdf Intro_section.pdf Python_section.pdf academia.pdf
+rm *_section.pdf
+
+echo "DONE"
+
