@@ -100,12 +100,12 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - [Interactuando por primera vez con una proteína.](Sistema_Biomolecular/una_proteína.ipynb)  
 - Interactuando por primera vez con una trayectoria. [Próximamente]    
   
-###  La simulación de dinámica molecular.
+###  La simulación de dinámica molecular (MD).
 - Campos de fuerza [Próximamente]    
 - Termostatos [Próximamente]    
 - Integradores [Próximamente]    
-- La simulación de dinámica molecular con OpenMM. [Próximamente]     
-- La simulación de dinámica molecular con Gromacs. [Próximamente]  
+- MD con OpenMM. [Próximamente]     
+- MD con Gromacs. [Próximamente]  
 - [La partícula libre.](Dinámica_Molecular/Partícula_Libre.ipynb)    
 
 ### Sampleado termodinámico. 
