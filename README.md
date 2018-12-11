@@ -100,13 +100,21 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - [Interactuando por primera vez con una proteína.](Sistema_Biomolecular/una_proteína.ipynb)  
 - Interactuando por primera vez con una trayectoria. [Próximamente]    
   
-###  La simulación de dinámica molecular (MD).
+###  Teoría de dinámica molecular (MD).
 - Campos de fuerza [Próximamente]    
 - Termostatos [Próximamente]    
-- Integradores [Próximamente]    
-- MD con OpenMM. [Próximamente]     
-- MD con Gromacs. [Próximamente]  
+- Integradores [Próximamente]
+#### MD Software
+    - MD con OpenMM. [Próximamente]     
+    - MD con Gromacs. [Próximamente]  
+
+### Simulaciones MD 
 - [La partícula libre.](Dinámica_Molecular/Partícula_Libre.ipynb)    
+- [El potencial harmónico](Dinámica_Molecular/Pozo_Harmónico.ipynb)
+- [Un potencial doble pozo.](Dinámica_Molecular/Doble_Pozo.ipynb)
+- [Un potencial tipo embudo 2D.](Dinámica_Molecular/Embudo_2D.ipynb)
+- [Un potencial tipo embudo 3D.] [Próximamente]
+- [Dialanina] [Próximamente]
 
 ### Sampleado termodinámico. 
 - Introducción al REMD. [Próximamente]    
