@@ -105,15 +105,17 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - Termostatos [Próximamente]    
 - Integradores [Próximamente]
 #### MD Software
-    - MD con OpenMM. [Próximamente]     
-    - MD con Gromacs. [Próximamente]  
+   - MD con OpenMM. [Próximamente]     
+   - MD con Gromacs. [Próximamente]  
 
 ### Simulaciones MD 
 - [La partícula libre.](Dinámica_Molecular/Partícula_Libre.ipynb)    
 - [El potencial harmónico](Dinámica_Molecular/Pozo_Harmónico.ipynb)
-- [Un potencial doble pozo.](Dinámica_Molecular/Doble_Pozo.ipynb)
+- [Un potencial doble pozo 1D.](Dinámica_Molecular/Doble_Pozo.ipynb)
+- [Un potencial multipozo 1D.](Dinámica_Molecular/Multipozo_1D.ipynb)
+- [Un potencial triple pozo 2D.](Dinámica_Molecular/Triple_Pozo_2D.ipynb)
 - [Un potencial tipo embudo 2D.](Dinámica_Molecular/Embudo_2D.ipynb)
-- [Un potencial tipo embudo 3D.] [Próximamente]
+- [Un potencial tipo embudo 3D.](Dinámica_Molecular/Embudo_3D.ipynb)
 - [Dialanina] [Próximamente]
 
 ### Sampleado termodinámico. 
