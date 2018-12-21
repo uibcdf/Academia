@@ -116,7 +116,9 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - [Un potencial triple pozo 2D.](Dinámica_Molecular/Triple_Pozo_2D.ipynb)
 - [Un potencial tipo embudo 2D.](Dinámica_Molecular/Embudo_2D.ipynb)
 - [Un potencial tipo embudo 3D.](Dinámica_Molecular/Embudo_3D.ipynb)
-- [Dialanina] [Próximamente]
+- [Dialanina.](Dinámica_Molecular/DiAlanina.ipynb) [Próximamente]
+- [Met-encefalina.]() [Próximamente]
+- [Trp-Cage.]() [Próximamente]
 
 ### Sampleado termodinámico. 
 - Introducción al REMD. [Próximamente]    
