@@ -13,49 +13,40 @@ investigador pueda usar para comenzar de manera autónoma a adquirir las habilid
 para el trabajo, en colaboración o como miembro, en la UIBCDF. En ningún caso se puede entender este 
 repositorio como una guía completa de cada uno de los temas que presentan. Este repositorio es un punto de partida.
 
-Si eres una persona ajena a la UIBCDF y estás aquí por algún otro motivo, eres bienvenido a hacer uso de esta documentación y contribuir en su desarrollo.
+Si eres una persona ajena a la UIBCDF y estás aquí por algún otro motivo, eres bienvenido a hacer uso de esta documentación y contribuir en su desarrollo. Esperamos que, si lo necesitas, interactues en [el panel de problemas](https://github.com/uibcdf/Academia/issues) sin ninguna reticencia.
 
 Inicialmente el material se desarrollará en español para hacerlo más accesible dado el contexto de la UIBCDF y los potenciales usuarios. De esta manera facilitamos que cualquier estudiante, independientemente de sus conocimientos de inglés, se atreva a participar y contribuir de una manera activa.
 
 El formato debe estar en la medida de lo posible basado en jupyter notebooks. Se requiere entonces la instalación de ciertas herramientas en tu computadora, además de unos conocimientos mínimos para su uso:
 
-- Mínimo conocimiento de lo que es GitHub.
+- Mínimo conocimiento del sistema operativo de tu computadora.
+- Mínimo conocimiento de lo que es Git y GitHub.
 - Mínimo conocimiento de Python 3.
 - Instalación de un gestor de entornos de Python 3 como Conda.
 - Instalación de Jupyter lab o Jupyter notebook en la computadora personal.
 - Instalación de un mínimo de librerías de Python junto con un interpretador de Python 3.
 
-Estos requisitos, para que el material sea autoconsistente, definen los contenidos de las primeras unidades.
-Tras estas unidades iniciales, comenzaremos con conceptos básicos de programación en Python y veremos herramientas y librerias comunes para el investigador.
+Estos requisitos, para que el material sea autoconsistente, definen los contenidos de la primera sección de unidades didácticas: ["Introducción para comenzar."](#Introduccion).
+Tras estas unidades iniciales, comenzaremos con [conceptos básicos de programación en Python y veremos herramientas y librerias comunes para el investigador](#Python).
 Una vez cubierta la exposición de los elementos generales que debemos conocer para 
 trabajar, seguiremos con el material más específico en el marco de la simulación de dinámica
 molecular y su aplicación al diseño racional de ligandos.
 Si perteneces a la UIBCDF o vas a colaborar con nosotros, como penúltimo bloque encontrarás la
-descripción de nuestro flujo de trabajo guíado por por criterios de Ciencia Abierta (OpenScience).
-El último bloque es un glosario de las librerias más especificas de utilidad en nuestros proyectos. En este caso, la función de estos notebooks no sería pedagógica, sino documental en cuanto a sugerencias y modos de uso en la unidad.
+descripción de [nuestro flujo de trabajo](#Flujo_UIBCDF) guíado por criterios de Ciencia Abierta (OpenScience).
+El último bloque es un [glosario de las librerías más especificas de utilidad en nuestros proyectos](#Glosario). En este caso, la función de estos notebooks no es pedagógica, sino documental. Allí puedes encontrar las referencias útiles para su instalación e instrucciones uso.
 
-Para hacer que el desarrollo de este material sea más flexible, su estructura no será indexada de manera numerada (temas, subtemas, subsubtemas, etc.).
+Por último, es pertinente añadir que para hacer que el desarrollo de este material sea más flexible, su estructura no será indexada de manera numerada.
 
 # Instrucciones de uso
 
 La documentación aquí presente asume que tienes conocimientos básicos en el uso del sistema
-operativo con el que trabajas: mac, windows o preferiblemente linux. Si esto no es cierto porque estás comenzando a usar Unix (Linux o MacOS), puedes encontrar algo de ayuda en las siguientes páginas: [La terminal de Unix de SoftwareCarpentry](http://swcarpentry.github.io/shell-novice-es/) o [su versión en inglés](http://swcarpentry.github.io/shell-novice/).
+operativo con el que trabajas si es MacOS o Windows. En el caso del sistema operativo Linux, dado que queremos invitarte a usarlo, suponemos que no tienes experiencia en su uso e instalación. Es por eso que dedicamos [la primera unidad a Linux](Introducción/Linux.ipynb).
 
-Como usuario/a de este repositorio, este es el acercamiento que te recomendamos:
+Si sabes bien como trabajar en Linux o si seguirás con MacOS o Windows, empieza entonces revisando el resto de unidades de la sección ["Introducción para comenzar."](#Introduccion). Esta sección está escrita para asegurarnos, antes de seguir con el resto del material, de que conoces mínimamente las herramientas con las que vamos a trabajar y las tienes instaladas o configuradas.
 
-- Si no sabes qué es Python, GitHub, Conda o Jupyter, échale antes que nada un vistazo al primer bloque de unidades haciendo uso del navegador y GitHub.
-- [Clona en local el repositorio.](https://help.github.com/articles/cloning-a-repository/)
-- Ejecuta y abre desde jupyter los notebooks en el orden que prefieras.
-- Interacciona con tu copia local del material como te parezca: edita, modifica, juega, etc.
-- Si tienes alguna duda o sugerencia cuelga un post en [el panel del repositorio](https://github.com/uibcdf/Academia/issues).
+La última unidad de la ["Introducción para comenzar."](#Introduccion) es quizá la que tienes que revisar con más detalle para conocer [cómo usar este repositorio](Introducción/Academia.ipynb). En ella, suponiendo que empiezas de cero, se dan instrucciones desde cómo instalar git en tu computadora a como proponer cambios o añadir material, pasando obviamente por cómo usar los notebooks con Jupyter localmente en tu computadora.
 
-Si quieres además contribuir con nuevos notebooks o con modificaciones al material:
-
-- Aprende cómo hacer "commit" y "push requests" de tus modificaciones o implementaciones. Las
-  revisaremos y aceptaremos los cambios a la brevedad.
-- Propón modificaciones y comunica sugerencias en [el panel del repositorio](https://github.com/uibcdf/Academia/issues).
-
-Decir que la intro a Linux puede ser util para OS X (UNIX).
+Te animamos a jugar con los notebooks: ejecútalos, modifícalos, reprograma el código de sus celdas, añade más celdas para probar cosas nuevas. Comparte este material con quien tu quieras y siéntete en confianza para contribuir con dudas, problemas, sugerencias o soluciones en [el panel de este repositorio en GitHub](https://github.com/uibcdf/Academia/issues).
 
 ### Recomendación final
 
@@ -67,11 +58,11 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 
 ¡Ánimo!
 
-# Tabla de contenidos
+# Tabla de contenidos.
 
-## Introducción para comenzar
+## Introducción para comenzar. <a class="anchor" id="Introduccion"></a>
 
-- [Introducción a Linux.](Introducción/Linux.ipynb)   
+- [Introducción a Linux.](Introducción/Linux.ipynb)
 - [Qué es Git, cómo se instala y cómo se usa.](Introducción/Git.ipynb)       
 - [Qué es GitHub y cómo se usa.](Introducción/GitHub.ipynb)     
 - [Qué es Python, cómo se instala y cómo se usa.](Introducción/Python.ipynb)  
@@ -81,7 +72,7 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - [Qué es CUDA y cómo se instala.](Introducción/CUDA.ipynb)
 - [Cómo usar este repositorio.](Introducción/Academia.ipynb)  
 
-## Breve guía de programación básica en Python.  
+## Breve guía de programación básica en Python. <a class="anchor" id="Python"></a>
 
 - [Programando en Python.](Python/Python.ipynb)    
 - [Vectores, matrices y cálculo con Numpy.](Python/NumPy.ipynb)    
@@ -133,8 +124,7 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 
 ## ...
 
-## La UIBCDF
-## El flujo de trabajo en la UIBCDF
+## El flujo de trabajo en la UIBCDF. <a class="anchor" id="Flujo_UIBCDF"></a>
 
 - Open Science y la UIBCDF [Próximamente]    
 - Qué es OSF y cómo se usa. [Próximamente]    
@@ -146,12 +136,19 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - Esquema de flujo de trabajo.  [Próximamente]    
 
 
-## Glosario de librerias.
+## Glosario de librerias. <a class="anchor" id="Glosario"></a>
 
-- UIBCDF Toolkit.  [Próximamente]    
-- NGLview.  [Próximamente]    
-- mdtraj. [Próximamente]    
-- OpenMM. [Próximamente]     
+- [Mayavi.](Glosario_librerias/Mayavi.ipynb)
+- [MDAnalysis.](Glosario_librerias/MDAnalysis.ipynb)
+- [MDTraj.](Glosario_librerias/MDTraj.ipynb)
+- [Modeller.](Glosario_librerias/Modeller.ipynb)
+- [MolModMT.](Glosario_librerias/MolModMT.ipynb)
+- [NGLView.](Glosario_librerias/NGLView.ipynb)
+- [OpenMM.](Glosario_librerias/OpenMM.ipynb)
+- [OpenMMTools.](Glosario_librerias/OpenMMTools.ipynb)
+- [PDBFixer.](Glosario_librerias/PDBFixer.ipynb)
+- [Pytraj.](Glosario_librerias/Pytraj.ipynb)
+- [YANK.](Glosario_librerias/YANK.ipynb)
 
 # Licencia
 
@@ -162,4 +159,4 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 Gracias a todos aquellos que de alguna manera ayudan a que este material crezca y sea util. En
 especial a [aquellos que por su colaboración activa pueden ser considerados autores](https://github.com/uibcdf/Academia/graphs/contributors).
 
-Gracias también a los autores de la documentación y tutoriales citados en este repositorio, así como a [xkcd (Randall Munroe)](https://www.xkcd.com/) por hacer geniales ilustraciones sobre programación y ciencia, entre otras cosas, y permitir compartirlas libremente.
+Gracias también a los autores de la documentación y tutoriales citados en este repositorio. Gracias a los colegas que desarrollan las librerías y software que aquí se usan. Y gracisa también a [xkcd (Randall Munroe)](https://www.xkcd.com/) por hacer geniales ilustraciones sobre programación y ciencia, entre otras cosas, y permitir compartirlas libremente.
