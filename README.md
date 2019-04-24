@@ -126,15 +126,40 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 
 ## El flujo de trabajo en la UIBCDF. <a class="anchor" id="Flujo_UIBCDF"></a>
 
+### Principios Generales
+
 - Open Science y la UIBCDF [Próximamente]    
+- Esquema de flujo de trabajo.  [Próximamente]    
+
+### Reproducibilidad y Transparencia
+
 - Qué es OSF y cómo se usa. [Próximamente]    
 - Compartiendo herramientas computacionales. [Próximamente]    
+
+### Desarrollo de un proyecto
+
+### Comunicación de resultados
+
 - El trabajo de comunicación en forma de figuras, posters o manuscritos.[Próximamente]    
    - Edición de textos en LaTEX    
    - Qué es OverLeaf o ShareLatex y cómo se usa.    
    - Imagenes de Pymol.    
-- Esquema de flujo de trabajo.  [Próximamente]    
 
+## Recursos Computacionales
+
+### Ixtlilton
+
+- Descripción.
+- Uso.
+
+### Tlaloc
+
+- Descripción.
+- Uso.
+
+## Recursos Experimentales
+
+### ITC
 
 ## Glosario de librerias. <a class="anchor" id="Glosario"></a>
 
@@ -143,7 +168,7 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - [MDTraj.](Glosario_librerias/MDTraj.ipynb)
 - [Modeller.](Glosario_librerias/Modeller.ipynb)
 - [MolModMT.](Glosario_librerias/MolModMT.ipynb)
-- [NGLView.](Glosario_librerias/NGLView.ipynb)
+- [NGLView.](Glosario_librerias/NGLView.md)
 - [OpenMM.](Glosario_librerias/OpenMM.ipynb)
 - [OpenMMTools.](Glosario_librerias/OpenMMTools.ipynb)
 - [PDBFixer.](Glosario_librerias/PDBFixer.ipynb)
