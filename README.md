@@ -166,7 +166,7 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - [Mayavi.](Glosario_librerias/Mayavi.ipynb)
 - [MDAnalysis.](Glosario_librerias/MDAnalysis.ipynb)
 - [MDTraj.](Glosario_librerias/MDTraj.ipynb)
-- [Modeller.](Glosario_librerias/Modeller.ipynb)
+- [Modeller.](Glosario_librerias/Modeller.md)
 - [MolModMT.](Glosario_librerias/MolModMT.ipynb)
 - [NGLView.](Glosario_librerias/NGLView.md)
 - [OpenMM.](Glosario_librerias/OpenMM.ipynb)
