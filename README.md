@@ -178,17 +178,17 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 
 ## Glosario de librerias. <a class="anchor" id="Glosario"></a>
 
-- [Mayavi.](Glosario_librerias/Mayavi.ipynb)
-- [MDAnalysis.](Glosario_librerias/MDAnalysis.ipynb)
-- [MDTraj.](Glosario_librerias/MDTraj.ipynb)
+- [Mayavi.](Glosario_librerias/Mayavi.md)
+- [MDAnalysis.](Glosario_librerias/MDAnalysis.md)
+- [MDTraj.](Glosario_librerias/MDTraj.md)
 - [Modeller.](Glosario_librerias/Modeller.md)
-- [MolModMT.](Glosario_librerias/MolModMT.ipynb)
+- [MolModMT.](Glosario_librerias/MolModMT.md)
 - [NGLView.](Glosario_librerias/NGLView.md)
-- [OpenMM.](Glosario_librerias/OpenMM.ipynb)
-- [OpenMMTools.](Glosario_librerias/OpenMMTools.ipynb)
-- [PDBFixer.](Glosario_librerias/PDBFixer.ipynb)
-- [Pytraj.](Glosario_librerias/Pytraj.ipynb)
-- [YANK.](Glosario_librerias/YANK.ipynb)
+- [OpenMM.](Glosario_librerias/OpenMM.md)
+- [OpenMMTools.](Glosario_librerias/OpenMMTools.md)
+- [PDBFixer.](Glosario_librerias/PDBFixer.md)
+- [Pytraj.](Glosario_librerias/Pytraj.md)
+- [YANK.](Glosario_librerias/YANK.md)
 
 # Licencia
 
