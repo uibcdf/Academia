@@ -62,7 +62,7 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 
 ## Introducción para comenzar. <a class="anchor" id="Introduccion"></a>
 
-- [Introducción a Linux.](Introducción/Linux.ipynb)
+- [Introducción a Linux.](Introducción/Linux.md)
 - [Qué es Git, cómo se instala y cómo se usa.](Introducción/Git.ipynb)       
 - [Qué es GitHub y cómo se usa.](Introducción/GitHub.ipynb)     
 - [Qué es Python, cómo se instala y cómo se usa.](Introducción/Python.ipynb)  
