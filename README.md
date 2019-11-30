@@ -63,14 +63,14 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 ## Introducción para comenzar. <a class="anchor" id="Introduccion"></a>
 
 - [Introducción a Linux.](Introducción/Linux.md)
-- [Qué es Git, cómo se instala y cómo se usa.](Introducción/Git.ipynb)       
-- [Qué es GitHub y cómo se usa.](Introducción/GitHub.ipynb)     
-- [Qué es Python, cómo se instala y cómo se usa.](Introducción/Python.ipynb)  
-- [Qué es Conda, cómo se instala y cómo se usa.](Introducción/Conda.ipynb)  
-- [Qué es Jupyter, cómo se instala y cómo se usa.](Introducción/Jupyter.ipynb)  
-- [Qué es Markdown y cómo se usa.](Introducción/Markdown.ipynb)
-- [Qué es CUDA y cómo se instala.](Introducción/CUDA.ipynb)
-- [Cómo usar este repositorio.](Introducción/Academia.ipynb)  
+- [Qué es Git, cómo se instala y cómo se usa.](Introducción/Git.md)       
+- [Qué es GitHub y cómo se usa.](Introducción/GitHub.md)     
+- [Qué es Python, cómo se instala y cómo se usa.](Introducción/Python.md)  
+- [Qué es Conda, cómo se instala y cómo se usa.](Introducción/Conda.md)  
+- [Qué es Jupyter, cómo se instala y cómo se usa.](Introducción/Jupyter.md)  
+- [Qué es Markdown y cómo se usa.](Introducción/Markdown.md)
+- [Qué es CUDA y cómo se instala.](Introducción/CUDA.md)
+- [Cómo usar este repositorio.](Introducción/Academia.md)  
 
 ## Breve guía de programación básica en Python. <a class="anchor" id="Python"></a>
 
