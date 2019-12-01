@@ -221,6 +221,47 @@ Para eliminar una rama:
 git branch -d nombre_de_rama
 ```
 
+#### Creación del clon local de un una nueva rama remota
+
+Supongamos que en el repository remoto denominado 'origin' hay una rama llamada 'foo'. Esto se puede ver de la siguiente manera:
+
+```bash
+git branch --all
+
+  gh-pages
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/foo
+  remotes/origin/gh-pages
+  remotes/origin/master
+```
+
+Podemos traer al clon local del repositorio la copia de la rama 'foo':
+
+```bash
+git fetch origin foo:foo
+```
+
+Ya podemos ver que existe la rama local 'foo':
+
+```bash
+git branch --all
+
+  foo
+  gh-pages
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/foo
+  remotes/origin/gh-pages
+  remotes/origin/master
+```
+
+Y podemos también cambiar a la nueva rama para trabajar localmente:
+
+```bash
+git checkout foo
+```
+
 ### Compendio de las rutinas más útiles
 
 ### Creo una nueva rama y la empujo también al origin remoto
@@ -257,3 +298,5 @@ https://www.atlassian.com/git/tutorials/what-is-git
 https://jahya.net/blog/git-vs-github/  
 https://www.atlassian.com/git/tutorials
 https://github.com/joshnh/Git-Commands
+https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
+
