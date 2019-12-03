@@ -153,6 +153,8 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 
 ### Desarrollo de un proyecto
 
+- [Documentando una libreria de python.](Flujo_de_trabajo/Sphinx.md)
+
 ### Comunicación de resultados
 
 - El trabajo de comunicación en forma de figuras, posters o manuscritos.[Próximamente]    
