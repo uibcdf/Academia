@@ -153,7 +153,9 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 
 ### Desarrollo de un proyecto
 
-- [Documentando una libreria de python.](Flujo_de_trabajo/Sphinx.md)
+- [Documentando una libreria de python.]
+   - [Qué es Sphinx y Cómo se usa](Flujo_de_trabajo/Sphinx.md)
+   - [Qué es reStructuredText y Cómo se usa](Flujo_de_trabajo/reStructuredText.md)
 
 ### Comunicación de resultados
 
