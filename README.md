@@ -85,14 +85,12 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - Representación gráfica de datos con Bokeh. [Próximamente]   
 
 
-## El sistema biomolecular y la simulación de dinámica molecular.
-
-### El sistema biomolecular
+## El sistema biomolecular
 
 - [Interactuando por primera vez con una proteína.](Sistema_Biomolecular/una_proteína.ipynb)  
 - Interactuando por primera vez con una trayectoria. [Próximamente]    
   
-###  Teoría de dinámica molecular.
+##  La simulación de dinámica molecular.
 - [Ruta de desarrollo de contenidos. -TEMPORAL-](Dinámica_Molecular/Ruta.md)
 - Mecánica y dinámica clásica: Posición, Velocidad, Aceleración, Energía Potencial, Fuerza y Trabajo.
 - Mecánica y dinámica clásica: Integradores.
@@ -117,16 +115,16 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - Gromacs. [Próximamente]  
 
 ### Ejemplos de simulaciones con OpenMM
-- [La partícula libre.](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Partícula_Libre.ipynb)    
-- [El potencial harmónico](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Pozo_Harmónico.ipynb)
-- [Un potencial doble pozo 1D.](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Doble_Pozo.ipynb)
-- [Un potencial multipozo 1D.](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Multipozo_1D.ipynb)
-- [Un potencial triple pozo 2D.](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Triple_Pozo_2D.ipynb)
-- [Un potencial tipo embudo 2D.](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Embudo_2D.ipynb)
-- [Un potencial tipo embudo 3D.](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Embudo_3D.ipynb)
-- [Dialanina.](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/DiAlanina.ipynb)
-- [Met-encefalina.](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/MetEncefalina.ipynb)
-- [Trp-Cage.](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/TrpCage.ipynb)
+- [La partícula libre.](La_simulacion_de_dinamica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Partícula_Libre.ipynb)    
+- [El potencial harmónico](La_simulacion_de_dinamica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Pozo_Harmónico.ipynb)
+- [Un potencial doble pozo 1D.](La_simulacion_de_dinamica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Doble_Pozo.ipynb)
+- [Un potencial multipozo 1D.](La_simulacion_de_dinamica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Multipozo_1D.ipynb)
+- [Un potencial triple pozo 2D.](La_simulacion_de_dinamica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Triple_Pozo_2D.ipynb)
+- [Un potencial tipo embudo 2D.](La_simulacion_de_dinamica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Embudo_2D.ipynb)
+- [Un potencial tipo embudo 3D.](La_simulacion_de_dinamica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Embudo_3D.ipynb)
+- [Dialanina.](La_simulacion_de_dinamica_molecular/Ejemplos_de_simulaciones_con_OpenMM/DiAlanina.ipynb)
+- [Met-encefalina.](La_simulacion_de_dinamica_molecular/Ejemplos_de_simulaciones_con_OpenMM/MetEncefalina.ipynb)
+- [Trp-Cage.](La_simulacion_de_dinamica_molecular/Ejemplos_de_simulaciones_con_OpenMM/TrpCage.ipynb)
 
 ### Sampleado termodinámico. 
 - Introducción al REMD. [Próximamente]    
