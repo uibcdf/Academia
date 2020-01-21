@@ -120,7 +120,7 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - Ejemplo
 
 ## Ejemplos de simulaciones de dinámica molecular
-- [La partícula libre.](Ejemplos_de_simulaciones_de_MD/Partícula_Libre.ipynb)    
+- [La partícula libre.](Ejemplos_de_simulaciones_de_MD/Particula_Libre.ipynb)    
 - [El potencial harmónico](Ejemplos_de_simulaciones_de_MD/Pozo_Harmónico.ipynb)
 - [Un potencial doble pozo 1D.](Ejemplos_de_simulaciones_de_MD/Doble_Pozo.ipynb)
 - [Un potencial multipozo 1D.](Ejemplos_de_simulaciones_de_MD/Multipozo_1D.ipynb)
