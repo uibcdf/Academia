@@ -117,16 +117,16 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - Gromacs. [Próximamente]  
 
 ### Ejemplos de simulaciones con OpenMM
-- [La partícula libre.](Dinámica_Molecular/Partícula_Libre.ipynb)    
-- [El potencial harmónico](Dinámica_Molecular/Pozo_Harmónico.ipynb)
-- [Un potencial doble pozo 1D.](Dinámica_Molecular/Doble_Pozo.ipynb)
-- [Un potencial multipozo 1D.](Dinámica_Molecular/Multipozo_1D.ipynb)
-- [Un potencial triple pozo 2D.](Dinámica_Molecular/Triple_Pozo_2D.ipynb)
-- [Un potencial tipo embudo 2D.](Dinámica_Molecular/Embudo_2D.ipynb)
-- [Un potencial tipo embudo 3D.](Dinámica_Molecular/Embudo_3D.ipynb)
-- [Dialanina.](Dinámica_Molecular/DiAlanina.ipynb)
-- [Met-encefalina.](Dinámica_Molecular/MetEncefalina.ipynb)
-- [Trp-Cage.](Dinámica_Molecular/TrpCage.ipynb)
+- [La partícula libre.](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Partícula_Libre.ipynb)    
+- [El potencial harmónico](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Pozo_Harmónico.ipynb)
+- [Un potencial doble pozo 1D.](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Doble_Pozo.ipynb)
+- [Un potencial multipozo 1D.](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Multipozo_1D.ipynb)
+- [Un potencial triple pozo 2D.](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Triple_Pozo_2D.ipynb)
+- [Un potencial tipo embudo 2D.](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Embudo_2D.ipynb)
+- [Un potencial tipo embudo 3D.](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/Embudo_3D.ipynb)
+- [Dialanina.](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/DiAlanina.ipynb)
+- [Met-encefalina.](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/MetEncefalina.ipynb)
+- [Trp-Cage.](El_sistema_biomlecular_y_la_simulación_de_dinámica_molecular/Ejemplos_de_simulaciones_con_OpenMM/TrpCage.ipynb)
 
 ### Sampleado termodinámico. 
 - Introducción al REMD. [Próximamente]    
