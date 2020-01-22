@@ -31,7 +31,7 @@ for ii in range(n_particles):
 
 # Creación del integrador.
 friction = 5.0/unit.picosecond # fricción del sistema (0.0/unit.picoseconds si no queremos fricción)
-integrator = mm.LangevinIntegrator(temperature, friction, step_size)
+integrator = mm.LangevinIntegrator(temperature, friction, integration_timestep)
 
 # Creación de la plataforma.
 platform_name = 'CUDA'
@@ -46,8 +46,8 @@ context.setVelocities(initial_velocities)
 times = np.zeros([n_cicles], np.float32) * unit.picoseconds
 positions = np.zeros([n_cicles, n_particles, 3], np.float32) * unit.nanometers
 velocities = np.zeros([n_cicles, n_particles, 3], np.float32) * unit.nanometers/unit.picosecond
-kinetic_energy = np.zeros([n_cicles, n_particles, 3], np.float32) * unit.kilocalories_per_mole
-potential_energy = np.zeros([n_cicles, n_particles, 3], np.float32) * unit.kilocalories_per_mole
+kinetic_energy = np.zeros([n_cicles], np.float32) * unit.kilocalories_per_mole
+potential_energy = np.zeros([n_cicles], np.float32) * unit.kilocalories_per_mole
 
 # Almacenamiento en reporteros de las condiciones iniciales para tiempo 0
 state = context.getState(getPositions=True, getVelocities=True, getEnergy=True)

@@ -6,10 +6,17 @@ import pickle
 
 # Definición del sistema.
 n_particles = 1 # número de partículas
-mass = 180.15 * unit.amu # masa de la glucosa
+mass = (12.010*15.999)/(12.010+15.999) * unit.amu # masa reducidad de la molécule diatómica: C-O
+
+# Definición del potencial externo
+k = 10 * unit.kilocalories_per_mole/unit.nanometers**2
+force = mm.CustomExternalForce('0.5*k*(x^2 + y^2 + z^2)')
+force.addGlobalParameter('k', k)
 
 # Definición de las condiciones del estado termodinámico.
-temperature = 300*unit.kelvin # temperatura
+kB = unit.BOLTZMANN_CONSTANT_kB * unit.AVOGADRO_CONSTANT_NA
+temperature = 0*unit.kelvin # temperatura a zero para que langevin simule la dinámica clásica
+kBT = kB * temperature
 
 # Condiciones iniciales
 initial_positions  = np.zeros([n_particles, 3], np.float32) * unit.nanometers # posiciones iniciales
@@ -26,11 +33,14 @@ n_cicles = int(round(n_steps/steps_per_cicle)) # número total de ciclos de guar
 
 # Creación del sistema.
 system = mm.System()
-for ii in range(num_particles):
+for ii in range(n_particles):
     system.addParticle(mass)
+    force.addParticle(ii, [])
+
+system.addForce(force)
 
 # Creación del integrador.
-friction = 5.0/unit.picosecond # damping del Langevin
+friction = 0.0/unit.picosecond # fricción del sistema (0.0/unit.picoseconds si no queremos fricción)
 integrator = mm.LangevinIntegrator(temperature, friction, integration_timestep)
 
 # Creación de la plataforma.
@@ -73,5 +83,7 @@ file_traj = open(filename_traj,'wb')
 pickle.dump( times, file_traj )
 pickle.dump( positions, file_traj )
 pickle.dump( velocities, file_traj )
+pickle.dump( kinetic_energy, file_traj )
+pickle.dump( potential_energy, file_traj )
 file_traj.close()
 
