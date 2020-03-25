@@ -60,38 +60,163 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 
 # Tabla de contenidos.
 
-## Introducción para comenzar. <a class="anchor" id="Introduccion"></a>
+## Qué es UIBCDF-Academia y cómo se usa.
 
-- [Introducción a Linux.](Introducción/Linux.md)
-- [Qué es Git, cómo se instala y cómo se usa.](Introducción/Git.md)       
-- [Qué es GitHub y cómo se usa.](Introducción/GitHub.md)     
-- [Qué es Python, cómo se instala y cómo se usa.](Introducción/Python.md)  
-- [Qué es Conda, cómo se instala y cómo se usa.](Introducción/Conda.md)  
-- [Qué es Jupyter, cómo se instala y cómo se usa.](Introducción/Jupyter.md)  
-- [Qué es Markdown y cómo se usa.](Introducción/Markdown.md)
-- [Qué es CUDA y cómo se instala.](Introducción/CUDA.md)
+- Qué es este repositorio.
 - [Cómo usar este repositorio.](Introducción/Academia.md)  
 
-## Breve guía de programación básica en Python. <a class="anchor" id="Python"></a>
+## Open Science y el laboratorio computacional de investigación.
 
-- [Programando en Python.](Python/Python.ipynb)    
-- [Vectores, matrices y cálculo con Numpy.](Python/NumPy.ipynb)    
-- [Representación gráfica de datos con Matplotlib.](Python/Matplotlib.ipynb)   
-- Manejo estadístico de datos con Scipy. [Próximamente]    
-- Manejo estadístico de datos con Pandas. [Próximamente]    
-- Manejo estadístico de datos con Scikit-learn. [Próximamente]    
-- Manejo estadístico de datos con Statmodels. [Próximamente]    
-- Representación gráfica de datos con Seaborn. [Próximamente]    
-- Representación gráfica de datos con Bokeh. [Próximamente]   
+- El fraude y la conducta científica inapropiada.
+- Publish or perish: sobreproducción de comunicaciones científicas no siempre relevantes.
+- ¿Es la ciencia democrática? El peer-review.
+- Open Science: transparente, reproducible, compartible.
+- El laboratorio computacional de investigación.
+
+### Desarrollo de un proyecto de investigación transparente y reproducible.
+
+- Qué es OSF y cómo se usa.
+- Menos scripts y más librerías y módulos.
+- Cómo compartir las librerías y módulos: GitHub o GitLab.
+- Cómo compartir los datos crudos.
+- Open Source y modalidades de licencias para datos, figuras y librerías.
+
+### El trabajo en colaboración
+
+- El foro y el registro de conversaciones: Slack.
+- Las tareas: Trello.
+- Edición de textos en LaTEX: OverLeaf o ShareLatex.
+
+### La comunicación pública de datos, procesos, resultados e ideas.
+
+- La importancia de la comunicación: Open Access, los preprints y los live journals.
+- La comunicación social: Twitter.
+- La narrativa cientifica de las libretas interactivas.
+- Haz tus productos citables: el Digital Object Identification y Zenodo.
+- Publicando y compartiendo datos.
+- Publicando y compartiendo figuras: Figshare.
+- Publicando y compartiendo presentaciones.
+- Webinars.
 
 
-## El sistema biomolecular
+## Herramientas fundamentales de un laboratorio computacional. <a class="anchor" id="Introduccion"></a>
 
-- El sistema biomolecular
+### El sistema operativo Linux
+- [Introducción a Linux.](Introducción/Linux.md)
+- La importancia de los dot files.
+- Los editores de texto y los IDEs para programar.
+- Política de nombres de ficheros.
 
-### Trabajando con un sistema biomolecular
-- [Interactuando por primera vez con un sistema biomolecular.](Sistema_Biomolecular/una_proteína.ipynb)  
-  
+### El lenguaje de programación
+- Introducción a los lenguages de programación.
+	- Lengujes compilados.
+	- Lenguages interpretados.
+	- Lenguages orientados a objetos.
+	- Mejor si es modular.
+- [Qué es Python, cómo se instala y cómo se usa.](Introducción/Python.md)  
+	- [Programando en Python.](Python/Python.ipynb)    
+	- [Vectores, matrices y cálculo con Numpy.](Python/NumPy.ipynb)    
+	- [Representación gráfica de datos con Matplotlib.](Python/Matplotlib.ipynb)   
+	- ... con Scipy. [Próximamente]    
+	- ... con Pandas. [Próximamente]    
+	- ... con Scikit-learn. [Próximamente]    
+	- ... con Scikit-image. [Próximamente]    
+	- ... con Statmodels. [Próximamente]    
+	- Representación gráfica de datos con Seaborn. [Próximamente]    
+	- Representación gráfica de datos con Bokeh. [Próximamente]
+- Los gestores de microambientes y paquetes.
+	- [Qué es Conda, cómo se instala y cómo se usa.](Introducción/Conda.md)
+
+### La narrativa construida con texto, algoritmos, resultados y gráficas.
+- [Qué es Jupyter, cómo se instala y cómo se usa.](Introducción/Jupyter.md)  
+- Publicando y compartiendo en linea tus jupyter notebooks: Binder.
+- Tu jupyter notebook como soporte para una comunicación oral.
+- Tu jupyter notebook como documento latex o pdf.
+
+### Lenguajes de marcado
+- Qué son los lenguages de marcado ligero de texto y cómo se usa.
+	- [Qué es Markdown y cómo se usa.](Introducción/Markdown.md)
+   	- [Qué es reStructuredText y Cómo se usa](Flujo_de_trabajo/reStructuredText.md)
+- Qué son los lenguages de marcado para la serialización de datos y cómo se usan.
+	- [Qué es JSON y cómo se usa.](Introducción/Markdown.md)
+	- [Qué es XML y cómo se usa.](Introducción/Markdown.md)
+	- [Qué es YAML y cómo se usa.](Introducción/Markdown.md)
+
+### El sistema de control de versiones distribuida
+- [Qué es Git, cómo se instala y cómo se usa.](Introducción/Git.md)       
+- [Qué es GitHub y cómo se usa.](Introducción/GitHub.md)     
+
+### La documentación de un proyecto de Python
+- [Qué es Sphinx y Cómo se usa](Flujo_de_trabajo/Sphinx.md)
+- Qué es Readmedoc y Cómo se usa
+
+### La evaluación automática y la integración continua de un proyecto de Python.
+- Qué es Travis CI y cómo se usa.
+
+### La distribución y publicación de una librería de Python.
+- Qué es Anaconda y cómo se usa.
+- Haz tu proyecto citable: Zenodo.
+
+### Caso práctico: un proyecto de librería en Python desde cero.
+ 
+
+### La computación en GPUs
+- [Qué es CUDA y cómo se instala.](Introducción/CUDA.md)
+- La programación para GPUs.
+
+### El cluster de computación intesiva
+- Qué es un cluster de computación intensiva
+- Qué es una supercomputadora de acceso público
+	- La visión de un administrador y las políticas de usuario.
+- Qué debe sabe un usuario de supercomputadora.
+	- El sistema de ficheros de un usuario.
+	- El gestor de entornos de módulos.
+	- El gestor de colas y recursos.
+
+## El modelo de un sistema molecular: termodinámica y cinética
+
+- La topología del sistema.
+- La trayectoria del sistema.
+- [Interactuando por primera vez con un modelo.](Sistema_Biomolecular/una_proteína.ipynb)  
+
+### La probabilidad de encontrar al modelo del sistema molecular en un determinado estado: la termodinámica.
+
+### La probabilidad del modelo detalle sistema molecular de transitar entre dos estados en un lapso de tiempo: la cinética.
+- La dinámica estocástica y el movimiento Browniano.
+
+### La simulación de la dinámica molecular.
+
+- Motores de simulacion de la dinámica molecular.
+
+### Técnicas de reducción de dimensionalidad.
+- Las coordenadas de reacción.
+- Los peligros de la reducción de dimensionalidad.
+- El análisis de componentes principales.
+
+### Las redes cinéticas y los modelos de estados de markov.
+
+### Técnicas de sampleado conformacional.
+
+### El cálculo de energía libre y las técnicas del sampleado termodinámico.
+- Introducción al REMD. [Próximamente]    
+- Mis primeras simulaciones REMD. [Próximamente]    
+- Introducción a Umbrella Sampling. [Próximamente]    
+- Mis primeras simulaciones Umbrella Sampling. [Próximamente]    
+- Introducción a Transition Path Sampling. [Próximamente]    
+
+### Sampleado cinético.
+- Calculo de eventos raros
+
+## El diseño racional de moléculas con potencial farmacológico.
+
+- El modelo de datos estados: acoplado-desacoplado.
+- La lucha entalpía vs. entropía: Kd y la energía libre de unión.
+- Las implicaciones de la cinética: Kon y Koff.
+
+- Farmacóforos
+- Bolsillos y cavidades.
+- La energía libre de unión absoluta y relativa.
+ 
 ##  La simulación de dinámica molecular.
 - [Ruta de desarrollo de contenidos. -TEMPORAL-](Dinámica_Molecular/Ruta.md)
 - Mecánica y dinámica clásica: Posición, Velocidad, Aceleración, Energía Potencial, Fuerza y Trabajo.
@@ -112,13 +237,6 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - Mecánica Estadística: Principio de equipartición desde Boltzmann.
 - Mecánica Estadística: Distribución de velocidades de Maxwell-Boltzmann.
 
-### Programas para simular la dinámica molecular
-- OpenMM. [Próximamente]     
-- Gromacs. [Próximamente]  
-
-### Trabajando con la trajectoria
-- Ejemplo
-
 ## Ejemplos de simulaciones de dinámica molecular
 - [La partícula libre.](Ejemplos_de_simulaciones_de_MD/Particula_Libre.ipynb)    
 - [El potencial harmónico](Ejemplos_de_simulaciones_de_MD/Pozo_Harmónico.ipynb)
@@ -131,41 +249,7 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - [Met-encefalina.](Ejemplos_de_simulaciones_de_MD/MetEncefalina.ipynb)
 - [Trp-Cage.](Ejemplos_de_simulaciones_de_MD/TrpCage.ipynb)
 
-### Sampleado termodinámico. 
-- Introducción al REMD. [Próximamente]    
-- Mis primeras simulaciones REMD. [Próximamente]    
-- Introducción a Umbrella Sampling. [Próximamente]    
-- Mis primeras simulaciones Umbrella Sampling. [Próximamente]    
-- Introducción a Transition Path Sampling. [Próximamente]    
 
-### Sampleado termodinámico y cinético.
-
-## ...
-
-## El flujo de trabajo en la UIBCDF. <a class="anchor" id="Flujo_UIBCDF"></a>
-
-### Principios Generales
-
-- Open Science y la UIBCDF [Próximamente]    
-- Esquema de flujo de trabajo.  [Próximamente]    
-
-### Reproducibilidad y Transparencia
-
-- Qué es OSF y cómo se usa. [Próximamente]    
-- Compartiendo herramientas computacionales. [Próximamente]    
-
-### Desarrollo de un proyecto
-
-- Documentando una libreria de python.
-   - [Qué es Sphinx y Cómo se usa](Flujo_de_trabajo/Sphinx.md)
-   - [Qué es reStructuredText y Cómo se usa](Flujo_de_trabajo/reStructuredText.md)
-
-### Comunicación de resultados
-
-- El trabajo de comunicación en forma de figuras, posters o manuscritos.[Próximamente]    
-   - Edición de textos en LaTEX    
-   - Qué es OverLeaf o ShareLatex y cómo se usa.    
-   - Imagenes de Pymol.    
 
 ## Recursos Computacionales
 
