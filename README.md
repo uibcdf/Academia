@@ -62,10 +62,10 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 
 ## Qué es UIBCDF-Academia y cómo se usa.
 
-- Qué es este repositorio.
-- [Cómo usar este repositorio.](Introducción/Academia.md)  
+- Qué es UIBCDF-Academia.
+- [Cómo usar UIBCDF-Academia.](academia/UIBCDF-Academia/Cómo_usar_UIBCDF-Academia.md)  
 
-## Open Science y el laboratorio computacional de investigación.
+## El laboratorio computacional de investigación.
 
 - El fraude y la conducta científica inapropiada.
 - Publish or perish: sobreproducción de comunicaciones científicas no siempre relevantes.
@@ -98,56 +98,49 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - Publicando y compartiendo presentaciones.
 - Webinars.
 
-
 ## Herramientas fundamentales de un laboratorio computacional. <a class="anchor" id="Introduccion"></a>
 
 ### El sistema operativo Linux
-- [Introducción a Linux.](Introducción/Linux.md)
-- La importancia de los dot files.
-- Los editores de texto y los IDEs para programar.
-- Política de nombres de ficheros.
+- [Introducción a Linux.](academia/Herramientas/Linux/Linux.md)
+- [Algunas buenas prácticas al trabajar en Linux.](academia/Herramientas/Linux/Buenas_prácticas.md)
 
-### El lenguaje de programación
-- Introducción a los lenguages de programación.
-	- Lengujes compilados.
-	- Lenguages interpretados.
-	- Lenguages orientados a objetos.
-	- Mejor si es modular.
-- [Qué es Python, cómo se instala y cómo se usa.](Introducción/Python.md)  
-	- [Programando en Python.](Python/Python.ipynb)    
-	- [Vectores, matrices y cálculo con Numpy.](Python/NumPy.ipynb)    
-	- [Representación gráfica de datos con Matplotlib.](Python/Matplotlib.ipynb)   
-	- ... con Scipy. [Próximamente]    
-	- ... con Pandas. [Próximamente]    
-	- ... con Scikit-learn. [Próximamente]    
-	- ... con Scikit-image. [Próximamente]    
-	- ... con Statmodels. [Próximamente]    
-	- Representación gráfica de datos con Seaborn. [Próximamente]    
-	- Representación gráfica de datos con Bokeh. [Próximamente]
-- Los gestores de microambientes y paquetes.
-	- [Qué es Conda, cómo se instala y cómo se usa.](Introducción/Conda.md)
+### Python
+- [Introducción a los lenguajes de programación.](academia/Herramientas/Python/Lenguajes_de_programación.md)
+- [Qué es Python, cómo se instala y cómo se usa.](academia/Herramientas/Python/Python.md)  
+- [Programando en Python.](academia/Herramientas/Python/Programando.ipynb)    
+- [Vectores, matrices y cálculo con Numpy.](academia/Herramientas/Python/NumPy.ipynb)
+- [Representación gráfica de datos con Matplotlib.](academia/Herramientas/Python/Matplotlib.ipynb)   
+- [Análisis de datos con Scipy.](academia/Herramientas/Python/Scipy.ipynb)
+- [Análisis de datos y series con Pandas.](academia/Herramientas/Python/Pandas.ipynb)
+- [Aprendizaje automático con Scikit-learn.](academia/Herramientas/Python/Scikit-learn.ipynb)
+- [Procesamiento de imágenes con Scikit-image.](academia/Herramientas/Python/Scikit-image.ipynb)
+- [Rentación gráfica de datos con Seaborn.](academia/Herramientas/Python/Seaborn.ipynb)
+- [Representación gráfica de datos con Bokeh.](academia/Herramientas/Python/Bokeh.ipynb)
+
+### Los gestores de microambientes y paquetes.
+- [Qué es Conda, cómo se instala y cómo se usa.](academia/Herramientas/Conda/Conda.md)
 
 ### La narrativa construida con texto, algoritmos, resultados y gráficas.
-- [Qué es Jupyter, cómo se instala y cómo se usa.](Introducción/Jupyter.md)  
+- [Qué es Jupyter, cómo se instala y cómo se usa.](academia/Herramientas/Jupyter/Jupyter.md)  
 - Publicando y compartiendo en linea tus jupyter notebooks: Binder.
 - Tu jupyter notebook como soporte para una comunicación oral.
 - Tu jupyter notebook como documento latex o pdf.
 
 ### Lenguajes de marcado
 - Qué son los lenguages de marcado ligero de texto y cómo se usa.
-	- [Qué es Markdown y cómo se usa.](Introducción/Markdown.md)
-   	- [Qué es reStructuredText y Cómo se usa](Flujo_de_trabajo/reStructuredText.md)
+	- [Qué es Markdown y cómo se usa.](academia/Herramientas/Lenguajes_marcado/Markdown.md)
+   	- [Qué es reStructuredText y Cómo se usa](academia/Herramientas/Lenguajes_marcado/reStructuredText.md)
 - Qué son los lenguages de marcado para la serialización de datos y cómo se usan.
-	- [Qué es JSON y cómo se usa.](Introducción/Markdown.md)
-	- [Qué es XML y cómo se usa.](Introducción/Markdown.md)
-	- [Qué es YAML y cómo se usa.](Introducción/Markdown.md)
+	- Qué es JSON y cómo se usa.
+	- Qué es XML y cómo se usa.
+	- Qué es YAML y cómo se usa.
 
 ### El sistema de control de versiones distribuida
-- [Qué es Git, cómo se instala y cómo se usa.](Introducción/Git.md)       
-- [Qué es GitHub y cómo se usa.](Introducción/GitHub.md)     
+- [Qué es Git, cómo se instala y cómo se usa.](academia/Herramientas/Control_versiones_distribuida/Git.md)       
+- [Qué es GitHub y cómo se usa.](academia/Herramientas/Control_versiones_distribuida/GitHub.md)     
 
 ### La documentación de un proyecto de Python
-- [Qué es Sphinx y Cómo se usa](Flujo_de_trabajo/Sphinx.md)
+- [Qué es Sphinx y Cómo se usa](academia/Herramientas/Documentación/Sphinx.md)
 - Qué es Readmedoc y Cómo se usa
 
 ### La evaluación automática y la integración continua de un proyecto de Python.
@@ -173,20 +166,26 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 	- El gestor de entornos de módulos.
 	- El gestor de colas y recursos.
 
-## El modelo de un sistema molecular: termodinámica y cinética
+## El modelo de un sistema molecular
 
-- La topología del sistema.
-- La trayectoria del sistema.
+- La partícula libre y la dinámica de Langevin.
+	- La fricción, la temperatura y la difusión.
+
+
+#### Por colocar
 - [Interactuando por primera vez con un modelo.](Sistema_Biomolecular/una_proteína.ipynb)  
+- [La partícula libre.](Ejemplos_de_simulaciones_de_MD/Particula_Libre.ipynb)    
+- [El potencial harmónico](Ejemplos_de_simulaciones_de_MD/Pozo_Harmónico.ipynb)
+- [Un potencial doble pozo 1D.](Ejemplos_de_simulaciones_de_MD/Doble_Pozo.ipynb)
+- [Un potencial multipozo 1D.](Ejemplos_de_simulaciones_de_MD/Multipozo_1D.ipynb)
+- [Un potencial triple pozo 2D.](Ejemplos_de_simulaciones_de_MD/Triple_Pozo_2D.ipynb)
+- [Un potencial tipo embudo 2D.](Ejemplos_de_simulaciones_de_MD/Embudo_2D.ipynb)
+- [Un potencial tipo embudo 3D.](Ejemplos_de_simulaciones_de_MD/Embudo_3D.ipynb)
+- [Dialanina.](Ejemplos_de_simulaciones_de_MD/DiAlanina.ipynb)
+- [Met-encefalina.](Ejemplos_de_simulaciones_de_MD/MetEncefalina.ipynb)
+- [Trp-Cage.](Ejemplos_de_simulaciones_de_MD/TrpCage.ipynb)
 
-### La probabilidad de encontrar al modelo del sistema molecular en un determinado estado: la termodinámica.
 
-### La probabilidad del modelo detalle sistema molecular de transitar entre dos estados en un lapso de tiempo: la cinética.
-- La dinámica estocástica y el movimiento Browniano.
-
-### La simulación de la dinámica molecular.
-
-- Motores de simulacion de la dinámica molecular.
 
 ### Técnicas de reducción de dimensionalidad.
 - Las coordenadas de reacción.
@@ -236,19 +235,6 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - Mecánica Estadística: Entropía de Gibs e interpretación física y cotidiana.
 - Mecánica Estadística: Principio de equipartición desde Boltzmann.
 - Mecánica Estadística: Distribución de velocidades de Maxwell-Boltzmann.
-
-## Ejemplos de simulaciones de dinámica molecular
-- [La partícula libre.](Ejemplos_de_simulaciones_de_MD/Particula_Libre.ipynb)    
-- [El potencial harmónico](Ejemplos_de_simulaciones_de_MD/Pozo_Harmónico.ipynb)
-- [Un potencial doble pozo 1D.](Ejemplos_de_simulaciones_de_MD/Doble_Pozo.ipynb)
-- [Un potencial multipozo 1D.](Ejemplos_de_simulaciones_de_MD/Multipozo_1D.ipynb)
-- [Un potencial triple pozo 2D.](Ejemplos_de_simulaciones_de_MD/Triple_Pozo_2D.ipynb)
-- [Un potencial tipo embudo 2D.](Ejemplos_de_simulaciones_de_MD/Embudo_2D.ipynb)
-- [Un potencial tipo embudo 3D.](Ejemplos_de_simulaciones_de_MD/Embudo_3D.ipynb)
-- [Dialanina.](Ejemplos_de_simulaciones_de_MD/DiAlanina.ipynb)
-- [Met-encefalina.](Ejemplos_de_simulaciones_de_MD/MetEncefalina.ipynb)
-- [Trp-Cage.](Ejemplos_de_simulaciones_de_MD/TrpCage.ipynb)
-
 
 
 ## Recursos Computacionales
