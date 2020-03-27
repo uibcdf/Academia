@@ -172,11 +172,8 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 
 ## El modelo de un sistema molecular
 
-- La partícula libre y la dinámica de Langevin.
-	- creación de sistema en openmm
-	- dinámica de langevin
-	- integrador sencillo con dinámica de langevin
-- La fricción, la temperatura y la difusión.
+- La partícula libre, el movimiento Browniano y la dinámica de Langevin.
+- La fricción, la temperatura y la difusión. Fluctuación-disipación.
 
 
 #### Por colocar
