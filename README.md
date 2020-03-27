@@ -151,7 +151,11 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - Haz tu proyecto citable: Zenodo.
 
 ### Caso práctico: un proyecto de librería en Python desde cero.
- 
+
+- [Creando un repositorio en GitHub para la nueva librería](academia/Herramientas/Caso_práctico/Creando_GitHub_repo.md)
+- [Creando una librería de Python](academia/Herramientas/Caso_práctico/Creando_librería_Python.md)
+- [Documentando una librería de Python](academia/Herramientas/Caso_práctico/Documentando_librería_Python.md)
+- [Testeo e integración continua de una librería de Python](academia/Herramientas/Caso_práctico/Testeo_librería_Python.md)
 
 ### La computación en GPUs
 - [Qué es CUDA y cómo se instala.](Introducción/CUDA.md)
@@ -169,7 +173,10 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 ## El modelo de un sistema molecular
 
 - La partícula libre y la dinámica de Langevin.
-	- La fricción, la temperatura y la difusión.
+	- creación de sistema en openmm
+	- dinámica de langevin
+	- integrador sencillo con dinámica de langevin
+- La fricción, la temperatura y la difusión.
 
 
 #### Por colocar
