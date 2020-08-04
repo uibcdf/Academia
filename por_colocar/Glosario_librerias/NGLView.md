@@ -14,3 +14,9 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager
 jupyter labextension install jupyter-matplotlib
 jupyter-labextension install nglview-js-widgets
 ```
+----------------------
+
+```bash
+jupyter-labextension update --all
+jupyter lab build
+```
