@@ -240,6 +240,11 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - Mecánica Estadística: Principio de equipartición desde Boltzmann.
 - Mecánica Estadística: Distribución de velocidades de Maxwell-Boltzmann.
 
+## OpenMM
+
+- Solvente Implicito.
+- Notas.
+
 
 ## Recursos Computacionales
 
