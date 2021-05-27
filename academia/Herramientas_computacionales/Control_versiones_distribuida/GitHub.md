@@ -23,6 +23,11 @@ https://services.github.com/on-demand/es/  (obsoleta... esperando a la nueva ver
 https://guides.github.com/   
 https://lab.github.com    
 
+No olvides echarle un ojo al GitHub CLI, una herramienta relativamente reciente para poder
+interaccionar con tus repositorios en GitHub desde la linea de comandos:
+
+https://cli.github.com/
+
 ---
 
 # Dudas de uso, problemas técnicos y soluciones.
