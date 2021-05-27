@@ -1,0 +1,7 @@
+development:
+        jupyterlab
+
+production:
+        jupyterlab
+
+

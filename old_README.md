@@ -62,8 +62,8 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 
 ## Qué es UIBCDF-Academia y cómo se usa. [50%]
 
-- [Qué es UIBCDF-Academia.](academia/UIBCDF-Academia/Que_es_UIBCDF-Academia.md) [0%]
-- [Cómo usar UIBCDF-Academia.](academia/UIBCDF-Academia/Como_usar_UIBCDF-Academia.md) [100%]
+- [Qué es UIBCDF-Academia.](academia/UIBCDF-Academia/Qué_es_UIBCDF-Academia.md) [0%]
+- [Cómo usar UIBCDF-Academia.](academia/UIBCDF-Academia/Cómo_usar_UIBCDF-Academia.md) [100%]?
 
 ## El laboratorio computacional de investigación. [0%]
 
@@ -101,32 +101,32 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 ## Herramientas fundamentales del laboratorio computacional. <a class="anchor" id="Introduccion"></a>
 
 ### El sistema operativo Linux [50%]
-- [Introducción a Linux.](academia/Herramientas_computacionales/Linux/Linux.md) [100%]
-- [Algunas buenas prácticas al trabajar en Linux.](academia/Herramientas_computacionales/Linux/Buenas_practicas.md) [0%]
+- [Introducción a Linux.](academia/Herramientas_computacionales/Linux/Linux.md) [100%]?
+- [Algunas buenas prácticas al trabajar en Linux.](academia/Herramientas_computacionales/Linux/Buenas_prácticas.md) [0%]
 
-### Python [36%]
-- [Introducción a los lenguajes de programación.](academia/Herramientas_computacionales/Python/Lenguajes_de_programacion.md) [0%]
+### Python [?%]
+- [Introducción a los lenguajes de programación.](academia/Herramientas_computacionales/Python/Lenguajes_de_programación.md) [0%]
 - [Qué es Python, cómo se instala y cómo se usa.](academia/Herramientas_computacionales/Python/Python.md) [100%]
-- [Programando en Python.](academia/Herramientas_computacionales/Python/Programando_en_Python.ipynb) [100%]
-- [Vectores, matrices y cálculo con Numpy.](academia/Herramientas_computacionales/Python/NumPy.ipynb) [100%]
-- [Representación gráfica de datos con Matplotlib.](academia/Herramientas_computacionales/Python/Matplotlib.ipynb) [100%]
-- [Análisis de datos con Scipy.](academia/Herramientas_computacionales/Python/Scipy.ipynb) [0%]
-- [Análisis de datos y series con Pandas.](academia/Herramientas_computacionales/Python/Pandas.ipynb) [0%]
-- [Aprendizaje automático con Scikit-learn.](academia/Herramientas_computacionales/Python/Scikit-learn.ipynb) [0%]
-- [Procesamiento de imágenes con Scikit-image.](academia/Herramientas_computacionales/Python/Scikit-image.ipynb) [0%]
-- [Rentación gráfica de datos con Seaborn.](academia/Herramientas_computacionales/Python/Seaborn.ipynb) [0%]
-- [Representación gráfica de datos con Bokeh.](academia/Herramientas_computacionales/Python/Bokeh.ipynb) [0%]
+- [Programando en Python.](academia/Herramientas_computacionales/Python/Programando_en_Python.ipynb) [?%]
+- [Vectores, matrices y cálculo con Numpy.](academia/Herramientas_computacionales/Python/NumPy.ipynb) [?%]
+- [Representación gráfica de datos con Matplotlib.](academia/Herramientas_computacionales/Python/Matplotlib.ipynb) [?%]
+- [Análisis de datos con Scipy.](academia/Herramientas_computacionales/Python/Scipy.ipynb) [?%]
+- [Análisis de datos y series con Pandas.](academia/Herramientas_computacionales/Python/Pandas.ipynb) [?%]
+- [Aprendizaje automático con Scikit-learn.](academia/Herramientas_computacionales/Python/Scikit-learn.ipynb) [?%]
+- [Procesamiento de imágenes con Scikit-image.](academia/Herramientas_computacionales/Python/Scikit-image.ipynb) [?%]
+- [Rentación gráfica de datos con Seaborn.](academia/Herramientas_computacionales/Python/Seaborn.ipynb) [?%]
+- [Representación gráfica de datos con Bokeh.](academia/Herramientas_computacionales/Python/Bokeh.ipynb) [?%]
 
-### Los gestores de microambientes y paquetes. [100%]
-- [Qué es Conda, cómo se instala y cómo se usa.](academia/Herramientas_computacionales/Conda/Conda.md) [100%]
+### Los gestores de microambientes y paquetes. [?%]
+- [Qué es Conda, cómo se instala y cómo se usa.](academia/Herramientas_computacionales/Conda/Conda.md) [?%]
 
-### La narrativa construida con texto, algoritmos, resultados y gráficas. [25%]
-- [Qué es Jupyter, cómo se instala y cómo se usa.](academia/Herramientas_computacionales/Jupyter/Jupyter.md) [100%]
+### La narrativa construida con texto, algoritmos, resultados y gráficas. [?%]
+- [Qué es Jupyter, cómo se instala y cómo se usa.](academia/Herramientas_computacionales/La_narrativa/Jupyter.md) [?%]
 - Publicando y compartiendo en linea tus jupyter notebooks: Binder. [0%]
 - Tu jupyter notebook como soporte para una comunicación oral. [0%]
 - Tu jupyter notebook como documento latex o pdf. [0%]
 
-### Lenguajes de marcado. [14%]
+### Lenguajes de marcado. [0%]
 - Qué son los lenguages de marcado ligero de texto y cómo se usa. [0%]
 	- [Qué es Markdown y cómo se usa.](academia/Herramientas_computacionales/Lenguajes_marcado/Markdown.md) [100%]
    	- [Qué es reStructuredText y Cómo se usa](academia/Herramientas_computacionales/Lenguajes_marcado/reStructuredText.md) [0%]
@@ -135,9 +135,9 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 	- Qué es XML y cómo se usa. [0%]
 	- Qué es YAML y cómo se usa. [0%]
 
-### El sistema de control de versiones distribuida. [100%]
-- [Qué es Git, cómo se instala y cómo se usa.](academia/Herramientas_computacionales/Control_versiones_distribuida/Git.md) [100%]
-- [Qué es GitHub y cómo se usa.](academia/Herramientas_computacionales/Control_versiones_distribuida/GitHub.md) [100%]
+### El sistema de control de versiones distribuida. [?%]
+- [Qué es Git, cómo se instala y cómo se usa.](academia/Herramientas_computacionales/Control_versiones_distribuida/Git.md) [?%]
+- [Qué es GitHub y cómo se usa.](academia/Herramientas_computacionales/Control_versiones_distribuida/GitHub.md) [?%]
 
 ### La documentación de un proyecto de Python. [0%]
 - [Qué es Sphinx y Cómo se usa](academia/Herramientas_computacionales/Documentación/Sphinx.md) [0%]
@@ -151,16 +151,16 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 - Qué es Anaconda y cómo se usa. [0%]
 - Haz tu proyecto citable: Zenodo. [0%]
 
-### Caso práctico: un proyecto de librería en Python desde cero. [42%]
+### Caso práctico: un proyecto de librería en Python desde cero. [?%]
 
-- [Creando un repositorio en GitHub para la nueva librería](academia/Herramientas_computacionales/Caso_practico/creando_github_repo.md) [50%]
-- [Creando una librería de Python](academia/Herramientas_computacionales/Caso_practico/creando_libreria_python.md) [100%]
-- [Documentando una librería de Python](academia/Herramientas_computacionales/Caso_practico/documentando_libreria_python.md) [20%]
-- [Testeo e integración continua de una librería de Python](academia/Herramientas_computacionales/Caso_practico/testeo_libreria_python.md) [0%]
+- [Creando un repositorio en GitHub para la nueva librería](academia/Herramientas_computacionales/Caso_práctico/Creando_GitHub_repo.md) [?%]
+- [Creando una librería de Python](academia/Herramientas_computacionales/Caso_práctico/Creando_librería_Python.md) [?%]
+- [Documentando una librería de Python](academia/Herramientas_computacionales/Caso_práctico/Documentando_librería_Python.md) [?%]
+- [Testeo e integración continua de una librería de Python](academia/Herramientas_computacionales/Caso_práctico/Testeo_librería_Python.md) [?%]
 
-### La computación en GPUs [50%]
-- [Qué es CUDA y cómo se instala.](academia/Herramientas_computacionales/GPU/CUDA.md) [100%]
-- La programación para GPUs. [0%]
+### La computación en GPUs [?%]
+- [Qué es CUDA y cómo se instala.](academia/Herramientas_computacionales/GPU/CUDA.md) [?%]
+- La programación para GPUs. [?%]
 
 ### El cluster de computación intesiva [0%]
 - Qué es un cluster de computación intensiva
@@ -171,36 +171,111 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 	- El gestor de entornos de módulos.
 	- El gestor de colas y recursos.
 
+## El modelo de un sistema molecular
 
-## Recursos Computacionales en la UIBCDF [0%]
+- La partícula libre, el movimiento Browniano y la dinámica de Langevin.
+- La fricción, la temperatura y la difusión. Fluctuación-disipación.
 
-### Ixtlilton [0%]
 
-## Recursos Experimentales en la UIBCDF [0%]
+#### Por colocar
+- [Interactuando por primera vez con un modelo.](Sistema_Biomolecular/una_proteína.ipynb)  
+- [La partícula libre.](Ejemplos_de_simulaciones_de_MD/Particula_Libre.ipynb)    
+- [El potencial harmónico](Ejemplos_de_simulaciones_de_MD/Pozo_Harmónico.ipynb)
+- [Un potencial doble pozo 1D.](Ejemplos_de_simulaciones_de_MD/Doble_Pozo.ipynb)
+- [Un potencial multipozo 1D.](Ejemplos_de_simulaciones_de_MD/Multipozo_1D.ipynb)
+- [Un potencial triple pozo 2D.](Ejemplos_de_simulaciones_de_MD/Triple_Pozo_2D.ipynb)
+- [Un potencial tipo embudo 2D.](Ejemplos_de_simulaciones_de_MD/Embudo_2D.ipynb)
+- [Un potencial tipo embudo 3D.](Ejemplos_de_simulaciones_de_MD/Embudo_3D.ipynb)
+- [Dialanina.](Ejemplos_de_simulaciones_de_MD/DiAlanina.ipynb)
+- [Met-encefalina.](Ejemplos_de_simulaciones_de_MD/MetEncefalina.ipynb)
+- [Trp-Cage.](Ejemplos_de_simulaciones_de_MD/TrpCage.ipynb)
 
-### ITC [0%]
 
-## Glosario de librerias científicas para Python. <a class="anchor" id="Glosario"></a>
 
-- [Biopython.](academia/Glosario_librerias/Biopython.md)
-- [Ensembler.](academia/Glosario_librerias/Ensembler.md)
-- [Ipyvolume.](academia/Glosario_librerias/Ipyvolume.md)
-- [Matplotlib.](academia/Glosario_librerias/Matplotlib.md)
-- [Mayavi.](academia/Glosario_librerias/Mayavi.md)
-- [MDAnalysis.](academia/Glosario_librerias/MDAnalysis.md)
-- [MDTraj.](academia/Glosario_librerias/MDTraj.md)
-- [Modeller.](academia/Glosario_librerias/Modeller.md)
-- [MolModMT.](academia/Glosario_librerias/MolModMT.md)
-- [NGLView.](academia/Glosario_librerias/NGLView.md)
-- [Numpy.](academia/Glosario_librerias/Numpy.md)
-- [OpenMM.](academia/Glosario_librerias/OpenMM.md)
-- [OpenMMTools.](academia/Glosario_librerias/OpenMMTools.md)
-- [PDBFixer.](academia/Glosario_librerias/PDBFixer.md)
-- [Pickle.](academia/Glosario_librerias/Pickle.md)
-- [Pytraj.](academia/Glosario_librerias/Pytraj.md)
-- [Seaborn.](academia/Glosario_librerias/Seaborn.md)
-- [Unit.](academia/Glosario_librerias/Unit.md)
-- [YANK.](academia/Glosario_librerias/YANK.md)
+### Técnicas de reducción de dimensionalidad.
+- Las coordenadas de reacción.
+- Los peligros de la reducción de dimensionalidad.
+- El análisis de componentes principales.
+
+### Las redes cinéticas y los modelos de estados de markov.
+
+### Técnicas de sampleado conformacional.
+
+### El cálculo de energía libre y las técnicas del sampleado termodinámico.
+- Introducción al REMD. [Próximamente]    
+- Mis primeras simulaciones REMD. [Próximamente]    
+- Introducción a Umbrella Sampling. [Próximamente]    
+- Mis primeras simulaciones Umbrella Sampling. [Próximamente]    
+- Introducción a Transition Path Sampling. [Próximamente]    
+
+### Sampleado cinético.
+- Calculo de eventos raros
+
+## El diseño racional de moléculas con potencial farmacológico.
+
+- El modelo de datos estados: acoplado-desacoplado.
+- La lucha entalpía vs. entropía: Kd y la energía libre de unión.
+- Las implicaciones de la cinética: Kon y Koff.
+
+- Farmacóforos
+- Bolsillos y cavidades.
+- La energía libre de unión absoluta y relativa.
+ 
+##  La simulación de dinámica molecular.
+- [Ruta de desarrollo de contenidos. -TEMPORAL-](Dinámica_Molecular/Ruta.md)
+- Mecánica y dinámica clásica: Posición, Velocidad, Aceleración, Energía Potencial, Fuerza y Trabajo.
+- Mecánica y dinámica clásica: Integradores.
+- Mecánica y dinámica clásica: Determinismo, reversibilidad y conservación del volumen.
+- Mecánica y dinámica clásica: El oscilador harmónico.
+- Mecánica y dinámica clásica: Términos no lineales, sensibilidad a condiciones iniciales y caos.
+- Mecánica y dinámica clásica: ¿Qué no es clásico?
+- [Dinámica Estocástica: Movimiento Browniano.](Dinámica_Molecular/Teoría/Movimiento_Browniano.ipynb)
+- Dinámica Estocástica: Temperatura y Difusión o Fluctuación-Disipación.
+- Dinámica Estocástica: Dinámica de Langevin.
+- Dinámica Estocástica: Integradores estocásticos.
+- Dinámica Estocástica: Principio de equipartición de la energía.
+- Dinámica Estocástica: Oscilador armónico y sistema Orstein-Uhlenbeck.
+- Dinámica Estocástica: Limite termodinámico, Ensemble y reproducibilidad.
+- Mecánica Estadística: Boltzmann.
+- Mecánica Estadística: Entropía de Gibs e interpretación física y cotidiana.
+- Mecánica Estadística: Principio de equipartición desde Boltzmann.
+- Mecánica Estadística: Distribución de velocidades de Maxwell-Boltzmann.
+
+## OpenMM
+
+- Solvente Implicito.
+- Notas.
+
+
+## Recursos Computacionales
+
+### Ixtlilton
+
+- Descripción.
+- Uso.
+
+### Tlaloc
+
+- Descripción.
+- Uso.
+
+## Recursos Experimentales
+
+### ITC
+
+## Glosario de librerias. <a class="anchor" id="Glosario"></a>
+
+- [Mayavi.](Glosario_librerias/Mayavi.md)
+- [MDAnalysis.](Glosario_librerias/MDAnalysis.md)
+- [MDTraj.](Glosario_librerias/MDTraj.md)
+- [Modeller.](Glosario_librerias/Modeller.md)
+- [MolModMT.](Glosario_librerias/MolModMT.md)
+- [NGLView.](Glosario_librerias/NGLView.md)
+- [OpenMM.](Glosario_librerias/OpenMM.md)
+- [OpenMMTools.](Glosario_librerias/OpenMMTools.md)
+- [PDBFixer.](Glosario_librerias/PDBFixer.md)
+- [Pytraj.](Glosario_librerias/Pytraj.md)
+- [YANK.](Glosario_librerias/YANK.md)
 
 # Licencia
 
@@ -212,4 +287,3 @@ Gracias a todos aquellos que de alguna manera ayudan a que este material crezca 
 especial a [aquellos que por su colaboración activa pueden ser considerados autores](https://github.com/uibcdf/Academia/graphs/contributors).
 
 Gracias también a los autores de la documentación y tutoriales citados en este repositorio. Gracias a los colegas que desarrollan las librerías y software que aquí se usan. Y gracisa también a [xkcd (Randall Munroe)](https://www.xkcd.com/) por hacer geniales ilustraciones sobre programación y ciencia, entre otras cosas, y permitir compartirlas libremente.
-
