@@ -1,13 +1,26 @@
-# Cómo usar UIBCDF-Academia.
+<div style='text-align: right;'> <a href="../README.md">Regresar</a> </div>
 
-<p align="center" width="100%">
-    <img width="33%" src="https://imgs.xkcd.com/comics/success.png" >
-</p>
+-----
+<br>
 
----
-`Nota: Si crees que este notebook necesita algún cambio no dudes en contribuir a su desarrollo.`
+<center><img width="33%" src="https://imgs.xkcd.com/comics/success.png"></center>
+<br>
 
----
+# Cómo se usa UIBCDF-Academia.
+
+<div class="alert alert-info" role="alert">
+<strong>Info:</strong> Si crees que este notebook necesita algún cambio no dudes en <a href="../Como_contribuir/Como_contribuir.md" class="alert-link">contribuir a su desarrollo</a>.
+</div>
+
+<div class="alert alert-danger" role="alert">
+<strong>En desarrollo:</strong> 90%.
+</div>
+ 
+<div class="alert alert-warning" role="alert">
+<strong>Nota:</strong> Supondremos que estás usando como sistema operativo una distribución de Linux. Si no es tu caso, los notebooks anteriores y las referencias que encontrarás aquí pueden ayudarte a adaptar el proceso.
+</div>
+
+<br>
 
 Este notebook es una guía de cómo comenzar a trabajar con este repositorio desde cero. Además, puede servirte como introducción en el uso de las herramientas que nos servirán para el trabajo científico en colaboración. Estos son los pasos propuestos con los que acabarás usando tu propia copia de Academia siendo capaz de proponer cambios:
 
@@ -26,8 +39,6 @@ Este notebook es una guía de cómo comenzar a trabajar con este repositorio des
     - [Implementando cambios en el repositorio central](#Implementando-cambios-en-el-repositorio-central)
         - [Si no tienes permisos de edición](#Si-no-tienes-permisos-de-edición)    
         - [Si tienes permisos de edición](#Si-tienes-permisos-de-edición)
-        
-**Nota**: Supondremos que estás usando como sistema operativo una distribución de Linux. Si no es tu caso, los notebooks anteriores y las referencias que encontrarás aquí pueden ayudarte a adaptar el proceso.
 
 ## Configurando Git
 
@@ -112,15 +123,21 @@ ssh-add ~/.ssh/id_rsa
 
 Vayamos ahora a tu sección de configuración de accesos remotos de tu página de GitHub. Dirígete para esto a tu menú 'Settings':
 
+<center>
 <img src="https://help.github.com/assets/images/help/settings/userbar-account-settings.png" width="200">
+</center>
 
 Y accede a la opción del menú lateral izquierdo 'SSH and GPG keys':
 
+<center>
 <img src="https://help.github.com/assets/images/help/settings/settings-sidebar-ssh-keys.png" width="200">
+</center>
 
 Haz click en el botón superior derecho de 'New SSH Key' y nombra la nueva clave con un título que recuerdes alusivo a la máquina que estás registrando ("mi laptop roja", p.ej.):
 
+<center>
 <img src="https://help.github.com/assets/images/help/settings/ssh-add-ssh-key.png" width="400">
+</center>
 
 Ahora vuelve a tu terminal para copiar, fielmente, la clave y pegarla en la correspondiente caja de la configuración en GitHub de dicha clave. Para asegurar que la copia es fiel, podemos hacer uso de un comando como `xclip`. Instálalo si no lo tienes:
 
@@ -136,11 +153,15 @@ xclip -sel clip < ~/.ssh/id_rsa.pub
 
 Vuelve a la web de configuración de claves y pega allí (con el botón derecho del ratón) la clave en la caja llamada "Key".
 
+<center>
 <img src="https://help.github.com/assets/images/help/settings/ssh-key-paste.png" width="200">
+</center>
 
 Ya puedes guardar el registro de tu clave en tu usuario de GitHub:
 
+<center>
 <img src="https://help.github.com/assets/images/help/settings/ssh-add-key.png" width="200">
+</center>
 
 La validación de la conexión ya está hecha. Puedes probarla con el siguiente comando desde tu computadora. GitHub debe de devolverte un mensaje que incluya un saludo con tu nombre de usuario (de GitHub)
 
@@ -318,8 +339,9 @@ Si no tienes pensado participar en la edición del repositorio, puedes saltar la
 Sería muy positivo para el repositorio que nos ayudaras a corregirlo o a mejorarlo incluyendo aquellas cuestiones que has echado de menos. Si no tienes mucha experiencia en el trabajo en colaboración, puedes tomarte este repositorio como una primera experiencia que te ayudará a entender las herramientas y la dinámica de desarrollo de un proyecto en grupo. Para ello, crea tu propio 'fork' del repositorio en tu usuario de GitHub. Espera, si no sabes qué es un 'fork' y cúal es la diferencia con un clon puedes encontrar más información [aquí](https://help.github.com/articles/fork-a-repo/), [aquí](https://github.community/t5/Support-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372) o [aquí](https://stackoverflow.com/questions/6286571/are-git-forks-actually-git-clones) o [aquí](http://www.eqqon.com/index.php/Collaborative_Github_Workflow). Para hacer tu fork acude a la web de Academia en GitHub y haz click en 'fork'.
 
 <br>
-<img src="Como_usar_UIBCDF-Academia_data/fork.png" width="700">
-
+<center>
+<img src="fork.png" width="700">
+</center>
 <br>
 
 Ya puedes acudir a tu página de GitHub y encontrar Academia entre tus repositorios. Ahora, para hacer un clon local de tu fork de Academia. Sustituye en el siguiente comando 'tu-nombre' por tu nombre de usuario en GitHub, y ejecútalo en el directorio en el que quieras ubicarlo, en mi caso mi carpeta '~/Projects':
@@ -371,29 +393,33 @@ ls ~/Projects/Academia
 Es el que aparece en el explorador de ficheros de la ventana lateral izquierda (la puedes hacer aparecer y desaparecer haciendo click en el icono de folder gris):
 
 <br>
-<img src="Como_usar_UIBCDF-Academia_data/navegador_jupyter.png" width="400">
-
+<center>
+<img src="navegador_jupyter.png" width="400">
+</center>
 <br>
 
 Verás que en el explorador aparece el fichero `README.md`. Este es el documento introductorio con tabla de contenidos. Se trata de un fichero de texto plano con sintaxis Markdown. Puedes abrirlo haciendo doble click sobre el y verás el fichero en crudo. Si quieres editarlo, es así como puedes hacerlo. Ahora, si sólo lo queremos visualizarlo, haz click con el botón derecho sobre su `README.md` y selecciona `Open with > Markdown Preview`. 
 
 <br>
-<img src="Como_usar_UIBCDF-Academia_data/view_markdown.png" width="400">
-
+<center>
+<img src="view_markdown.png" width="400">
+</center>
 <br>
 
 Aparecerá una pestaña nueva con el texto interpretado que usaremos como base para navegar por el repositorio:
 
 <br>
-<img src="Como_usar_UIBCDF-Academia_data/readme.png" width="700">
-
+<center>
+<img src="readme.png" width="700">
+</center>
 <br>
 
 Desciende en ese fichero hasta la tabla de contenidos:
 
 <br>
-<img src="Como_usar_UIBCDF-Academia_data/readme_toc.png" width="400">
-
+<center>
+<img src="readme_toc.png" width="400">
+</center>
 <br>
 
 Haz un sólo click con el botón izquierdo sobre el título de la unidad que quieres ver, por ejemplo la que dice "· Programando en Python". Se abrirá el correspondiente Jupyter Notebook con el que podrás jugar de manera local, ya que es una versión situada en tu computadora.
@@ -401,8 +427,9 @@ Haz un sólo click con el botón izquierdo sobre el título de la unidad que qui
 Para comenzar a interaccionar con el notebook, ya que probablemente fue guardado con la salida de la ejecución de sus celdas para poder seguirse en GitHub, reinicia el nucleo (kernel) y borra las salidas:
 
 <br>
-<img src="Como_usar_UIBCDF-Academia_data/restart_kernel.png" width="550">
-
+<center>
+<img src="restart_kernel.png" width="550">
+</center>
 <br>
 
 Ya puedes ejecutar sus celdas con la combinación de teclas 'mayús'+'entrar', modificarlo, añadir nuevas celdas, en definitiva, jugar con él.
@@ -412,22 +439,25 @@ Ya puedes ejecutar sus celdas con la combinación de teclas 'mayús'+'entrar', m
 Jupyter Lab guarda cada poco tiempo los documentos abiertos (notebooks, ficheros de texto, etc.). Puedes activar o desactivar esta opción en el menú superior:
 
 <br>
-<img src="Como_usar_UIBCDF-Academia_data/autosave.png" width="350">
-
+<center>
+<img src="autosave.png" width="350">
+</center>
 <br>
 
 No obstante, puedes decidir guardar los cambios haciendo uso del icono conforma de floppy (nadie los usa ya, pero el icono no pasa de moda):
 
 <br>
-<img src="Como_usar_UIBCDF-Academia_data/save.png" width="350">
-
+<center>
+<img src="save.png" width="350">
+</center>
 <br>
 
 Si por el contrario, estás editando un fichero de texto como por ejemplo el 'README.md'. Tendrás que ir al menú 'File > Save Markdown File':
 
 <br>
-<img src="Como_usar_UIBCDF-Academia_data/save_markdown.png" width="350">
-
+<center>
+<img src="save_markdown.png" width="350">
+</center>
 <br>
 
 **Nota**: Si quieres proponer cambios en un notebook, asegurate de guardarlo con todas las celdas ejecutadas en su orden cronológico para poder servirlo así en el repositorio central. Si es necesario, toma la precaución de reiniciarlo borrando las salidas para volver a ejecutarlo de principio a fin antes de guardarlo.
@@ -437,15 +467,17 @@ Si por el contrario, estás editando un fichero de texto como por ejemplo el 'RE
 Los notebooks de Jupyter, al igual que iPython, necesitan cada uno de ellos un kernel corriendo detrás, como un cerebro que interpreta el notebook y al que le pides que ejecute las celdas y ofrezca su resultado como salida. Puedes guardar si quieres todos los notebooks y documentos que has estado editando, pero recuerda que esto no apaga los kernels. Para ello, antes de cerrar Jupyter Lab, recuerda que hay una sección, a la que puedes acceder clickando en el monito corriendo del menú lateral izquierdo, en el que puedes ver qué kernels están corriendo para cerrarlos:
 
 <br>
-<img src="Como_usar_UIBCDF-Academia_data/kernels.png" width="350">
-
+<center>
+<img src="kernels.png" width="350">
+</center>
 <br>
 
 Ya puedes cerrar Jupyter en el menú 'File > Quit':
 
 <br>
-<img src="Como_usar_UIBCDF-Academia_data/cerrar.png" width="350">
-
+<center>
+<img src="cerrar.png" width="350">
+</center>
 <br>
 
 #### Ayuda
@@ -485,15 +517,17 @@ Para despues hacer el 'Pull Request' haciendo uso de la [web del repositorio de 
 
 
 <br>
-<img src="Como_usar_UIBCDF-Academia_data/pr.png" width="700">
-
+<center>
+<img src="pr.png" width="700">
+</center>
 <br>
 
 Haz click entonces la opción 'compare across forks' en el botón derecho para su comparación con el `master`, y elige tu repositorio y la rama que quieres fusionar con el `master` del repositorio original de Academia:
 
 <br>
-<img src="Como_usar_UIBCDF-Academia_data/choose_fork_branch_pr.png" width="550">
-
+<center>
+<img src="choose_fork_branch_pr.png" width="550">
+</center>
 <br>
 
 Documenta tu PR dando un poco de información sobre los cambios que has realizado para que podamos discutir su aceptación. Tu solicitud será revisada y evaluada por todos su aprobación.
@@ -535,15 +569,17 @@ Para despues hacer el 'Pull Request' haciendo uso de la [web del repositorio de 
 
 
 <br>
-<img src="Como_usar_UIBCDF-Academia_data/pr.png" width="700">
-
+<center>
+<img src="pr.png" width="700">
+</center>
 <br>
 
 Elige entonces tu rama en el botón derecho para su comparación con el `master`:
 
 <br>
-<img src="Como_usar_UIBCDF-Academia_data/choose_branch_pr.png" width="550">
-
+<center>
+<img src="choose_branch_pr.png" width="550">
+</center>
 <br>
 
 Documenta tu PR dando un poco de información sobre los cambios que has realizado, para su aceptación.
@@ -555,7 +591,8 @@ Puedes tener un poco más información sobre este proceso [aquí](https://yangsu
 
 En caso de que necesites más información a propósito de cómo implementar cambios o interaccionar con el repositorio remoto, puedes visitar la unidad de [introducción a GitHub](GitHub.ipynb). Si has tenido algún problema técnico puedes compartirlo con nosotros en [el foro de GitHub del panel de este repositorio](https://github.com/uibcdf/Academia/issues/3), allí centralizamos los problemas y soluciones para que la experiencia se acumule de manera visible para todos.
 
+<br />
 
-```python
+-------
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/uibcdf/Academia">UIBCDF-Academia</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/uibcdf/Academia/graphs/contributors">UIBCDF Lab, autores y colaboradores</a> es material protegido bajo una licencia <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
 
-```
