@@ -1,4 +1,4 @@
-<div style='text-align: right;'> <a href="../README.md">Regresar</a> </div>
+<div style='text-align: right;'> <a href="../README.md#Recursos">Regresar</a> </div>
 
 -----
 

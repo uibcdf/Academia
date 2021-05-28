@@ -6,8 +6,8 @@
 
 # El sistema de control de versiones distribuida.
 
-- [Qué es Git, cómo se instala y cómo se usa.](Control_versiones_distribuida/Git/Git.md) <span style="color:#185927">[100%]</span>
-- [Qué es GitHub y cómo se usa.](Control_versiones_distribuida/GitHub/GitHub.md) <span style="color:#185927">[100%]</span>
+- [Qué es Git, cómo se instala y cómo se usa.](Git/Git.md) <span style="color:#185927">[100%]</span>
+- [Qué es GitHub y cómo se usa.](GitHub/GitHub.md) <span style="color:#185927">[100%]</span>
 
 
 <br />

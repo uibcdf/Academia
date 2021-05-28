@@ -3,23 +3,38 @@
 -----
 <br>
 
-# Buenas prácticas del trabajo en Linux
+# Titulo
 
 <div class="alert alert-info" role="alert">
 <strong>Info:</strong> Si crees que este notebook necesita algún cambio no dudes en <a href="../../../../UIBCDF-Academia/Como_contribuir/Como_contribuir.md" class="alert-link">contribuir a su desarrollo</a>.
 </div>
 
-## Tabla de contenidos
+<div class="alert alert-danger" role="alert">
+<strong>En desarrollo:</strong> ?%.
+</div>
+ 
+<div class="alert alert-warning" role="alert">
+<strong>Nota:</strong> Mensaje en la nota.
+</div>
 
-- [La importancia de los dot files](#dot-files)    
-- [Política de nombres de ficheros](#nombres-ficheros)    
+<br>
+
+XXX
+
+- [Sección 1](#sec-1)    
+- [Sección 2](#sec-2)    
 - [Dudas, problemas técnicos y soluciones](#dudas)
 - [Más recursos útiles](#recursos)
     - [Documentación](#documentacion)
     - [Tutoriales, Webinars y cursos gratuitos](#tutoriales)
 
-## La importancia de los dot files <a class="anchor" id="dot-files"></a>
-## Política de nombres de ficheros <a class="anchor" id="nombres-ficheros"></a>
+## Sección 1 <a class="anchor" id="sec-1"></a>
+
+XXX
+
+## Sección 2 <a class="anchor" id="sec-2"></a>
+
+XXX
 
 ---
 
@@ -35,7 +50,15 @@ Esto era sólo una guía introductoria. Puedes encontrar -o contribuir añadiend
 
 ### Documentación <a class="anchor" id="documentacion"></a>
 
+- XXX
+- XXX
+- XXX
+
 ### Tutoriales, Webinars y cursos gratuitos <a class="anchor" id="tutoriales"></a>
+
+- XXX
+- XXX
+- XXX
 
 <br />
 

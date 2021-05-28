@@ -1,56 +1,70 @@
+<div style='text-align: right;'> <a href="../README.md">Regresar</a> </div>
+
+-----
+<br>
+
+
 <center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png" width="200"></center>
+<br>
 
----
-`Nota: Si crees que este notebook necesita algún cambio no dudes en contribuir a su desarrollo.`
+# Linux
 
----
+Esta introducción del sistema operativo Linux está pensada para aquellos que tienen poco o ningún
+conocimiento previo. Esperamos pueda serte útil.
+
+<div class="alert alert-info" role="alert">
+<strong>Info:</strong> Si crees que este notebook necesita algún cambio no dudes en <a href="../../../../UIBCDF-Academia/Como_contribuir/Como_contribuir.md" class="alert-link">contribuir a su desarrollo</a>.
+</div>
+
 
 ## Tabla de contenidos
 
-* [¿Qué es Linux?](#Que)
-* [¿Por qué Linux?](#Por_que)
-* [Distribuciones de Linux.](#Distribuciones-de-Linux.)
-* [¿Cómo se instala?](#Como)
-   * [Búsqueda de información.](#Busqueda)
-   * [¿USB booteable o CD para la instalación?](#USB_booteable)
-   * [¿Particiones?](#Particiones)
-   * [El sistema de ficheros.](#El-sistema-de-ficheros.)
-   * [La memoria Swap.](#La-memoria-Swap.)
-* [¿Puedo usar además otros sistemas operativos en la misma máquina?](#Otros_SOs)
-   * [Sistemas operativos virtuales.](#Sistemas-operativos-virtuales.)
-   * [Compatibilidad de ficheros.](#Compatibilidad-de-ficheros.)
-   * [Usando una memoria usb compatible con distintos SOs.](#Usando-una-memoria-usb-compatible-con-distintos-SOs.)
-* [La instalación de software.](#Instalacion_software)
-* [La organización de ficheros del sistema Linux.](#organizacion)
-* [Entornos de escritorio.](#Entornos-de-escritorio.)
-* [La terminal y la sintaxis de Bash.](#La-terminal-y-la-sintaxis-de-Bash.)
-   * [La navegación de ficheros.](#navegacion_ficheros)
-   * [Otros comandos útiles en la gestión de ficheros: touch, mv, rm y rmdir.](#mv_rm)
-   * [echo, less y more.](#echo)
-   * [cat y paste para concatenear ficheros.](#cat-y-paste-para-concatenar-ficheros.)
-   * [El reconocimiento y filtrado de texto: grep, awk y sed.](#grep)
-   * [top, ps y kill](#top)
-   * [Ayuda de comandos con man, --help y apropos.](#man)
-   * [Bash como lenguage de programación para la terminal.](#bash)
-      * [Variables.](#Variables.)
-      * [Bucles.](#Bucles.)
-      * [Condicion lógica *if*.](#if)
-      * [Conversión de imágenes encontradas en un directorio.](#convert)
-      * [Listado de ficheros pesados.](#Listado-de-ficheros-pesados.)
-      * [Finalización de un proceso como gatillo para otro.](#gatillo)
-* [Editores de texto.](#Editores-de-texto.)
-* [El script.](#El-script.)
-* [Las extensiones de los archivos.](#Las-extensiones-de-los-archivos.)
-* [Los permisos de los ficheros.](#Los-permisos-de-los-ficheros.)
-* [Los enlaces simbólicos de fichero.](#ln)
-* [Los usuarios y los grupos.](#Los-usuarios-y-los-grupos.)
-* [Root, el superusuario, y sudo.](#sudo)
-* [Los ficheros de configuración de usuario.](#configuracion_usuario)
-* [Las variables de entorno.](#Las-variables-de-entorno.)
-* [SSH y la conexión con otras máquinas.](#ssh)
-* [Nota final.](#Nota-final.)
-
-* [Dudas, problemas técnicos y soluciones.](#dudas)
+- [¿Qué es Linux?](#Que)    
+- [¿Por qué Linux?](#Por_que)    
+- [Distribuciones de Linux](#Distribuciones-de-Linux)    
+- [¿Cómo se instala?](#Como)    
+- [Búsqueda de información](#Busqueda)    
+   - [¿USB booteable o CD para la instalación?](#USB_booteable)    
+   - [¿Particiones?](#Particiones)    
+   - [El sistema de ficheros](#El-sistema-de-ficheros)    
+   - [La memoria Swap](#La-memoria-Swap)    
+- [¿Puedo usar además otros sistemas operativos en la misma máquina?](#Otros_SOs)    
+   - [Sistemas operativos virtuales](#Sistemas-operativos-virtuales)    
+   - [Compatibilidad de ficheros](#Compatibilidad-de-ficheros)    
+   - [Usando una memoria usb compatible con distintos SOs](#Usando-una-memoria-usb-compatible-con-distintos-SOs)    
+- [La instalación de software](#Instalacion_software)    
+- [La organización de ficheros del sistema Linux](#organizacion)
+- [Entornos de escritorio](#Entornos-de-escritorio)
+- [La terminal y la sintaxis de Bash](#La-terminal-y-la-sintaxis-de-Bash)
+   - [La navegación de ficheros](#navegacion_ficheros)
+   - [Otros comandos útiles en la gestión de ficheros: touch, mv, rm y rmdir](#mv_rm)
+   - [echo, less y more](#echo)
+   - [cat y paste para concatenear ficheros](#cat-y-paste-para-concatenar-ficheros)
+   - [El reconocimiento y filtrado de texto: grep, awk y sed](#grep)
+   - [top, ps y kill](#top)
+   - [Ayuda de comandos con man, --help y apropos](#man)
+   - [Bash como lenguage de programación para la terminal](#bash)
+      - [Variables](#Variables)
+      - [Bucles](#Bucles)
+      - [Condicion lógica *if*](#if)
+      - [Conversión de imágenes encontradas en un directorio](#convert)
+      - [Listado de ficheros pesados](#Listado-de-ficheros-pesados)
+      - [Finalización de un proceso como gatillo para otro](#gatillo)
+- [Editores de texto](#Editores-de-texto)
+- [El script](#El-script)
+- [Las extensiones de los archivos](#Las-extensiones-de-los-archivos)
+- [Los permisos de los ficheros](#Los-permisos-de-los-ficheros)
+- [Los enlaces simbólicos de fichero](#ln)
+- [Los usuarios y los grupos](#Los-usuarios-y-los-grupos)
+- [Root, el superusuario, y sudo](#sudo)
+- [Los ficheros de configuración de usuario](#configuracion_usuario)
+- [Las variables de entorno](#Las-variables-de-entorno)
+- [SSH y la conexión con otras máquinas](#ssh)
+- [Nota final](#Nota-final)
+- [Dudas, problemas técnicos y soluciones](#dudas)
+- [Más recursos útiles](#recursos)
+    - [Documentación](#documentacion)
+    - [Tutoriales, Webinars y cursos gratuitos](#tutoriales)
 
 ## ¿Qué es Linux? <a class="anchor" id="Que"></a>
 
@@ -153,7 +167,7 @@ Con respecto a la máquina sobre la que vas a hacer la instalación, casi la ún
 Posiblemente tu máquina venía con un sistema Windows. Puede que quieras usarlo, además del Linux que vas a instalar.
 Para esto puedes comenzar el proceso de instalación de Linux con Windows en tu disco duro. Este proceso guiado te comunicará en un determinado momento que se detectó otro sistema operativo y te ofrecerá la opción de instalar únicamente Linux, borrando todos los datos que hasta entonces se encuentran en tu computadora, o instalar Linux junto con Windows (en otra partición). En el caso de Ubuntu, la correspondiente pantalla del instalador se ve así:
 
-<center><img src="Linux_data/Install-Ubuntu-Alongside-With-Windows.png" width="400"></center>
+<center><img src="Install-Ubuntu-Alongside-With-Windows.png" width="400"></center>
 
 Debes elegir la primera opción, 'Install Ubuntu alongside Windows boot manager'.
 
@@ -165,7 +179,7 @@ En este caso puedes, arrancando la computadora con el USB booteable, reformatear
 
 Este puede ser el caso más sencillo. Arranca la computadora con el USB booteable e inicia el proceso de instalación. Llegado el momento verás que tienes la opción de hacer una instalación únicamente de Linux sobre todo tu disco duro. En este caso el instalador tomará las decisiones de cómo reformatear y particionar el disco. Si estás instalando Ubuntu, esto es lo que verás:
 
-<center><img src="Linux_data/erase-disk-and-install-ubuntu.png" width="400"></center>
+<center><img src="erase-disk-and-install-ubuntu.png" width="400"></center>
 
 Como se indica en la imagen, elige la opción que dice "Erase disk and install Ubuntu". Y continua el proceso de instalación guiada.
 
@@ -1805,18 +1819,18 @@ El contenido de este documento es suficiente para comenzar. Ya sólo queda que a
 
 ---
 
-# Dudas, problemas técnicos y soluciones. <a class="anchor" id="dudas"></a>
+## Dudas, problemas técnicos y soluciones. <a class="anchor" id="dudas"></a>
 
 Para centralizar esas dudas, sugerencias o soluciones técnicas sobre el tema de este notebook, haz uso del siguiente canal:
 
 [Foro Técnico: Linux](https://github.com/uibcdf/Academia/issues/9)
 
 
-## Más recursos útiles 
+## Más recursos útiles <a class="anchor" id="recursos"></a>
 
-Esto era sólo una guia introductoria. No es funcional documentarse o estudiar mucho sin antes comenzar a usar el sistema operativo Linux. Aprenderás de manera más solida si con el uso te van surgiendo necesidades a las que vas dando solución poco a poco. Pero si la computadora es tu herramienta de trabajo, es tu deber conocerla. Puedes encontrar -o contribuir añadiendo- más información útil en el siguiente listado.
+Esto era sólo una guia introductoria. No es funcional documentarse o estudiar mucho sin antes comenzar a usar el sistema operativo Linux. Aprenderás de manera más solida si con el uso te van surgiendo necesidades a las que vas dando solución poco a poco. Si la computadora es tu herramienta de trabajo, es tu deber conocerla. Puedes encontrar -o contribuir añadiendo- más información útil en el siguiente listado.
 
-### Documentación
+### Documentación <a class="anchor" id="documentacion"></a>
 https://en.wikipedia.org/wiki/List_of_Linux_distributions    
 https://www.linux.com/    
 https://www.linux.com/what-is-linux    
@@ -1827,8 +1841,13 @@ https://www.tldp.org/LDP/intro-linux/html/index.html
 https://www.linux.com/blog/learn/intro-to-linux/2018/4/linux-filesystem-explained   
 https://www.tecmint.com/linux-file-system-explained/   
 
-### Tutoriales y cursos gratuitos
+### Tutoriales, Webinars y cursos gratuitos <a class="anchor" id="tutoriales"></a>
 http://swcarpentry.github.io/shell-novice-es/    
 http://swcarpentry.github.io/shell-novice/    
 
-### Webinars
+
+<br />
+
+-------
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/uibcdf/Academia">UIBCDF-Academia</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/uibcdf/Academia/graphs/contributors">UIBCDF Lab, autores y colaboradores</a> es material protegido bajo una licencia <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+

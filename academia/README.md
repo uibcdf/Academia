@@ -4,7 +4,7 @@
 
 <br>
 
-# UIBCDF-Academia: Qué es, cómo se usa y cómo contribuir
+# UIBCDF-Academia: Qué es, cómo se usa y cómo contribuir <a class="anchor" id="UIBCDF-Academia"></a>
 
 <div class="alert alert-danger" role="alert">
 <strong>En desarrollo:</strong> 33%.
@@ -16,7 +16,7 @@ Introducción al repositorio UIBCDF-Academia e instrucciones de uso para usuario
 
 <br>
 
-# El laboratorio computacional de investigación.
+# El laboratorio computacional de investigación <a class="anchor" id="Laboratorio-computacional"></a>
 
 <div class="alert alert-danger" role="alert">
 <strong>En desarrollo:</strong> ?%.
@@ -30,7 +30,7 @@ y de investigación de cualquier propósito.
 
 <br>
 
-# Mecánica estadística y procesos estocásticos.
+# Mecánica estadística y procesos estocásticos <a class="anchor" id="Mecanica-estadistica"></a>
 
 <div class="alert alert-danger" role="alert">
 <strong>En desarrollo:</strong> ?%.
@@ -44,7 +44,7 @@ el diseño de moléculas con potencial farmacológico.
 
 <br>
 
-# Modelado y simulación molecular.
+# Modelado y simulación molecular <a class="anchor" id="Modelado-simulacion"></a>
 
 <div class="alert alert-danger" role="alert">
 <strong>En desarrollo:</strong> ?%.
@@ -56,7 +56,7 @@ Introducción a los modelos moleculares y su simulación.
 
 <br>
 
-## El diseño racional de moléculas con potencial farmacológico.
+## El diseño racional de moléculas con potencial farmacológico <a class="anchor" id="Diseño-racional"></a>
 
 <div class="alert alert-danger" role="alert">
 <strong>En desarrollo:</strong> ?%.
@@ -66,7 +66,7 @@ Introducción a los modelos moleculares y su simulación.
 
 <br>
 
-## Recursos de la UIBCDF
+## Recursos de la UIBCDF <a class="anchor" id="Recursos"></a>
 
 <div class="alert alert-danger" role="alert">
 <strong>En desarrollo:</strong> ?%.
@@ -78,7 +78,7 @@ Descripción y pautas de uso de los recursos experimentales y computacionales de
 
 <br>
 
-# Glosario de librerías
+# Glosario de librerías <a class="anchor" id="Glosario"></a>
 
 <div class="alert alert-danger" role="alert">
 <strong>En desarrollo:</strong> ?%.
