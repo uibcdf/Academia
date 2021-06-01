@@ -3,7 +3,9 @@
 -----
 <br>
 
-<center><img width="33%" src="https://imgs.xkcd.com/comics/success.png"></center>
+<!-- <center><img width="33%" src="https://imgs.xkcd.com/comics/success.png"></center> -->
+
+<center><img width="66%" src="https://imgs.xkcd.com/comics/manuals.png"></center>
 <br>
 
 # Cómo se usa UIBCDF-Academia.
