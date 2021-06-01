@@ -24,23 +24,34 @@
 
 Este notebook es una guía de cómo comenzar a trabajar con este repositorio desde cero. Además, puede servirte como introducción en el uso de las herramientas que nos servirán para el trabajo científico en colaboración. Estos son los pasos propuestos con los que acabarás usando tu propia copia de Academia siendo capaz de proponer cambios:
 
-- [Configurando Git](#Configurando-Git)
-- [Configurando GitHub](#Configurando-GitHub)
-- [Creando el entorno de trabajo con Conda](#Creando-el-entorno-de-trabajo-con-Conda)
-- [El repositorio Academia](#El-repositorio-Academia)
-    - [Si sólo quieres leerlo](#Si-sólo-quieres-leerlo)
-    - [Si además quieres jugar con los notebooks en tu computadora](#Si-además-quieres-jugar-con-los-notebooks-en-tu-computadora)
-    - [Si además quieres participar y no tienes permisos de edición](#Si-además-quieres-participar-y-no-tienes-permisos-de-edición)
-    - [Si además quieres participar y tienes permisos de edición](#Si-además-quieres-participar-y-tienes-permisos-de-edición)
-- [Jugando con el repositorio y sus notebooks](#Jugando-con-el-repositorio-y-sus-notebooks)
-    - [Leyendo y ejecutando los contenidos](#Leyendo-y-ejecutando-los-contenidos)
-    - [Guardando cambios en tus notebooks](#Guardando-cambios-en-tus-notebooks)
-    - [Cerrando Jupyter Lab](#Cerrando-Jupyter-Lab)
-    - [Implementando cambios en el repositorio central](#Implementando-cambios-en-el-repositorio-central)
-        - [Si no tienes permisos de edición](#Si-no-tienes-permisos-de-edición)    
-        - [Si tienes permisos de edición](#Si-tienes-permisos-de-edición)
+- [El repositorio de UIBCDF-Academia en GitHub]()
+- [Interactuando con UIBCDF-Academia en Binder]()
+- [Interactuando con tu copia local de UIBCDF-Academia]()
+   - [Configurando Git](#Configurando-Git)
+   - [Configurando GitHub](#Configurando-GitHub)
+   - [Creando el entorno de trabajo con Conda](#Creando-el-entorno-de-trabajo-con-Conda)
+   - [El repositorio Academia](#El-repositorio-Academia)
+      - [Si sólo quieres leerlo](#Si-sólo-quieres-leerlo)
+      - [Si además quieres jugar con los notebooks en tu computadora](#Si-además-quieres-jugar-con-los-notebooks-en-tu-computadora)
+      - [Si además quieres participar y no tienes permisos de edición](#Si-además-quieres-participar-y-no-tienes-permisos-de-edición)
+      - [Si además quieres participar y tienes permisos de edición](#Si-además-quieres-participar-y-tienes-permisos-de-edición)
+   - [Jugando con el repositorio y sus notebooks](#Jugando-con-el-repositorio-y-sus-notebooks)
+      - [Leyendo y ejecutando los contenidos](#Leyendo-y-ejecutando-los-contenidos)
+      - [Guardando cambios en tus notebooks](#Guardando-cambios-en-tus-notebooks)
+      - [Cerrando Jupyter Lab](#Cerrando-Jupyter-Lab)
+      - [Implementando cambios en el repositorio central](#Implementando-cambios-en-el-repositorio-central)
+          - [Si no tienes permisos de edición](#Si-no-tienes-permisos-de-edición)    
+          - [Si tienes permisos de edición](#Si-tienes-permisos-de-edición)
 
-## Configurando Git
+## El repositorio de UIBCDF-Academia en GitHub
+
+## Interactuando con UIBCDF-Academia en Binder
+
+https://mybinder.org/v2/gh/uibcdf/Academia/master?urlpath=lab
+
+## Interactuando con tu copia local de UIBCDF-Academia
+
+### Configurando Git
 
 Es muy posible que Git ya esté instalado en tu sistema operativo. Si este no es el caso, puedes encontrar indicaciones para instalarlo en [la unidad de este repositorio a propósito de este controlador de versiones](Git.ipynb). No obstante, podemos recordar que en el caso de trabajar con la distribución de Ubunto de Linux, basta el comando:
 
