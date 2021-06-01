@@ -64,10 +64,12 @@ en la parte superior de este documento. Y deja
   que se cargue.
 - Haz click con el botón derecho sobre el archivo "README.md" -barra
 de archivos a la izquierda de la pantalla- y selecciona en el menú desplegado "Open With > Markdown Preview".
-- Verás la copia de este documento en tu recien estrenado servidor remoto de [Jupyter lab](academia/Laboratorio_computacional/Herramientas/Jupyter/README.md) en [Binder](https://mybinder.org/). Ya puedes
-  allí ir a la sección [Tabla de contenidos](#Tabla-de-contenidos) y seguir su enlace.
+- Verás la copia de este documento en tu recien estrenado servidor remoto de [Jupyter
+  lab](academia/Laboratorio_computacional/Herramientas/Jupyter/README.md) en
+[Binder](https://mybinder.org/). Continua por allí su lectura, esa versión será a partir de ahora tu página
+principal de UIBCDF-Academia.
 
-### Quiero interaccionar con mi propia copia local de UIBCDF-Academia <a class="anchor" id="Uso-mas-activo"></a>
+### Quiero interaccionar con mi propia copia local de UIBCDF-Academia
 
 Eres atrevida o atrevido y quieres comenzar configurando tu propio entorno en el que interaccionar
 tu copia local de UIBCDF-Academia. Enhorabuena por ese ímpetu. Te sugerimos entonces que saltes al
@@ -86,7 +88,7 @@ proyecto](https://github.com/uibcdf/Academia/graphs/contributors).
 
 ## Una recomendación final
 
-La mejor actitud que debes tener para comenzar a ser un científico computólogo se resume perfectamente en la siguiente ilustración de [xkcd (Randall Munroe)](https://www.xkcd.com/):
+La mejor actitud que debes tener para comenzar a ser un científico capaz de usar herramientas computacionales se resume perfectamente en la siguiente ilustración de [xkcd (Randall Munroe)](https://www.xkcd.com/):
 
 <br>
 <center>
@@ -101,14 +103,14 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 ## Tabla de contenidos
 
 Independientemente de [cómo vayas a usar UIBCDF-Academia](academia/UIBCDF-Academia/Como_se_usa/Como_se_usa.md), puedes acceder desde ahora mismo a la primera
-tabla de contenidos de este repositorio. Recuerda, si lo estás haciendo desde la web principal del
-repositorio en GitHub únicamente podrás visualizar su contenido. Si lo estás haciendo desde Binder o desde tu propia copia local, podrás interaccionar con él.
+tabla de contenidos de este repositorio. Recuerda, si lo estás haciendo desde [la web principal del
+repositorio en GitHub](https://github.com/uibcdf/Academia) únicamente podrás visualizar su contenido. Si lo estás haciendo desde [Binder](https://mybinder.org/v2/gh/uibcdf/Academia/master?urlpath=lab) o desde [tu propia copia local](academia/UIBCDF-Academia/Como_se_usa/Como_se_usa.md), podrás interaccionar con él.
 
 [Ir a la tabla de contenidos](academia/README.md)
 
 # Agradecimientos
 
-Gracias a todos aquellos que de alguna manera ayudan a que este material crezca y sea util. En
+Gracias a todos aquellos que de alguna manera ayudan a que este material crezca y sea útil. En
 especial a [aquellos que por su colaboración activa pueden ser considerados autores o colaboradores](https://github.com/uibcdf/Academia/graphs/contributors).
 
 Gracias también a los autores de la documentación y tutoriales citados en este repositorio. Gracias a los colegas que desarrollan las librerías de código abierto y software libre que aquí se usan. Y gracias también a [xkcd (Randall Munroe)](https://www.xkcd.com/) por hacer geniales ilustraciones sobre programación y ciencia, entre otras cosas, y permitir compartirlas libremente.
