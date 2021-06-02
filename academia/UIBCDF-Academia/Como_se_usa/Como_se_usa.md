@@ -1,11 +1,15 @@
-<div style='text-align: right;'> <a href="../README.md">Regresar</a> </div>
+<p style="text-align:left;">
+   <a href="../README.md">Ir al menú anterior</a>
+   <span style="float:right;">
+        <a href="../Que_es/Que_es.md">Regresar</a>
+   </span>
+</p>
 
 -----
 <br>
 
-<!-- <center><img width="33%" src="https://imgs.xkcd.com/comics/success.png"></center> -->
+<center><img width="60%" src="https://imgs.xkcd.com/comics/manuals.png"></center>
 
-<center><img width="66%" src="https://imgs.xkcd.com/comics/manuals.png"></center>
 <br>
 
 # Cómo se usa UIBCDF-Academia.
@@ -15,54 +19,111 @@
 </div>
 
 <div class="alert alert-danger" role="alert">
-<strong>En desarrollo:</strong> 90%.
-</div>
- 
-<div class="alert alert-warning" role="alert">
-<strong>Nota:</strong> Supondremos que estás usando como sistema operativo una distribución de Linux. Si no es tu caso, los notebooks anteriores y las referencias que encontrarás aquí pueden ayudarte a adaptar el proceso.
+<strong>En desarrollo:</strong> ?%.
 </div>
 
 <br>
 
-Es material para comenzar:
+Antes de encontrar una respuesta a cómo se usa UIBCDF-Academia, te recordamos, como se explica en la sección [¿Qué es UIBCDF-Academia?](../Que_es/Que_es.md), que este repositorio **no pretende ser una guía completa sino un punto de partida para cada uno de los temas y conceptos que recoge**. Si eres un estudiante, o un colaborador de la UIBCDF, encontrarás aquí muchas pautas para comenzar a trabajar con nosotros; así como un repositorio que centraliza dudas y respuestas sobre los conceptos y herramientas del día a día del desarrollo de nuestros proyectos. Si por el contrario eres una persona ajena a la UIBCDF pero vas a comenzar a trabajar con alguno de los conceptos introducidos en este repositorio, eres más que bienvenido a hacer uso de UIBCDF-Academia como uno más del equipo. En ambos casos te exhortamos, de nuevo, a que te tomes UIBCDF-Academia como una introducción, en un formato accesible, a conceptos casi siempre complejos. Sin pretender abrumar, ni con la descripción exhaustiva del panorama completo, ni con excesivos detalles. Eso sí, debes ser consciente, y es tu responsabilidad como investigador, de que tras tener una idea preliminar y general del concepto en cuestión debes profundizar. Pero ese es tu trabajo...
 
 <br>
 <center>
-<img src="https://imgs.xkcd.com/comics/focus_knob.png" width="500">
+<img src="https://imgs.xkcd.com/comics/focus_knob.png" width="33%">
 </center>
 <br>
 
+A continuación encontrarás una guía sobre cómo comenzar a trabajar con UIBCDF-Academia. Es posible que no tengas muchos conocimientos previos sobre qué es un repositorio en GitHub o qué es Jupyter lab. No te preocupes. Si te animas, esta unidad puede servirte también como primera introducción al uso de ciertas herramientas propias de un laboratorio computacional que te servirán para el trabajo científico en colaboración. 
 
-Este notebook es una guía de cómo comenzar a trabajar con este repositorio desde cero. Además, puede servirte como introducción en el uso de las herramientas que nos servirán para el trabajo científico en colaboración. Estos son los pasos propuestos con los que acabarás usando tu propia copia de Academia siendo capaz de proponer cambios:
+Estos son los contenidos que encontrarás en adelante.
 
-- [El repositorio de UIBCDF-Academia en GitHub]()
-- [Interactuando con UIBCDF-Academia en Binder]()
-- [Interactuando con tu copia local de UIBCDF-Academia]()
-   - [Configurando Git](#Configurando-Git)
-   - [Configurando GitHub](#Configurando-GitHub)
-   - [Creando el entorno de trabajo con Conda](#Creando-el-entorno-de-trabajo-con-Conda)
-   - [El repositorio Academia](#El-repositorio-Academia)
-      - [Si sólo quieres leerlo](#Si-sólo-quieres-leerlo)
-      - [Si además quieres jugar con los notebooks en tu computadora](#Si-además-quieres-jugar-con-los-notebooks-en-tu-computadora)
-      - [Si además quieres participar y no tienes permisos de edición](#Si-además-quieres-participar-y-no-tienes-permisos-de-edición)
-      - [Si además quieres participar y tienes permisos de edición](#Si-además-quieres-participar-y-tienes-permisos-de-edición)
-   - [Jugando con el repositorio y sus notebooks](#Jugando-con-el-repositorio-y-sus-notebooks)
-      - [Leyendo y ejecutando los contenidos](#Leyendo-y-ejecutando-los-contenidos)
-      - [Guardando cambios en tus notebooks](#Guardando-cambios-en-tus-notebooks)
-      - [Cerrando Jupyter Lab](#Cerrando-Jupyter-Lab)
-      - [Implementando cambios en el repositorio central](#Implementando-cambios-en-el-repositorio-central)
-          - [Si no tienes permisos de edición](#Si-no-tienes-permisos-de-edición)    
-          - [Si tienes permisos de edición](#Si-tienes-permisos-de-edición)
+- [Los elementos de UIBCDF-Academia]()
+   - [Las unidades de UIBCDF-Academia y su navegación]()
+      - [Las cajas de alerta](#Las-cajas-de-alerta)
+   - [La interacción mediante el tablón de cuestiones y las discusiones]()
+- [Únicamente quiero leer el contenido de UIBCDF-Academia]()
+- [Quiero interactuar con las unidades de UIBCDF-Academia con la ayuda de [Binder](https://mybinder.org)]()
+- [Quiero trabajar con mi propia copia local de UIBCDF-Academia]()
+   - [El repositorio de UIBCDF-Academia en GitHub]()
+   - [Interactuando con UIBCDF-Academia en Binder]()
+   - [Interactuando con tu copia local de UIBCDF-Academia]()
+      - [Configurando Git](#Configurando-Git)
+      - [Configurando GitHub](#Configurando-GitHub)
+      - [Creando el entorno de trabajo con Conda](#Creando-el-entorno-de-trabajo-con-Conda)
+      - [El repositorio Academia](#El-repositorio-Academia)
+         - [Si sólo quieres leerlo](#Si-sólo-quieres-leerlo)
+         - [Si además quieres jugar con los notebooks en tu computadora](#Si-además-quieres-jugar-con-los-notebooks-en-tu-computadora)
+         - [Si además quieres participar y no tienes permisos de edición](#Si-además-quieres-participar-y-no-tienes-permisos-de-edición)
+         - [Si además quieres participar y tienes permisos de edición](#Si-además-quieres-participar-y-tienes-permisos-de-edición)
+      - [Jugando con el repositorio y sus notebooks](#Jugando-con-el-repositorio-y-sus-notebooks)
+         - [Leyendo y ejecutando los contenidos](#Leyendo-y-ejecutando-los-contenidos)
+         - [Guardando cambios en tus notebooks](#Guardando-cambios-en-tus-notebooks)
+         - [Cerrando Jupyter Lab](#Cerrando-Jupyter-Lab)
+         - [Implementando cambios en el repositorio central](#Implementando-cambios-en-el-repositorio-central)
+             - [Si no tienes permisos de edición](#Si-no-tienes-permisos-de-edición)    
+             - [Si tienes permisos de edición](#Si-tienes-permisos-de-edición)
+- [Quiero contribuir a desarrollar UIBCDF-Academia]()
 
-## El repositorio de UIBCDF-Academia en GitHub
+Comencemos por describir los distintos elementos de UIBCDF-Academia atendiendo a sus funciones.
 
-## Interactuando con UIBCDF-Academia en Binder
+## Los elementos de UIBCDF-Academia
+
+### Las unidades de UIBCDF-Academia y su navegación
+
+#### Las cajas de alerta
+
+A lo largo de las unidades verás cajas de alerta de cuatro colores: azul, rojo, amarillo y verde.
+
+##### Caja de información
+
+<div class="alert alert-info" role="alert">
+<strong>Info:</strong> En esta caja encontrarás información adicional sobre la unidad o el contenido de la sección en la que se encuentra</a>.
+</div>
+
+##### Caja de porcentaje de progreso
+
+<div class="alert alert-danger" role="alert">
+<strong>En desarrollo:</strong> En esta caja encontrarás el porcentaje de progreso de la unidad si
+es que se encuentra en desarrollo.
+</div>
+
+##### Caja de atención
+ 
+<div class="alert alert-warning" role="alert">
+<strong>Atención:</strong> En esta caja encontrarás mensajes de advertencia sobre algo que requiere
+tu atención.
+</div>
+
+##### Caja de ayuda
+  
+<div class="alert alert-success" role="alert">
+<strong>Ayuda:</strong> Supondremos que estás usando como sistema operativo una distribución de Linux. Si no es tu caso, los notebooks anteriores y las referencias que encontrarás aquí pueden ayudarte a adaptar el proceso.
+</div>
+
+
+### La interacción mediante el tablón de cuestiones y las discusiones
+
+## Únicamente quiero leer el contenido de UIBCDF-Academia
+
+## Quiero interactuar con las unidades de UIBCDF-Academia con la ayuda de [Binder](https://mybinder.org)
+
+## Quiero trabajar con mi propia copia local de UIBCDF-Academia
+ 
+
+### El repositorio de UIBCDF-Academia en GitHub
+
+### Interactuando con UIBCDF-Academia en Binder
 
 https://mybinder.org/v2/gh/uibcdf/Academia/master?urlpath=lab
 
-## Interactuando con tu copia local de UIBCDF-Academia
+### Interactuando con tu copia local de UIBCDF-Academia
+ 
+<div class="alert alert-warning" role="alert">
+<strong>Atención:</strong> Supondremos que estás usando como sistema operativo una distribución de Linux. Si no es tu caso, los notebooks anteriores y las referencias que encontrarás aquí pueden ayudarte a adaptar el proceso.
+</div>
 
-### Configurando Git
+
+<!-- <center><img width="33%" src="https://imgs.xkcd.com/comics/success.png"></center> -->
+#### Configurando Git
 
 Es muy posible que Git ya esté instalado en tu sistema operativo. Si este no es el caso, puedes encontrar indicaciones para instalarlo en [la unidad de este repositorio a propósito de este controlador de versiones](Git.ipynb). No obstante, podemos recordar que en el caso de trabajar con la distribución de Ubunto de Linux, basta el comando:
 
@@ -90,10 +151,15 @@ more ~/.gitconfig
 ```
 
 #### Ayuda
+ 
+<div class="alert alert-success" role="alert">
+<strong>Ayuda:</strong> Supondremos que estás usando como sistema operativo una distribución de Linux. Si no es tu caso, los notebooks anteriores y las referencias que encontrarás aquí pueden ayudarte a adaptar el proceso.
+</div>
+
 
 En caso de que necesites más información, puedes visitar la unidad de [introducción a Git](Git.ipynb). Si has tenido algún problema técnico puedes compartirlo con nosotros en [el foro de Git del panel de este repositorio](https://github.com/uibcdf/Academia/issues/1), allí centralizamos los problemas y soluciones para que la experiencia se acumule de manera visible para todos.
 
-## Configurando GitHub
+### Configurando GitHub
 
 Para hacer uso de este repositorio, y aprender con él, no es estrictamente necesario contar con una cuenta en GitHub. Si quieres participar de manera activa consultando o respondiendo dudas en el panel ("Issue board"), o quieres contribuir a su desarrollo implementando cambios, correcciones o material nuevo, tienes que disponer de una cuenta (el perfil de usuario ofrecido por GitHub sin coste es suficiente).
 
@@ -203,7 +269,7 @@ Hi TuUsuarioGitHub! You've successfully authenticated, but GitHub does not provi
 
 En caso de que necesites más información, puedes visitar la unidad de [introducción a GitHub](GitHub.ipynb). Si has tenido algún problema técnico puedes compartirlo con nosotros en [el foro de GitHub del panel de este repositorio](https://github.com/uibcdf/Academia/issues/3), allí centralizamos los problemas y soluciones para que la experiencia se acumule de manera visible para todos.
 
-## Creando el entorno de trabajo con Conda
+### Creando el entorno de trabajo con Conda
 
 Es una buena práctica generar un entorno de python con Conda en el que instalar las librerías necesarias para desarrollar un determinado proyecto. En este caso vamos a crear un entorno que llamaremos `academia` que usaremos para instalar las librerías necesarias para hacer uso de este repositorio.
 
@@ -335,15 +401,15 @@ source deactivate
 
 En caso de que necesites más información, puedes visitar la unidad de [introducción a Conda](Conda.ipynb). Si has tenido algún problema técnico puedes compartirlo con nosotros en [el foro de Conda del panel de este repositorio](https://github.com/uibcdf/Academia/issues/6), allí centralizamos los problemas y soluciones para que la experiencia se acumule de manera visible para todos.
 
-## El repositorio Academia
+### El repositorio Academia
 
-### Si sólo quieres leerlo
+#### Si sólo quieres leerlo
 
 Si sólo quieres leer el contenido del repositorio, basta con que navegues por sus unidades haciendo uso del [documento introductorio `README.md` que puedes ver en el repositorio central](https://github.com/uibcdf/Academia/blob/master/README.md). GitHub permite visualizar el contenido de un Jupyter Notebook de una manera pasiva. Es por este motivo que intentaremos, en la medida de lo posible, guardar siempre las unidades en GitHub con la salida de la ejecución de sus celdas. Para que puedas verlos para consulta sin necesidad de operar con ellos.
 
 Otro comentario pertinente es que si sólo quieres leer y actuar de manera pasiva, muy respetable, no era necesario la instalación de git, conda, la creación del usuario de GitHub, etc. Pero te aconsejamos que, para que el aprendizaje se parezca más a una experiencia de trabajo, decidas usar el repositorio al menos como se propone en la siguiente subsección.
 
-### Si además quieres jugar con los notebooks en tu computadora
+#### Si además quieres jugar con los notebooks en tu computadora
 
 A caminar se aprende caminando. Es por eso que el formato que ofrece Jupyter Notebook para, entre otras cosas, desarrollar material didáctico, es idea. No sólo puedes leer el contenido de las unidades, si no que puedes ejectuar el código, modificarlo, introducir nuevas celdas para probar a crear tus nuevos ejemplos, etc. Es importante entonces que puedas ejecutar una copia de este repositorio en tu computadora. Tiene sentido entonces que hayas llegado hasta aquí en la lectura y realización de esta guía de uso.
 
@@ -356,7 +422,7 @@ git clone https://github.com/uibcdf/Academia.git
 
 Si no tienes pensado participar en la edición del repositorio, puedes saltar las siguientes subsecciones y seguir en [Jugando con el repositorio Academia y sus notebooks](#Jugando-con-el-repositorio-Academia-y-sus-notebooks).
 
-### Si además quieres participar y no tienes permisos de edición
+#### Si además quieres participar y no tienes permisos de edición
 
 Sería muy positivo para el repositorio que nos ayudaras a corregirlo o a mejorarlo incluyendo aquellas cuestiones que has echado de menos. Si no tienes mucha experiencia en el trabajo en colaboración, puedes tomarte este repositorio como una primera experiencia que te ayudará a entender las herramientas y la dinámica de desarrollo de un proyecto en grupo. Para ello, crea tu propio 'fork' del repositorio en tu usuario de GitHub. Espera, si no sabes qué es un 'fork' y cúal es la diferencia con un clon puedes encontrar más información [aquí](https://help.github.com/articles/fork-a-repo/), [aquí](https://github.community/t5/Support-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372) o [aquí](https://stackoverflow.com/questions/6286571/are-git-forks-actually-git-clones) o [aquí](http://www.eqqon.com/index.php/Collaborative_Github_Workflow). Para hacer tu fork acude a la web de Academia en GitHub y haz click en 'fork'.
 
@@ -506,112 +572,6 @@ Ya puedes cerrar Jupyter en el menú 'File > Quit':
 
 En caso de que necesites más información sobre el uso de Jupyter Lab, puedes visitar la unidad de [introducción a Jupyter](Jupyter.ipynb). Si has tenido algún problema técnico puedes compartirlo con nosotros en [el foro de Jupyter del panel de este repositorio](https://github.com/uibcdf/Academia/issues/7), allí centralizamos los problemas y soluciones para que la experiencia se acumule de manera visible para todos.
 
-## Implementando cambios en el repositorio central
-
-Supongamos que has detectado un error y lo quieres corregir, o consideras que la explicación no es clara, quieres añadir un párrafo, o conoces documentación o tutoriales que quieres compartir en la lista del final de un notebook. Edita lo que quieras en el notebook y cuando consideres que está listo reinicialo y ejecútalo de principio a fin. Despúes compromete los cambios y haz un 'Pull Request' (PR en la jerga de Git). Veamos esto paso a paso.
-
-### Si no tienes permisos de edición
-
-En este caso lo más probable es que hayas decidido hacer tu propio fork del repositorio. En ese caso puedes recurrir a la página web de github de tu fork, o puedes solicitar el 'Pull Request' haciendo uso de la [web del repositorio de academia](https://github.com/uibcdf/Academia).
-
-Antes, asegurate de ciertas cosas. Si has estado jugando con tu fork de Academia necesitamos que los cambios relativos a tus pruebas de aprendizaje no estén entre la lista de modificaciones que vas a compartir. Es muy conveniente que hayas estado jugando en una rama creada para tal propósito, o que si has estado modificando 'master' deshagas los cambios que no quieres compartir. Si tienes el 'master' limpio y actualizado, te sugerimos que hagas una nueva rama y la empujes a tu fork central de GitHub.
-
-Con el `master` del clon local de tu fork limpio crea una rama para tu modificación o modificaciones:
-
-```bash
-git checkout -b nombre_de_la_rama # usa un nombre que la identifique
-```
-
-Ahora empuja tu rama a tu repositorio del fork:
-
-```bash
-git push origin nombre_de_la_rama
-```
-
-Ya puedes en local hacer los cambios que quieres subir y comprometerlos en esa rama:
-
-```bash
-git commit -a -m 'descripción breve de cambios'
-git push origin nombre_de_la_rama
-```
-
-Para despues hacer el 'Pull Request' haciendo uso de la [web del repositorio de academia](https://github.com/uibcdf/Academia). Haz click en 'New Pull Request':
-
-
-<br>
-<center>
-<img src="pr.png" width="700">
-</center>
-<br>
-
-Haz click entonces la opción 'compare across forks' en el botón derecho para su comparación con el `master`, y elige tu repositorio y la rama que quieres fusionar con el `master` del repositorio original de Academia:
-
-<br>
-<center>
-<img src="choose_fork_branch_pr.png" width="550">
-</center>
-<br>
-
-Documenta tu PR dando un poco de información sobre los cambios que has realizado para que podamos discutir su aceptación. Tu solicitud será revisada y evaluada por todos su aprobación.
-
-Puedes tener un poco más información sobre este proceso [aquí](https://help.github.com/articles/creating-a-pull-request/).
-
-### Si tienes permisos de edición
-
-En este caso, si optaste por hacer un 'fork' del repositorio central en tu usuario, la sección anterior describe el procedimiento más adecuado para hacer un 'Pull Request' (PR en la jerga de Git).
-
-Si en lugar de eso hiciste un clon del repositorio de Academia en el grupo UIBCDF de Github y has estado jugando con tu clon local necesitamos que los cambios relativos a tus pruebas no estén entre la lista de modificaciones que vas a compartir. Deshaz los cambios, pídele a git que vuelva a la versión original, o directamente haz un nuevo clon donde tu quieras:
-
-```bash
-cd ~/Projects/
-git clone git@github.com:uibcdf/Academia Academia_limpia
-cd Academia_limpia
-```
-
-Con el clon limpio crea una rama para tu modificación o modificaciones:
-
-```bash
-git checkout -b nombre_de_la_rama # usa un nombre que la identifique
-```
-
-Ahora empuja tu rama al repositorio central:
-
-```bash
-git push origin nombre_de_la_rama
-```
-
-Ya puedes en local hacer los cambios que quieres subir y comprometerlos en esa rama:
-
-```bash
-git commit -a -m 'descripción breve de cambios'
-git push origin nombre_de_la_rama
-```
-
-Para despues hacer el 'Pull Request' haciendo uso de la [web del repositorio de academia](https://github.com/uibcdf/Academia). Haz click en 'New Pull Request':
-
-
-<br>
-<center>
-<img src="pr.png" width="700">
-</center>
-<br>
-
-Elige entonces tu rama en el botón derecho para su comparación con el `master`:
-
-<br>
-<center>
-<img src="choose_branch_pr.png" width="550">
-</center>
-<br>
-
-Documenta tu PR dando un poco de información sobre los cambios que has realizado, para su aceptación.
-Tu solicitud será vista y discutida por todos hasta su aprobación.
-
-Puedes tener un poco más información sobre este proceso [aquí](https://yangsu.github.io/pull-request-tutorial/) o [aquí](https://help.github.com/articles/creating-a-pull-request/).
-
-#### Ayuda
-
-En caso de que necesites más información a propósito de cómo implementar cambios o interaccionar con el repositorio remoto, puedes visitar la unidad de [introducción a GitHub](GitHub.ipynb). Si has tenido algún problema técnico puedes compartirlo con nosotros en [el foro de GitHub del panel de este repositorio](https://github.com/uibcdf/Academia/issues/3), allí centralizamos los problemas y soluciones para que la experiencia se acumule de manera visible para todos.
 
 <br />
 

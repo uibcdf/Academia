@@ -51,7 +51,7 @@ en GitHub](https://github.com/uibcdf/Academia). No necesitas conocimientos espec
 unidades será el enlace que puedes encontrar en la sección [Tabla de
 contenidos](#Tabla-de-contenidos) de este documento.
 
-### Quiero interaccionar con UIBCDF-Academia con la ayuda de [Binder](https://mybinder.org/)
+### Quiero interactuar con las unidades de UIBCDF-Academia con la ayuda de [Binder](https://mybinder.org/)
 
 Existen unidades de UIBCDF-Academia en dos formatos: en formato [Markdown](academia/Laboratorio_computacional/Herramientas/Lenguages_marcado/Markdown/Markdown.md) -como es el caso de este
 documento- o en formato [Jupyter notebook](academia/Laboratorio_computacional/Herramientas/Jupyter/README.md) -un formato interactivo-. Si quieres ir más allá de
@@ -69,7 +69,7 @@ de archivos a la izquierda de la pantalla- y selecciona en el menú desplegado "
 [Binder](https://mybinder.org/). Continua por allí su lectura, esa versión será a partir de ahora tu página
 principal de UIBCDF-Academia.
 
-### Quiero interaccionar con mi propia copia local de UIBCDF-Academia
+### Quiero trabajar con mi propia copia local de UIBCDF-Academia
 
 Eres atrevida o atrevido y quieres comenzar configurando tu propio entorno en el que interaccionar
 tu copia local de UIBCDF-Academia. Enhorabuena por ese ímpetu. Te sugerimos entonces que saltes al

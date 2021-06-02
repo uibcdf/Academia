@@ -6,8 +6,8 @@
 
 # UIBCDF-Academia: Qué es, cómo se usa y cómo contribuir
 
-- [Qué es](Que_es/Que_es.md) <span style="color:#823138">[0%]</span>
-- [Cómo se usa](Como_se_usa/Como_se_usa.md) <span style="color:#823138">[100%]</span>
+- [Qué es](Que_es/Que_es.md) <span style="color:#823138">[100%]</span>
+- [Cómo se usa](Como_se_usa/Como_se_usa.md) <span style="color:#823138">[50%]</span>
 - [Cómo contribuir](Como_contribuir/Como_contribuir.md) <span style="color:#823138">[0%]</span>
 
 <br />

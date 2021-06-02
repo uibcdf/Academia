@@ -1,4 +1,10 @@
-<div style='text-align: right;'> <a href="../README.md">Regresar</a> </div>
+<p style="text-align:left;">
+   <a href="../README.md">Ir al menú anterior</a>
+   <span style="float:right;">
+        <a href="../README.md">Regresar</a>
+   </span>
+</p>
+
 
 -----
 <br>
