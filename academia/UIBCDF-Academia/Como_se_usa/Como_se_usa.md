@@ -24,6 +24,15 @@
 
 <br>
 
+Es material para comenzar:
+
+<br>
+<center>
+<img src="https://imgs.xkcd.com/comics/focus_knob.png" width="500">
+</center>
+<br>
+
+
 Este notebook es una guía de cómo comenzar a trabajar con este repositorio desde cero. Además, puede servirte como introducción en el uso de las herramientas que nos servirán para el trabajo científico en colaboración. Estos son los pasos propuestos con los que acabarás usando tu propia copia de Academia siendo capaz de proponer cambios:
 
 - [El repositorio de UIBCDF-Academia en GitHub]()

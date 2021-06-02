@@ -3,6 +3,12 @@
 -----
 <br>
 
+<center>
+<img src="philosophy.png" width="30%">
+</center>
+
+<br>
+
 # Qué es UIBCDF-Academia.
 
 <div class="alert alert-info" role="alert">
@@ -47,8 +53,6 @@ hagas, que contribuyas, incluso como un proceso necesario en tu formación -si e
 interacciona y colabora mediante estas herramientas-. Para ello encontrarás una primera guía sobre
 comó contribuir al desarrollo de este repositorio en la tercera unidad de este bloque llamada ["Cómo
 contribuir a desarrollar UIBCDF-Academia"](../Como_contribuir/Como_contribuir.md).
-
-https://imgs.xkcd.com/comics/focus_knob.png
 
 
 <br />
