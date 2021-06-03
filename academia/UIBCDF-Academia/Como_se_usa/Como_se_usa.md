@@ -275,7 +275,7 @@ página web "renderizada" para cada una de las unidades. En dicha visualización
 iteractuar es con los hiperenlaces. Úsalos para navegar en la estructura de unidades de
 UIBCDF-Academia.
 
-Puedes empezar por seguir lo indicado en [la sección "Tabla de contenidos" del README.md principal de la web del repositorio en GitHub](https://github.com/uibcdf/Academia/#Tabla-de-contenidos) o ir directamente al [primer menú de unidades de UIBCDF-Academia](https://github.com/uibcdf/Academia/tree/master/academia/UIBCDF-Academia#readme).
+Puedes empezar por seguir lo indicado en [la sección "Tabla de contenidos" del README.md principal de la web del repositorio en GitHub](https://github.com/uibcdf/Academia/#Tabla-de-contenidos) o ir directamente al [primer menú de unidades de UIBCDF-Academia](https://github.com/uibcdf/Academia/tree/main/academia/UIBCDF-Academia#readme).
 
 <div class="alert alert-warning" role="alert">
 <strong>Atención:</strong> Las unidades de tipo Markdown se visualizan en GitHub en "blanco y negro". Así que, accediendo a las unidades de esta manera, las cajas de alerta y el texto de color no se distinguirán en algunas de ellas. Por lo demás, los contenidos son perfectamente legibles.
@@ -304,7 +304,7 @@ Para abrir UIBCDF-Academia en Binder únicamente necesitas tu navegador. Haz cli
 insigna:
 
 <br>
-<center><a href="https://mybinder.org/v2/gh/uibcdf/Academia/master?urlpath=lab"><img width="20%" src="https://mybinder.org/badge_logo.svg"></a></center>
+<center><a href="https://mybinder.org/v2/gh/uibcdf/Academia/main?urlpath=lab"><img width="20%" src="https://mybinder.org/badge_logo.svg"></a></center>
 <br>
 
 Ya estás lanzando tu propio JupyterLab, en remoto gracias a Binder. Espera a que termine de

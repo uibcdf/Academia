@@ -89,7 +89,7 @@ Tu 'fork' de Academia, y su clon local en tu computadora, te van a permitir juga
 Pero espera, vaya, que ahora hemos usado un término al que probablemente no estabas habituado. ¿Qué
 es una rama (*branch*) de tu repositorio? En realidad un proyecto gestionado por Git se compone de
 ramas, es posible que hasta ahora no supieras de su existencia porque tu proyecto tiene únicamente
-una que por defecto suele llamarse "master" o "main". Para que comprendas el concepto de rama,
+una que por defecto suele llamarse "main" (o "master"). Para que comprendas el concepto de rama,
 vamos a imaginar una situación hipotética descrita en la siguiente secuencia:
 
 - Es martes y has trabajado en tu proyecto. Ya casi lo tienes. Debe estar listo para el viernes. Pero como siempre pasa,
@@ -99,23 +99,23 @@ vamos a imaginar una situación hipotética descrita en la siguiente secuencia:
   archivos. Nooo! espera, dejalo como estaba, haz uso de un controlador de versiones como Git.
 - Defines primero la carpeta principal donde tienes los archivos con los que estás trabajando como
   proyecto "seguido o administrado" por Git. Lo que ahora mismo tienes se registrará como rama
-  principal llamada probablemente "master" (o "main").
+  principal llamada probablemente "main".
 - Ahora crea una rama que llamaremos aquí "modificación A". Dile a git que quieres saltar a la
   nueva rama, y comienza a implemtar modificaciones.
 - Ya es miércoles y no te gusta como está quedando. Se te ocurre que podías haber comenzado a
   modificar lo del martes de otra manera. No te preocupes. Dile a git que quieres hacer una nueva
-  rama que llamaremos "modificación B" a imagen y semejanza de la rama "master" -que no tiene
+  rama que llamaremos "modificación B" a imagen y semejanza de la rama "main" -que no tiene
   cambios desde el martes-. Saltas a la nueva rama "modificación B" y comienzas de nuevo incluir
   modificaciones.
 - Es jueves, ya no sabes qué opción quedó mejor, "modificación A" o "modificación B". Con Git
   puedes saltar de una a otra, seguir desarrollandolas independientemente.
 - Por fín es viernes. Claramente la versión de la rama "modificación B" quedó mejor que como estaba
   el proyecto el martes, y mejor también que la versión de la rama "modificación A".
-- Pídele a Git que compare la rama "master" con "modificación B" y sincronice la primera con la
+- Pídele a Git que compare la rama "main" con "modificación B" y sincronice la primera con la
   segunda, implementando los cambios (las diferencias). Ya puedes borrar si quieres la rama
   "modificación B". Evidentemente también deberías borrar, si quieres, la rama "modificación A".
 - Por último, si es que tenías un clon remoto y principal de tu proyecto en GitHub, sincroniza tu
-  rama "master" del clon en GitHub con tu "master" del clon local de tu computadora empujando los
+  rama "main" del clon en GitHub con tu "main" del clon local de tu computadora empujando los
   cambios con el comando de Git "pull" (desde tu clon local al clon remoto en GitHub).
 
 <div class="alert alert-success" role="alert">
@@ -137,10 +137,9 @@ En este caso lo más probable es que hayas decidido hacer tu propio fork del rep
 [web del repositorio de academia](https://github.com/uibcdf/Academia).
 
 Antes, asegurate de ciertas cosas. Si has estado jugando con tu fork de Academia necesitamos que los cambios relativos a tus pruebas de aprendizaje no estén entre la lista de modificaciones que vas a compartir. 
-Es muy conveniente que hayas estado jugando en una rama creada para tal propósito, o que si has estado modificando 'master' deshagas los cambios que no quieres compartir. Si tienes el 'master' limpio y actualiza
-do, te sugerimos que hagas una nueva rama y la empujes a tu fork central de GitHub.
+Es muy conveniente que hayas estado jugando en una rama creada para tal propósito, o que si has estado modificando 'main' deshagas los cambios que no quieres compartir. Si tienes el 'main' limpio y actualizado, te sugerimos que hagas una nueva rama y la empujes a tu fork central de GitHub.
 
-Con el `master` del clon local de tu fork limpio crea una rama para tu modificación o modificaciones:
+Con el `main` del clon local de tu fork limpio crea una rama para tu modificación o modificaciones:
 
 ```bash
 git checkout -b nombre_de_la_rama # usa un nombre que la identifique
@@ -168,7 +167,7 @@ Para despues hacer el 'Pull Request' haciendo uso de la [web del repositorio de 
 </center>
 <br>
 
-Haz click entonces la opción 'compare across forks' en el botón derecho para su comparación con el `master`, y elige tu repositorio y la rama que quieres fusionar con el `master` del repositorio original de Academia:
+Haz click entonces la opción 'compare across forks' en el botón derecho para su comparación con el `main`, y elige tu repositorio y la rama que quieres fusionar con el `main` del repositorio original de Academia:
 
 <br>
 <center>
@@ -219,7 +218,7 @@ Para despues hacer el 'Pull Request' haciendo uso de la [web del repositorio de 
 </center>
 <br>
 
-Elige entonces tu rama en el botón derecho para su comparación con el `master`:
+Elige entonces tu rama en el botón derecho para su comparación con el `main`:
 
 <br>
 <center>

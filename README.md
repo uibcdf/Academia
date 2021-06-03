@@ -1,5 +1,5 @@
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/uibcdf/Academia/master?urlpath=lab)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/uibcdf/Academia/main?urlpath=lab)
 
 
 # UIBCDF-Academia
@@ -58,8 +58,8 @@ documento- o en formato [Jupyter notebook](academia/Laboratorio_computacional/He
 simplemente acceder a la visualización de las unidades para su lectura, puedes, sin necesidad de
 instalar ni configurar nada, interaccionar con este repositorio mediante a un servidor remoto de [Jupyter lab](academia/Laboratorio_computacional/Herramientas/Jupyter/README.md) ofrecido por [Binder](https://mybinder.org/). Debes saber que cualquier cambio que realices allí, no tendrá ningún impacto sobre este repositorio principal. Así que esta puede ser la manera perfecta para comenzar a jugar con las unidades de UIBCDF-Academia. Échale un ojo a [la sección correspondiente de la unidad "Cómo se usa UIBCDF-Academia"](academia/UIBCDF-Academia/Como_se_usa/Como_se_usa.md) o sigue al menos los tres siguientes pasos:
 
-- Abre [este enlace que nos lleva al servidor de *mybinder* de este repositorio](https://mybinder.org/v2/gh/uibcdf/Academia/master?urlpath=lab) o hacer
-  click en la insignia [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/uibcdf/Academia/master?urlpath=lab)
+- Abre [este enlace que nos lleva al servidor de *mybinder* de este repositorio](https://mybinder.org/v2/gh/uibcdf/Academia/main?urlpath=lab) o hacer
+  click en la insignia [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/uibcdf/Academia/main?urlpath=lab)
 en la parte superior de este documento. Y deja
   que se cargue.
 - Haz click con el botón derecho sobre el archivo "README.md" -barra
@@ -104,7 +104,7 @@ Al margen de la broma, perder el miedo, tener curiosidad y saber que gracias a i
 
 Independientemente de [cómo vayas a usar UIBCDF-Academia](academia/UIBCDF-Academia/Como_se_usa/Como_se_usa.md), puedes acceder desde ahora mismo a la primera
 tabla de contenidos de este repositorio. Recuerda, si lo estás haciendo desde [la web principal del
-repositorio en GitHub](https://github.com/uibcdf/Academia) únicamente podrás visualizar su contenido. Si lo estás haciendo desde [Binder](https://mybinder.org/v2/gh/uibcdf/Academia/master?urlpath=lab) o desde [tu propia copia local](academia/UIBCDF-Academia/Como_se_usa/Como_se_usa.md), podrás interaccionar con él.
+repositorio en GitHub](https://github.com/uibcdf/Academia) únicamente podrás visualizar su contenido. Si lo estás haciendo desde [Binder](https://mybinder.org/v2/gh/uibcdf/Academia/main?urlpath=lab) o desde [tu propia copia local](academia/UIBCDF-Academia/Como_se_usa/Como_se_usa.md), podrás interaccionar con él.
 
 [Ir a la tabla de contenidos](academia/README.md)
 

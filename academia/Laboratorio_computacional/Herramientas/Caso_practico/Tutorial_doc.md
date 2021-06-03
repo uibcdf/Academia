@@ -68,10 +68,10 @@ caso https://github.com/dprada, con el mismo nombre "Proyecto_Cayetano":
 git remote add origin https://github.com/dprada/Proyecto_Cayetano.git
 ```
 
-Y ahora empujemos nuestra rama master del repositorio local al remoto:
+Y ahora empujemos nuestra rama main del repositorio local al remoto:
 
 ```bash
-git push origin master
+git push origin main
 ```
 
 El comando anterior te pedirá por linea de comandos el nombre de usuario y contraseña de tu perfil

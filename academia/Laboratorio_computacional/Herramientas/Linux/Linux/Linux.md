@@ -1031,7 +1031,7 @@ Como primer ejemplo vamos a escribir unas líneas que ejecutar en la terminal pa
 En primer lugar descarga un paquete de imagenes jpg gratuitas que hemos recopilado para este tutorial:
 
 ```bash
-wget https://github.com/uibcdf/Academia/raw/master/data/misc/free_images_jpg.tar.gz
+wget https://github.com/uibcdf/Academia/raw/main/data/misc/free_images_jpg.tar.gz
 ```
 
 Se trata de un archivo comprimido (tar.gz), si buscas en internet como descomprimirlo vas a encontrar algo como:
