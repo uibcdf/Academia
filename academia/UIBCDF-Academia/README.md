@@ -1,4 +1,4 @@
-<div style='text-align: right;'> <a href="../README.md#UIBCDF-Academia">Regresar</a> </div>
+<div style='text-align: left;'> <a href="../README.md#UIBCDF-Academia">Ir al menú anterior</a> </div>
 
 -----
 
@@ -6,9 +6,13 @@
 
 # UIBCDF-Academia: Qué es, cómo se usa y cómo contribuir
 
-- [Qué es](Que_es/Que_es.md) <span style="color:#823138">[100%]</span>
-- [Cómo se usa](Como_se_usa/Como_se_usa.md) <span style="color:#823138">[50%]</span>
+Este bloque está dedicado únicamente a describir UIBCDF-Academia y sus formas uso. Aquí encontrarás las
+instrucciones para leer adecuadamente su contenido, interactuar con él, o contribuir a su desarrollo.
+
+- [Qué es](Que_es/Que_es.md) <span style="color:#185927">[100%]</span>
+- [Cómo se usa](Como_se_usa/Como_se_usa.md) <span style="color:#aa7d00">[50%]</span>
 - [Cómo contribuir](Como_contribuir/Como_contribuir.md) <span style="color:#823138">[0%]</span>
+- [La licencia Creative Commons BY-NC-SA 4.0](La_licencia/La_licencia.md) <span style="color:#823138">[0%]</span>
 
 <br />
 

@@ -16,6 +16,47 @@
 
 <br>
 
+### Si además quieres participar y no tienes permisos de edición
+
+Sería muy positivo para el repositorio que nos ayudaras a corregirlo o a mejorarlo incluyendo aquellas cuestiones que has echado de menos. Si no tienes mucha experiencia en el trabajo en colaboración, puedes tom
+arte este repositorio como una primera experiencia que te ayudará a entender las herramientas y la dinámica de desarrollo de un proyecto en grupo. Para ello, crea tu propio 'fork' del repositorio en tu usuario d
+e GitHub. Espera, si no sabes qué es un 'fork' y cúal es la diferencia con un clon puedes encontrar más información [aquí](https://help.github.com/articles/fork-a-repo/), [aquí](https://github.community/t5/Suppo
+rt-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372) o [aquí](https://stackoverflow.com/questions/6286571/are-git-forks-actually-git-clones) o [aquí](http://www.eqqon.com/index.php/Colla
+borative_Github_Workflow). Para hacer tu fork acude a la web de Academia en GitHub y haz click en 'fork'.
+
+<br>
+<center>
+<img src="fork.png" width="700">
+</center>
+<br>
+
+Ya puedes acudir a tu página de GitHub y encontrar Academia entre tus repositorios. Ahora, para hacer un clon local de tu fork de Academia. Sustituye en el siguiente comando 'tu-nombre' por tu nombre de usuario en GitHub, y ejecútalo en el directorio en el que quieras ubicarlo, en mi caso mi carpeta '~/Projects':
+
+```bash
+cd ~/Projects
+git clone git@github.com:tu-nombre/Academia.git
+```
+
+Tu 'fork' de Academia, y su clon local en tu computadora, te van a permitir jugar y cambiar cosas sin alterar el repositorio central. Puedes hacer lo que quieras en ellos. Una buena manera de proceder sería, como verás en la subsección [Jugando con el repositorio Academia y sus notebooks](#Jugando-con-el-repositorio-Academia-y-sus-notebooks), dejar el master de tu 'fork' como espejo del repositorio central y crear ramas ('branches') para jugar o para proponer modificaciones y solicitar 'Pull Requests' de tus contribuciones (lo verás más adelante).
+
+### Si además quieres participar y tienes permisos de edición
+
+Si tienes permisos de edición en [el repositorio central de Academia](http://github.com/uibcdf/Academia) y no tienes mucha experiencia, crear tu propio 'fork' como se describe en la subsección anterior puede ser muy buena idea. Esto te va a permitir jugar sin miedo con tus propias copias del repositorio y aun así, como verás más adelante, puedes proponer modificaciones e implementar cosas a través de 'Pull Requests' desde tu usuario.
+
+De todas formas, si hay algún motivo por el cual, teniendo permiso, es más cómodo para ti implementar cambios directamente en el repositorio central, puedes hacer tu clon local en el directorio de tu computadora que desees (en mi caso en '~/Projects'):
+
+```bash
+cd ~/Projects
+git clone git@github.com:uibcdf/Academia
+```
+
+Si no tienes claro cuál es la diferencia entre clon y fork, puedes encontrar un poco de orientación [aquí](https://help.github.com/articles/fork-a-repo/), [aquí](https://help.github.com/articles/cloning-a-repository/), [aquí](https://github.community/t5/Support-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372), [aquí](https://stackoverflow.com/questions/6286571/are-git-forks-actually-git-clones) o [aquí](http://www.eqqon.com/index.php/Collaborative_Github_Workflow).
+
+#### Ayuda
+
+En caso de que necesites más información, puedes visitar la unidad de [introducción a GitHub](GitHub.ipynb). Si has tenido algún problema técnico puedes compartirlo con nosotros en [el foro de GitHub del panel de este repositorio](https://github.com/uibcdf/Academia/issues/3), allí centralizamos los problemas y soluciones para que la experiencia se acumule de manera visible para todos.
+
+
 
 ## Implementando cambios en el repositorio central
 
