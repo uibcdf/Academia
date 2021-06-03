@@ -1,7 +1,7 @@
 <p style="text-align:left;">
    <a href="../README.md">Ir al menú anterior</a>
    <span style="float:right;">
-        <a href="../Que_es/Que_es.md">Regresar</a>
+        <a href="../Que_es/Que_es.md">Ir a la unidad anterior</a>
    </span>
 </p>
 
@@ -94,7 +94,7 @@ ser comprendidas, pero todas estas conexiones necesarias serán encontradas siem
 discurso de la unidad.
 
 La estructura de una unidad de contenida será siempre similar. Descrita de arriba abajo:
-- Una barra de navegación superior para ir al menú o la unidad anteriores.
+- Una barra de navegación superior para ir al menú o la unidad anterior.
 - Un título posiblemente acompañado de una figura junto con un párrafo introductorio a la unidad.
 - Una tabla de contenidos con la que poder navegar en la unidad.
 - Una secuencia de secciones y subsecciones con el desarrollo del contenido de la unidad.
@@ -105,7 +105,7 @@ La estructura de una unidad de contenida será siempre similar. Descrita de arri
    - "Más recursos útiles" donde encontrarás enlaces a documentacion, tutoriales, webinars y cursos
      online gratuitos con los que ampliar tu conocimiento sobre el concepto o conceptos expuestos
      en la unidad.
-- Una barra de navegación inferior para ir a la unidad posterior.
+- Una barra de navegación inferior para ir a la siguiente unidad.
 - La referencia a la licencia Creative Commons.
 
 <center><img width="80%" src="unidad_contenidos_head.png"></center>
@@ -169,9 +169,9 @@ UIBCDF-Academia:
 
 - "Ir al menú anterior" en la parte superior izquierda para ir a la unidad de tipo menú
   inmediatamente anterior.
-- "Regresar" en la parte superior derecha para ir a la unidad de contenido anterior en la secuencia
+- "Ir a la unidad anterior" en la parte superior derecha para ir a la unidad de contenido anterior en la secuencia
   de unidades de un bloque.
-- "Siguiente" en la parte inferior derecha para ir a la unidad de contenido siguiente en la
+- "Ir a la siguiente unidad" en la parte inferior derecha para ir a la unidad de contenido siguiente en la
   secuencia de unidades de un bloque.
 
 ##### Las cajas de alerta
@@ -822,7 +822,7 @@ pasos que debes seguir.
 
 <br>
 
-<div style='text-align: right;'> <a href="../Como_contribuir/Como_contribuir.md">Siguiente</a> </div>
+<div style='text-align: right;'> <a href="../Como_contribuir/Como_contribuir.md">Ir a la siguiente unidad</a> </div>
 
 -------
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/uibcdf/Academia">UIBCDF-Academia</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/uibcdf/Academia/graphs/contributors">UIBCDF Lab, autores y colaboradores</a> es material protegido bajo una licencia <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
