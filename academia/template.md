@@ -8,7 +8,7 @@
 -----
 <br>
 
-# Titulo
+# Título
 
 <div class="alert alert-info" role="alert">
 <strong>Info:</strong> Si crees que este notebook necesita algún cambio no dudes en <a href="../../../../UIBCDF-Academia/Como_contribuir/Como_contribuir.md" class="alert-link">contribuir a su desarrollo</a>.
