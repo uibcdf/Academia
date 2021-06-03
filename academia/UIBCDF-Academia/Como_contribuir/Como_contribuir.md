@@ -129,7 +129,14 @@ Supongamos que has detectado un error en una unidad y lo quieres corregir, o con
 ### Creación de una rama para realizar las modificaciones
 
 Como habíamos anticipado anteriormente, la forma más limpia de realizar una contribución sería
-proponerla desde una rama diferente a la principal de tu fork. En primer lugar, asegúrate de que 
+proponerla desde una rama diferente a la principal de tu fork. En primer lugar, dado que vamos a
+crear la rama desde la principal de tu fork, llamada "main", vamos a asegurarnos de que ésta está
+actualizada con respecto al repositorio principal de UIBCDF-Academia en GitHub. En la web principal
+de tu fork encontrarás una indicación de si la rama principal está con el mismo contenido que la
+principal del repositorio original o no. En caso de que tengas el mismo contenido el mensaje que
+debes ver es el siguiente:
+
+
 
 ### Si no tienes permisos de edición
 
