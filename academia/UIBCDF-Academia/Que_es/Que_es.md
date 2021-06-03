@@ -10,7 +10,7 @@
 <br>
 
 <center>
-<img src="philosophy.png" width="30%">
+<img src="philosophy.png" width="15%">
 </center>
 
 <br>

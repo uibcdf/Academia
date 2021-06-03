@@ -1,6 +1,16 @@
-<div style='text-align: right;'> <a href="../README.md">Regresar</a> </div>
+<p style="text-align:left;">
+   <a href="../README.md">Ir al menú anterior</a>
+   <span style="float:right;">
+        <a href="../Que_es/Que_es.md">Unidad anterior</a>
+   </span>
+</p>
 
 -----
+
+<br>
+<center>
+<img src="https://imgs.xkcd.com/comics/git.png" width="20%">
+</center>
 <br>
 
 
@@ -10,19 +20,56 @@
 <strong>Info:</strong> Si crees que este notebook necesita algún cambio no dudes en <a href="Como_contribuir.md" class="alert-link">contribuir a su desarrollo</a>.
 </div>
 
+<div class="alert alert-warning" role="alert">
+<strong>Atención:</strong> Cualquier contribución que hagas al contenido UIBCDF-Academia queda
+protegido bajo una licencia <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a>.
+</div>
+
 <div class="alert alert-danger" role="alert">
-<strong>En desarrollo:</strong> 0%.
+<strong>En desarrollo:</strong> 20%.
 </div>
 
 <br>
 
-### Si además quieres participar y no tienes permisos de edición
+Sería muy positivo para el repositorio que nos ayudaras a mejorarlo incluyendo aquellas cuestiones
+que has echado de menos o consideras que necesitan ser corregidas. Si no tienes mucha experiencia
+en el trabajo computacional en colaboración, puedes tomarte este repositorio como una primera
+experiencia que te ayudará a entender algunas de las herramientas y dinámicas empleadas para el
+desarrollo de un proyecto en grupo. Para ello, en esta unidad encontrarás todo lo que debes conocer para comenzar a contribuir
+en UIBCDF-Academia haciendo uso de
+[Git](../../Laboratorio_computacional/Herramientas/Control_versiones_distribuida/Git/Git.md) y [GitHub](../../Laboratorio_computacional/Herramientas/Control_versiones_distribuida/GitHub/GitHub.md).
 
-Sería muy positivo para el repositorio que nos ayudaras a corregirlo o a mejorarlo incluyendo aquellas cuestiones que has echado de menos. Si no tienes mucha experiencia en el trabajo en colaboración, puedes tom
-arte este repositorio como una primera experiencia que te ayudará a entender las herramientas y la dinámica de desarrollo de un proyecto en grupo. Para ello, crea tu propio 'fork' del repositorio en tu usuario d
-e GitHub. Espera, si no sabes qué es un 'fork' y cúal es la diferencia con un clon puedes encontrar más información [aquí](https://help.github.com/articles/fork-a-repo/), [aquí](https://github.community/t5/Suppo
-rt-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372) o [aquí](https://stackoverflow.com/questions/6286571/are-git-forks-actually-git-clones) o [aquí](http://www.eqqon.com/index.php/Colla
-borative_Github_Workflow). Para hacer tu fork acude a la web de Academia en GitHub y haz click en 'fork'.
+- [Cualquier contribución queda sometida a los términos de la licencia](#Cualquier-contribución-queda-sometida-a-los-términos-de-la-licencia)
+- [Implementa los cambios sobre tu propio fork](#Implementa-los-cambios-sobre-tu-propio-fork)
+
+## Cualquier contribución queda sometida a los términos de la licencia
+
+Antes de comenzar con la descripción de los pasos que debes dar para contribuir al desarrollo de
+UIBCDF-Academia, debes saber que toda modificación o inclusión de nuevo contenido que hagas por tu
+parte será, una vez incluido en el repositorio principal de UIBCDF-Academia, sometido y protegido
+por las condiciones de la licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+International misma que cubre todo el contenido de UIBCDF-Academia. Es tu responsibilidad como
+colaborador haber revisado [las condiciones de la licencia](../La_licencia/La_licencia.md) antes de publicar tu contribución.
+
+## Implementa los cambios sobre tu propio fork
+
+Para poder hacer una solicitud de inclusión de tus cambios deberás implementar estos en tu propio 'fork' (derivación del proyecto) en GitHub. ¿Que es un fork de UIBCDF-Academia? ¿Cúal es la diferencia con un clon? Bueno, brevemente debes saber que clon y fork no son conceptos excluyentes. De hecho, para incorporar los cambios trabajarás con un clon ubicado en tu computadora de tu fork de UIBCDF-Academia. Si no estás familiarizad con estos términos, como primera aproximación debes saber que:
+
+- Llamaremos "clon" es la copia "cuyo desarrollo no será independiente" de un repositorio. El clon mantiene su vínculo
+  con el original de tal manera que son imágenes del mismo proyecto y como tal pueden en cualquier
+  momento compararse y sincronizarse mediante los comandos de git "push" (si vas a traer los
+  cambios sobre el clon) y "pull" (si vas a empujar los cambios desde el clon).
+- Llamaremos "fork" a la copia "cuyo desarrollo será independiente" de un repositorio. El fork se ubicará en la cartera de
+  proyectos de tu usuario en GitHub. Y como fork, los comandos push y pull no bastan para
+  sincronizar el contenido del fork con el original, debe hacerse una petición de incorporación
+  de cambios a los administradores del original -conocida en inglés como **Pull Request (PR)**-.
+
+<div class="alert alert-success" role="alert">
+<strong>Ayuda:</strong> Puedes encontrar más información sobre qué es un "fork" y cúal es la diferencia con un clon en los siguientes enlaces:
+<a href='https://help.github.com/articles/fork-a-repo/'>aquí</a>, <a href='https://github.community/t5/Support-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372'>aquí</a>, <a href='https://stackoverflow.com/questions/6286571/are-git-forks-actually-git-clones'>aquí</a> o <a href='http://www.eqqon.com/index.php/Collaborative_Github_Workflow'>aquí</a>. Además puedes acudir a <a href='../../Laboratorio_computacional/Herramientas/Control_versiones_distribuida/README.md'>las unidades de UIBCDF-Academia dedicadas a las herramientas de control de versiones distribuida como Git y GitHub</a>.
+</div>
+
+Para hacer tu fork, habiendo iniciado sesión con tu usuario en GitHub, acude a [la web del repositorio principal de UIBCDF-Academia en GitHub](https://github.com/uibcdf/Academia) y haz click en 'fork'.
 
 <br>
 <center>
@@ -30,39 +77,59 @@ borative_Github_Workflow). Para hacer tu fork acude a la web de Academia en GitH
 </center>
 <br>
 
-Ya puedes acudir a tu página de GitHub y encontrar Academia entre tus repositorios. Ahora, para hacer un clon local de tu fork de Academia. Sustituye en el siguiente comando 'tu-nombre' por tu nombre de usuario en GitHub, y ejecútalo en el directorio en el que quieras ubicarlo, en mi caso mi carpeta '~/Projects':
+Ya puedes acudir a tu página de GitHub y encontrar UIBCDF-Academia entre tus repositorios. Ahora, para hacer un clon local de tu fork de UIBCDF-Academia. Sustituye en el siguiente comando 'tu-nombre' por tu nombre de usuario en GitHub, y ejecútalo en una terminal de la computadora con la que vas a trabajar sobre el directorio en el que quieras ubicarlo, en mi caso mi carpeta '~/Projects':
 
 ```bash
 cd ~/Projects
 git clone git@github.com:tu-nombre/Academia.git
 ```
 
-Tu 'fork' de Academia, y su clon local en tu computadora, te van a permitir jugar y cambiar cosas sin alterar el repositorio central. Puedes hacer lo que quieras en ellos. Una buena manera de proceder sería, como verás en la subsección [Jugando con el repositorio Academia y sus notebooks](#Jugando-con-el-repositorio-Academia-y-sus-notebooks), dejar el master de tu 'fork' como espejo del repositorio central y crear ramas ('branches') para jugar o para proponer modificaciones y solicitar 'Pull Requests' de tus contribuciones (lo verás más adelante).
+Tu 'fork' de Academia, y su clon local en tu computadora, te van a permitir jugar y cambiar cosas sin alterar el repositorio central. Puedes hacer lo que quieras en ellos. Una buena manera de proceder sería, dejar la rama principal, llamada *main*, de tu 'fork' como espejo del repositorio central y crear ramas (*branches*) para jugar con el repositorio y hacer modificaciones. Puedes solicitar incluir tus modificaciones en el repositorio principal de UIBCDF-Academia desde cualquier de las ramas de tu fork -como verás más adelante-.
 
-### Si además quieres participar y tienes permisos de edición
+Pero espera, vaya, que ahora hemos usado un término al que probablemente no estabas habituado. ¿Qué
+es una rama (*branch*) de tu repositorio? En realidad un proyecto gestionado por Git se compone de
+ramas, es posible que hasta ahora no supieras de su existencia porque tu proyecto tiene únicamente
+una que por defecto suele llamarse "master" o "main". Para que comprendas el concepto de rama,
+vamos a imaginar una situación hipotética descrita en la siguiente secuencia:
 
-Si tienes permisos de edición en [el repositorio central de Academia](http://github.com/uibcdf/Academia) y no tienes mucha experiencia, crear tu propio 'fork' como se describe en la subsección anterior puede ser muy buena idea. Esto te va a permitir jugar sin miedo con tus propias copias del repositorio y aun así, como verás más adelante, puedes proponer modificaciones e implementar cosas a través de 'Pull Requests' desde tu usuario.
+- Es martes y has trabajado en tu proyecto. Ya casi lo tienes. Debe estar listo para el viernes. Pero como siempre pasa,
+  acabas de tener una idea que no sabes todavía si te convence del todo. Implementarla supone
+  modificar muchas cosas... es arriesgado porque puede que tanta modificación arruine la versión
+  del proyecto que ya tienes. Sin mucho pensar, decides ser valiente y comenzar a editar los
+  archivos. Nooo! espera, dejalo como estaba, haz uso de un controlador de versiones como Git.
+- Defines primero la carpeta principal donde tienes los archivos con los que estás trabajando como
+  proyecto "seguido o administrado" por Git. Lo que ahora mismo tienes se registrará como rama
+  principal llamada probablemente "master" (o "main").
+- Ahora crea una rama que llamaremos aquí "modificación A". Dile a git que quieres saltar a la
+  nueva rama, y comienza a implemtar modificaciones.
+- Ya es miércoles y no te gusta como está quedando. Se te ocurre que podías haber comenzado a
+  modificar lo del martes de otra manera. No te preocupes. Dile a git que quieres hacer una nueva
+  rama que llamaremos "modificación B" a imagen y semejanza de la rama "master" -que no tiene
+  cambios desde el martes-. Saltas a la nueva rama "modificación B" y comienzas de nuevo incluir
+  modificaciones.
+- Es jueves, ya no sabes qué opción quedó mejor, "modificación A" o "modificación B". Con Git
+  puedes saltar de una a otra, seguir desarrollandolas independientemente.
+- Por fín es viernes. Claramente la versión de la rama "modificación B" quedó mejor que como estaba
+  el proyecto el martes, y mejor también que la versión de la rama "modificación A".
+- Pídele a Git que compare la rama "master" con "modificación B" y sincronice la primera con la
+  segunda, implementando los cambios (las diferencias). Ya puedes borrar si quieres la rama
+  "modificación B". Evidentemente también deberías borrar, si quieres, la rama "modificación A".
+- Por último, si es que tenías un clon remoto y principal de tu proyecto en GitHub, sincroniza tu
+  rama "master" del clon en GitHub con tu "master" del clon local de tu computadora empujando los
+  cambios con el comando de Git "pull" (desde tu clon local al clon remoto en GitHub).
 
-De todas formas, si hay algún motivo por el cual, teniendo permiso, es más cómodo para ti implementar cambios directamente en el repositorio central, puedes hacer tu clon local en el directorio de tu computadora que desees (en mi caso en '~/Projects'):
-
-```bash
-cd ~/Projects
-git clone git@github.com:uibcdf/Academia
-```
-
-Si no tienes claro cuál es la diferencia entre clon y fork, puedes encontrar un poco de orientación [aquí](https://help.github.com/articles/fork-a-repo/), [aquí](https://help.github.com/articles/cloning-a-repository/), [aquí](https://github.community/t5/Support-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372), [aquí](https://stackoverflow.com/questions/6286571/are-git-forks-actually-git-clones) o [aquí](http://www.eqqon.com/index.php/Collaborative_Github_Workflow).
-
-#### Ayuda
-
-En caso de que necesites más información, puedes visitar la unidad de [introducción a GitHub](GitHub.ipynb). Si has tenido algún problema técnico puedes compartirlo con nosotros en [el foro de GitHub del panel de este repositorio](https://github.com/uibcdf/Academia/issues/3), allí centralizamos los problemas y soluciones para que la experiencia se acumule de manera visible para todos.
-
-
+<div class="alert alert-success" role="alert">
+<strong>Ayuda:</strong> Puedes encontrar más información sobre cómo trabajar con las ramas de Git en <a href='../../Laboratorio_computacional/Herramientas/Control_versiones_distribuida/README.md'>la unidad dedicada en UIBCDF-Academia a esta herramienta</a>.
+</div>
 
 ## Implementando cambios en el repositorio central
 
-Supongamos que has detectado un error y lo quieres corregir, o consideras que la explicación no es clara, quieres añadir un párrafo, o conoces documentación o tutoriales que quieres compartir en la lista del fin
-al de un notebook. Edita lo que quieras en el notebook y cuando consideres que está listo reinicialo y ejecútalo de principio a fin. Despúes compromete los cambios y haz un 'Pull Request' (PR en la jerga de Git)
-. Veamos esto paso a paso.
+Supongamos que has detectado un error en una unidad y lo quieres corregir, o consideras que una explicación no es clara, o quieres añadir un párrafo, o conoces documentación o tutoriales que quieres compartir en la sección de la unidad dedicada enlistar otras fuentes útiles de información. Edita lo que quieras localmente en el fichero de tu fork, o del clon de tu fork, y cuando consideres que está listo reinicialo y ejecútalo de principio a fin. Compromete los cambios en tu rama. Súbe estos cambios al clon principal de tu fork en GitHub -si estabas trabajando con un clon local en tu computadora-, y haz una solicitud de incorporación de cambios, *Pull Request* (o PR en la jerga de Git), en el repositorio original de UIBCDF-Academia. Veamos este proceso paso a paso.
+
+### Creación de una rama para realizar las modificaciones
+
+Como habíamos anticipado anteriormente, la forma más limpia de realizar una contribución sería
+proponerla desde una rama diferente a la principal de tu fork. En primer lugar, asegúrate de que 
 
 ### Si no tienes permisos de edición
 
@@ -174,6 +241,8 @@ En caso de que necesites más información a propósito de cómo implementar cam
 
 
 <br />
+
+<div style='text-align: right;'> <a href="../La_licencia/La_licencia.md">Siguiente unidad</a> </div>
 
 -------
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/uibcdf/Academia">UIBCDF-Academia</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/uibcdf/Academia/graphs/contributors">UIBCDF Lab, autores y colaboradores</a> es material protegido bajo una licencia <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
