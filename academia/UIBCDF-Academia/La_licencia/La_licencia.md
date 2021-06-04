@@ -1,7 +1,7 @@
 <p style="text-align:left;">
    <a href="../README.md">Ir al menú anterior</a>
    <span style="float:right;">
-        <a href="../Que_es/Que_es.md">Ir a la unidad anterior</a>
+        <a href="../Como_contribuir/Como_contribuir.md">Ir a la unidad anterior</a>
    </span>
 </p>
 

@@ -1,14 +1,10 @@
-<div style='text-align: right;'> <a href="../README.md">Regresar</a> </div>
+<div style='text-align: left;'> <a href="../README.md">Ir a la unidad inicial</a> </div>
 
 -----
 
 <br>
 
 # UIBCDF-Academia: Qué es, cómo se usa y cómo contribuir <a class="anchor" id="UIBCDF-Academia"></a>
-
-<div class="alert alert-danger" role="alert">
-<strong>En desarrollo:</strong> 33%.
-</div>
 
 Introducción al repositorio UIBCDF-Academia e instrucciones de uso para usuarios y desarrolladores.
 

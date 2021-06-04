@@ -18,13 +18,9 @@
 <strong>Info:</strong> Si crees que este notebook necesita algún cambio no dudes en <a href="../Como_contribuir/Como_contribuir.md" class="alert-link">contribuir a su desarrollo</a>.
 </div>
 
-<div class="alert alert-danger" role="alert">
-<strong>En desarrollo:</strong> 90%.
-</div>
-
 <br>
 
-Antes de encontrar una respuesta a cómo se usa UIBCDF-Academia, te recordamos, como se explica en la sección [¿Qué es UIBCDF-Academia?](../Que_es/Que_es.md), que este repositorio **no pretende ser una guía completa sino un punto de partida para cada uno de los temas y conceptos que recoge**. Si eres un estudiante, o un colaborador de la UIBCDF, encontrarás aquí muchas pautas para comenzar a trabajar con nosotros; así como un repositorio que centraliza dudas y respuestas sobre los conceptos y herramientas del día a día del desarrollo de nuestros proyectos. Si por el contrario eres una persona ajena a la UIBCDF pero vas a comenzar a trabajar con alguno de los conceptos introducidos en este repositorio, eres más que bienvenido a hacer uso de UIBCDF-Academia como uno más del equipo. En ambos casos te exhortamos, de nuevo, a que te tomes UIBCDF-Academia como una introducción, en un formato accesible, a conceptos casi siempre complejos. Sin pretender abrumar, ni con la descripción exhaustiva del panorama completo, ni con excesivos detalles. Eso sí, debes ser consciente, y es tu responsabilidad como investigador, de que tras tener una idea preliminar y general del concepto en cuestión debes profundizar. Pero ese es tu trabajo...
+Antes de encontrar una respuesta a cómo se usa UIBCDF-Academia, te recordamos, como se explica en la sección [¿Qué es UIBCDF-Academia?](../Que_es/Que_es.md), que este repositorio **no pretende ser una guía completa sino un punto de partida para cada uno de los temas y conceptos que recoge**. Si eres un estudiante, o un colaborador de la UIBCDF, encontrarás aquí muchas pautas para comenzar a trabajar con nosotros; así como un repositorio que centraliza dudas y respuestas sobre los conceptos y herramientas del día a día del desarrollo de nuestros proyectos. Si por el contrario, eres una persona ajena a la UIBCDF pero vas a comenzar a trabajar con alguno de los conceptos introducidos en este repositorio, eres más que bienvenido a hacer uso de UIBCDF-Academia como uno más del equipo. En ambos casos te exhortamos, de nuevo, a que te tomes UIBCDF-Academia como una introducción, en un formato accesible, a conceptos casi siempre complejos. Sin pretender abrumar, ni con la descripción exhaustiva del panorama completo, ni con excesivos detalles. Eso sí, debes ser consciente, y es tu responsabilidad como investigador, de que tras tener una idea preliminar y general del concepto en cuestión debes profundizar. Pero ese es tu trabajo...
 
 <br>
 <center>
@@ -32,7 +28,7 @@ Antes de encontrar una respuesta a cómo se usa UIBCDF-Academia, te recordamos, 
 </center>
 <br>
 
-A continuación encontrarás una guía sobre cómo comenzar a trabajar con UIBCDF-Academia. Es posible que no tengas muchos conocimientos previos sobre qué es un repositorio en GitHub o qué es Jupyter lab. No te preocupes. Si te animas, esta unidad puede servirte también como primera introducción al uso de ciertas herramientas propias de un laboratorio computacional que te servirán para el trabajo científico en colaboración. 
+A continuación encontrarás una guía sobre cómo comenzar a trabajar con UIBCDF-Academia. Es posible que no tengas muchos conocimientos previos sobre qué es un repositorio en [GitHub](../../Laboratorio_computacional/Herramientas/Control_versiones_distribuida/README.md) o qué es [JupyterLab](../../Laboratorio_computacional/Herramientas/Control_versiones_distribuidas/Jupyter/README.md). No te preocupes. Si te animas, esta unidad puede servirte también como primera introducción al uso de ciertas [herramientas propias de un laboratorio computacional](../../Laboratorio_computacional/Herramientas/README.md) que te servirán para el trabajo científico en colaboración. 
 
 Estos son los contenidos que encontrarás en adelante.
 
@@ -51,7 +47,7 @@ Estos son los contenidos que encontrarás en adelante.
       - [Las discusiones en la web de GitHub](#Las-discusiones-en-la-web-de-GitHub)
 - [Únicamente quiero leer el contenido de UIBCDF-Academia](#Únicamente-quiero-leer-el-contenido-de-UIBCDF-Academia)
 - [Quiero interactuar con las unidades de UIBCDF-Academia con la ayuda de Binder](#Quiero-interactura-con-las-unidades-de-UIBCDF-Academia-con-la-ayuda-de-Binder)
-- [Quiero trabajar con mi propia copia local de UIBCDF-Academia](#Quiero-trabajar-con-mi-propia-copia-local-de-UIBCDF-Academia)
+- [Quiero trabajar con mi propia copia local de las unidades de UIBCDF-Academia](#Quiero-trabajar-con-mi-propia-copia-local-de-las-unidades-de-UIBCDF-Academia)
    - [Configurando Git](#Configurando-Git)
    - [Configurando GitHub](#Configurando-GitHub)
    - [Creando el entorno de trabajo con Conda](#Creando-el-entorno-de-trabajo-con-Conda)
@@ -69,7 +65,8 @@ Comencemos por describir los distintos elementos de UIBCDF-Academia atendiendo a
 ### Las unidades de UIBCDF-Academia y su navegación
 
 Según su función podemos encontrar dos tipos de unidades: de menú o de contenido. Según el formato
-podemos encontrar unidades de tipo [Markdown]() o [Jupyter notebook]().
+podemos encontrar unidades de tipo
+[Markdown](../../Laboratorio_computacional/Herramientas/Lenguage_marcado/Markdown/Markdown.md) o [Jupyter notebook](../../Laboratorio_computacional/Herramientas/Jupyter/README.md).
 
 #### Unidades de menú
 
@@ -79,8 +76,8 @@ Verás que estas unidades contienen además otros elementos:
 - Una cabecera con un enlace para navegar a la unidad de menú de contenidos anterior.
 - Porcentajes de desarrollo junto a cada item del menú de contenidos: en <span style="color:#185927">verde</span> para indicar que la
   unidad está completa (100%), en <span style="color:#aa7d00">ambar</span> si la unidad está parcialmente implementada, y en <span style="color:#823138">rojo</span> si
-  la unidad no contiene contenido todavía (0%).
-- Texto con una breve explicación del contenido del bloque o sus unidades -*Opcional*-.
+  la unidad no tiene contenido todavía (0%).
+- Texto con una breve explicación del contenido del bloque o sus unidades -Opcional-.
 - La referencia a la licencia Creative Commons.
 
 <center><img width="80%" src="unidad_menu.png"></center>
@@ -117,15 +114,15 @@ La estructura de una unidad de contenida será siempre similar. Descrita de arri
 #### Unidades Markdown
 
 Aquellas unidades que no contienen código en Python y que por lo tanto no requieren la
-participación activa del usuario están escritas en el lenguaje de marcado Markdown. Estás unidades
-son visualizadas adecuadamente para el usuario en la web del repositorio de UIBCDF-Academia en GitHub. Sin
+participación activa del usuario están escritas en el lenguaje de marcado Markdown. Estas unidades
+son visualizadas adecuadamente -con algunas limitaciones estéticas- para el usuario en la web del repositorio de UIBCDF-Academia en GitHub. Sin
 embargo JupyterLab muestra por defecto su código fuente al abrirlas desde su menú de ficheros. Para
 poder previsualizarlas adecuadamente en Jupyter debes hacer click con el botón derecho del ratón
 sobre el nombre del fichero \*.md (markdown) en la barra izquierda de navegación de ficheros, y seleccionar la opción del menú recien desplegado 'Open With > Markdown Preview'.
 
 <center><img width="60%" src="preview_markdown.png"></center>
 
-Esto último no es necesario cuando se navega entre unidades haciendo uso de los hiper-enlaces que
+Esto último no es necesario cuando se navega entre unidades haciendo uso de los hiperenlaces que
 encontrarás en ellas.
 
 No te preocupes si todavía no conoces el lenguaje de programación Python, el lenguaje de marcado Markdown, o no sabes qué es el formato
@@ -140,7 +137,7 @@ introduzcan estas herramientas.
 
 #### Unidades Jupyter notebook
 
-Aquellas unidades que contienen código en Python y que por lo tanto están pensadas para que el
+Aquellas unidades que contienen código en Python, y que por lo tanto están pensadas para que el
 usuario pueda tener una participación activa interactuando con su contenido, tienen el formato de
 libreta Jupyter (*Jupyter notebook*). Este formato permite alternar lenguaje de marcado Markdown
 con código de programación y el resultado de su ejecución. Es el formato ideal para registrar la
@@ -205,7 +202,7 @@ tu atención.
 ##### La licencia Creative Commons
 
 Todas las unidades cuentan con una referencia a la licencia Creative Commons como último elemento.
-Encontrarás más información sobre esta licencia en la sección de este bloque llamada ["La licencia
+Encontrarás más información sobre esta licencia en la unidad de este bloque llamada ["La licencia
 Creative Commons BY-NC-SA 4.0"](../La_licencia/La_licencia.md).
 
 <br>
@@ -270,22 +267,22 @@ hay tiempo de migrar dicho asunto al [área de discusiones](https://github.com/u
 Si tu propósito es leer el contenido de las unidades sin interaccionar con aquellas de [tipo Jupyter
 notebook](#Unidades-Jupyter-notebook), la misma [web del repositorio de UIBCDF-Academia](https://github.com/uibcdf/Academia) te sirve para ello. GitHub muestra una
 versión 'estática' tanto de ficheros Markdown como de Jupyter Notebooks. Y cuando decimos estática
-nos referimos a que no puede insteraccionar modificando su contenido. Lo que vas a ver es una
+nos referimos a que no puedes interaccionar modificando su contenido. Lo que vas a ver es una
 página web "renderizada" para cada una de las unidades. En dicha visualización de las unidades, con lo único con lo que vas a poder
-iteractuar es con los hiperenlaces. Úsalos para navegar en la estructura de unidades de
+interactuar es con los hiperenlaces. Úsalos para navegar en la estructura de unidades de
 UIBCDF-Academia.
 
 Puedes empezar por seguir lo indicado en [la sección "Tabla de contenidos" del README.md principal de la web del repositorio en GitHub](https://github.com/uibcdf/Academia/#Tabla-de-contenidos) o ir directamente al [primer menú de unidades de UIBCDF-Academia](https://github.com/uibcdf/Academia/tree/main/academia/UIBCDF-Academia#readme).
 
 <div class="alert alert-warning" role="alert">
-<strong>Atención:</strong> Las unidades de tipo Markdown se visualizan en GitHub en "blanco y negro". Así que, accediendo a las unidades de esta manera, las cajas de alerta y el texto de color no se distinguirán en algunas de ellas. Por lo demás, los contenidos son perfectamente legibles.
+<strong>Atención:</strong> Las unidades de tipo Markdown se visualizan en GitHub en "blanco y negro". Así que, accediendo a las unidades de esta manera, las cajas de alerta y el texto de color no se distinguirán en algunas de ellas. Tampoco las instrucciones html incrustadas en el lenguage Markdown son todas interpretadas correctamente. Esto hace que estas unidades tengan algunos "problemas estéticos" que no apreciarás si te animas a seguir la siguiente sección. Por lo demás, los contenidos son perfectamente legibles.
 </div>
 
 <br>
 
 ## Quiero interactuar con las unidades de UIBCDF-Academia con la ayuda de Binder
 
-Existen [unidades en UIBCDF-Academia en formato Jupyter notebook](#Unidades-Markdown). Este formato nos permite construir un relato en una
+Existen [unidades en UIBCDF-Academia en formato Jupyter notebook](#Unidades-Jupyter-notebook). Este formato nos permite construir un relato en una
 misma unidad entretejiendo texto, figuras, tablas, videos, hiperenlaces... y código ejecutable. Y
 el resultado del código se muestra insertado inmediatamente a continuación de éste. Sin alterar el
 orden cronológico del relato.
@@ -297,7 +294,7 @@ unidades. Pero, ¿Qué necesitas para interactuar? Fundamentalmente necesitas ha
 ficheros Jupyter notebook, que no es otro que lo que conocemos como [Jupyter o JupyterLab](../../Laboratorio_computacional/Herramientas/Jupyter/Jupyter/Jupyter.md). Si no
 lo conocías previamente, y no lo tienes instalado en tu computadora, no te preocupes. Existen
 diversas herramientas en la red que te permiten usar Jupyter de manera remota. [Binder](https://mybinder.org) es una de
-las más populares y sencillas. Quizá por eso, y mientras siga siendo un servicio gratuitp y funcional para
+las más populares y sencillas. Quizá por eso, y mientras siga siendo un servicio gratuito y funcional para
 el propósito de este proyecto, la usaremos para ofrecerte acceso a tu propia versión de UIBCDF-Academia interactiva (tu propia sesión de Jupyter).
 
 Para abrir UIBCDF-Academia en Binder únicamente necesitas tu navegador. Haz click en la siguiente
@@ -310,16 +307,15 @@ insigna:
 Ya estás lanzando tu propio JupyterLab, en remoto gracias a Binder. Espera a que termine de
 cargarse. Ya puedes navegar por tu cuenta por los ficheros de este repositorio, para ello puedes hacer uso de la
 barra de ficheros a la izquierda de la pantalla. Los ficheros de tipo Markdown se abrirán por
-defecto en su versión mas cruda, como fichero de texto para ser editado. Cómo se explicó
-anteriormente, debes seleccionar la opción que da Jupyter de previsualizarlos. Sin embargo, para
+defecto en su versión mas cruda, como fichero de texto para ser editado. [Como se explicó
+anteriormente, debes seleccionar la opción que da Jupyter de previsualizarlos](#Unidades-Markdown). Sin embargo, para
 interactuar correctamente con los ficheros de tipo Jupyter notebook (\*.ipynb) no debes hacer nada
 más que abrirlos.
 
 Si quieres dejarte guiar por la estructura de hiperenlaces de UIBCDF-Academia, puedes comenzar por
 previsualizar el fichero principal "README.md" y acudir al enlace que se encuentra en la sección
 "Tabla de contenidos", o abrir la carpeta "academia" y previsualizar el fichero "README.md" que
-encontrarás en su interior. Recuerda, [como se explicó más arriba], para previsualizar un fichero Markdown (\*.md) haz click con el botón derecho sobre su nombre en el navegador de archivos y
-selecciona la opción 'Open With > Markdown Preview' del menú desplegado.
+encontrarás en su interior. Recuerda, [como se explicó más arriba](#Unidades-Markdown), para previsualizar un fichero Markdown (\*.md) haz click con el botón derecho sobre su nombre en el navegador de archivos y selecciona la opción 'Open With > Markdown Preview' del menú desplegado.
 
 <br>
 <center><img width="60%" src="preview_markdown.png"></center>
@@ -380,7 +376,7 @@ sudo apt-get install git
 ```
 
 Es muy importante, de cara a tus posibles contribuciones en UIBCDF-Academia o cualquier otro
-proyecto administrado por Git o ubicado GitHub, que configures ahora las credenciales de tu usuario para Git. De esta manera tus 'commits' y 'pull requests' estarán bien identificados. Ejecuta en la terminal los siguientes comandos tecleando tu nombre y tu dirección de correo electrónico entre comillas:
+proyecto administrado por Git o ubicado GitHub, que configures ahora las credenciales de tu usuario para Git. De esta manera tus *commits* y *pull requests* estarán bien identificados. Ejecuta en la terminal los siguientes comandos tecleando tu nombre y tu dirección de correo electrónico entre comillas:
 
 ```bash
 git config user.name "Tu Nombre y Apellidos"
@@ -393,7 +389,7 @@ Si quieres puedes modificar el editor de textos (emacs, vim, nano, etc.) que Git
 git config --global core.editor "vim"
 ```
 
-Puedes ahora comprobar que el archivo de configuración de git de tu usuario tiene tus datos:
+Puedes ahora comprobar que el archivo de configuración de Git de tu usuario tiene tus datos:
 
 ```bash
 more ~/.gitconfig
@@ -407,13 +403,13 @@ more ~/.gitconfig
 
 ### Configurando GitHub
 
-Este paso no es estrictamente necesario para trabajar con tu propia copia local de las unidades de UIBCDF-Academia. Pero si quieres participar de manera activa en [el tablón de cuestiones]() o [el área de discusiones](), o si quieres contribuir al desarrollo de UIBCDF-Academia implementando cambios, correcciones o material nuevo, tienes que disponer de una cuenta de usuario en GitHub (la cuenta básica es gratuita). Para ello, te invitamos a abrir la web [github.com](https://github.com/) y crea tu propio usuario
+Este paso no es estrictamente necesario para trabajar con tu propia copia local de las unidades de UIBCDF-Academia. Pero si quieres participar de manera activa en [el tablón de cuestiones]() o [el área de discusiones](), o si quieres contribuir al desarrollo de UIBCDF-Academia implementando cambios, correcciones o material nuevo, tienes que disponer de una cuenta de usuario en GitHub (la cuenta básica es gratuita). Para ello, te invitamos a abrir la web [github.com](https://github.com/) y crear tu propio usuario.
 
 <div class="alert alert-warning" role="alert">
-<strong>Atención:</strong> La cuenta de correo que incluíste en <a href='#Configurando-Git'>tu configuración local de Git</a> debe estar asociada a tu cuenta de usuario de GitHub para que este servicio pueda reconocer las modificaciones que localmente en tu computadora.
+<strong>Atención:</strong> La cuenta de correo que incluíste en <a href='#Configurando-Git'>tu configuración local de Git</a> debe estar asociada a tu cuenta de usuario de GitHub para que este servicio pueda reconocer como tuyas las modificaciones que localmente haces en tu computadora.
 </div>
 
-Ahora vamos a comunicarle a tu usuario de GitHub cuál es la o las máquinas desde las que vas a trabajar de manera remota. De esta manera podrás tirar y empujar cambios a tu computadora local de manera segura (mediante SSH). Para ello debes de seguir el guión descrito en [la página de soporte de GitHub correspondiente](https://help.github.com/articles/connecting-to-github-with-ssh/). Aquí vamos resumimos a continuación el proceso en el caso de que uses Linux (para Mac o Windows encuentra [aquí](https://help.github.com/articles/connecting-to-github-with-ssh/) las indicaciones).
+Ahora vamos a comunicarle a tu usuario de GitHub cuál es la o las máquinas desde las que vas a trabajar de manera remota. De esta manera podrás tirar y empujar cambios a tu computadora local de manera segura (mediante SSH). Para ello debes de seguir el guión descrito en [la página de soporte de GitHub correspondiente](https://help.github.com/articles/connecting-to-github-with-ssh/). Aquí vamos a resumir a continuación el proceso en el caso de que uses Linux (para Mac o Windows encuentra [aquí](https://help.github.com/articles/connecting-to-github-with-ssh/) las indicaciones).
 
 Antes de comenzar, debes saber que SSH es un protocolo de comunicación encriptada entre computadoras. Seguramente conocerás el comando `ssh` si has tenido que acceder a otra máquina. En este caso nos vamos a valer del mecanismo que ssh tiene para, antes de pedir las credenciales de usuario (usuario y contraseña), reconocer que dos máquinas tienen su comunicación validada o si se desconocen: la clave de ssh. Un usuario de Linux puede generar su propia clave de ssh al margen de su password (repetimos que ésta funciona como mecanismo previo de autentificación). Vamos a ver si tienes dicha clave, o la tienes que generar:
 
@@ -461,7 +457,7 @@ Ahora si, vayamos ahora a tu sección de configuración de accesos remotos de tu
 
 <br>
 <center>
-<img src="https://help.github.com/assets/images/help/settings/userbar-account-settings.png" width="200">
+<img src="https://help.github.com/assets/images/help/settings/userbar-account-settings.png" width="20%">
 </center>
 <br>
 
@@ -469,15 +465,15 @@ Y accede a la opción del menú lateral izquierdo 'SSH and GPG keys':
 
 <br>
 <center>
-<img src="https://help.github.com/assets/images/help/settings/settings-sidebar-ssh-keys.png" width="200">
+<img src="https://help.github.com/assets/images/help/settings/settings-sidebar-ssh-keys.png" width="20%">
 </center>
 <br>
 
-Haz click en el botón superior derecho de 'New SSH Key' y nombra la nueva clave con un título que recuerdes alusivo a la máquina que estás registrando ("mi laptop roja", p.ej.):
+Haz click en el botón superior derecho de "New SSH Key" y nombra la nueva clave con un título que recuerdes alusivo a la máquina que estás registrando ("mi laptop roja", p.ej.):
 
 <br>
 <center>
-<img src="https://help.github.com/assets/images/help/settings/ssh-add-ssh-key.png" width="400">
+<img src="https://help.github.com/assets/images/help/settings/ssh-add-ssh-key.png" width="50%">
 </center>
 <br>
 
@@ -497,7 +493,7 @@ Vuelve a la web de configuración de claves y pega allí (con el botón derecho 
 
 <br>
 <center>
-<img src="https://help.github.com/assets/images/help/settings/ssh-key-paste.png" width="200">
+<img src="https://help.github.com/assets/images/help/settings/ssh-key-paste.png" width="%40">
 </center>
 <br>
 
@@ -505,11 +501,11 @@ Ya puedes guardar el registro de tu clave en tu usuario de GitHub:
 
 <br>
 <center>
-<img src="https://help.github.com/assets/images/help/settings/ssh-add-key.png" width="200">
+<img src="https://help.github.com/assets/images/help/settings/ssh-add-key.png" width="%20">
 </center>
 <br>
 
-La validación de la conexión ya está hecha. Puedes probarla con el siguiente comando desde tu computadora. GitHub debe de devolverte un mensaje que incluya un saludo con tu nombre de usuario (de GitHub)
+La validación de la conexión ya está hecha. Puedes probarla con el siguiente comando desde tu computadora. GitHub debe devolverte un mensaje que incluya un saludo con tu nombre de usuario (de GitHub).
 
 ```bash
 ssh -T git@github.com
@@ -542,7 +538,7 @@ Antes de descargar [Conda (Miniconda)](), vamos a crear una carpeta en la que al
 mkdir ~/Myopt
 ```
 
-Dentro vamos a crear el directorio 'Miniconda':
+Dentro vamos a crear el directorio "Miniconda":
 
 ```bash
 mkdir ~/Myopt/Miniconda
@@ -581,13 +577,13 @@ Para que ver el efecto de la instalación tienes que abrir una nueva terminal (~
 echo $PATH
 ```
 
-Tienes que notar que en la salida ya aparece el directorio `bin` del miniconda instalado. En mi caso, en la lista de caminos a directorios con ejecutables aparece:
+Tienes que notar que en la salida ya aparece el directorio "bin" del miniconda instalado. En mi caso, en la lista de caminos a directorios con ejecutables aparece:
 
 ```bash
 /home/diego/Myopt/Miniconda/miniconda3/bin
 ```
 
-Puedes ahora comprobar que tu usuario reconoce el comando `conda` comenzando a teclear la palabra y viendo si la tecla `tab` completa el comando, o ejecutando:
+Puedes ahora comprobar que tu usuario reconoce el comando `conda` comenzando a teclear la palabra y viendo si la tecla "tab" completa el comando, o ejecutando:
 
 ```bash
 which conda
@@ -599,13 +595,13 @@ Actualizaremos ahora conda, antes de crear el entorno sobre el que trabajaremos:
 conda update conda
 ```
 
-Ya podemos crear el entorno de Python 3 que llamaremos `academia`:
+Ya podemos crear el entorno de Python 3 que llamaremos "UIBCDF-Academia":
 
 ```bash
 conda create -n UIBCDF-Academia python=3
 ```
 
-Comprueba pidiendole a conda que liste los entornos que has creado:
+Comprueba pidiéndole a Conda que liste los entornos que has creado:
 
 ```
 conda info --envs
@@ -617,7 +613,7 @@ Ya podemos cargar el entorno y comenzar a instalar librerías, pero antes, para 
 which python
 ```
 
-Seguramente ha aparecido como salida el python que por defecto usa tu sistema operativo: `/usr/bin/python`. Activemos ahora el entorno `academia` y comparemos:
+Seguramente ha aparecido como salida el python que por defecto usa tu sistema operativo: "/usr/bin/python". Activemos ahora el entorno "UIBCDF-Academiar"` y comparemos:
 
 ```bash
 conda activate UIBCDF-Academia
@@ -635,7 +631,7 @@ Ya podemos instalar los paquetes con los que vamos a trabajar. Puedes, antes de 
 conda list
 ```
 
-Instalaremos ahora el Jupyter Lab en nuestro entorno `academia`:
+Instalaremos ahora el paquete de JupyterLab en nuestro entorno "UIBCDF-Academia":
 
 ```bash
 conda install -c conda-forge jupyterlab
@@ -647,14 +643,14 @@ Ahora podemos probar a abrirlo (se abrirá una nueva pestaña en tu navegador).
 jupyter lab
 ```
 
-Verás que como siempre que se ejecuta un programa que da salida por terminal, esta queda secuestrada. Tendrás que abrir una terminal nueva para seguir trabajando, o añadir `&` al final del comando:
+Verás que como siempre que se ejecuta un programa que da salida por terminal, esta queda secuestrada. Tendrás que abrir una terminal nueva para seguir trabajando, o añadir "&" al final del comando:
 
 ```bash
 jupyter lab &
 ```
 
-Ya puedes si quieres, cerrar Jupyter Lab y desactivar el entorno `UIBCDF-Academia`.
-Jupyter Lab se cierra desde el menú `File` de la barra superior de su ventana con la orden `Quit`. En ese momento la terminal que quedó secuestrada con los mensajes de salida y error de Jupyter, se libera. Puedes desactivar `academia` ahora:
+Ya puedes si quieres, cerrar JupyterLab y desactivar el entorno "UIBCDF-Academia".
+JupyterLab se cierra desde el menú "File" de la barra superior de su ventana con la orden "Quit". En ese momento la terminal que quedó secuestrada con los mensajes de salida y error de JupyterLab, se liberá. Puedes desactivar el ambiente "UIBCDF-Academia" ahora:
 
 ```bash
 conda deactivate
@@ -668,7 +664,7 @@ conda config --set auto_activate_base false
 ```
 
 Puedes comprobar que de esta manera aparece una linea con el texto "auto\_activate\_base:false" en el
-archivo que conda usa para las opciones de configuración de tu usuario:
+archivo que Conda usa para las opciones de configuración de tu usuario:
 
 ```bash
 more ~/.condarc
@@ -682,9 +678,9 @@ more ~/.condarc
 
 ### Clonando el repositorio UIBCDF-Academia
 
-A caminar se aprende caminando. Y el formato que ofrecen los Jupyter notebooks, entre otras cosas, para comenzar a aprender algo es ideal. No sólo puedes leer contenido, si no porque puedes ejectuar código, modificarlo, introducir nuevas celdas y probar a crear tus propios ensayos. Es por eso que tiene sentido que hayas llegado hasta aquí en la lectura y realización de esta guía de uso.
+A caminar se aprende caminando. Y el formato que ofrecen los Jupyter notebooks, entre otras cosas, para comenzar a aprender algo es ideal. No sólo porque puedes leer contenido, si no porque puedes ejectuar código, modificarlo, introducir nuevas celdas y probar a crear tus propios ensayos. Es por eso que tiene sentido que hayas llegado hasta aquí en la lectura y realización de esta guía de uso.
 
-Para descargar en tu computadora una copia local, un clon, del repositorio UIBCDF-Academia,eEn el directorio que desees, en mi caso en `~/Projects`, ejecuta el siguiente comando:
+Para descargar en tu computadora una copia local, un clon del repositorio UIBCDF-Academia, en el directorio que desees -en mi caso en "~/Projects"- ejecuta el siguiente comando:
 
 ```bash
 cd ~/Projects
@@ -695,7 +691,7 @@ git clone https://github.com/uibcdf/Academia.git
 
 ### Abriendo tu copia local con Jupyter
 
-El material del repositorio está diseñado para ser enteramente reproducible en Jupyter Lab. Así que activemos el entorno para academia, si no está ya activado y ejecutemos el Jupyter Lab que allí hemos instalado.
+El material del repositorio está diseñado para ser enteramente reproducible en JupyterLab. Así que activemos el entorno de Conda "UIBCDF-Academia", si no está ya activado, y ejecutemos lancemos un servidor de JupyterLab en la carpeta de tu clon del repositorio.
 
 ```bash
 conda activate UIBCDF-Academia
@@ -703,7 +699,7 @@ cd ~/Projects/Academia
 jupyter lab
 ```
 
-Ha debido abrirse tu navegador con Jupyter Lab, o una nueva pestaña en la ventana que ya tenías abierta del navegador.
+Ha debido abrirse tu navegador con JupyterLab, o una nueva pestaña en la ventana que ya tenías abierta del navegador.
 
 ### Leyendo y ejecutando los contenidos
 
@@ -717,7 +713,7 @@ es el que aparece en el explorador de ficheros de la ventana lateral izquierda (
 
 <br>
 <center>
-<img src="navegador_jupyter.png" width="400">
+<img src="navegador_jupyter.png" width="40%">
 </center>
 <br>
 
@@ -725,34 +721,35 @@ Verás que en el explorador aparece el fichero `README.md`. Este es el documento
 
 <br>
 <center>
-<img src="view_markdown.png" width="400">
+<img src="view_markdown.png" width="50%">
 </center>
 <br>
 
-Aparecerá una pestaña nueva con el texto interpretado que usaremos como base para navegar por el repositorio:
+Aparecerá una pestaña nueva con el código Markdown interpretado que usaremos como base para navegar por el repositorio:
 
 <br>
 <center>
-<img src="readme.png" width="700">
+<img src="readme.png" width="50%">
 </center>
 <br>
 
 Desciende en ese fichero hasta la sección "Tabla de contenidos" y haz click con el botón izquierdo
-sobre el hiperenlace que dice "ir a xxx":
+sobre el hiperenlace que dice "Ir a la tabla de contenidos":
 
 <br>
 <center>
-<img src="readme_toc.png" width="400">
+<img src="readme_toc.png" width="60%">
 </center>
 <br>
 
 Se abrirá la unidad del menú principal de UIBCDF-Academia (podías también haber usado el navegador
-de ficheros de JupyterLab). Ya puedes comenzar a navegar por la estructura de unidades. Cuando te
-encuentres en una unidad de tipo Jupyter notebook, para comenzar a interaccionar con ella, ya que probablemente fue guardado con la salida de la ejecución de sus celdas para poder seguirse en GitHub, reinicia el nucleo (kernel) y borra las salidas:
+de ficheros de JupyterLab). Ya puedes comenzar a navegar por la estructura de unidades.
+
+Cuando te encuentres en una unidad de tipo Jupyter notebook, para comenzar a interaccionar con ella, ya que probablemente fue guardado con la salida de la ejecución de sus celdas para poder seguirse en GitHub, reinicia el núcleo (*kernel*) y borra las salidas con la opción "Restart Kernel and Clear All Outputs" del siguiente menú:
 
 <br>
 <center>
-<img src="restart_kernel.png" width="550">
+<img src="restart_kernel.png" width="60%">
 </center>
 <br>
 
@@ -760,27 +757,19 @@ Ya puedes ejecutar sus celdas con la combinación de teclas 'mayús'+'entrar', m
 
 ### Guardando cambios en tus notebooks
 
-Jupyter Lab guarda cada poco tiempo los documentos abiertos (notebooks, ficheros de texto, etc.). Puedes activar o desactivar esta opción en el menú superior:
+JupyterLab guarda cada poco tiempo los documentos abiertos (notebooks, ficheros de texto, etc.). Puedes activar o desactivar esta opción en el menú superior:
 
 <br>
 <center>
-<img src="autosave.png" width="350">
+<img src="autosave.png" width="60%">
 </center>
 <br>
 
-No obstante, puedes decidir guardar los cambios haciendo uso del icono conforma de floppy (nadie los usa ya, pero el icono no pasa de moda):
+No obstante, puedes decidir guardar los cambios haciendo uso del icono con forma de *floppy* (nadie los usa ya, pero el icono no pasa de moda):
 
 <br>
 <center>
-<img src="save.png" width="350">
-</center>
-<br>
-
-Si por el contrario, estás editando un fichero de texto como por ejemplo el 'README.md'. Tendrás que ir al menú 'File > Save Markdown File':
-
-<br>
-<center>
-<img src="save_markdown.png" width="350">
+<img src="save.png" width="50%">
 </center>
 <br>
 
@@ -790,21 +779,31 @@ Si por el contrario, estás editando un fichero de texto como por ejemplo el 'RE
 
 <br>
 
-### Cerrando JupyterLab
-
-Los notebooks de Jupyter necesitan cada uno de ellos un kernel corriendo detrás, como un cerebro que interpreta el notebook y al que le pides que ejecute las celdas y ofrezca su resultado como salida. Puedes guardar si quieres todos los notebooks y documentos que has estado editando, pero recuerda que esto no apaga los kernels. Para ello, antes de cerrar Jupyter Lab, recuerda que hay una sección, a la que puedes acceder clickando en el monito corriendo del menú lateral izquierdo, en el que puedes ver qué kernels están corriendo para cerrarlos:
+Si por el contrario, estás editando un fichero de texto como por ejemplo el 'README.md'. Tendrás que ir al menú 'File > Save Markdown File':
 
 <br>
 <center>
-<img src="kernels.png" width="350">
+<img src="save_markdown.png" width="40%">
 </center>
 <br>
 
-Ya puedes cerrar Jupyter en el menú 'File > Quit':
+### Cerrando JupyterLab
+
+Los notebooks de Jupyter necesitan cada uno de ellos un *kernel* corriendo detrás, como un cerebro que interpreta el notebook y al que le pides que ejecute las celdas y ofrezca su resultado como salida. Puedes guardar si quieres todos los notebooks y documentos que has estado editando, pero recuerda que esto no apaga los *kernels*. Para ello, antes de cerrar JupyterLab, recuerda que hay una sección, a la que puedes acceder haciendo click en el icono redondo del menú lateral izquierdo, en la que puedes ver qué kernels están corriendo para cerrarlos:
 
 <br>
 <center>
-<img src="cerrar.png" width="350">
+<img src="kernels.png" width="30%">
+</center>
+<br>
+
+Puedes cerrar cada uno de los *kernels* activos uno a uno, o puedes hacer uso de la opción "Shut Down All" para apagarlos todos.
+
+Ya puedes cerrar JupyterLab en el menú "File > Shutdown":
+
+<br>
+<center>
+<img src="cerrar.png" width="30%">
 </center>
 <br>
 

@@ -1,7 +1,7 @@
 <p style="text-align:left;">
    <a href="../README.md">Ir al menú anterior</a>
    <span style="float:right;">
-        <a href="../Que_es/Que_es.md">Ir a la unidad anterior</a>
+        <a href="../Como_se_usa/Como_se_usa.md">Ir a la unidad anterior</a>
    </span>
 </p>
 
@@ -23,6 +23,15 @@
 <div class="alert alert-warning" role="alert">
 <strong>Atención:</strong> Cualquier contribución que hagas al contenido UIBCDF-Academia queda
 protegido bajo una licencia <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a>.
+</div>
+
+<div class="alert alert-warning" role="alert">
+<strong>Atención:</strong> Para poder dar por tu cuenta los pasos descritos en esta unidad es imprescindible que hayas seguido todo el proceso descrito en <a href='../Como_se_usa/Como_se_usa.md#Quiero-trabajar-con-mi-propia-copia-local-de-las-unidades-de-UIBCDF-Academia'>la sección "Quiero trabajar con mi
+propia copia local de UIBCDF-Academia" de la unidad anterior titulada "Cómo se usa
+UIBCDF-Academia"</a>. Debes tener Git, Conda y JupyterLab correctamente configurados en tu computadora, debes tener
+tu propia cuenta de GitHub y configurarlar para interaccionar con ella adecuadamente desde la
+terminal de tu computador, así como conocer cómo ver y navegar adecuadamente por los ficheros del
+repositorio UIBCDF-Academia.
 </div>
 
 <br>
@@ -74,7 +83,7 @@ Para hacer tu *fork*, habiendo iniciado sesión con tu usuario en GitHub, acude 
 
 <br>
 <center>
-<img src="fork.png" width="60%">
+<img src="fork.png" width="80%">
 </center>
 <br>
 
