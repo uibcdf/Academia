@@ -1,4 +1,4 @@
-<div style='text-align: right;'> <a href="../README.md">Regresar</a> </div>
+<div style='text-align: left;'> <a href="../README.md#El-sistema-operativo-Linux">Ir al menú anterior</a> </div>
 
 -----
 
@@ -7,7 +7,7 @@
 # El sistema operativo Linux
 
 - [Introducción a Linux.](Linux/Linux.md) <span style="color:#185927">[100%]</span>
-- [Algunas buenas prácticas al trabajar en Linux.](Buenas_practicas/Buenas_practicas.md) <span style="color:#aa7d00">[5%]</span>
+- [Algunas buenas prácticas al trabajar en Linux.](Buenas_practicas/Buenas_practicas.md) <span style="color:#aa7d00">[1%]</span>
 
 
 <br />

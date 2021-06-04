@@ -1,4 +1,4 @@
-<div style='text-align: right;'> <a href="../README.md">Regresar</a> </div>
+<div style='text-align: left;'> <a href="../README.md#Herramientas-fundamentales-del-laboratorio-computacional">Ir al menú anterior</a> </div>
 
 -----
 

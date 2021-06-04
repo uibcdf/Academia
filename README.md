@@ -72,7 +72,7 @@ principal de UIBCDF-Academia.
 ### Quiero trabajar con mi propia copia local de UIBCDF-Academia
 
 Eres atrevida o atrevido y quieres comenzar configurando tu propio entorno en el que interaccionar
-tu copia local de UIBCDF-Academia. Enhorabuena por ese ímpetu. Te sugerimos entonces que saltes al
+con tu copia local de UIBCDF-Academia. Enhorabuena por ese ímpetu. Te sugerimos entonces que saltes al
 contenido apropiado para ti en la [sección extendida titulada "Cómo se usa UIBCDF-Academia"](academia/UIBCDF-Academia/Como_se_usa/Como_se_usa.md) del [primer bloque del contenido
 de este repositorioi](academia/UIBCDF-Academia/README.md). Allí encontrarás todo lo necesario para configurar tu entorno virtual, clonar
 UIBCDF-Academia e interaccionar con tu propia copia local.
