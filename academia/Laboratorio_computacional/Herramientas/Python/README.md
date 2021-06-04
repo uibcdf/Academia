@@ -6,7 +6,7 @@
 
 # Python
 
-- [Introducción a los lenguajes de programación.](Lenguages/Lenguajes.md) <span style="color:#823138">[0%]</span>
+- [Introducción a los lenguajes de programación.](Lenguajes/Lenguajes.md) <span style="color:#823138">[0%]</span>
 - [Qué es Python, cómo se instala y cómo se usa.](Python/Python.md) <span style="color:#185927">[100%]</span>
 - [Programando en Python.](Programando/Programando.ipynb) <span style="color:#185927">[100%]</span>
 - [Vectores, matrices y cálculo con Numpy.](Numpy/NumPy.ipynb) <span style="color:#185927">[100%]</span>
