@@ -8,7 +8,7 @@
 -----
 
 <br>
-<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png" width="30%"></center>
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png" width="20%"></center>
 <br>
 
 # Linux
@@ -80,14 +80,14 @@ Es así como, desde el comienzo de los 90, Linux comienza en la cabeza y las man
 
 ## ¿Por qué Linux? <a class="anchor" id="Por_que"></a>
 
-Los motivos para usar Linux como SO de trabajo van mucho más allá que una cuestión de principios. Linux nació como un SO capaz de manejar múltiples procesos y múltiples usuarios en la misma computadora. Desde entonces ha ido sofisticándose y adaptandose, gracias a la gran población de usuario/desarrolladores, para ser eficaz en cuestiones como el cálculo científico o el análisis masivo de datos. Por ir concretamente a lo que más nos interesa. Linux es el entorno usado desde su nacimiento en entornos académicos donde la computación es una herramienta de desarrollo esencial. La manera de trabajar de Linux nos permite tener todo el control de la máquina de un modo óptimo en la programación de tareas, aunque esto requiera un esfuerzo de aprendizaje. Puede que tengas experiencia en el manejo de Windows o MacOS, y son perfectamente útiles para todas las cuestiones que aprenderás en este repositorio, pero su diseño original fue hecho para cubrir otras necesidades. Es cierto que sus entornos de escritorio ya no son la única interfaz de interacción con la máquina, puedes usar también terminales. Al igual que Linux incluyó también un entorno gráfico sofisticado para navegar con ventanas. Pero el desarrollo de aplicaciones de alta demanda computacional se hace, no por motivos ideológicos, en Linux. A esto podemos añadir que:
+Los motivos para usar Linux como SO de trabajo van mucho más allá que una cuestión de principios. Linux nació como un SO capaz de manejar múltiples procesos y múltiples usuarios en la misma computadora. Desde entonces ha ido sofisticándose y adaptándose, gracias a la gran población de usuario/desarrolladores, para ser eficaz en cuestiones como el cálculo científico o el análisis masivo de datos. Por ir concretamente a lo que más nos interesa. Linux es el entorno usado desde su nacimiento en entornos académicos donde la computación es una herramienta de desarrollo esencial. La manera de trabajar de Linux nos permite tener todo el control de la máquina de un modo óptimo en la programación de tareas, aunque esto requiera un esfuerzo de aprendizaje. Puede que tengas experiencia en el manejo de Windows o MacOS, y son perfectamente útiles para todas las cuestiones que aprenderás en este repositorio, pero su diseño original fue hecho para cubrir otras necesidades. Es cierto que sus entornos de escritorio ya no son la única interfaz de interacción con la máquina, puedes usar también terminales. Al igual que Linux incluyó también un entorno gráfico sofisticado para navegar con ventanas. Pero el desarrollo de aplicaciones de alta demanda computacional se hace, no por motivos ideológicos, en Linux. A esto podemos añadir que:
 
 - Encontrarás un activo y numeroso grupo de usuarios como tú comentando en foros y blogs sus problemas de uso y sus soluciones.
 - El aprendizaje de su uso te permite convertirte no sólo en consumidor de aplicaciones, sino en generador de tus propias soluciones (que pueden ser útiles para los demás también).
 - Tiene menos problemas de seguridad que otros SOs.
 - Está en constante evolución, dictada por las necesidades de la comunidad, no por criterios de mercado.
-- La mayoría de distribuciones pueden ser instaladas sin coste alguno. Este es el caso de todos los programas que vas a necesitar para seguir este material.
-- Linux tiene problemas, y más si usas la última versión de ciertas distribuciones más experimentales. Pero los desarrolladores o la comunidad de usuarios pronto encuentra la solución y ésta es implementada para todo el mundo.
+- La mayoría de distribuciones pueden ser instaladas sin coste alguno. Este es el caso de todos los programas y librerías que vas a necesitar a lo largo de todas las unidades de UIBCDF-Academia.
+- Linux tiene problemas, y más si usas la última versión de ciertas distribuciones más experimentales. Pero los desarrolladores o la comunidad de usuarios pronto encuentra la solución y ésta es implementada para todos los usuarios.
 
 <br>
 <br>
@@ -95,9 +95,11 @@ Los motivos para usar Linux como SO de trabajo van mucho más allá que una cues
 
 ## Distribuciones de Linux.
 
-Hay infinidad de distribuciones de Linux ([aquí por ejemplo una lista ordenada por popularidad](https://distrowatch.com/dwres.php?resource=popularity)). Pero si Linux es la base común de estos sistemas operativos, ¿de qué estamos hablando cuando nos referimos a distribuciones de Linux? Una distribución es un sistema operativo configurado sobre Linux con cierto grado de personalización y optimización, con una serie de paquetes de software ajustados entre si para que el entorno funcione amigablemente y facilitando una experiencia de uso particular. La distribución de Linux suele condicionar la forma en que se instala, el entorno de escritorio, las utilidades de administración y los paquetes más sencillos que cualquier usuario usa para su gestión. Sin embargo las distribuciones no limitan ni restringen las utilidades o paquetes a instalar; y la experiencia de uso a través de la terminal no suele depender de la distribución más que en unos pocos comandos como por ejemplo la manera en la que instalamos paquetes. Vamos a hablar de algunas distribuciones para que entiendas a qué nos referimos con 'distribución' y [cúal se recomienda para cada caso](https://distrowatch.com/dwres.php?resource=major).
+Hay infinidad de distribuciones de Linux ([aquí por ejemplo una lista ordenada por popularidad](https://distrowatch.com/dwres.php?resource=popularity)). Pero si Linux es la base común de estos sistemas operativos, ¿de qué estamos hablando cuando nos referimos a distribuciones de Linux? Una distribución es un sistema operativo configurado sobre Linux con cierto grado de personalización y optimización, con una serie de paquetes de software ajustados entre sí para que el entorno funcione amigablemente y facilitando una experiencia de uso particular. La distribución de Linux suele condicionar la forma en que se instala, el entorno de escritorio, las utilidades de administración y los paquetes más sencillos que cualquier usuario usa para su gestión. Sin embargo las distribuciones no limitan ni restringen las utilidades o paquetes a instalar; y la experiencia de uso a través de la terminal no suele depender de la distribución más que en unos pocos comandos como por ejemplo la manera en la que instalamos paquetes. Vamos a hablar de algunas distribuciones para que entiendas a qué nos referimos con 'distribución' y [cúal se recomienda para cada caso](https://distrowatch.com/dwres.php?resource=major).
 
-**Nota**: Las herramientas que se presentan posteriormente a esta unidad en el repositorio Academia y su uso (Git, Conda, Python, Jupyter, ...) no dependen en absoluto de la distribución de Linux que estés usando. Tampoco los comandos y conceptos que aprenderás en este notebook, comunes a todas las distribuciones por estar en la esencia del funcionamiento de Linux.
+<div class="alert alert-warning" role="alert">
+<strong>Atención:</strong>  Las herramientas que se presentan posteriormente a esta unidad en el repositorio UIBCDF-Academia y su uso (Git, Conda, Python, Jupyter, ...) no dependen en absoluto de la distribución de Linux que estés usando. Tampoco los comandos y conceptos que aprenderás en esta unidad, comunes a todas las distribuciones por estar en la esencia del funcionamiento de Linux.
+</div>
 
 ### Ubuntu
 
@@ -107,11 +109,11 @@ Además, Ubuntu, por ser una de las distribuciones más usadas, cuenta en intern
 
 ### ElementaryOS
 
-Si lo que buscas es algo más estético, sencillo para una primera experiencia de uso, y que nadie te mire como a un o una nerd: puede que esta sea tu distribución. En el laboratorio no tenemos experiencia con [ElementaryOS](https://elementary.io/) y por lo tanto no la recomendamos para un entorno de producción. Pero en los últimos meses está ganando mucha popularidad y entendemos que si vienes de MacOs, ElementaryOS te parezca muy agradable.
+Si lo que buscas es algo más estético, sencillo para una primera experiencia de uso, y que nadie te mire como a un o una nerd: puede que esta sea tu distribución. En el laboratorio no tenemos experiencia con [ElementaryOS](https://elementary.io/) y por lo tanto no la recomendamos para un entorno de producción. Pero últimamente está ganando mucha popularidad y entendemos que si vienes de MacOs, ElementaryOS te parezca muy agradable.
 
 ### Arch
 
-Si lo que buscas es una distribución que venga ligera en su instalación original y en la que puedas configurarlo todo como un nerd, échale un ojo a [ArchLinux](https://www.archlinux.org/). Esta distro es para usuarios más experimentados o para valientes novatos; y para máquinas que requieren un sistema operativo liviano y ajustable a su hardware, sin artificios ni vistosos procesos poco útiles.
+Si lo que buscas es una distribución que venga ligera en su instalación original y en la que puedas configurarlo todo como un profesional, échale un ojo a [ArchLinux](https://www.archlinux.org/). Esta distro es para usuarios más experimentados o para valientes novatos; y para máquinas que requieren un sistema operativo liviano y ajustable a su hardware, sin artificios ni vistosos procesos poco útiles.
 
 ### CentOS
 
@@ -126,7 +128,15 @@ Con el tiempo aprenderás que en el mundo de Linux, las distribuciones son como 
 
 ## ¿Cómo se instala? <a class="anchor" id="Como"></a>
 
-Si es la primera vez que usas Linux, has de saber que cada distribución tiene su instalador. No hay un protocolo único de instalación para todo Linux. Puedes encontrar instaladores muy sencillos, con poco margen para personalizar la configuración, o muy completos pero complicados para un usuario inexperto. Es recomendable entonces que para empezar elijas una distribución amigable, bien documentada y con un buen grado de popularidad. El proceso que aquí vamos a describir es únicamente una descripción sobre la toma de decisión que has de hacer, eso sí es común a cualquier instalación. Tomaremos el ejemplo de querer instalar Ubuntu como caso práctico para introducir los comentarios a esas decisiones. Si tu intención es instalar otra distribución, seguramente tras leer esta sección y acudir a la documentación web correspondiente, encuentres el proceso más sencillo. 
+<div class="alert alert-success" role="alert">
+<strong>Ayuda:</strong> Si quieres instalar Ubuntu, nada mejor que acudir a la documentación oficial para encontrar una buena <a href='https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview'>guía de cómo se instala la versión para computadoras personales</a> o <a href='https://ubuntu.com/tutorials/install-ubuntu-server#1-overview'>la versión para servidores</a> (en esta última puedes encontrar orientación sobre la configuración de particiones).
+</div>
+
+<div class="alert alert-info" role="alert">
+<strong>Sugerencia:</strong> Si quieres, puedes probar Ubuntu antes de instalarlo en tu máquina. Sólo necesitas una memoria USB o un DVD para crear un sistema operativo 'externo' con el que puedes arrancar cualquier máquina -y probar la distribución-. Encuentra las instrucciones en <a href='https://ubuntu.com/tutorials/try-ubuntu-before-you-install#1-getting-started'>este enlace</a>.
+</div>
+
+Si es la primera vez que usas Linux, has de saber que cada distribución tiene su instalador. No hay un protocolo único de instalación para todo Linux. Puedes encontrar instaladores muy sencillos, con poco margen para personalizar la configuración, o muy completos pero complicados para un usuario inexperto. Es recomendable entonces que para empezar elijas una distribución amigable, bien documentada y con un buen grado de popularidad. El proceso que aquí vamos a describir es únicamente una descripción sobre la toma de decisiones que has de hacer, eso sí es común a cualquier instalación. Tomaremos el ejemplo de querer instalar Ubuntu como caso práctico para introducir los comentarios a esas decisiones. Si tu intención es instalar otra distribución, seguramente tras leer esta sección y acudir a la documentación web correspondiente, encuentres el proceso más sencillo. 
 
 ### Búsqueda de documentación <a class="anchor" id="Busqueda"></a>
 
@@ -154,11 +164,11 @@ Uno de los primeros pasos para instalar cualquier distribución de Linux es desc
 
 En el caso de Ubuntu, el proceso para hacer un USB booteable de instalación está bien documentado. Es uno de los primeros pasos a dar en cualquier documentación que encuentres: ver el [proceso de instalación aquí](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0), o [la creación del usb booteable aquí](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0).
 
-Para usar el USB booteable debes tenerlo enchufado a la computadora antes de encenderla. Muy probablemente la bios de tu máquina esté configurada para darle prioridad al SO encontrado en un USB amtes que a los ubicados en el disco duro. Si es así, el instalador te guiará enseguida y podrás comenzar el proceso. Si no, debes modificar el orden de prioridad de los dispositivos de arranque en la bios o acceder a las opciones del menú de arranque de tu máquina, ya que habitualmente el fabricante habilita la posibilidad de iniciar desde el USB sin modificar la configuración de manera permanente.
+Para usar el USB booteable debes tenerlo enchufado a la computadora antes de encenderla. Muy probablemente la bios de tu máquina esté configurada para darle prioridad al SO encontrado en un USB antes que a los ubicados en el disco duro. Si es así, el instalador te guiará enseguida y podrás comenzar el proceso. Si no, debes modificar el orden de prioridad de los dispositivos de arranque en la bios o acceder a las opciones del menú de arranque de tu máquina, ya que habitualmente el fabricante habilita la posibilidad de iniciar desde el USB sin modificar la configuración de manera permanente.
 
 En el caso de Ubuntu, lo primero que verás al arrancar con el USB será una ventana que te permite decidir entre probar Ubuntu o instalarlo:
 
-<center><img src="https://i.stack.imgur.com/pNTOi.png" width="300"></center>
+<center><img src="https://i.stack.imgur.com/pNTOi.png" width="30%"></center>
 
 Si decides instalarlo, el proceso es guiado y sencillo. El mismo instalador te orientará en la toma de decisiones. Puede que la única decisión sobre la que necesites un poco de información es la creación de particiones.
 
@@ -174,6 +184,11 @@ Para esto puedes comenzar el proceso de instalación de Linux con Windows en tu 
 <center><img src="Install-Ubuntu-Alongside-With-Windows.png" width="400"></center>
 
 Debes elegir la primera opción, 'Install Ubuntu alongside Windows boot manager'.
+
+<div class="alert alert-info" role="alert">
+<strong>Sugerencia:</strong> Hoy en día puedes instalar la terminal de Ubuntu dentro de Windows 10 como si fuera una aplicación más. Puede que antes de instalar Ubuntu, quieres probar está opción en tu Windows 10. Échale un ojo a la documentación oficial de Ubuntu para descubrir cómo puedes hacerlo en <a href='https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview'>este enlace</a>.
+</div>
+
 
 #### Tengo Windows instalado pero sólo quiero usar Linux.
 
@@ -204,7 +219,7 @@ El último concepto, la memoria swap, merece a continuación un párrafo ya que 
 
 ### El sistema de ficheros.
 
-[Qué es el *journaling* o el *journal file system*](https://help.ubuntu.com/community/LinuxFilesystemsExplained) es algo que escapa a los objetivos de este notebook. Puedes buscar información para comprender los detalles. Es recomendable que alguna vez lo hagas. Pero para poder culminar el proceso de instalación correctamente debes saber que existen distintas estrategias de gestión de ficheros en disco que pueden condicionar su uso. [Desde finales de los 70 y hasta los 90 Dos y Windows manejaban el sistema FAT (FAT12, FAT16 y FAT32)](https://web.archive.org/web/20150925082826/http://www.wizcode.com/articles/comments/a-brief-introduction-to-fat-file-allocation-table/). Su origen estaba motivado por cómo indexar la organización de ficheros en un disco Floppy blando. Te puedes imaginar que a medida que los ficheros crecían en tamaño y los soportes en capacidad de memoria, hubo que diseñar nuevas estrategias. [FAT12 tenía una limitación de tamaño máximo de partición de 32 MB, FAT16 ya permitía un tamaño máximo de fichero de 2GB y FAT 32 de 4GTB](http://www.ntfs.com/ntfs_vs_fat.htm). Hoy día Windows maneja un protolo llamado NTFS que permite gestionar ficheros de tamaño máximo 16TB -por hablar de algo que nos puede afectar directamente-. Sin embargo Linux adoptó desde el principio otro tipo de estrategias, [desde EXT2 a comienzos de los 90 hasta el día de hoy en el que la mayoría de distribuciones para computadora de escritorio hacen uso de EXT4](https://opensource.com/article/18/4/ext4-filesystem) ([aunque existen otros tipos de sistemas de fichero que pueden adoptar las computadoras de cálculo intensivo o los servidores](https://en.wikipedia.org/wiki/Comparison_of_file_systems)).
+[Qué es el *journaling* o el *journal file system*](https://help.ubuntu.com/community/LinuxFilesystemsExplained) es algo que escapa a los objetivos de esta unidad. Puedes buscar información para comprender los detalles. Es recomendable que alguna vez lo hagas. Pero para poder culminar el proceso de instalación correctamente debes saber que existen distintas estrategias de gestión de ficheros en disco que pueden condicionar su uso. [Desde finales de los 70 y hasta los 90 Dos y Windows manejaban el sistema FAT (FAT12, FAT16 y FAT32)](https://web.archive.org/web/20150925082826/http://www.wizcode.com/articles/comments/a-brief-introduction-to-fat-file-allocation-table/). Su origen estaba motivado por cómo indexar la organización de ficheros en un disco *floppy* blando (y grande). Te puedes imaginar que a medida que los ficheros crecían en tamaño y los soportes en capacidad de memoria, hubo que diseñar nuevas estrategias. [FAT12 tenía una limitación de tamaño máximo de partición de 32 MB, FAT16 ya permitía un tamaño máximo de fichero de 2GB y FAT 32 de 4GTB](http://www.ntfs.com/ntfs_vs_fat.htm). Hoy día Windows maneja un protolo llamado NTFS que permite gestionar ficheros de tamaño máximo 16TB -por hablar de algo que nos puede afectar directamente-. Sin embargo Linux adoptó desde el principio otro tipo de estrategias, [desde EXT2 a comienzos de los 90 hasta el día de hoy en el que la mayoría de distribuciones para computadora de escritorio hacen uso de EXT4](https://opensource.com/article/18/4/ext4-filesystem) ([aunque existen otros tipos de sistemas de fichero que pueden adoptar las computadoras de cálculo intensivo o los servidores](https://en.wikipedia.org/wiki/Comparison_of_file_systems)).
 
 Dicho esto, te preguntarás: Bien, ¿Pero qué sistema debo de elegir cuando creo las particiones? [En caso de duda, y para un uso común, la mejor opción ahora mismo es EXT4 para todas tus particiones de Liinux (menos la de memoria swap)](https://www.howtogeek.com/howto/33552/htg-explains-which-linux-file-system-should-you-choose/).
 
@@ -212,7 +227,7 @@ Dicho esto, te preguntarás: Bien, ¿Pero qué sistema debo de elegir cuando cre
 
 En Linux, desde las primeras distribuciones, se recomienda generar una partición de disco duro que se usará como area de intercambio temporal en el caso de que la memoria RAM se haya ocupado. Se llama memoria Swap. Obviamente el uso del disco duro para memoria de ejecución de procesos es algo muy lento, pero efectivo en caso de rescate. Si estás trabajando con un disco de estado sólido, el escenario cambia, ya que es de lectura y escritura mucho más rápida. Pero si no, cuando tengas muchas aplicaciones abiertas o estés ejecutando un programa que requiera un gran manejo de datos en memoria, notarás, si la memoria RAM se agota, como la computadora se vuelve muuuuy lenta... no se colgará, pero se vuelve extremadamente lenta mientras migra ciertos datos de la memoria RAM a la Swap. Esta situación entonces no es del todo catastrófica, te dejará margen para que elimines el proceso que aumentó el consumo. Después, suele tardar un tiempo en recuperar el comportamiento normal y puede que por el camino haya algún proceso dando mensajes de que no responde. Puedes leer un poco más sobre la swap [aquí](https://hipertextual.com/2015/09/swap-en-linux), [aquí](https://blog.desdelinux.net/que-es-el-swap-en-linux-y-como-utilizarlo/), [aquí](http://culturacion.com/que-es-una-particion-swap/) o [aquí](http://web.mit.edu/rhel-doc/3/rhel-sag-es-3/ch-swapspace.html).
 
-[¿Cúanta memoria entonces tienes que dedicar a tu Swap?](https://maslinux.es/cuanto-swap-deberia-usarse-en-gnu-linux/) No hay una respuesta clara. También podemos [preguntarnos si efectivamente esta memoria es necesaria cuando ya la RAM que tienes en la computadora tiene un tamaño razonable](https://geekytheory.com/es-necesaria-una-particion-swap-en-linux). El consejo que podemos dar es que si tienes un disco duro de más de 1 Tera, no te va a hacer daño crear una partición Swap, y el tamaño puede ser entre una y dos veces la cantidad de memoria RAM que tienes. En mi caso, en la laptop tengo 8 GB de RAM y una Swap de otros 8 GB, y para el uso que le doy es suficiente. En la computadora de escritorio tengo 64 GB de RAM y 16 GB de Swap, aunque más de 8 GB de Swap puede ser innecesario, ya que la uso para hacer cálculos más demandantes y prefiero prevenir.
+[¿Cúanta memoria entonces tienes que dedicar a tu Swap?](https://maslinux.es/cuanto-swap-deberia-usarse-en-gnu-linux/) No hay una respuesta clara. También podemos [preguntarnos si efectivamente esta memoria es necesaria cuando ya la RAM que tienes en la computadora tiene un tamaño razonable](https://geekytheory.com/es-necesaria-una-particion-swap-en-linux). El consejo que podemos dar es que si tienes un disco duro de más de 1 Tera, no te va a hacer daño crear una partición Swap, y el tamaño puede ser entre una y dos veces la cantidad de memoria RAM que tienes. En nuestro caso, en las laptops tenemos 8 GB de RAM y una Swap de otros 8 GB, y para el uso que le damos es suficiente. En las computadora de escritorio tenemos 64 GB de RAM y 16 GB de Swap, aunque más de 8 GB de Swap puede ser innecesario, ya que la usamos para hacer cálculos más demandantes y preferimos prevenir.
 
 ## ¿Puedo usar además otros sistemas operativos en la misma máquina? <a class="anchor" id="Otros_SOs"></a>
 
@@ -350,15 +365,21 @@ Si estás aproximándote a Linux desde hace poco es posible que confundas los en
 
 Probablemente estés habituado/a a interaccionar con tu computadora a través del entorno gráfico de escritorio. Resulta muy intuitivo y casi no requiere proceso de aprendizaje, pero consume muchos recursos y es altamente ineficiente cuando la computadora es tu herramienta para algo más que el uso de una o dos herramientas de ofimática.
 
-La terminal es esa ventanita monocolor que sólo contiene texto y cuya última linea siempre acaba con un cursor parpadeante que puede resultar al principio intimidante... ya que aparece y desaparece intermitentemente como diciendote: ¿y ahora qué? Pues bien, efectivamente es la puerta de entrada a la interacción con tu máquina. El cursor espera comandos, y esa lista de comandos que entiende son un lenguage, con sus reglas sintácticas, que debes aprender para comunicarte con tu máquina. El lenguage que puebla por defecto la mayoría de los sistemas Linux se llama Bash. ¿Es el único? No, hay otros lenguages para la terminal más sofisticados como Zsh o Fish, pero Bash es el interpretador más común y el que únicamente usarás a lo largo de tu vida si no es que eres una persona muy curiosa o alcanzas un nivel de experiencia como para encontrar los límites e incomodidades del uso de Bash.
+La terminal es esa ventanita monocolor que sólo contiene texto y cuya última linea siempre acaba con un cursor parpadeante que puede resultar al principio intimidante... ya que aparece y desaparece intermitentemente como diciendote: ¿y ahora qué? Pues bien, efectivamente es la puerta de entrada a la interacción con tu máquina. El cursor espera comandos, y esa lista de comandos que entiende son un lenguage, con sus reglas sintácticas, que debes aprender para comunicarte con tu máquina. El lenguage que puebla por defecto la mayoría de los sistemas Linux se llama Bash. ¿Es el único? No, hay otros lenguajes para la terminal más sofisticados como Zsh o Fish, pero Bash es el interpretador más común y el que únicamente usarás a lo largo de tu vida si no es que eres una persona muy curiosa o alcanzas un nivel de experiencia como para encontrar los límites e incomodidades del uso de Bash.
 
 Antes de hablar de qué vamos a escribir en la terminal, hagamos un breve comentario sobre lo que precede al cursor en la terminal. Ese fragmento de texto que no desaparece por mucho que le demos a la tecla 'entrar' se llama 'prompt'. Es perfectamente configurable y personalizable y habitualmente suele contener el nombre del usuario que está operando la terminal, el nombre de la máquina precedido del símbolo '@' (muy util cuando en la misma terminal hacemos conexiones remotas con otras máquinas) y por último la dirección o 'path' del archivo en el que nos encontramos en la terminal. Esto nos lleva otro concepto que usaremos como punto de inicio en nuestro aprendizaje de Bash: la navegación de ficheros.
 
+<div class="alert alert-info" role="alert">
+<strong>Sugerencia:</strong> Si estás leyendo esta unidad mediante el uso de Binder, como se
+recomienda en <a href='../../../../UIBCDF-Academia/Como_se_usa/Como_se_usa.md#Quiero-interactuar-con-las-unidades-de-UIBCDF-Academia-con-la-ayuda-de-Binder'>la sección "Quiero interactuar con las unidades de UIBCDF-Academia con la ayuda de Binder" de la unidad "Cómo se usa UIBCDF-Academia"</a>, puedes abrir una terminal Linux en el servidor remoto
+en el que estás ejecutando JupyterLab de la siguiente manera. Selecciona la opción del menú de la barra horizontal superior "File > New > Terminal" para abrir una pestaña nueva en el navegador JupyterLab. Esta nueva pestaña no es otra cosa que una terminal de Linux para operar con la máquina remota que te está sirviendo el servicio. Si todavía no has instalado Linux en tu máquina, o si no tienes a mano una computadora con este SO, puedes usar esa terminal en el JupyterLab remoto ofrecido por Binder para ensayar y aprender el uso de la terminal y la sintaxis de Bash.
+</div>
+
 ### La navegación de ficheros. <a class="anchor" id="navegacion_ficheros"></a>
 
-La terminal es una herramienta poderosísima. Todo lo que necesitas hacer con la computadora se puede hacer a través de la terminal, no requieres el entorno gráfico para casi nada. Y la navegación de ficheros es probablemente lo menos relevante pero lo más sencillo de entender para comenzar a sentirte cómodo o cómoda con la terminal.
+La terminal es una herramienta poderosísima. Todo lo que necesitas hacer con la computadora se puede hacer a través de la terminal, no requieres el entorno gráfico para nada. Y la navegación de ficheros es probablemente lo menos relevante pero lo más sencillo de entender para comenzar a sentirte cómodo o cómoda con la terminal.
 
-Como decíamos en la sección anterior, el sistema de archivos tiene estructura de árbol y podemos escribir la secuencia de directorios que contienen, como muñecas rusas, el fichero con el que queremos trabajar. A esta dirección, o secuencia de directorios, se le llama camino o 'path'. Si el 'path' comienza en el directorio raiz, se dice que el path absoluto. Si sin embargo se trata del recorrido que tenemos que hacer desde el directorio en el que se encuentra la terminal u otro directorio, se dice path relativo -efectivamente path es una palabra tan comunmente usada en este contexto he dejado de entrecomillarla-.
+Como decíamos en la sección anterior, el sistema de archivos tiene estructura de árbol y podemos escribir la secuencia de directorios que contienen, como muñecas rusas, el fichero con el que queremos trabajar. A esta dirección, o secuencia de directorios, se le llama camino o 'path'. Si el 'path' comienza en el directorio raiz, se dice que el *path* absoluto. Si sin embargo se trata del recorrido que tenemos que hacer desde el directorio en el que se encuentra la terminal u otro directorio, se dice *path* relativo -efectivamente path es una palabra tan comunmente usada en este contexto hemos dejado de entre-comillarla-.
 
 Vamos a hacer una serie de ejercicios que nos ayuden a introducir la navegación de ficheros, su sintaxis y los comandos más útiles. Comencemos abriendo una terminal. Para esto suele funcionar las primeras veces acudir al menú de aplicaciones de tu entorno de escritorio, aunque poco a poco sentirás la necesidad de usar una combinación de teclas que rápidamente, sin mover la mano al ratón, te dispare terminales nuevas. En el caso de Gnome y Ubuntu, esta es 'ctrl'+'alt'+'t'.
 
@@ -392,7 +413,7 @@ O de nuevo, pero de otra forma, el contenido de tu directorio hogar:
 ls ~
 ```
 
-Ahora veamos como cambiar de directorio. El comando `cd` (del inglés *change directory*) ubica la terminal en el directorio que le digamos. Por ejemplo, podemos movernos al directorio raiz '/' y descubrir los directorios que hay en él y que se han relatado en la sección [*La organización de ficheros del sistema Linux*](#organizacion):
+Ahora veamos como cambiar de directorio. El comando `cd` (del inglés *change directory*) ubica la terminal en el directorio que le digamos. Por ejemplo, podemos movernos al directorio raíz '/' y descubrir los directorios que hay en él y que se han relatado en la sección [*La organización de ficheros del sistema Linux*](#organizacion):
 
 ```bash
 cd /
@@ -599,26 +620,26 @@ less mi_nuevo_fichero
 Pero el desvío de `stdout` a un fichero mediante `>` tiene una peculiaridad, siempre reescribe el fichero:
 
 ```bash
-echo "Hola Liliana" > mi_nuevo_fichero
+echo "Hola Ana" > mi_nuevo_fichero
 more mi_nuevo_fichero
 
-echo "Hola Carmen" > mi_nuevo_fichero
+echo "Hola Bastian" > mi_nuevo_fichero
 more mi_nuevo_fichero
 
-echo "Hola Homero" > mi_nuevo_fichero
+echo "Hola Kitzia" > mi_nuevo_fichero
 more mi_nuevo_fichero
 
-echo "Hola Angel" > mi_nuevo_fichero
+echo "Hola Emiliano" > mi_nuevo_fichero
 more mi_nuevo_fichero
 ```
 
 Si quieres que las entradas vayan registrandose en el fichero de manera concatenada, has de usar `>>`:
 
 ```bash
-echo "Hola Liliana" > mi_nuevo_fichero
-echo "Hola Carmen" >> mi_nuevo_fichero
-echo "Hola Homero" >> mi_nuevo_fichero
-echo "Hola Angel" >> mi_nuevo_fichero
+echo "Hola Ana" > mi_nuevo_fichero
+echo "Hola Bastian" >> mi_nuevo_fichero
+echo "Hola Kitzia" >> mi_nuevo_fichero
+echo "Hola Emiliano" >> mi_nuevo_fichero
 more mi_nuevo_fichero
 ```
 
@@ -1135,7 +1156,7 @@ Verás que la terminal espera con el cursor parpadeante. Ahora, con las dos term
 
 ## Editores de texto.
 
-Hasta este punto, en este notebook, hemos realizado la mayoría de las creaciones y modificaciones de ficheros de texto con el comando `echo`. Esto no es el del todo común -ni útil-. Se ha hecho así para evitar el tema de los editores de texto hasta llegar a esta sección.
+Hasta este punto, en esta unidad, hemos realizado la mayoría de las creaciones y modificaciones de ficheros de texto con el comando `echo`. Esto no es el del todo común -ni útil-. Se ha hecho así para evitar el tema de los editores de texto hasta llegar a esta sección.
 
 Aclaremos qué entendemos aquí por editor de texto. Editor de texto es una aplicación que sirve para el registro de texto en las unidades de memoria. Todos los editores que vamos a mencionar tienen el mismo efecto, y todos realizan la función que los define con el mismo resultado. En general no podemos adivinar con qué editor fue escrito un fichero. La diferencia entre editores está en la experiencia de usabilidad.
 
@@ -1191,15 +1212,15 @@ Atom no está instalado por defecto y puede que no lo encuentres en el repositor
 [Sublime](https://www.sublimetext.com/) es un editor de uso no libre, de pago. La especial orientación de Sublime para la edición de código de programación y sus funciones como IDE, han hecho que gane en los últimos años una enorme popularidad entre profesionales del cómputo, programadores y usuarios avanzados.
 
 <br>
-<img src="https://imgs.xkcd.com/comics/real_programmers.png" width="550">
+<center><img src="https://imgs.xkcd.com/comics/real_programmers.png" width="50%"></center>
 <br>
 
 <br>
-<img src="https://imgs.xkcd.com/comics/types_of_editors.png" width="550">
+<center><img src="https://imgs.xkcd.com/comics/types_of_editors.png" width="50%"></center>
 <br>
 
 <br>
-<img src="https://imgs.xkcd.com/comics/hottest_editors.png" width="250">
+<center><img src="https://imgs.xkcd.com/comics/hottest_editors.png" width="25%"></center>
 <br>
 
 
@@ -1455,8 +1476,9 @@ less /etc/group
 Por último, mira qué usuario está al comienzo de la lista de '/etc/passwd': root. En la siguiente sección abordaremos las cuestiones ¿Quién es root?, ¿Y quién además puede hacer tareas de gestión del sistema operativo? Te habrás dado cuenta de que en esta sección de usuarios y grupos no hemos dicho nada sobre cómo se crean. Es porque puede que no tengas permisos para realizar esas acciones. O sí.
 
 ## Root, el superusuario, y sudo. <a class="anchor" id="sudo"></a>
-
-<img src="https://www.explainxkcd.com/wiki/images/b/b1/sandwich.png" width="250">
+<br>
+<center><img src="https://www.explainxkcd.com/wiki/images/b/b1/sandwich.png" width="25%"></center>
+<br>
 
 El usuario root, o superusuario, es el usuario definido en el sistema con permisos para realizar cualquier tarea. Es el usuario con la capacidad innata de administrar el sistema operativo. Hace un tiempo muchas distribuciones pedían a la hora de ser instaladas una contraseña para el usuario root. Suponiendo, claro, que la persona que instala el sistema operativo es el mismo que va a ejercer de administrador. Hoy en día, en el caso de Ubuntu por ejemplo, en la instalación se define un usuario con permisos de actuación "como si fuera" root. Es lo que se conoce como 'sudo'. Probablemente, si eres la persona que instaló el SO que estás usando y tu usuario es el primero que se creó, tu usuario tiene la capacidad de hacer `sudo`. De nuevo en el caso de Ubuntu, los usuarios con la capacidad de realizar tareas de administración como si fueran root deben pertenecer al grupo que lleva el nombre de 'sudo'. Puedes comprobar con el siguiente comando si perteneces a dicho grupo:
 

@@ -46,7 +46,7 @@ Estos son los contenidos que encontrarás en adelante.
       - [El tablón de cuestiones en la web de GitHub](#El-tablón-de-cuestiones-en-la-web-de-GitHub)
       - [Las discusiones en la web de GitHub](#Las-discusiones-en-la-web-de-GitHub)
 - [Únicamente quiero leer el contenido de UIBCDF-Academia](#Únicamente-quiero-leer-el-contenido-de-UIBCDF-Academia)
-- [Quiero interactuar con las unidades de UIBCDF-Academia con la ayuda de Binder](#Quiero-interactura-con-las-unidades-de-UIBCDF-Academia-con-la-ayuda-de-Binder)
+- [Quiero interactuar con las unidades de UIBCDF-Academia con la ayuda de Binder](#Quiero-interacturar-con-las-unidades-de-UIBCDF-Academia-con-la-ayuda-de-Binder)
 - [Quiero trabajar con mi propia copia local de las unidades de UIBCDF-Academia](#Quiero-trabajar-con-mi-propia-copia-local-de-las-unidades-de-UIBCDF-Academia)
    - [Configurando Git](#Configurando-Git)
    - [Configurando GitHub](#Configurando-GitHub)
