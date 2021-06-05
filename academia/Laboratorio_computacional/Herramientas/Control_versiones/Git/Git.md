@@ -1,11 +1,36 @@
-<center>
-<img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="200">
-</center>
+<p style="text-align:left;">
+   <a href="../README.md">Ir al menú anterior</a>
+   <span style="float:right;">
+        <a href="../README.md">Ir a la unidad anterior</a>
+   </span>
+</p>
 
----
-`Nota: Si crees que este notebook necesita algún cambio no dudes en contribuir a su desarrollo.`
+-----
 
----
+<br>
+<center><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="20%"></center>
+<br>
+
+# ¿Qué es Git y cómo se usa?
+
+<div class="alert alert-info" role="alert">
+<strong>Info:</strong> Si crees que este notebook necesita algún cambio no dudes en <a href="../../../../UIBCDF-Academia/Como_contribuir/Como_contribuir.md" class="alert-link">contribuir a su desarrollo</a>.
+</div>
+
+<br>
+
+- [¿Qué es Git?](#¿Qué-es-Git?)
+- [¿Cómo se instala?](#¿Cómo-se-instala?)
+   - [Linux](#Linux)
+   - [Ubuntu](#Ubuntu)
+   - [MacOS](#MacOS)
+   - [Windows](#Windows)
+- [¿Cómo se usa?](#¿Cómo-se-usa?)
+   - [Como controlador de versiones local y personal](#Como-controlador-de-versiones-local-y-personal)
+      - [¿Quieres generar un proyecto y llevar tu propio control de versiones?](#¿Quieres-generar-un-proyecto-y-llevar-tu-propio-control-de-versiones?)
+   - [Como cliente para un servidor remoto central de git](#Como-cliente-para-un-servidor-remoto-central-de-git)
+
+#### En un servidor nuestro
 
 ## ¿Qué es Git?
 
@@ -30,7 +55,7 @@ Si tu distribución de Linux es Ubuntu, Git se encuentra en el repositorio princ
 sudo apt install git
 ```
 
-### Mac
+### MacOS
 
 Para instalar Git en Mac recomendamos acudir a [su repositorio oficial](https://git-scm.com/downloads).
 

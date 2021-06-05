@@ -1,13 +1,14 @@
-<div style='text-align: right;'> <a href="../README.md">Regresar</a> </div>
+<div style='text-align: left;'> <a href="../README.md#Lenguajes_de_marcado_ligero_de_texto">Ir al menú anterior</a> </div>
 
 -----
 
 <br />
 
-# Los gestores de microambientes y paquetes.
+# Lenguajes de marcado ligero de texto
 
-- [Qué es Conda, cómo se instala y cómo se usa.](Conda/Conda.md)<span style="color:#185927">[100%]</span>
-
+- [Qué son los lenguajes de marcado ligero de texto y cómo se usan](Que_es/Que_es.md) <span style="color:#823138">[0%]</span>
+- [Qué es Markdown y cómo se usa.](Markdown/Markdown.md)<span style="color:#185927">[100%]</span>
+- [Qué es reStructuredText y cómo se usa](reStructuredText/reStructuredText.md) <span style="color:#823138">[0%]</span>
 
 <br />
 

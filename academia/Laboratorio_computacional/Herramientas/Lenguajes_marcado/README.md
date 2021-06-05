@@ -1,19 +1,20 @@
-<div style='text-align: right;'> <a href="../README.md">Regresar</a> </div>
+<div style='text-align: right;'> <a href="../README.md#Lenguajes-de-marcado">Regresar</a> </div>
 
 -----
 
 <br />
 
-# Lenguajes de marcado.
+# Lenguajes de marcado
 
-- Qué son los lenguages de marcado ligero de texto y cómo se usan. <span style="color:#823138">[0%]</span>
-    - [Qué es Markdown y cómo se usa.](Markdown/Markdown.md)<span style="color:#185927">[100%]</span>
-    - [Qué es reStructuredText y Cómo se usa](reStructuredText/reStructuredText.md) <span style="color:#823138">[0%]</span>
-- Qué son los lenguages de marcado para la serialización de datos y cómo se usan. <span style="color:#823138">[0%]</span>
-    - Qué es JSON y cómo se usa. <span style="color:#823138">[0%]</span>
-    - Qué es XML y cómo se usa. <span style="color:#823138">[0%]</span>
-    - Qué es YAML y cómo se usa. <span style="color:#823138">[0%]</span>
-
+- Lenguajes de marcado ligero de texto
+   - [Qué son los lenguajes de marcado ligero de texto](De_texto/Que_es/Que_es.md) <span style="color:#823138">[0%]</span>
+   - [Qué es Markdown y cómo se usa](De_texto/Markdown/Markdown.md) <span style="color:#185927">[100%]</span>
+   - [Qué es reStructuredText y cómo se usa](De_texto/reStructuredText/reStructuredText.md) <span style="color:#823138">[0%]</span>
+- Lenguajes de marcado para la serialización de datos
+   - Qué son los lenguajes de marcado para la serialización de datos <span style="color:#823138">[0%]</span>
+   - Qué es JSON y cómo se usa <span style="color:#823138">[0%]</span>
+   - Qué es XML y cómo se usa <span style="color:#823138">[0%]</span>
+   - Qué es YAML y cómo se usa <span style="color:#823138">[0%]</span>
 
 <br />
 

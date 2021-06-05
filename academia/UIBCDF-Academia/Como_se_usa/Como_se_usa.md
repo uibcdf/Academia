@@ -74,9 +74,9 @@ La estructura de unidades de menú componen el esqueleto de UIBCDF-Academia.
 Estas unidades contienen siempre una tabla de contenidos para describir y dar acceso a un bloque de otras unidades. 
 Verás que estas unidades contienen además otros elementos:
 - Una cabecera con un enlace para navegar a la unidad de menú de contenidos anterior.
-- Porcentajes de desarrollo junto a cada item del menú de contenidos: en <span style="color:#185927">verde</span> para indicar que la
-  unidad está completa (100%), en <span style="color:#aa7d00">ambar</span> si la unidad está parcialmente implementada, y en <span style="color:#823138">rojo</span> si
-  la unidad no tiene contenido todavía (0%).
+- Porcentajes de desarrollo junto a cada item del menú de contenidos: en <span style="color:#185927">verde</span> (#185927) para indicar que la
+  unidad está completa, en <span style="color:#aa7d00">ambar</span> (#aa7d00) si la unidad está parcialmente implementada, y en <span style="color:#823138">rojo</span> (#823138) si
+  la unidad no tiene contenido todavía.
 - Texto con una breve explicación del contenido del bloque o sus unidades -Opcional-.
 - La referencia a la licencia Creative Commons.
 
