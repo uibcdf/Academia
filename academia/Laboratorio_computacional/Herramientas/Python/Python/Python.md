@@ -14,7 +14,7 @@
 # Qué es Python, cómo se instala y cómo se usa
 
 <div class="alert alert-info" role="alert">
-<strong>Info:</strong> Si crees que este notebook necesita algún cambio no dudes en <a href="../../../../UIBCDF-Academia/Como_contribuir/Como_contribuir.md" class="alert-link">contribuir a su desarro
+<strong>Info:</strong> Si crees que esta unidad necesita algún cambio no dudes en <a href="../../../../UIBCDF-Academia/Como_contribuir/Como_contribuir.md" class="alert-link">contribuir a su desarro
 llo</a>.
 </div>
 

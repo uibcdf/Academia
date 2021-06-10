@@ -8,15 +8,15 @@
 
 ## El sistema operativo Linux
 
-- [Introducción a Linux](Linux/Linux/Linux.md) <span style="color:#185927">[100%]</span>
-- [Algunas buenas prácticas al trabajar en Linux](Linux/Buenas_practicas/Buenas_practicas.md) <span style="color:#aa7d00">[5%]</span>
+- [Introducción a Linux][unidad:linux_linux] <span style="color:#185927">[100%]</span>
+- [Algunas buenas prácticas al trabajar en Linux][unidad:linux_buenas_practicas] <span style="color:#aa7d00">[5%]</span>
 
 ## Python
 
-- [Introducción a los lenguajes de programación](Python/Lenguajes/Lenguajes.md) <span style="color:#823138">[0%]</span>
-- [Qué es Python, cómo se instala y cómo se usa](Python/Python/Python.md) <span style="color:#185927">[100%]</span>
-- [Programando en Python](Python/Programando/Programando.ipynb) <span style="color:#aa7d00">[90%]</span>
-- [Vectores multidimensionales con NumPy](Python//NumPy/NumPy.ipynb) <span style="color:#aa7d00">[90%]</span>
+- [Introducción a los lenguajes de programación][unidad:python_lenguajes] <span style="color:#823138">[0%]</span>
+- [Qué es Python, cómo se instala y cómo se usa][unidad:python_python] <span style="color:#185927">[100%]</span>
+- [Programando en Python][unidad:python_programando] <span style="color:#aa7d00">[90%]</span>
+- [Vectores multidimensionales con NumPy][unidad:python_numpy] <span style="color:#aa7d00">[90%]</span>
 - [Representación gráfica de datos con Matplotlib][unidad:python_matplotlib](Python/Matplotlib/Matplotlib.ipynb) <span style="color:#aa7d00">[90%]</span>
 - [Análisis de datos con Scipy][unidad:python_scipy] <span style="color:#823138">[0%]</span>
 - [Análisis de series y marcos de datos con Pandas][unidad:python_pandas] <span style="color:#823138">[0%]</span>

@@ -11,7 +11,7 @@
 <center><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="20%"></center>
 <br>
 
-# ¿Qué es Git y cómo se usa?
+# Qué es Git y cómo se usa
 
 <div class="alert alert-info" role="alert">
 <strong>Info:</strong> Si crees que este notebook necesita algún cambio no dudes en <a href="../../../../UIBCDF-Academia/Como_contribuir/Como_contribuir.md" class="alert-link">contribuir a su desarrollo</a>.
@@ -22,19 +22,31 @@
 - [¿Qué es Git?](#¿Qué-es-Git?)
 - [¿Cómo se instala?](#¿Cómo-se-instala?)
    - [Linux](#Linux)
-   - [Ubuntu](#Ubuntu)
+      - [Ubuntu](#Ubuntu)
    - [MacOS](#MacOS)
    - [Windows](#Windows)
 - [¿Cómo se usa?](#¿Cómo-se-usa?)
    - [Como controlador de versiones local y personal](#Como-controlador-de-versiones-local-y-personal)
       - [¿Quieres generar un proyecto y llevar tu propio control de versiones?](#¿Quieres-generar-un-proyecto-y-llevar-tu-propio-control-de-versiones?)
    - [Como cliente para un servidor remoto central de git](#Como-cliente-para-un-servidor-remoto-central-de-git)
-
-#### En un servidor nuestro
+      - [En un servidor nuestro](#En-un-servidor-nuestro)
+      - [En la nube](#En-la-nube)
+   - [Breve compendio de los comandos más útiles](#Brever-compendior-de-los-comandos-más-útiles)
+      - [Listado de ramas](#Listado-de-ramas)
+      - [Cambio de rama](#Cambio-de-rama)
+      - [Listado de ramas y commits](#Listado-de-ramas-y-commits)
+      - [Creación de nueva rama](#Creación-de-nueva-rama)
+      - [Eliminación de una rama](#Eliminación-de-una-rama)
+      - [Creación del clon local de una nueva rama remota](#Creación-del-clon-local-de-una-nueva-rama-remota)
+   - [Compendio de las rutinas más útiles](#Compendio-de-las-rutinas-más-útiles)
+      - [Creo una nueva rama y la empujo también al origin remoto](#Creo-una-nueva-rama-y-la-empujo-también-al-origin-remoto)
+- [Más recursos útiles](#recursos)
+    - [Documentación](#documentacion)
+    - [Tutoriales, Webinars y cursos gratuitos](#tutoriales)
 
 ## ¿Qué es Git?
 
-[Git](https://git-scm.com/) es una herramienta de [control de versiones](https://git-scm.com/book/es/v1/Empezando-Acerca-del-control-de-versiones). Estas herramientas fueron concebidas para el desarrollo de software, ya que permiten un flujo de trabajo eficiente al mantener un historial de cambios y versiones anteriores. Más especificamente Git, fue creada por Linus Torvalds para gestionar el desarrollo de los kernels (nucleos del sistema) de Linux. Existen otras herramientas similares, como SVN de la cual quizás hayas escuchado o usado, no obstante hoy en dia Git se ha convertido en un protocolo muy popular para el desarrollo de cualquier proyecto que involucre la participación de varias personas.
+[Git][git] es una herramienta de [control de versiones][acerca_control_versiones]. Estas herramientas fueron concebidas para el desarrollo de software, ya que permiten un flujo de trabajo eficiente al mantener un historial de cambios y versiones anteriores. Más especificamente Git, fue creada por Linus Torvalds para gestionar el desarrollo de los kernels (nucleos del sistema) de Linux. Existen otras herramientas similares, como SVN de la cual quizás hayas escuchado o usado, no obstante hoy en dia Git se ha convertido en un protocolo muy popular para el desarrollo de cualquier proyecto que involucre la participación de varias personas.
 
 ¿Cómo funciona exactamente? El historial que comentamos anteriormente es el "corazón" de Git, pues incluye: qué cambios hizo quién o cúando, así como el propósito de los mismos. Tener dicho registro ofrece varias ventajas, pues facilita cosas como: ir hacia atrás en la historia del desarrollo del proyecto, implementar nuevos cambios de manera tentativa, trazabilidad de errores, crear copias del proyecto en las que hacer pruebas para posteriormente fusionar la copia con el proyecto original, etc.
 
@@ -45,7 +57,7 @@ Por esta razón, para la comunidad científica (especialmente la que desarrolla 
 
 ### Linux
 
-Git suele estar por defecto instalado en cualquier distribución de Linux. En caso de que no sea así puedes recurrir a [su repositorio oficial](https://git-scm.com/downloads).
+Git suele estar por defecto instalado en cualquier distribución de Linux. En caso de que no sea así puedes recurrir a [su repositorio oficial][repositorio_git].
 
 #### Ubuntu
 
@@ -57,11 +69,11 @@ sudo apt install git
 
 ### MacOS
 
-Para instalar Git en Mac recomendamos acudir a [su repositorio oficial](https://git-scm.com/downloads).
+Para instalar Git en Mac recomendamos acudir a [su repositorio oficial][repositorio_git].
 
 ### Windows
 
-Para instalar Git en Windows recomendamos acudir a [su repositorio oficial](https://git-scm.com/downloads).
+Para instalar Git en Windows recomendamos acudir a [su repositorio oficial][repositorio_git].
 
 ## ¿Cómo se usa?
 <center>
@@ -151,7 +163,7 @@ git branch -d nombre_de_la_rama # para borrar la rama
 git merge nombre_de_la_rama # para fusionar los cambios de una rama en la copia maestra
 ```
 
-Encuentra un breve listado de otros comandos útiles [aquí](http://rogerdudler.github.io/git-guide/index.es.html)
+Encuentra un breve listado de otros comandos útiles [aquí][git_commands]
 
 ### Como cliente para un servidor remoto central de git
 
@@ -161,9 +173,9 @@ La UIBCDF no tiene todavía su servidor de Git central configurado y la informac
 
 #### En la nube
 
-En la UIBCDF hacemos uso de un servidor remoto en la nube como GitHub. Conocemos que existen otras posibilidades, por ejemplo GitLab, pero por motivos históricos y porque muchas de las librerías y herramientas que usamos se encuentran como proyectos públicos en GitHub, [puedes encontrarnos ahí](https://github.com/uibcdf).
+En la UIBCDF hacemos uso de un servidor remoto en la nube como GitHub. Conocemos que existen otras posibilidades, por ejemplo GitLab, pero por motivos históricos y porque muchas de las librerías y herramientas que usamos se encuentran como proyectos públicos en GitHub, [puedes encontrarnos ahí][github_uibcdf].
 
-Para hacer uso de GitHub, o interaccionar desde tu máquina con un repositorio de GitHub, te sugerimos acudas al [siguiente notebook](Academia.ipynb) en este repositorio.
+Para hacer uso de GitHub, o interaccionar desde tu máquina con un repositorio de GitHub, te sugerimos acudas al [siguiente notebook][unidad:github] en este repositorio.
 
 ### Breve compendio de los comandos más útiles
 
@@ -211,12 +223,6 @@ Para listar todas las ramas:
 
 ```bash
 git show-branch -all
-```
-
-#### Cambio de rama
-
-```bash
-git checkout nombre_de_rama
 ```
 
 #### Creación de nueva rama
@@ -292,7 +298,7 @@ git checkout foo
 
 ### Compendio de las rutinas más útiles
 
-### Creo una nueva rama y la empujo también al origin remoto
+#### Creo una nueva rama y la empujo también al origin remoto
 
 ```bash
 gir checkout -b nombre_de_rama
@@ -301,23 +307,23 @@ git push -u origin nombre_de_rama
 
 ---
 
-## Dudas de uso, problemas técnicos y soluciones.
+## Dudas, problemas técnicos y soluciones. <a class="anchor" id="dudas"></a>
 
-Para centralizar esas dudas, sugerencias o soluciones técnicas sobre el tema de este notebook, haz uso del siguiente canal:
+Para centralizar esas dudas, sugerencias o soluciones técnicas sobre el tema de esta unidad, haz uso del siguiente canal:
 
-[Foro Técnico: Git](https://github.com/uibcdf/Academia/issues/1)
+[Foro Técnico: Git][foro_tecnico_git]
 
-## Documentación, tutoriales y recursos útiles
+## Más recursos útiles <a class="anchor" id="recursos"></a>
 
 El propósito de este notebook es ser un documento únicamente introductorio. Puedes encontrar -o contribuir añadiendo- más información útil en el siguiente listado:
 
-### Español:
+### Documentación <a class="anchor" id="documentacion"></a>
+
 https://git-scm.com/book/es  
 http://rogerdudler.github.io/git-guide/index.es.html  
 https://codigofacilito.com/articulos/que-es-git  
 https://swcarpentry.github.io/git-novice-es/
 
-### Inglés:
 https://git-scm.com/book/en  
 https://git-scm.com/docs  
 http://swcarpentry.github.io/git-novice/
@@ -327,4 +333,24 @@ https://jahya.net/blog/git-vs-github/
 https://www.atlassian.com/git/tutorials
 https://github.com/joshnh/Git-Commands
 https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
+
+### Tutoriales, Webinars y cursos gratuitos <a class="anchor" id="tutoriales"></a>
+
+<br />
+
+<div style='text-align: right;'> <a href="../GitHub/GitHub.md">Ir a la siguiente unidad</a> </div>
+
+-------
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/uibcdf/Academia">UIBCDF-Academia</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/uibcdf/Academia/graphs/contributors">UIBCDF Lab, autores y colaboradores</a> es material protegido bajo una licencia <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+
+
+
+[unidad:github]: ../GitHub/GitHub.md 
+
+[git]: https://git-scm.com/
+[acerca_control_versiones]: https://git-scm.com/book/es/v1/Empezando-Acerca-del-control-de-versiones
+[repositorio_git]: https://git-scm.com/downloads
+[github_uibcdf]: https://github.com/uibcdf
+[foro_tecnico_git]: https://github.com/uibcdf/Academia/issues/1
+[git_commands]: http://rogerdudler.github.io/git-guide/index.es.html
 

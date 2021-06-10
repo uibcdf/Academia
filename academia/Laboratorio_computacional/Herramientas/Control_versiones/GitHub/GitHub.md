@@ -1,11 +1,31 @@
+<p style="text-align:left;">
+   <a href="../README.md">Ir al menú anterior</a>
+   <span style="float:right;">
+        <a href="../Git/Git.md">Ir a la unidad anterior</a>
+   </span>
+</p>
+
+-----
+
+<br>
 <center>
 <img src="https://octodex.github.com/images/original.png" width="400">
 </center>
+<br>
 
----
-`Nota: Si crees que este notebook necesita algún cambio no dudes en contribuir a su desarrollo.`
+# Qué es GitHub y cómo se usa
 
----
+<div class="alert alert-info" role="alert">
+<strong>Info:</strong> Si crees que esta unidad necesita algún cambio no dudes en <a href="../../../../UIBCDF-Academia/Como_contribuir/Como_contribuir.md" class="alert-link">contribuir a su desarro
+llo</a>.
+</div>
+
+<div class="alert alert-danger" role="alert">
+<strong>En desarrollo:</strong> 80% porque falta una mejor introducción a la historia de Python y
+una mejor descripción adecuada para la persona que se acerca a este lenguaje por primera vez.
+</div>
+
+
 
 # ¿Qué es GitHub?
 
