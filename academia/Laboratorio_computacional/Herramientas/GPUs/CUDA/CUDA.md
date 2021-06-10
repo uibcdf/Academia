@@ -1,24 +1,51 @@
+<p style="text-align:left;">
+   <a href="../README.md">Ir al menú anterior</a>
+   <span style="float:right;">
+        <a href="../README.md">Ir a la unidad anterior</a>
+   </span>
+</p>
+
+-----
+
+<br>
 <center>
 <img src="https://s3.amazonaws.com/cms.ipressroom.com/219/files/20149/544a60fef6091d588d000046_NVIDIA_CUDA_V_2C_r/NVIDIA_CUDA_V_2C_r_800845fc-6f2d-47cf-94bb-50f01f6c0ae9-prv.jpg" width="400">
 </center>
+<br>
 
----
-`Nota: Si crees que este notebook necesita algún cambio no dudes en contribuir a su desarrollo.`
 
----
+# Qué es CUDA y cómo se usa
 
-# ¿Qué es CUDA?
+<div class="alert alert-info" role="alert">
+<strong>Info:</strong> Si crees que esta unidad necesita algún cambio no dudes en <a href="../../../../UIBCDF-Academia/Como_contribuir/Como_contribuir.md" class="alert-link">contribuir a su desarro
+llo</a>.
+</div>
+
+<div class="alert alert-danger" role="alert">
+<strong>En desarrollo:</strong> 50% 
+</div>
+
+<br>
+
+- [¿Qué es CUDA?](#¿Qué-es-CUDA?)
+- [¿Cómo se usa?](#¿Cómo-se-usa?)
+- [Más recursos útiles](#recursos)
+    - [Documentación](#documentacion)
+    - [Tutoriales, Webinars y cursos gratuitos](#tutoriales)
+
+## ¿Qué es CUDA?
 
 CUDA (del inglés *Compute Unified Device Architecture*) es la plataforma de software desarrollado por Nvidia -productor de GPUs- para que los lenguages de programación como C o C++ puedan comunicarse y dar instrucciones a la GPU. La GPU es la tarjeta gráfica de la computadora, del inglés *Graphics Processing Unit*. La GPU tiene una arquitectura que la hace altamente eficiente para los cálculos necesarios para ejecutar y mover un videojuego. La GPU es un dispositivo de cálculo con muchos más nucleos, unidades de procesamiento, que la CPU que está integrada en la placa madre de la computadora. Y un simulador de vuelo, un juego de futbol o de carreras de autos F1, una aventura gráfica en primera persona, son mundos virtuales con un realismo asombroso cuya evolución se calcula en tiempo real respondiendo inmediatamente a decisiones del jugador. Ahora imagina que pudieramos usar la GPU no para simular la física del coche, del avión, o de los objetos de ese mundo virtual en el que transcurre la historia del juego, sino para simular la física de una biomolécula. Esto es lo que han conseguido los programas de simulación de dinámica molecular con CUDA. CUDA incluye un compilador y permite que podamos desarrollar software que pueda ejecutar instrucciones no solamente en la CPU, sino también en la GPU. En lo que respecta a integrar la dinámica de un objeto físico en un mundo 3D, la GPU de tu computadora es probablemente decenas de veces más rápida que tu CPU.
 
 Es por eso que necesitamos instalar CUDA en la computadora. Los programas que usaremos para simular y analizar la dinámica de biomoléculas se compilan para el uso de CUDA como puente hacia la GPU. Si no tuvieras CUDA, puedes simular con la CPU o haciendo uso de OpenCL con la GPU también, pero ahora nada tan rápido como usar CUDA en el software que vamos a manejar.
 
-#### Nota
-CUDA está diseñada para ser óptima con tarjetas gráficas de Nvidia. Puede trabajar también con tarjetas ATI/AMD, y seguramente con ese hardware la eficiencia de CUDA sea parecida a la de OpenCL. Los autores de este notebook no tiene nada particularmente a favor de ninguna empresa de hardware. Pero esta guía se ha redactado así porque en el laboratorio no tenemos actualmente tarjetas ATI/AMD.
+<div class="alert alert-warning" role="alert">
+<strong>Atención:</strong> CUDA está diseñada para ser óptima con tarjetas gráficas de Nvidia. Puede trabajar también con tarjetas ATI/AMD, y seguramente con ese hardware la eficiencia de CUDA sea parecida a la de OpenCL. Los autores de este notebook no tiene nada particularmente a favor de ninguna empresa de hardware. Pero esta guía se ha redactado así porque en el laboratorio no tenemos actualmente tarjetas ATI/AMD.
+</div>
 
-# ¿Cómo se instala?
+## ¿Cómo se instala?
 
-Instalamos cuda en el entorno de conda. Podemos hacerlo mediante [el paquete cudatoolkit del repositorio conda-forge](https://anaconda.org/anaconda/cudatoolkit), o mediante las distintas versiones de cuda que ofrece [el canal omnia](https://anaconda.org/omnia/repo?sort=_name&sort_order=asc).
+Instalamos cuda en el entorno de conda. Podemos hacerlo mediante [el paquete cudatoolkit del repositorio conda-forge][cudatoolkit], o mediante las distintas versiones de cuda que ofrece [el canal omnia][omnia].
 
 Lo haremos de la primera manera:
 
@@ -67,13 +94,13 @@ Thu Jan  3 17:56:01 2019
 +-----------------------------------------------------------------------------+
 ```
 
-Como puedo ver en [la lista de compatibilidad entre versiones de drivers de nvida y versiones de CUDA](https://docs.nvidia.com/deploy/cuda-compatibility/index.html#binary-compatibility), mi driver necesita ser actualizado si quiero trabajar con CUDA 9.2 a una versión mayor o igual que la 396.26.
+Como puedo ver en [la lista de compatibilidad entre versiones de drivers de nvida y versiones de CUDA][cuda_compatibility], mi driver necesita ser actualizado si quiero trabajar con CUDA 9.2 a una versión mayor o igual que la 396.26.
 
 Explicaremos aquí como esta actualización puede ser facilmente hecha en el caso de estar trabajando con la distribución Ubuntu 18.04 LTS.
 
 ### Actualización del driver de nvidia
 
-Podemos antes de nada checar en [la correspondiente página web de nvidia](https://www.nvidia.com/Download/index.aspx?lang=es) cúal es el último driver compatible con tu tarjeta gráfica y tu sistema operativo. En mi caso, escogiendo [en dicha página](https://www.nvidia.com/Download/index.aspx?lang=es) las opciones correspondientes a mi GPU y mi sistema operativo: Quadro > Quadro Series > Quadro M2000 > Linux 64-bit > Linux Long Lived Driver; el driver sugerido para trabajar es el 410.93.
+Podemos antes de nada checar en [la correspondiente página web de nvidia][nvidia] cúal es el último driver compatible con tu tarjeta gráfica y tu sistema operativo. En mi caso, escogiendo [en dicha página][nvidia] las opciones correspondientes a mi GPU y mi sistema operativo: Quadro > Quadro Series > Quadro M2000 > Linux 64-bit > Linux Long Lived Driver; el driver sugerido para trabajar es el 410.93.
 
 Para instalar el driver añadimos el repositorio mantenido por ubuntu para los drivers de nvidia:
 ```bash
@@ -167,21 +194,40 @@ Thu Jan  3 19:04:55 2019
 +-----------------------------------------------------------------------------+
 ```
 
-# Dudas de uso, problemas técnicos y soluciones.
+---
 
-Para centralizar esas dudas técnicas sobre el tema de este notebook o proponer soluciones o sugerencias más técnicas que queremos encontrar en el futuro comentadas y visibles para todos, haz uso del siguiente canal:
+## Dudas, problemas técnicos y soluciones. <a class="anchor" id="dudas"></a>
 
-[Foro Técnico: CUDA](https://github.com/uibcdf/Academia/issues/11)
+Para centralizar esas dudas técnicas sobre el tema de esta unidad o proponer soluciones o sugerencias más técnicas que queremos encontrar en el futuro comentadas y visibles para todos, haz uso del siguiente canal:
 
-# Más recursos útiles 
+[Foro Técnico: CUDA][foro]
 
-El propósito de este notebook es ser un documento únicamente introductorio. Puedes encontrar -o contribuir añadiendo- más información útil en el siguiente listado:
+## Más recursos útiles <a class="anchor" id="recursos"></a>
 
-## Documentación
+El propósito de esta unidad es ser un documento únicamente introductorio. Puedes encontrar -o contribuir añadiendo- más información útil en el siguiente listado:
+
+### Documentación <a class="anchor" id="documentacion"></a>
 https://www.nvidia.com/     
 https://docs.nvidia.com/     
 https://www.nvidia.com/Download/index.aspx?lang=es    
 https://docs.nvidia.com/deploy/cuda-compatibility/index.html#binary-compatibility
 https://www.linuxbabe.com/ubuntu/install-nvidia-driver-ubuntu-18-04    
 https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux    
-https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver-latest-proprietary-driver/    
+https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver-latest-proprietary-driver/   
+
+### Tutoriales, Webinars y cursos gratuitos <a class="anchor" id="tutoriales"></a>
+
+<br>
+
+<div style='text-align: right;'> <a href="">Ir a la siguiente unidad</a> </div>
+
+-------
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/uibcdf/Academia">UIBCDF-Academia</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/uibcdf/Academia/graphs/contributors">UIBCDF Lab, autores y colaboradores</a> es material protegido bajo una licencia <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+
+
+[foro]: https://github.com/uibcdf/Academia/issues/11
+[cudatoolkit]: https://anaconda.org/anaconda/cudatoolkit
+[omnia]: https://anaconda.org/omnia/repo?sort=_name&sort_order=asc
+[cuda_compatibility]: https://docs.nvidia.com/deploy/cuda-compatibility/index.html#binary-compatibility
+[nvidia]: https://www.nvidia.com/Download/index.aspx?lang=es
+

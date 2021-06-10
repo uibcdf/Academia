@@ -5,7 +5,6 @@
    </span>
 </p>
 
-
 -----
 
 <br>
@@ -54,7 +53,7 @@ En el caso de un lenguage interpretado, el paquete o librería se almacena en un
 
 ### ¿Qué es un canal?
 
-Un grupo de desarrolladores o usuarios pueden configurar una lista de paquetes accesibles, de manera pública o privada, a través del gestor de paquetes. Como ejemplo de canal público de conda puedes echarle un ojo a, probablemente, el canal más popular mantenido por usuarios: [conda-forge](https://conda-forge.org/) y [su lista de más de 5600 paquetes](https://anaconda.org/conda-forge).
+Un grupo de desarrolladores o usuarios pueden configurar una lista de paquetes accesibles, de manera pública o privada, a través del gestor de paquetes. Como ejemplo de canal público de conda puedes echarle un ojo a, probablemente, el canal más popular mantenido por usuarios: [conda-forge][conda_forge] y [su lista de más de 5600 paquetes][anaconda_conda_forge].
 
 ### ¿Qué es un entorno?
 
@@ -64,7 +63,7 @@ Tu sistema operativo cuenta probablemente con un interpretador de python (versi�
 
 Un gestor de entornos, paquetes y canales, como pueden ser conda, homebrew, pip o pipenv, se ocupa de administrar tus entornos de trabajo posibilitando en ellos la instalación y actualización de paquetes desde los canales que configures.
 
-Conda, creado y soportado por [Anaconda](https://www.anaconda.com/), ofrece esto y más. La mejor manera de comenzar para un usuario inexperto es instalar la última versión de miniconda y empezar a usarlo.
+Conda, creado y soportado por [Anaconda][anaconda], ofrece esto y más. La mejor manera de comenzar para un usuario inexperto es instalar la última versión de miniconda y empezar a usarlo.
 
 <br>
 <center>
@@ -78,7 +77,7 @@ Miniconda es la versión 'mínima' de Conda con la que se aconseja empezar. Cond
 
 ## ¿Cómo se instala?
 
-Puedes encontrar las instrucciones de instalación y manejo de conda en [su página oficial](https://conda.io/docs/). Antes de ver las instrucciones según el sistema operativo que uses, échale un ojo al menos a la estructura de la [guía de usuario](https://conda.io/docs/user-guide/index.html).
+Puedes encontrar las instrucciones de instalación y manejo de conda en [su página oficial][conda_docs]. Antes de ver las instrucciones según el sistema operativo que uses, échale un ojo al menos a la estructura de la [guía de usuario][guia_conda].
 
 ### Linux.
 
@@ -94,7 +93,7 @@ https://conda.io/docs/user-guide/install/windows.html
 
 ## ¿Cómo se usa?
 
-Existe una excelente [documentación oficial](https://conda.io/docs/index.html) con [breves guías para comenzar](https://conda.io/docs/user-guide/getting-started.html) y [tutoriales más avanzados](https://conda.io/docs/user-guide/tutorials/index.html).
+Existe una excelente [documentación oficial][conda_docs] con [breves guías para comenzar][conda_getting_started] y [tutoriales más avanzados][conda_tutorials].
 
 Vamos a exponer aquí la pequeña lista de comandos que más vas a usar.
 
@@ -183,7 +182,7 @@ conda config --remove channels conda-forge
 
 Para centralizar esas dudas técnicas sobre el tema de esta unidad o proponer soluciones o sugerencias más técnicas que queremos encontrar en el futuro comentadas y visibles para todos, haz uso del siguiente canal:
 
-[Foro Técnico: Conda](https://github.com/uibcdf/Academia/issues/6)
+[Foro Técnico: Conda][foro]
 
 ## Más recursos útiles <a class="anchor" id="recursos"></a>
 
@@ -204,4 +203,13 @@ http://gatomontez.com/articulo/2014/02/16/computo-cientifico-con-python-y-anacon
 
 -------
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/uibcdf/Academia">UIBCDF-Academia</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/uibcdf/Academia/graphs/contributors">UIBCDF Lab, autores y colaboradores</a> es material protegido bajo una licencia <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+
+[conda_forge]: https://conda-forge.org/
+[anaconda_conda_forge]: https://anaconda.org/conda-forge
+[anaconda]: https://www.anaconda.com/
+[conda_docs]: https://conda.io/docs/
+[guia_conda]: https://conda.io/docs/user-guide/index.html
+[conda_getting_started]: https://conda.io/docs/user-guide/getting-started.html
+[conda_tutorials]: https://conda.io/docs/user-guide/tutorials/index.html
+[foro]: https://github.com/uibcdf/Academia/issues/6
 
