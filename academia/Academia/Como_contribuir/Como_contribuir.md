@@ -42,7 +42,7 @@ en el trabajo computacional en colaboración, puedes tomarte este repositorio co
 experiencia que te ayudará a entender algunas de las herramientas y dinámicas empleadas para el
 desarrollo de un proyecto en colaboración. Para ello, en esta unidad encontrarás todo lo que debes conocer para comenzar a contribuir
 en UIBCDF-Academia haciendo uso de
-[Git](../../Laboratorio_computacional/Herramientas/Control_versiones_distribuida/Git/Git.md) y [GitHub](../../Laboratorio_computacional/Herramientas/Control_versiones_distribuida/GitHub/GitHub.md).
+[Git][unidad:git] y [GitHub][unidad:github].
 
 - [Cualquier contribución queda sometida a los términos de la licencia](#Cualquier-contribución-queda-sometida-a-los-términos-de-la-licencia)
 - [Implementa los cambios sobre tu propio fork](#Implementa-los-cambios-sobre-tu-propio-fork)
@@ -59,7 +59,7 @@ UIBCDF-Academia, debes saber que toda modificación o inclusión de nuevo conten
 parte será, una vez incluido en el repositorio principal de UIBCDF-Academia, sometido y protegido
 por las condiciones de la licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0
 International misma que cubre todo el contenido de UIBCDF-Academia. Es tu responsibilidad como
-colaborador haber revisado [las condiciones de la licencia](../La_licencia/La_licencia.md) antes de publicar tu contribución.
+colaborador haber revisado [las condiciones de la licencia][unidad:licencia] antes de publicar tu contribución.
 
 ## Implementa los cambios sobre tu propio fork
 
@@ -79,7 +79,7 @@ Para poder hacer una solicitud de inclusión de tus cambios deberás implementar
 <a href='https://help.github.com/articles/fork-a-repo/'>aquí</a>, <a href='https://github.community/t5/Support-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372'>aquí</a>, <a href='https://stackoverflow.com/questions/6286571/are-git-forks-actually-git-clones'>aquí</a> o <a href='http://www.eqqon.com/index.php/Collaborative_Github_Workflow'>aquí</a>. Además puedes acudir a <a href='../../Laboratorio_computacional/Herramientas/Control_versiones_distribuida/README.md'>las unidades de UIBCDF-Academia dedicadas a las herramientas de control de versiones distribuida como Git y GitHub</a>.
 </div>
 
-Para hacer tu *fork*, habiendo iniciado sesión con tu usuario en GitHub, acude a [la web del repositorio principal de UIBCDF-Academia en GitHub](https://github.com/uibcdf/Academia) y haz click en "Fork".
+Para hacer tu *fork*, habiendo iniciado sesión con tu usuario en GitHub, acude a [la web del repositorio principal de UIBCDF-Academia en GitHub][github_academia] y haz click en "Fork".
 
 <br>
 <center>
@@ -274,7 +274,7 @@ de todos los cambios que estás proponiendo, fichero a fichero.
 Por último, ¡ya puedes hacer click en el botón verde que dice "Create pull request"!
 
 ¿Ya lo hiciste? Ahora tu PR aparece como solicitud pendiente de revisión en [la web del repositorio
-principal de UIBCDF-Academia dedicada a los pull requests](https://github.com/uibcdf/Academia/pulls):
+principal de UIBCDF-Academia dedicada a los pull requests][github_academia_pulls]:
 
 <br>
 <center>
@@ -308,7 +308,7 @@ desarrollo científico y técnico... siéntete parte de la comunidad no sólo re
 también aportando. Ah! y aprende también que en esta comunidad se respeta la autoría. Agradece y menciona
 siempre las herramientas de código abierto que usaste, igual que los demás siempre van a reconocer
 tu autoría. Si tu PR fue aceptado, ya puedes buscarte en [la sección de colaboradores de
-UIBCDF-Academia](https://github.com/uibcdf/Academia/graphs/contributors).
+UIBCDF-Academia][contributors].
 
 Deja que te digamos que este proceso, si lo desconocías, ha sido un buen simulacro de
 cómo contribuir a desarrollar o mejorar una librería científica. ¡Esperamos que en el futuro te
@@ -321,4 +321,13 @@ que tu contribución les será de gran ayuda!
 
 -------
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/uibcdf/Academia">UIBCDF-Academia</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/uibcdf/Academia/graphs/contributors">UIBCDF Lab, autores y colaboradores</a> es material protegido bajo una licencia <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+
+[unidad:git]: ../../Laboratorio_computacional/Herramientas/Control_versiones/Git/Git.md
+[unidad:github]: ../../Laboratorio_computacional/Herramientas/Control_versiones_distribuida/GitHub/GitHub.md
+[unidad:licencia]: ../La_licencia/La_licencia.md
+
+
+[github_academia]: https://github.com/uibcdf/Academia
+[github_academia_pulls]: https://github.com/uibcdf/Academia/pulls
+[contributors]: https://github.com/uibcdf/Academia/graphs/contributors
 

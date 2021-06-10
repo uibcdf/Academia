@@ -45,40 +45,40 @@
 
 ### El sistema operativo Linux
 
-- [Introducción a Linux](Herramientas/Linux/Linux/Linux.md) <span style="color:#185927">[100%]</span>
-- [Algunas buenas prácticas al trabajar en Linux](Herramientas/Linux/Buenas_practicas/Buenas_practicas.md) <span style="color:#aa7d00">[1%]</span>
+- [Introducción a Linux][unidad:linux_linux] <span style="color:#185927">[100%]</span>
+- [Algunas buenas prácticas al trabajar en Linux][unidad:linux_buenas_practicas] <span style="color:#aa7d00">[1%]</span>
 
 ### Python
 
-- [Introducción a los lenguajes de programación](Herramientas/Python/Lenguages/Lenguajes.md) <span style="color:#823138">[0%]</span>
-- [Qué es Python, cómo se instala y cómo se usa](Herramientas/Python/Python/Python.md) <span style="color:#185927">[100%]</span>
-- [Programando en Python](Herramientas/Python/Programando/Programando.ipynb) <span style="color:#185927">[100%]</span>
-- [Vectores multidimensionales con Numpy](Herramientas/Python/NumPy/NumPy.ipynb) <span style="color:#185927">[100%]</span>
-- [Representación gráfica de datos con Matplotlib](Herramientas/Python/Matplotlib/Matplotlib.ipynb) <span style="color:#185927">[100%]</span>
-- [Análisis de datos con Scipy](Herramientas/Python/SciPy/SciPy.ipynb) <span style="color:#823138">[0%]</span>
-- [Análisis de series y marcos de datos con Pandas](Herramientas/Python/Pandas/Pandas.ipynb) <span style="color:#823138">[0%]</span>
-- [Aprendizaje automático con Scikit-learn](Herramientas/Python/Scikit-learn/Scikit-learn.ipynb) <span style="color:#823138">[0%]</span>
-- [Procesamiento de imágenes con Scikit-image](Herramientas/Python/Scikit-image/Scikit-image.ipynb) <span style="color:#823138">[0%]</span>
-- [Rentación gráfica de datos con Seaborn](Herramientas/Python/Seaborn/Seaborn.ipynb) <span style="color:#823138">[0%]</span>
-- [Representación gráfica de datos con Bokeh](Herramientas/Python/Bokeh/Bokeh.ipynb) <span style="color:#823138">[0%]</span>
+- [Introducción a los lenguajes de programación][unidad:python_lenguajes] <span style="color:#823138">[0%]</span>
+- [Qué es Python, cómo se instala y cómo se usa][unidad:python_python] <span style="color:#185927">[100%]</span>
+- [Programando en Python][unidad:python_programando] <span style="color:#185927">[100%]</span>
+- [Vectores multidimensionales con Numpy][unidad:python_numpy] <span style="color:#185927">[100%]</span>
+- [Representación gráfica de datos con Matplotlib][unidad:python_matplotlib] <span style="color:#185927">[100%]</span>
+- [Análisis de datos con Scipy][unidad:python_scipy] <span style="color:#823138">[0%]</span>
+- [Análisis de series y marcos de datos con Pandas][unidad:python_pandas] <span style="color:#823138">[0%]</span>
+- [Aprendizaje automático con Scikit-learn][unidad:python_scikit_learn] <span style="color:#823138">[0%]</span>
+- [Procesamiento de imágenes con Scikit-image][unidad:python_scikit_image] <span style="color:#823138">[0%]</span>
+- [Rentación gráfica de datos con Seaborn][unidad:python_seaborn] <span style="color:#823138">[0%]</span>
+- [Representación gráfica de datos con Bokeh][unidad:python_bokeh] <span style="color:#823138">[0%]</span>
 
 ### Los gestores de microambientes y paquetes
 
-- [Qué es Conda, cómo se instala y cómo se usa](Herramientas/Gestores_ambientes/Conda/Conda.md)<span style="color:#185927">[100%]</span>
+- [Qué es Conda, cómo se instala y cómo se usa][unidad:conda] <span style="color:#185927">[100%]</span>
 
 ### La narrativa construida con texto, algoritmos, resultados y gráficas
 
-- [Qué es Jupyter, cómo se instala y cómo se usa](Herramientas/Jupyter/Jupyter/Jupyter.md)<span style="color:#185927">[100%]</span>
-- [Publicando y compartiendo en linea tus Jupyter notebooks](Herramientas/Jupyter/Servidores/Servidores.md) <span style="color:#823138">[0%]</span>
-- [Tu Jupyter notebook como soporte para una comunicación oral](Herramientas/Jupyter/A_slides/A_slides.md) <span style="color:#823138">[0%]</span>
-- [Tu Jupyter notebook como documento latex o pdf](Herramientas/Jupyter/A_documento/A_documento.md) <span style="color:#823138">[0%]</span>
+- [Qué es Jupyter, cómo se instala y cómo se usa][unidad:jupyter] <span style="color:#185927">[100%]</span>
+- [Publicando y compartiendo en linea tus Jupyter notebooks][unidad:jupyter_servidores] <span style="color:#823138">[0%]</span>
+- [Tu Jupyter notebook como soporte para una comunicación oral][unidad:jupyter_a_slides] <span style="color:#823138">[0%]</span>
+- [Tu Jupyter notebook como documento latex o pdf][unidad:jupyter_a_documento] <span style="color:#823138">[0%]</span>
 
 ### Lenguajes de marcado
 
 - Lenguajes de marcado ligero de texto
-   - [Qué son los lenguajes de marcado ligero de texto](Herramientas/Lenguajes_marcado/De_texto/Que_es/Que_es.md) <span style="color:#823138">[0%]</span>
-   - [Qué es Markdown y cómo se usa](Herramientas/Lenguajes_marcado/De_texto/Markdown/Markdown.md)<span style="color:#185927">[100%]</span>
-   - [Qué es reStructuredText y cómo se usa](Herramientas/Lenguajes_marcado/De_texto/reStructuredText/reStructuredText.md) <span style="color:#823138">[0%]</span>
+   - [Qué son los lenguajes de marcado ligero de texto][unidad:marcado_texto_que_es] <span style="color:#823138">[0%]</span>
+   - [Qué es Markdown y cómo se usa][unidad:marcado_texto_markdown]<span style="color:#185927">[100%]</span>
+   - [Qué es reStructuredText y cómo se usa][unidad:marcado_texto_restructuredtext] <span style="color:#823138">[0%]</span>
 - Lenguajes de marcado para la serialización de datos
    - Qué son los lenguajes de marcado para la serialización de datos <span style="color:#823138">[0%]</span>
    - Qué es JSON y cómo se usa <span style="color:#823138">[0%]</span>
@@ -87,12 +87,12 @@
 
 ### El sistema de control de versiones distribuida
 
-- [Qué es Git, cómo se instala y cómo se usa](Herramientas/Control_versiones/Git/Git.md) <span style="color:#185927">[100%]</span>
-- [Qué es GitHub y cómo se usa](Herramientas/Control_versiones/GitHub/GitHub.md) <span style="color:#185927">[100%]</span>
+- [Qué es Git, cómo se instala y cómo se usa][unidad:git] <span style="color:#185927">[100%]</span>
+- [Qué es GitHub y cómo se usa][unidad:github] <span style="color:#185927">[100%]</span>
 
 ### La documentación de un proyecto de Python
 
-- [Qué es Sphinx y cómo se usa](Herramientas_computacionales/Documentación/Sphinx/Sphinx.md) <span style="color:#823138">[0%]</span>
+- [Qué es Sphinx y cómo se usa][unidad:sphinx] <span style="color:#823138">[0%]</span>
 - Qué es Readmedoc y cómo se usa <span style="color:#823138">[0%]</span>
 
 ### La evaluación automática y la integración continua de un proyecto de Python
@@ -107,14 +107,14 @@
 
 ### Caso práctico: un proyecto de librería en Python desde cero
 
-- [Creando un repositorio en GitHub para la nueva librería](Herramientas/Libreria/Repositorio/Repositorio.md) <span style="color:#aa7d00">[50%]</span>
-- [Creando una librería de Python](Herramientas/Libreria/Implementando/Implementando.md) <span style="color:#185927">[100%]</span>
-- [Documentando una librería de Python](Herramientas/Libreria/Documentando/Documentando.md) <span style="color:#aa7d00">[20%]</span>
-- [Testeo e integración continua de una librería de Python](Herramientas/Libreria/Testeo/Testeo.md) <span style="color:#823138">[0%]</span>
+- [Creando un repositorio en GitHub para la nueva librería][unidad:libreria_repositorio] <span style="color:#aa7d00">[50%]</span>
+- [Creando una librería de Python][unidad:libreria_implementando] <span style="color:#185927">[100%]</span>
+- [Documentando una librería de Python][unidad:libreria_documentando] <span style="color:#aa7d00">[20%]</span>
+- [Testeo e integración continua de una librería de Python][unidad:libreria_testeo] <span style="color:#823138">[0%]</span>
 
 ### La computación en GPUs
 
-- [Qué es CUDA y cómo se instala](Herramientas/GPU/CUDA/CUDA.md) <span style="color:#185927">[100%]</span>
+- [Qué es CUDA y cómo se instala][unidad:cuda] <span style="color:#185927">[100%]</span>
 - La programación para GPUs <span style="color:#823138">[0%]</span>
 
 ### El cluster de computación intesiva
@@ -131,4 +131,34 @@
 
 -------
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/uibcdf/Academia">UIBCDF-Academia</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/uibcdf/Academia/graphs/contributors">UIBCDF Lab, autores y colaboradores</a> es material protegido bajo una licencia <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+
+[unidad:linux_linux]: Herramientas/Linux/Linux/Linux.md
+[unidad:linux_buenas_practicas]: Herramientas/Linux/Buenas_practicas/Buenas_practicas.md
+[unidad:python_lenguajes]: Herramientas/Python/Lenguajes/Lenguajes.md
+[unidad:python_python]: Herramientas/Python/Python/Python.md
+[unidad:python_programando]: Herramientas/Python/Programando/Programando.ipynb
+[unidad:python_numpy]: Herramientas/Python/NumPy/NumPy.ipynb
+[unidad:python_matplotlib]: Herramientas/Python/Matplotlib/Matplotlib.ipynb
+[unidad:python_scipy]: Herramientas/Python/SciPy/SciPy.ipynb
+[unidad:python_pandas]: Herramientas/Python/Pandas/Pandas.ipynb
+[unidad:python_scikit_learn]: Herramientas/Python/Scikit-learn/Scikit-learn.ipynb
+[unidad:python_scikit_image]: Herramientas/Python/Scikit-image/Scikit-image.ipynb
+[unidad:python_seaborn]: Herramientas/Python/Seaborn/Seaborn.ipynb
+[unidad:python_bokeh]: Herramientas/Python/Bokeh/Bokeh.ipynb
+[unidad:conda]: Herramientas/Gestores_ambientes/Conda/Conda.md
+[unidad:jupyter]: Herramientas/Jupyter/Jupyter/Jupyter.md
+[unidad:jupyter_servidores]: Herramientas/Jupyter/Servidores/Servidores.md
+[unidad:jupyter_a_slides]: Herramientas/Jupyter/A_slides/A_slides.md
+[unidad:jupyter_a_documento]: Herramientas/Jupyter/A_documento/A_documento.md
+[unidad:marcado_texto_que_es]: Herramientas/Lenguajes_marcado/De_texto/Que_es/Que_es.md
+[unidad:marcado_texto_markdown]: Herramientas/Lenguajes_marcado/De_texto/Markdown/Markdown.md
+[unidad:marcado_texto_restructuredtext]: Herramientas/Lenguajes_marcado/De_texto/reStructuredText/reStructuredText.md
+[unidad:github]: Herramientas/Control_versiones/GitHub/GitHub.md
+[unidad:git]: Herramientas/Control_versiones/Git/Git.md
+[unidad:sphinx]: Herramientas/Documentacion/Sphinx/Sphinx.md
+[unidad:libreria_repositorio]: Herramientas/Libreria/Repositorio/Repositorio.md
+[unidad:libreria_implementando]: Herramientas/Libreria/Implementando/Implementando.md
+[unidad:libreria_documentando]: Herramientas/Libreria/Documentando/Documentando.md
+[unidad:libreria_testeo]: Herramientas/Libreria/Testeo/Testeo.md
+[unidad:cuda]: Herramientas/GPU/CUDA/CUDA.md
 

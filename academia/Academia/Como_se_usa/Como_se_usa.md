@@ -20,7 +20,7 @@
 
 <br>
 
-Antes de encontrar una respuesta a cómo se usa UIBCDF-Academia, te recordamos, como se explica en la sección [¿Qué es UIBCDF-Academia?](../Que_es/Que_es.md), que este repositorio **no pretende ser una guía completa sino un punto de partida para cada uno de los temas y conceptos que recoge**. Si eres un estudiante, o un colaborador de la UIBCDF, encontrarás aquí muchas pautas para comenzar a trabajar con nosotros; así como un repositorio que centraliza dudas y respuestas sobre los conceptos y herramientas del día a día del desarrollo de nuestros proyectos. Si por el contrario, eres una persona ajena a la UIBCDF pero vas a comenzar a trabajar con alguno de los conceptos introducidos en este repositorio, eres más que bienvenido a hacer uso de UIBCDF-Academia como uno más del equipo. En ambos casos te exhortamos, de nuevo, a que te tomes UIBCDF-Academia como una introducción, en un formato accesible, a conceptos casi siempre complejos. Sin pretender abrumar, ni con la descripción exhaustiva del panorama completo, ni con excesivos detalles. Eso sí, debes ser consciente, y es tu responsabilidad como investigador, de que tras tener una idea preliminar y general del concepto en cuestión debes profundizar. Pero ese es tu trabajo...
+Antes de encontrar una respuesta a cómo se usa UIBCDF-Academia, te recordamos, como se explica en la sección [¿Qué es UIBCDF-Academia?][unidad:que_es], que este repositorio **no pretende ser una guía completa sino un punto de partida para cada uno de los temas y conceptos que recoge**. Si eres un estudiante, o un colaborador de la UIBCDF, encontrarás aquí muchas pautas para comenzar a trabajar con nosotros; así como un repositorio que centraliza dudas y respuestas sobre los conceptos y herramientas del día a día del desarrollo de nuestros proyectos. Si por el contrario, eres una persona ajena a la UIBCDF pero vas a comenzar a trabajar con alguno de los conceptos introducidos en este repositorio, eres más que bienvenido a hacer uso de UIBCDF-Academia como uno más del equipo. En ambos casos te exhortamos, de nuevo, a que te tomes UIBCDF-Academia como una introducción, en un formato accesible, a conceptos casi siempre complejos. Sin pretender abrumar, ni con la descripción exhaustiva del panorama completo, ni con excesivos detalles. Eso sí, debes ser consciente, y es tu responsabilidad como investigador, de que tras tener una idea preliminar y general del concepto en cuestión debes profundizar. Pero ese es tu trabajo...
 
 <br>
 <center>
@@ -28,7 +28,7 @@ Antes de encontrar una respuesta a cómo se usa UIBCDF-Academia, te recordamos, 
 </center>
 <br>
 
-A continuación encontrarás una guía sobre cómo comenzar a trabajar con UIBCDF-Academia. Es posible que no tengas muchos conocimientos previos sobre qué es un repositorio en [GitHub](../../Laboratorio_computacional/Herramientas/Control_versiones_distribuida/README.md) o qué es [JupyterLab](../../Laboratorio_computacional/Herramientas/Control_versiones_distribuidas/Jupyter/README.md). No te preocupes. Si te animas, esta unidad puede servirte también como primera introducción al uso de ciertas [herramientas propias de un laboratorio computacional](../../Laboratorio_computacional/Herramientas/README.md) que te servirán para el trabajo científico en colaboración. 
+A continuación encontrarás una guía sobre cómo comenzar a trabajar con UIBCDF-Academia. Es posible que no tengas muchos conocimientos previos sobre qué es un repositorio en [GitHub][menu:control_versiones] o qué es [JupyterLab][menu:jupyter]. No te preocupes. Si te animas, esta unidad puede servirte también como primera introducción al uso de ciertas [herramientas propias de un laboratorio computacional][menu:herramientas] que te servirán para el trabajo científico en colaboración. 
 
 Estos son los contenidos que encontrarás en adelante.
 
@@ -66,7 +66,7 @@ Comencemos por describir los distintos elementos de UIBCDF-Academia atendiendo a
 
 Según su función podemos encontrar dos tipos de unidades: de menú o de contenido. Según el formato
 podemos encontrar unidades de tipo
-[Markdown](../../Laboratorio_computacional/Herramientas/Lenguage_marcado/Markdown/Markdown.md) o [Jupyter notebook](../../Laboratorio_computacional/Herramientas/Jupyter/README.md).
+[Markdown][unidad:markdown] o [Jupyter notebook][menu:jupyter].
 
 #### Unidades de menú
 
@@ -97,7 +97,7 @@ La estructura de una unidad de contenida será siempre similar. Descrita de arri
 - Una secuencia de secciones y subsecciones con el desarrollo del contenido de la unidad.
 - Una bloque con dos secciones auxiliares:
    - "Dudas, problemas técnicos y soluciones" donde encontrarás el vinculo entre la unidad de
-     contenido y el [Tablón de Cuestiones (*Issues Board*)]() del repositorio UIBCDF-Academia en
+     contenido y el [Tablón de Cuestiones (*Issues Board*)][issues_board] del repositorio UIBCDF-Academia en
      GitHub.
    - "Más recursos útiles" donde encontrarás enlaces a documentacion, tutoriales, webinars y cursos
      online gratuitos con los que ampliar tu conocimiento sobre el concepto o conceptos expuestos
@@ -157,7 +157,7 @@ introduzcan estas herramientas.
 
 Independientemente del tipo de unidad y su formato, hay elementos comunes que puedes encontrar en
 cualquier unidad de UIBCDF-Academia: son las barras de navegación, las cajas de alerta y la
-referencia a [la licencia Creative Commons](../La_licencia/La_licencia.md).
+referencia a [la licencia Creative Commons][unidad:licencia].
 
 ##### Hiperenlaces de navegación
 
@@ -203,14 +203,14 @@ tu atención.
 
 Todas las unidades cuentan con una referencia a la licencia Creative Commons como último elemento.
 Encontrarás más información sobre esta licencia en la unidad de este bloque llamada ["La licencia
-Creative Commons BY-NC-SA 4.0"](../La_licencia/La_licencia.md).
+Creative Commons BY-NC-SA 4.0"][unidad:licencia].
 
 <br>
 
 ### El tablón de cuestiones y las discusiones
 
 Además de las unidades, UIBCDF-Academia es también una plataforma de interacción entre sus usuarios
-y desarrolladores. Esta interacción se lleva a cabo en [la web del repositorio de UIBCDF-Academia en GitHub](https://github.com/uibcdf/Academia) mediante [su tablón de cuestiones (*Issues Board*)](https://github.com/uibcdf/Academia/issues) y [su área de discusiones](https://github.com/uibcdf/Academia/discussions).
+y desarrolladores. Esta interacción se lleva a cabo en [la web del repositorio de UIBCDF-Academia en GitHub][github_academia] mediante [su tablón de cuestiones (*Issues Board*)][issues_board] y [su área de discusiones][area_discusiones].
 
 Es muy, muy, muy importante que te animes a interaccionar o colaborar con cualquiera de estas dos
 opciones. Esto va a permitir que quede un registro escrito de sugerencias, propuestas, dudas, soluciones, etc.,
@@ -218,7 +218,7 @@ para la futura consulta de cualquier usuario.
 
 #### El tablón de cuestiones en la web de GitHub
 
-[El tablón de cuestiones en la web del repositorio de UIBCDF-Academia](https://github.com/uibcdf/Academia/issues) es un elemento común a
+[El tablón de cuestiones en la web del repositorio de UIBCDF-Academia][issues_board] es un elemento común a
 cualquier proyecto o repositorio en GitHub. Se trata de una herramienta diseñada para, a
 la vista de todos los colaboradores y posibles usuarios, reportar sugerencias, preguntas, errores,
 puntos de mejora, etc. de un proyecto en colaboración -originalmente de desarrollo de software-. El
@@ -229,7 +229,7 @@ Cada "tema" o "cuestión" es un hilo de conversación abierto a la posibilidad d
 responda o contribuya. Estos hilos, si se considera pertinente, se pueden cerrar y archivar para su
 futura lectura o reapertura.
 
-Si vas a abrir un tema en [el tablón de cuestiones](https://github.com/uibcdf/Academia/issues) procura seguir estas indicaciones:
+Si vas a abrir un tema en [el tablón de cuestiones][issues_board] procura seguir estas indicaciones:
 - Dale un título suficientemente explícito para que pueda comprenderse facilmente la naturaleza
   del tema en un primer vistazo.
 - Sé suficientemente descriptivo en el texto de tu mensaje. Debe ser comprendido por cualquiera.
@@ -247,14 +247,14 @@ temas estarán señalados con la etiqueta "Foro", su título suele comenzar con 
 
 #### Las discusiones en la web de GitHub
 
-GitHub incluye [un área de discusiones](https://github.com/uibcdf/Academia/discussions) como herramienta de cualquier repositorio allí almacenado.
+GitHub incluye [un área de discusiones][area_discusiones] como herramienta de cualquier repositorio allí almacenado.
 Abriremos o participaremos en una discusión cuando consideremos que el propósito lo amerita. Es
 decir, o cuando el asunto a abordar sea lo sufientemente general o vago, o cuando estimemos que las
 propias caracteristicas de una discusión de GitHub van a facilitar la interacción entre usuarios o
 la exposición de las ideas.
 
-Como consejo, y ante la duda, comienza mejor abriendo un tema en [el tablón de cuestiones](https://github.com/uibcdf/Academia/issues). Siempre
-hay tiempo de migrar dicho asunto al [área de discusiones](https://github.com/uibcdf/Academia/discussions).
+Como consejo, y ante la duda, comienza mejor abriendo un tema en [el tablón de cuestiones][issues_board]. Siempre
+hay tiempo de migrar dicho asunto al [área de discusiones][area_discusiones].
 
 <div class="alert alert-success" role="alert">
 <strong>Ayuda:</strong> Puedes conocer más sobre esta herramienta en <a href='../../Laboratorio_computacional/Herramientas/Control_versiones_distribuida/GitHub/GitHub.md' class="alert-link">la unidad dedicada a GitHub</a>.
@@ -265,14 +265,14 @@ hay tiempo de migrar dicho asunto al [área de discusiones](https://github.com/u
 ## Únicamente quiero leer el contenido de las unidades de UIBCDF-Academia
 
 Si tu propósito es leer el contenido de las unidades sin interaccionar con aquellas de [tipo Jupyter
-notebook](#Unidades-Jupyter-notebook), la misma [web del repositorio de UIBCDF-Academia](https://github.com/uibcdf/Academia) te sirve para ello. GitHub muestra una
+notebook](#Unidades-Jupyter-notebook), la misma [web del repositorio de UIBCDF-Academia][github_academia] te sirve para ello. GitHub muestra una
 versión 'estática' tanto de ficheros Markdown como de Jupyter Notebooks. Y cuando decimos estática
 nos referimos a que no puedes interaccionar modificando su contenido. Lo que vas a ver es una
 página web "renderizada" para cada una de las unidades. En dicha visualización de las unidades, con lo único con lo que vas a poder
 interactuar es con los hiperenlaces. Úsalos para navegar en la estructura de unidades de
 UIBCDF-Academia.
 
-Puedes empezar por seguir lo indicado en [la sección "Tabla de contenidos" del README.md principal de la web del repositorio en GitHub](https://github.com/uibcdf/Academia/#Tabla-de-contenidos) o ir directamente al [primer menú de unidades de UIBCDF-Academia](https://github.com/uibcdf/Academia/tree/main/academia/UIBCDF-Academia#readme).
+Puedes empezar por seguir lo indicado en [la sección "Tabla de contenidos" del README.md principal de la web del repositorio en GitHub][readme_repositorio#TOC] o ir directamente al [primer menú de unidades de UIBCDF-Academia][menu:principal].
 
 <div class="alert alert-warning" role="alert">
 <strong>Atención:</strong> Las unidades de tipo Markdown se visualizan en GitHub en "blanco y negro". Así que, accediendo a las unidades de esta manera, las cajas de alerta y el texto de color no se distinguirán en algunas de ellas. Tampoco las instrucciones html incrustadas en el lenguage Markdown son todas interpretadas correctamente. Esto hace que estas unidades tengan algunos "problemas estéticos" que no apreciarás si te animas a seguir la siguiente sección. Por lo demás, los contenidos son perfectamente legibles.
@@ -291,9 +291,9 @@ Estas unidades no debes interpretarlas como narrativas pre-escritas, rígidas. N
 o insertar nuevas celdas, para por ejemplo probar a modificar el código o el experimento
 computacional propuesto en la versión original de la unidad. Puedes, y debes, interactuar con estas
 unidades. Pero, ¿Qué necesitas para interactuar? Fundamentalmente necesitas hacer uso del navegador-interpretador de
-ficheros Jupyter notebook, que no es otro que lo que conocemos como [Jupyter o JupyterLab](../../Laboratorio_computacional/Herramientas/Jupyter/Jupyter/Jupyter.md). Si no
+ficheros Jupyter notebook, que no es otro que lo que conocemos como [Jupyter o JupyterLab][unidad:jupyter]. Si no
 lo conocías previamente, y no lo tienes instalado en tu computadora, no te preocupes. Existen
-diversas herramientas en la red que te permiten usar Jupyter de manera remota. [Binder](https://mybinder.org) es una de
+diversas herramientas en la red que te permiten usar Jupyter de manera remota. [Binder][binder] es una de
 las más populares y sencillas. Quizá por eso, y mientras siga siendo un servicio gratuito y funcional para
 el propósito de este proyecto, la usaremos para ofrecerte acceso a tu propia versión de UIBCDF-Academia interactiva (tu propia sesión de Jupyter).
 
@@ -323,7 +323,7 @@ encontrarás en su interior. Recuerda, [como se explicó más arriba](#Unidades-
 
 Ya con tu JupyterLab remoto abierto en Binder, los ficheros Markdown no tienen más secreto. Y las
 unidades de tipo Jupyter notebook tampoco mucho más. Una libreta de Jupyter es una secuencia de
-celdas que puedes ejecutar en el orden que quieras, pero con un contenido implementado por [los autores y colaboradores de UIBCDF-Academia](https://github.com/uibcdf/Academia/graphs/contributors) para ser
+celdas que puedes ejecutar en el orden que quieras, pero con un contenido implementado por [los autores y colaboradores de UIBCDF-Academia][contributors] para ser
 interpretado en orden de arriba a bajo. Cada celda puede contener texto marcado en lenguaje
 Markdown o código (en este caso en Python), y se ejecuta con la tecla 'entrar' de tu teclado -y con
 la celda previamente seleccionada-. ¿Necesitas saber mucho más para comenzar? No mucho más, quizá
@@ -348,7 +348,7 @@ por la iniciativa. Es lo que recomendamos a estudiantes y colaboradores. Esta se
 paso a paso todo lo que tienes que hacer para preparar tu computadora para ello. Supondremos que no
 tienes ningún conocimiento previo sobre todo lo que a partir de ahora te vamos a pedir. Si este es
 tu caso, ¡Ánimo! Resolver esta situación te va a servir para comenzar en tu proceso de formación
-en algunas de [las herramientas propias del trabajo de investigación computacional]('../../Laboratorio_computacional/Herramientas/README.md').
+en algunas de [las herramientas propias del trabajo de investigación computacional][menu:herramientas].
 
 <br>
 <center><img width="33%" src="https://imgs.xkcd.com/comics/success.png"></center>
@@ -356,7 +356,7 @@ en algunas de [las herramientas propias del trabajo de investigación computacio
 
 ### Configurando Git
 
-Comencemos configurando el controlador de versiones [Git](https://git-scm.com/). Es muy posible ya esté instalado en tu sistema operativo. Prueba a ejecutar en tu terminal:
+Comencemos configurando el controlador de versiones [Git][git]. Es muy posible ya esté instalado en tu sistema operativo. Prueba a ejecutar en tu terminal:
 
 ```bash
 git --version
@@ -403,13 +403,13 @@ more ~/.gitconfig
 
 ### Configurando GitHub
 
-Este paso no es estrictamente necesario para trabajar con tu propia copia local de las unidades de UIBCDF-Academia. Pero si quieres participar de manera activa en [el tablón de cuestiones]() o [el área de discusiones](), o si quieres contribuir al desarrollo de UIBCDF-Academia implementando cambios, correcciones o material nuevo, tienes que disponer de una cuenta de usuario en GitHub (la cuenta básica es gratuita). Para ello, te invitamos a abrir la web [github.com](https://github.com/) y crear tu propio usuario.
+Este paso no es estrictamente necesario para trabajar con tu propia copia local de las unidades de UIBCDF-Academia. Pero si quieres participar de manera activa en [el tablón de cuestiones][issues_board] o [el área de discusiones][area_discusiones], o si quieres contribuir al desarrollo de UIBCDF-Academia implementando cambios, correcciones o material nuevo, tienes que disponer de una cuenta de usuario en GitHub (la cuenta básica es gratuita). Para ello, te invitamos a abrir la web [github.com][github] y crear tu propio usuario.
 
 <div class="alert alert-warning" role="alert">
 <strong>Atención:</strong> La cuenta de correo que incluíste en <a href='#Configurando-Git'>tu configuración local de Git</a> debe estar asociada a tu cuenta de usuario de GitHub para que este servicio pueda reconocer como tuyas las modificaciones que localmente haces en tu computadora.
 </div>
 
-Ahora vamos a comunicarle a tu usuario de GitHub cuál es la o las máquinas desde las que vas a trabajar de manera remota. De esta manera podrás tirar y empujar cambios a tu computadora local de manera segura (mediante SSH). Para ello debes de seguir el guión descrito en [la página de soporte de GitHub correspondiente](https://help.github.com/articles/connecting-to-github-with-ssh/). Aquí vamos a resumir a continuación el proceso en el caso de que uses Linux (para Mac o Windows encuentra [aquí](https://help.github.com/articles/connecting-to-github-with-ssh/) las indicaciones).
+Ahora vamos a comunicarle a tu usuario de GitHub cuál es la o las máquinas desde las que vas a trabajar de manera remota. De esta manera podrás tirar y empujar cambios a tu computadora local de manera segura (mediante SSH). Para ello debes de seguir el guión descrito en [la página de soporte de GitHub correspondiente][github_with_ssh]. Aquí vamos a resumir a continuación el proceso en el caso de que uses Linux (para Mac o Windows encuentra [aquí][github_with_ssh] las indicaciones).
 
 Antes de comenzar, debes saber que SSH es un protocolo de comunicación encriptada entre computadoras. Seguramente conocerás el comando `ssh` si has tenido que acceder a otra máquina. En este caso nos vamos a valer del mecanismo que ssh tiene para, antes de pedir las credenciales de usuario (usuario y contraseña), reconocer que dos máquinas tienen su comunicación validada o si se desconocen: la clave de ssh. Un usuario de Linux puede generar su propia clave de ssh al margen de su password (repetimos que ésta funciona como mecanismo previo de autentificación). Vamos a ver si tienes dicha clave, o la tienes que generar:
 
@@ -529,10 +529,10 @@ Hi TuUsuarioGitHub! You've successfully authenticated, but GitHub does not provi
 
 Es posible que no conozcas qué es un gestor de microambientes y librerías o paquetes.
 UIBCDF-Academia contiene [una unidad que te puede servir para comenzar a entender para qué sirven
-estas herramientas como Conda o Pip](). En este caso, y con pocos preámbulos, te recomendamos
-generar un entorno de Python con [Conda]() en el que instalar las librerías necesarias para trabajar con UIBCDF-Academia. Te proponemos llamar a este ambiente `UIBCDF-Academia`.
+estas herramientas como Conda o Pip][menu:control_versiones]. En este caso, y con pocos preámbulos, te recomendamos
+generar un entorno de Python con [Conda][unidad:conda] en el que instalar las librerías necesarias para trabajar con UIBCDF-Academia. Te proponemos llamar a este ambiente `UIBCDF-Academia`.
 
-Antes de descargar [Conda (Miniconda)](), vamos a crear una carpeta en la que alojaremos el gestor de entornos. Puedes hacerlo donde mejor te parezca, pero aquí vamos a recomendar instalar el software que instala y usa un usuario particular en un sistema Linux en algún sitio de su directorio principal. Por imitación con el directorio del sistema /opt, vamos a crear en nuestro `home` el directorio `~/Myopt` como lugar de instalación del software de terceros que sólo usaremos nosotros.
+Antes de descargar [Conda (Miniconda)][miniconda], vamos a crear una carpeta en la que alojaremos el gestor de entornos. Puedes hacerlo donde mejor te parezca, pero aquí vamos a recomendar instalar el software que instala y usa un usuario particular en un sistema Linux en algún sitio de su directorio principal. Por imitación con el directorio del sistema /opt, vamos a crear en nuestro `home` el directorio `~/Myopt` como lugar de instalación del software de terceros que sólo usaremos nosotros.
 
 ```bash
 mkdir ~/Myopt
@@ -544,14 +544,14 @@ Dentro vamos a crear el directorio "Miniconda":
 mkdir ~/Myopt/Miniconda
 ```
 
-Vamos ahora a descargar [el instalador que facilita Anaconda para miniconda](https://conda.io/miniconda.html). En el caso de este ejercicio vamos a descargar la versión de Linux 64 para Python 3, y lo haremos haciendo uso de la terminal. Puedes por tu cuenta, si quieres, descargar el instalador que prefieras y colocarlo donde hayas decidido, aquí lo pondremos en el directorio anterior:
+Vamos ahora a descargar [el instalador que facilita Anaconda para miniconda][miniconda]. En el caso de este ejercicio vamos a descargar la versión de Linux 64 para Python 3, y lo haremos haciendo uso de la terminal. Puedes por tu cuenta, si quieres, descargar el instalador que prefieras y colocarlo donde hayas decidido, aquí lo pondremos en el directorio anterior:
 
 ```bash
 cd ~/Myopt/Miniconda
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
 
-Como se sugiere en las [instrucciones de instalación](https://conda.io/docs/user-guide/install/index.html), ejecutamos ahora el script ahí donde lo descargamos.
+Como se sugiere en las [instrucciones de instalación][instrucciones_conda], ejecutamos ahora el script ahí donde lo descargamos.
 
 ```bash
 bash Miniconda3-latest-Linux-x86_64.sh
@@ -703,7 +703,7 @@ Ha debido abrirse tu navegador con JupyterLab, o una nueva pestaña en la ventan
 
 ### Leyendo y ejecutando los contenidos
 
-El mismo contenido que aparecía en el [repositorio de GitHub](https://github.com/uibcdf/Academia), que también aparece en la carpeta de tu clon local,
+El mismo contenido que aparecía en el [repositorio de GitHub][github_academia], que también aparece en la carpeta de tu clon local,
 
 ```bash
 ls ~/Projects/Academia
@@ -816,7 +816,7 @@ Ya puedes cerrar JupyterLab en el menú "File > Shutdown":
 ## Quiero contribuir a desarrollar UIBCDF-Academia
 
 Si quieres corregir cosas en las unidades o implementar contenido nuevo, pasa a la siguiente unidad
-titulada ["Cómo contribuir"](../Como_contribuir/Como_contribuir.md) para encontrar las pautas y
+titulada ["Cómo contribuir"][unidad:como_contribuir] para encontrar las pautas y
 pasos que debes seguir.
 
 <br>
@@ -825,4 +825,27 @@ pasos que debes seguir.
 
 -------
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/uibcdf/Academia">UIBCDF-Academia</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/uibcdf/Academia/graphs/contributors">UIBCDF Lab, autores y colaboradores</a> es material protegido bajo una licencia <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+
+[readme_repositorio#TOC]: ../../../README.md#Tabla-de-contenidos
+[menu:principal]: ../../README.md
+[menu:control_versiones]: ../../Laboratorio_computacional/Herramientas/Control_versiones/README.md
+[menu:jupyter]: ../../Laboratorio_computacional/Herramientas/Jupyter/README.md
+[menu:herramientas]: ../../Laboratorio_computacional/Herramientas/README.md
+[unidad:que_es]: ../Que_es/Que_es.md
+[unidad:markdown]: ../../Laboratorio_computacional/Herramientas/Lenguaje_marcado/Markdown/Markdown.md
+[unidad:licencia]: ../La_licencia/La_licencia.md
+[unidad:jupyter]: ../../Laboratorio_computacional/Herramientas/Jupyter/Jupyter/Jupyter.md
+[unidad:conda]: ../../Laboratorio_computacional/Herramientas/Gestores_ambientes/Conda/Conda.md
+[unidad:como_contribuir]: ../Como_contribuir/Como_contribuir.md
+
+[issues_board]: https://github.com/uibcdf/Academia/issues
+[github_academia]: https://github.com/uibcdf/Academia
+[area_discusiones]: https://github.com/uibcdf/Academia/discussions
+[binder]: https://mybinder.org
+[git]: https://git-scm.com/
+[github]: https://github.com/
+[github_with_ssh]: https://help.github.com/articles/connecting-to-github-with-ssh/
+[contributors]: https://github.com/uibcdf/Academia/graphs/contributors
+[miniconda]: https://conda.io/miniconda.html
+[instrucciones_conda]: https://conda.io/docs/user-guide/install/index.html
 

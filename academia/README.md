@@ -8,7 +8,7 @@
 
 Introducción al repositorio UIBCDF-Academia e instrucciones de uso para usuarios y desarrolladores.
 
-[Ir a la tabla de contenidos](UIBCDF-Academia/README.md)
+[Ir a la tabla de contenidos][menu:academia]
 
 <br>
 
@@ -22,7 +22,7 @@ Introducción al laboratorio computacional y la ciencia abierta (*Open Science*)
 una intruducción a las técnicas y herramientas propias del trabajo en un laboratorio computacional
 y de investigación de cualquier propósito.
 
-[Ir a la tabla de contenidos](Laboratorio_computacional/README.md)
+[Ir a la tabla de contenidos][menu:laboratorio_computacional]
 
 <br>
 
@@ -36,7 +36,7 @@ Introducción a la mecánica estadística y los procesos estocásticos de manera
 orientada para el investigador que va a trabajar con simulaciones moleculares como herramienta para
 el diseño de moléculas con potencial farmacológico.
 
-[Ir a la tabla de contenidos](Mecanica_estadistica_y_procesos_estocasticos/README.md)
+[Ir a la tabla de contenidos][menu:mecanica_estadistica]
 
 <br>
 
@@ -48,7 +48,7 @@ el diseño de moléculas con potencial farmacológico.
 
 Introducción a los modelos moleculares y su simulación.
 
-[Ir a la tabla de contenidos](Modelado_y_simulacion_molecular/README.md)
+[Ir a la tabla de contenidos][menu:simulacion_molecular]
 
 <br>
 
@@ -58,7 +58,19 @@ Introducción a los modelos moleculares y su simulación.
 <strong>En desarrollo:</strong> ?%.
 </div>
 
-[Ir a la tabla de contenidos](Diseño_racional_de_moleculas/README.md)
+[Ir a la tabla de contenidos][menu:diseño_racional]
+
+<br>
+
+## Flujos de trabajo en la UIBCDF <a class="anchor" id="Recursos"></a>
+
+<div class="alert alert-danger" role="alert">
+<strong>En desarrollo:</strong> ?%.
+</div>
+
+Descripción y pautas de los flujos de trabajo en la UIBCDF.
+
+[Ir a la tabla de contenidos][menu:flujos]
 
 <br>
 
@@ -70,7 +82,7 @@ Introducción a los modelos moleculares y su simulación.
 
 Descripción y pautas de uso de los recursos experimentales y computacionales de la UIBCDF.
 
-[Ir a la tabla de contenidos](Recursos_UIBCDF/README.md)
+[Ir a la tabla de contenidos][menu:recursos]
 
 <br>
 
@@ -84,10 +96,19 @@ Glosario de librerías científicas en Python de uso habitual en la UIBCDF. La r
 librería se acompaña con un mínimo de información técnica así como del enlace a la correspondiente
 entrada en el *Issues board* de este repositorio para consulta de dudas.
 
-[Ir a la tabla de contenidos](Glosario_librerias/README.md)
+[Ir a la tabla de contenidos][menu:glosario]
 
 <br>
 
 -----
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/uibcdf/Academia">UIBCDF-Academia</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/uibcdf/Academia/graphs/contributors">UIBCDF Lab, autores y colaboradores</a> es material protegido bajo una licencia <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+
+[menu:academia]: UIBCDF-Academia/README.md
+[menu:laboratorio_computacional]: Laboratorio_computacional/README.md
+[menu:mecanica_estadistica]: Mecanica_estadistica_y_procesos_estocasticos/README.md
+[menu:simulacion_molecular]: Modelado_y_simulacion_molecular/README.md
+[menu:diseño_racional]: Diseño_racional_de_moleculas/README.md
+[menu:recursos]: recursos_UIBCDF/README.md
+[menu:flujos]: Flujos_de_trabajo/README.md
+[menu:glosario]: Glosario_librerias/README.md
 
