@@ -1,7 +1,5 @@
 # Partícula Libre
 
-
-
 import numpy as np
 import pickle
 from tqdm import tqdm
@@ -28,8 +26,8 @@ initial_velocities = np.zeros([num_particles, 3], np.float32) * unit.angstroms/u
 
 step_size = 0.1*unit.picoseconds
 steps_per_period = 100
-num_periods = 500000
-trajectory_file = '1_free_particle_300K_10Fric.pkl'
+num_periods = 50000
+trajectory_file =  'traj.pkl' # Podía ser nombrado como'1_free_particle_300K_10Fric.pkl'
 
 # Creación del sistema.
 
@@ -76,9 +74,9 @@ for ii in tqdm(range(1,num_periods)):
     velocities[ii] = state.getVelocities()
 
 file = open(trajectory_file,'wb')
-pickle.dump( times, file )
-pickle.dump( positions, file )
-pickle.dump( velocities, file )
+pickle.dump(times, file)
+pickle.dump(positions, file)
+pickle.dump(velocities, file)
 file.close()
 
 

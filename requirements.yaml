@@ -1,13 +1,9 @@
 development:
-        jupyterlab
-        numpy
-        matplotlib
-        scipy
 
 production:
         jupyterlab
         numpy
         matplotlib
         scipy
-
+        tqdm
 
