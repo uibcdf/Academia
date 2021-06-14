@@ -257,8 +257,8 @@ Mecánica molecular
 - Qué es OpenMM y cómo se usa
 - [Sistemas moleculares con OpenMM][menu:sistemas_openmm]
    - [La partícula libre][unidad:particula_libre]
-   - [El potencial armónico][unidad:potencial_armonico]
-   - [El doble pozo][unidad:doble_pozo]
+   - [La partícula en un potencial armónico][unidad:potencial_armonico]
+   - [La partícula en un potencial doble pozo][unidad:doble_pozo]
    - [Dos partículas de Lennard-Jones][unidad:dos_particulas_LJ]
    - [El gas de Lennard-Jones 2D][unidad:LJ_2D]
    - [El gas de Lennard-Jones 3D][unidad:LJ_3D]

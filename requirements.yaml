@@ -6,4 +6,8 @@ production:
         matplotlib
         scipy
         tqdm
+        openmm
+        pickle
+        h5py
+        pyunitwizard
 
