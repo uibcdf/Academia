@@ -20,7 +20,7 @@
 
 [menu:sistemas_openmm]: Sistemas/README.md
 [unidad:particula_libre]: Sistemas/particula_libre/particula_libre.ipynb
-[unidad:potencial_armonico]: Sistemas/potencial_armonico/potencial_armonico.ipynb
+[unidad:potencial_armonico]: Sistemas/pozo_armonico/pozo_armonico.ipynb
 [unidad:doble_pozo]: Sistemas/doble_pozo/doble_pozo.ipynb
 [unidad:dos_particulas_LJ]: Sistemas/dos_particulas_LJ/dos_particulas_LJ.ipynb
 [unidad:LJ_2D]: Sistemas/LJ_2D/LJ_2D.ipynb
