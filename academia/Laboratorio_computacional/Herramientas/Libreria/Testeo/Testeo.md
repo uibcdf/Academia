@@ -48,6 +48,17 @@ Esto era sólo una guía introductoria. Puedes encontrar -o contribuir añadiend
 
 ### Tutoriales, Webinars y cursos gratuitos <a class="anchor" id="tutoriales"></a>
 
+https://www.guru99.com/pytest-tutorial.html     
+https://realpython.com/pytest-python-testing/
+https://docs.pytest.org/en/6.2.x/
+https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html    
+https://numpydoc.readthedocs.io/en/latest/format.html    
+https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html#example-numpy    
+https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html#example-google     
+https://sphinxcontrib-napoleon.readthedocs.io/en/latest/     
+https://nbsphinx.readthedocs.io/en/0.8.6/index.html    
+
+
 <br>
 
 <div style='text-align: right;'> <a href="../../CUDA/README.md">Ir a la siguiente unidad</a> </div>
