@@ -24,6 +24,26 @@
                 - Microscopía electrónica
         - Algunos números sobre lo que es posible modelar hoy.
 
+## La mecánica y dinámica clásica de un sistema aislado.
+
+- La dinámica newtoniana: ¿Qúe significa determinismo?
+- El oscilador armónico y la molécula diatómica.
+- La integración numérica de la trayectoria.
+- El algoritmo de integración de Verlet.
+
+## La mecánica y dinámica clásica de un sistema no aislado.
+
+- El sistema en contacto con un baño térmico.
+- El movimiento browniano: ¿Qué significa estocasticidad?
+- El universo como baño térmico y la dinámica de Langevin.
+- Integradores estocásticos.
+- La partícula libre y la difusión de un gas.
+
+## La mecánica estadística y la termodinámica
+
+- La mecánica estadística
+- ¿Qué significa un observable?
+
 ## Proteins Models
 - From the PDB to the parametrized interactions in a forcefield.
 - ForceFields: From Charmm to OpenForcefield.
@@ -252,16 +272,22 @@ Mecánica molecular
         - Motores para la simulación de la dinámica molecular.
         - OpenMM.
 
-## OpenMM
+## Anexos
+
+### OpenMM
 
 - Qué es OpenMM y cómo se usa
+- El sistema molecular de OpenMM
+
+### Sistemas moleculares de referencia
+
 - [Sistemas moleculares con OpenMM][menu:sistemas_openmm]
-   - [La partícula libre][unidad:particula_libre]
-   - [La partícula en un potencial armónico][unidad:potencial_armonico]
-   - [La partícula en un potencial doble pozo][unidad:doble_pozo]
-   - [Dos partículas de Lennard-Jones][unidad:dos_particulas_LJ]
-   - [El gas de Lennard-Jones 2D][unidad:LJ_2D]
-   - [El gas de Lennard-Jones 3D][unidad:LJ_3D]
+- [La partícula libre][unidad:particula_libre]
+- [La partícula en un potencial armónico][unidad:potencial_armonico]
+- [La partícula en un potencial doble pozo][unidad:doble_pozo]
+- [Dos partículas de Lennard-Jones][unidad:dos_particulas_LJ]
+- [El gas de Lennard-Jones 2D][unidad:LJ_2D]
+- [El gas de Lennard-Jones 3D][unidad:LJ_3D]
 
 <br>
 
