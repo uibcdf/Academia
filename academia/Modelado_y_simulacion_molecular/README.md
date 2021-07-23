@@ -24,12 +24,22 @@
                 - Microscopía electrónica
         - Algunos números sobre lo que es posible modelar hoy.
 
-## La mecánica y dinámica clásica de un sistema aislado.
+## La molécula diatómica y los integradores de la dinámica
 
+- La mecánica y dinámica clásica de un sistema aislado.
 - La dinámica newtoniana: ¿Qúe significa determinismo?
-- El oscilador armónico y la molécula diatómica.
+- El oscilador armónico y el enlace covalente.
 - La integración numérica de la trayectoria.
 - El algoritmo de integración de Verlet.
+
+## La difusión molecular y la dinámica de Langevin
+
+
+## La interacción entre átomos o moléculas y la mecánica estocástica
+
+- el doble pozo y dos partículas de lennard jones
+- el gas ideal, etc
+- qué sentido tiene el damping si estamos simulando un gas de lennard jones?
 
 ## La mecánica y dinámica clásica de un sistema no aislado.
 

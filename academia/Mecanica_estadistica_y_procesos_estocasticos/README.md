@@ -2,7 +2,7 @@
 
 -----
 
-# Mecánica Estadística y procesos estocásticos.
+# La mecánica estadística y los procesos estocásticos.
 
 - Qué es la mecánica estadística.
 - Qué son lo procesos estocásticos.
