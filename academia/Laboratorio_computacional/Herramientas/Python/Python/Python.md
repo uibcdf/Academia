@@ -140,6 +140,7 @@ https://docs.python-guide.org/intro/learning/
 https://www.codecademy.com/learn/learn-python    
 https://pythonprogramming.net/   
 http://www.scipy-lectures.org/
+https://www.programiz.com/
 
 <br />
 
