@@ -196,6 +196,11 @@ https://conda.io/
 
 https://geohackweek.github.io/Introductory/01-conda-tutorial/   \[EN\]    
 http://gatomontez.com/articulo/2014/02/16/computo-cientifico-con-python-y-anaconda/#.W-ySQstKiV4   \[ES\]    
+https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/04-sharing-environments/index.html
+https://kaust-vislab.github.io/python-novice-gapminder/00-getting-started-with-conda/index.html
+https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file
+
+
 
 <br />
 
