@@ -1,0 +1,11 @@
+channels:
+- uibcdf/label/dev
+- uibcdf
+- conda-forge
+- ambermd
+dependencies:
+- python
+- numpy
+- openmm
+- jupyterlab
+- matplotlib
