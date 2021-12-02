@@ -323,7 +323,6 @@ https://git-scm.com/book/es
 http://rogerdudler.github.io/git-guide/index.es.html  
 https://codigofacilito.com/articulos/que-es-git  
 https://swcarpentry.github.io/git-novice-es/
-
 https://git-scm.com/book/en  
 https://git-scm.com/docs  
 http://swcarpentry.github.io/git-novice/
@@ -333,6 +332,14 @@ https://jahya.net/blog/git-vs-github/
 https://www.atlassian.com/git/tutorials
 https://github.com/joshnh/Git-Commands
 https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
+https://www.nobledesktop.com/learn/git    
+https://www.git-tower.com/education/mac
+https://git-scm.com/book/es/v2
+https://www.atlassian.com/git/tutorials
+https://www.git-tower.com/learn/
+https://bids.github.io/dats/posts/2018-09-10-github-oss.html    
+
+
 
 ### Tutoriales, Webinars y cursos gratuitos <a class="anchor" id="tutoriales"></a>
 
