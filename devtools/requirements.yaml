@@ -10,6 +10,7 @@ production:
     - openmm
     - jupyterlab
     - matplotlib
+    - tqdm
 
 docs:
   channels: &docs_channels
