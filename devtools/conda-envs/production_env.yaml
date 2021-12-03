@@ -9,3 +9,4 @@ dependencies:
 - openmm
 - jupyterlab
 - matplotlib
+- tqdm
