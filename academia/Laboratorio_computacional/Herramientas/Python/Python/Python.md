@@ -137,10 +137,25 @@ https://realpython.com/tutorials/python/
 https://www.learnpython.org/    
 https://www.datacamp.com/courses/intro-to-python-for-data-science    
 https://docs.python-guide.org/intro/learning/    
-https://www.codecademy.com/learn/learn-python    
+https://www.codecademy.com/    
 https://pythonprogramming.net/   
 http://www.scipy-lectures.org/
 https://www.programiz.com/
+https://www.sololearn.com/
+https://www.codewars.com/
+https://jasonpark.me/DuoCoder/public/
+https://www.afterhoursprogramming.com/
+https://www.datacamp.com/community/open-courses?tag=python
+
+### Plataformas de aprendizaje donde encontrar cursos gratuitos
+
+https://www.edx.org/    
+https://www.mooc.org/     
+https://www.coursera.org/
+https://ocw.mit.edu/
+https://www.udacity.com/
+https://openlearning.mit.edu/
+
 
 <br />
 
